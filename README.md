@@ -11,6 +11,8 @@ A home for compiler team planning documents, meeting minutes, and other such thi
 - **Steering meeting:** We have a steering meeting every three weeks
   to track and plan our larger goals. This meeting is held on Zulip
   and open to anyone. [Read more.]
+- **Looking for technical information about how the compiler works?**
+  Check out the [rustc-guide](https://rust-lang-nursery.github.io/rustc-guide/).
 
 ## Content
 
