@@ -11,13 +11,14 @@ A home for compiler team planning documents, meeting minutes, and other such thi
   
 ## Meeting Calendar
 
-All our meetings are open to the public. There are two main team-wide
-meetings that we hold as a regular basis. There are also a variety of
-working group meetings. The team-wide meetings are as follows:
+Unless otherwise noted, all our meetings are open to the public and
+held on Zulip. There are two main team-wide meetings that we hold as a
+regular basis. There are also a variety of working group meetings. The
+team-wide meetings are as follows:
 
 - **Triage meeting:** We have a weekly triage meeting to discuss and
   track regressions and urgent changes. This meeting is held on Zulip
-  and open to anyone. See the 
+  and open to anyone.
 - **Steering meeting:** We have a steering meeting every three weeks
   to track and plan our larger goals. This meeting is held on Zulip
   and open to anyone.
