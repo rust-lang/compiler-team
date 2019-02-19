@@ -1,10 +1,17 @@
 # Scope and purpose
 
-The **traits** working group is dedicated to doing X, Y, and Z.
+The **traits** working group is dedicated to improving the trait
+system implementation in rustc. The end goal is to transition the
+compiler to use a [Chalk-style] solver, but along the way we hope to
+make targeted fixes to the existing solver where needed.
+
+[Chalk-style]: https://github.com/rust-lang-nursery/chalk
 
 # Current status
 
-XXX
+- Preliminary Chalk integration in Rustc is complete.
+- Currently doing a lot of documentation work.
+- Developing a plan for what to do next. 
 
 # How to participate
 
@@ -17,6 +24,10 @@ On [the rust-lang Zulip][z], in [the `#t-compiler/wg-traits` stream][s].
 
 ## Weekly triage meeting
 
-There is a weekly discussion meeting on Mondays at 14:00pm Boston time
-(UTC-05:00 presently). This meeting takes place on [Zulip][z] in a
-dedicated topic of the [the `#t-compiler/wg-traits` stream][s].
+There is a weekly triage meeting which you will find on the [compiler
+meeting calendar][c]. The purpose of this meeting is to take stock of
+where we are and figure out what to do next. The meeting takes place
+on [Zulip][z] in a dedicated topic of the [the `#t-compiler/wg-traits`
+stream][s].
+
+[c]: https://github.com/rust-lang/compiler-team#meeting-calendar
