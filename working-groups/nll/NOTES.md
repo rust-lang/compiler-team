@@ -1,7 +1,7 @@
 Feburary 19, 2019
 - Agenda:
   - Meta: What should this meeting be for?
-  - Sync-up regarding Place 2.0 (#52708)
+  - Sync-up regarding Place 2.0 ([#52708][])
   - Status Updates (TBD)
 
 February 13, 2019
