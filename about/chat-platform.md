@@ -1,5 +1,7 @@
 The compiler team hangs out primarily in [the rust-lang Zulip][z]
-these days, specifically in the `#t-compiler` stream. 
+these days. The `#t-compiler/help` stream is a great place to ask
+questions. In addition, each working group has 1 or more streams where
+they communicate.
 
 You can also find us on [the rust-lang Discord][d], in the `#compiler`
 channel.

@@ -1,14 +1,19 @@
 # compiler-team
 
-A home for compiler team planning documents, meeting minutes, and other such things.
+A home for compiler team planning documents, meeting minutes, and
+other such things. If you're interested in learning about how
+**rustc** works -- as well as advice on building the compiler, preparing a PR,
+and other similar topics -- check out the [rustc-guide].
+
+[rustc-guide]: https://rust-lang.github.io/rustc-guide/
 
 ## Quick facts
 
-- **Where to find us:** We are present on [Zulip and Discord](about/chat-platform.md), primarily.
+- **Where to find us:** We are primarily present on [Zulip](about/chat-platform.md), though some of us also monitor Discord.
 - **Want to attend a meeting or follow along?** See the "meeting calendar" section below.
 - **Looking for technical information about how the compiler works?**
   Check out the [rustc-guide](https://rust-lang-nursery.github.io/rustc-guide/).
-  
+
 ## Meeting Calendar
 
 Unless otherwise noted, all our meetings are open to the public and
