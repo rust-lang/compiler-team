@@ -23,11 +23,9 @@ This working group aims to accomplish the following:
 - Handle the migration from the existing AST-based borrow checker.
 
 # How can I get involved?
-If you are interested in getting involved in this working group should feel free to assign
-themselves an issue using `@triagebot assign` (look for `E-mentor` and `E-easy` issues
-if you're just getting started) and pop into the Zulip stream to ask for help and advice. If you
-want to get notified on GitHub and on Zulip about NLL issues, then comment with
-`@triagebot subscribe wg-nll` in `#ISSUE_NUMBER`.
+If you are interested in getting involved in this working group, you should try attend a meeting and
+introduce yourself or send a message in the Zulip stream. You can be added to the GitHub and Zulip
+group for the working group if you are interested in being pinged when there are available tasks.
 
 - **Desired experience level:** Any
 - **Zulip stream:** [`#t-compiler/wg-nll`][zulip] on Zulip
