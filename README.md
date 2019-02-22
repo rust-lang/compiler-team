@@ -54,8 +54,8 @@ working groups are listed below:
 Name                                               | Leads                                                   | Short Description                                                | Start Date    | Status       | Zulip Stream                          | Meetings                                  | Labels       |
 ----                                               | -----                                                   | -----------------                                                | ----------    | ------       | ------------                          | --------                                  | ------       |
 [Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix] | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]      | Wednesdays, 20:30 UTC in Zulip (optional) | A-NLL, NLL-* |
-[Traits](working-groups/traits/) | [@nikomatsakis][nikomatsakis] | Improving the trait-system design + implementation | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream] | N/A            x                           | N/A          |
-[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                     | Experimenting with a new compiler architecture tailored for IDEs | February 2018 | Active       | [#t-compiler/wg-rls2.0][rls20_stream] | N/A            x                           | N/A          |
+[Traits](working-groups/traits/) | [@nikomatsakis][nikomatsakis] | Improving the trait-system design + implementation | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream] | N/A                                      | N/A          |
+[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                     | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream] | N/A                                       | N/A          |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [matklad]: https://github.com/matklad
