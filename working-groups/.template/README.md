@@ -12,11 +12,12 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 > to eliminate many common cases where small, function-local code modifications would be required
 > to pass the borrow check.
 
-**Leads:** [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]
+- **Leads:** [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]
+- **Meeting Notes:** [All](NOTES.md)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
-## Goals
+## What is the goal of this working group?
 This working group aims to accomplish the following:
 
 - Implement a new borrow checker based on the MIR that supports non-lexical lifetimes.
@@ -28,11 +29,17 @@ introduce yourself or send a message in the Zulip stream. You can be added to th
 group for the working group if you are interested in being pinged when there are available tasks.
 
 - **Desired experience level:** Any
+- **Relevant repositories:** [`rust-lang/rust`][repo] (specifically `src/librustc_mir/borrow_check`)
 - **Zulip stream:** [`#t-compiler/wg-nll`][zulip] on Zulip
 
+[repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
 
-## Resources
+## What if I don't have much time?
+If you don't have time to contribute code, consider using `#![feature(nll)]` to help find bugs
+with NLL. If you do, we'd love it if you could file an issue.
+
+## Are there any resources so I can get up to speed?
 There are some resources available for those interested in contributing to get some background
 and context:
 
@@ -52,13 +59,13 @@ and context:
 [liveness]: http://smallcultfollowing.com/babysteps/blog/2016/05/04/non-lexical-lifetimes-based-on-liveness/
 [outlives]: http://smallcultfollowing.com/babysteps/blog/2016/05/09/non-lexical-lifetimes-adding-the-outlives-relation/
 
-## Meetings
+## Do I need to attend any meetings?
 The NLL working group meets regularly for triage and discussion of high priority issues - see
 the [compiler team meeting calendar](../README.md#meeting-calendar) for the most up to date
 time. Attendance is not mandatory but recommended as this can be a good opportunity to ask any
 questions and find new issues to work on.
 
-## Labels
+## What do all these NLL labels mean?
 The NLL working group monitors the [**A-NLL**][A-NLL] label for issues relating to NLL.
 
 The follow extra labels are used during the working group's prioritization and triage, in roughly

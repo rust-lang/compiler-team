@@ -1,4 +1,5 @@
 #### *<p align="center">This page is an example template and not the actual NLL working group.</p>*
+#### *<p align="center">Feel free to break this out into a directory.</p>*
 
 # Non-Lexical Lifetimes (NLL) Meeting Notes
 This document contains meeting notes from the NLL working group.

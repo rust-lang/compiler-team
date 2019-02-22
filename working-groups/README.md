@@ -23,6 +23,10 @@ compiler team's weekly triage meeting. By default, the working group's leads wil
 however a designated liaison can be sent instead - as long as whomever is running the meeting is
 informed.
 
+Consider scheduling any meetings before the compiler team check-in and encourage each contributor
+to add status updates to a shared document. This can make it easier to write notes for this
+repository and to check-in.
+
 ### Meetings
 The working group itself is not required to hold meetings, however should the group feel it would
 be helpful then they are free to. Any meetings should be added to the compiler team calendar so
