@@ -53,11 +53,13 @@ working groups are listed below:
 
 Name                                               | Leads                                                   | Short Description                                                | Start Date    | Status       | Zulip Stream                          | Regular meetings                                  | Labels       |
 ----                                               | -----                                                   | -----------------                                                | ----------    | ------       | ------------                          | --------                                  | ------       |
+[Async-await](working-groups/async-await/) | [@nikomatsakis][nikomatsakis] and [@cramertj][cramertj] | Implementing async-await                               | February 2019     | Active | [#t-compiler/wg-async-await][async-await_stream]      | N/A | A-async-await |
 [Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix] | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]      | [Weekly, in Zulip][] (optional) | A-NLL, NLL-* |
 [Traits](working-groups/traits/) | [@nikomatsakis][nikomatsakis] | Improving the trait-system design + implementation | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream] | [Weekly, in Zulip][] (optional)                                      | A-traits          |
 [RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                     | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream] | N/A                                       | N/A          |
 
 [nikomatsakis]: https://github.com/nikomatsakis
+[cramertj]: https://github.com/cramertj
 [matklad]: https://github.com/matklad
 [pnkfelix]: https://github.com/pnkfelix
 
@@ -65,6 +67,7 @@ Name                                               | Leads                      
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
 [rls20_stream]: https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0
 [traits_stream]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
+[async-await_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
 
 ## Code of Conduct and licensing
 
