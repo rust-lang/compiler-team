@@ -1,7 +1,8 @@
 # Meta Meeting Notes
 This document contains meeting notes from the Meta working group.
 
-## 2019-02-21:
+## 2019-02-21: [Meeting][meeting20190221]
+
 **Written by:** [@nikomatsakis][nikomatsakis]
 
 **Purpose of meeting**:
@@ -27,10 +28,9 @@ This document contains meeting notes from the Meta working group.
   - Leads
   - Compiler team liason — who will present
   - Maybe others that you can ping on Zulip to ask questions
-  
 - Across team:
   - Some kind of table summarizing WGs
-
-
 - Membership (default):
   - We want to avoid any sort of formal membership to a working group. Instead a wg has leads and interested folk can subscribe to it to receive notifications on GitHub issues and in Zulip.
+
+[triage20190222]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll/topic/weekly.20meeting.202019.2E02.2E20/near/158880485
