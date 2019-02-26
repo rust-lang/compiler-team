@@ -1,7 +1,7 @@
 # Meta Working Group
 ![working group status: active][status]
 
-This working group is dedicated to fleshout details of how the compiler team will organize itself.
+This working group is dedicated to fleshing out the details of how the compiler team will organize itself.
 
 - **Leads:** [@nikomatsakis][nikomatsakis]
 - **Meeting Notes:** [All](NOTES.md)
