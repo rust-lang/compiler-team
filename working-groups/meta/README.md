@@ -9,7 +9,7 @@ This working group is dedicated to fleshing out the details of how the compiler 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
 ## What is the goal of this working group?
-This working group aims to accomplish the following:
+This working group aims to discuss and answer the following unresolved questions:
 
 - How to organize compiler team calendar?
   - One calendar for everything or one per working group?
