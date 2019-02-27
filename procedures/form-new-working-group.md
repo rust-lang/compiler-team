@@ -67,6 +67,11 @@ compiler team.
 change this later, of course. Many working groups opt for a weekly
 meeting held on Zulip.
 
+**Are you willing to do the work?** Serving as a working group lead
+typically means not only writing code, but also helping to do the
+planning and serving as a mentor to participants. It can be a lot of
+work sometimes! But it's very rewarding.
+
 ## Step 3. Setting things up
 
 The basic steps to setup a working group are as follows:
