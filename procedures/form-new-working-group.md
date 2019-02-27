@@ -63,6 +63,10 @@ The basic steps to setup a working group are as follows:
 - **A 'user-group' on Zulip:** For most working groups, we create a
   [Zulip][cp] "user group", which is basically an alias that people
   can be added to for easy notifications.
+- **A team in the github org:** Some groups create a team in the github org.
+  You can then add working group participants into this GH team and give the team
+  permissions on the rust repository or other repositories. Read permissions
+  suffice to allow us to assign issues to people in the team, which is very useful.
 - **Updating this repository:** This repository serves as the central home
   for working groups, so it needs to be updated. Make the following changes and
   then open a PR against the repository (make sure to leave a note in `#t-compiler`,
