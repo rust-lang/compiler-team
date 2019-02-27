@@ -72,6 +72,11 @@ Name                                               | Leads                      
 [traits_stream]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
 [async-await_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
 
+## Procedures
+
+The [procedures directory](procedures) contains descriptions of various
+rustc procedures.
+
 ## Code of Conduct and licensing
 
 All interactions on this repository (whether on issues, PRs, or
