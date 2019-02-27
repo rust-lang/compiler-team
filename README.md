@@ -66,6 +66,11 @@ Name                                               | Leads                      
 [rls20_stream]: https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0
 [traits_stream]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
 
+## Procedures
+
+The [procedures directory](procedures) contains descriptions of various
+rustc procedures.
+
 ## Code of Conduct and licensing
 
 All interactions on this repository (whether on issues, PRs, or
