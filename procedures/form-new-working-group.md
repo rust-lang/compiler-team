@@ -2,6 +2,18 @@
 
 So, you would like to form a working group?
 
+## Step 0. What *is* a working group?
+
+Working groups are the basic way that the compiler team tracks what is
+going on. **If you are doing some sort of task that the compiler team
+will want to track over time, then it makes sense to form a working
+group**, even if you don't plan to be getting a more people involved.
+
+**The compiler team regularly checks in on the progress for each active
+working group.** So every working group should always have at least one
+person who attends the compiler team triage meetings and is willing to
+produce those regular updates.
+
 ## Step 1. Propose the working group
 
 **TBD** -- ironically, we haven't *quite* decided what the procedure
