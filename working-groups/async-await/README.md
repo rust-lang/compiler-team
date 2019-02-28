@@ -1,7 +1,7 @@
 # Async-await Working Group
 ![working group status: active][status]
 
-This working group is focused around implementing the async-await feature used for
+This working group is focused around **implementing** the async-await feature used for
 async I/O, as well as supporting technologies.
 
 - **Leads:** [@cramertj][cramertj] and [@nikomatsakis][nikomatsakis].
@@ -25,6 +25,7 @@ are available tasks.
 - **Desired experience level:** Any
 - **Relevant repositories:** [`rust-lang/rust`][repo]
 - **Zulip stream:** [`#t-compiler/wg-async-await`][zulip] on Zulip
+- **Videos:** Video meetings and mentoring sessions are recorded and posted to your [YouTube playlist](https://www.youtube.com/watch?v=xe2_whJWBC0&list=PL85XCvVPmGQgGNOAwhOKIfCL6TuRLJlWy).
 
 [repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
