@@ -58,6 +58,7 @@ Name                                               | Leads                      
 [Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix] | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]      | [Weekly, in Zulip][] (optional) | A-NLL, NLL-* |
 [Traits](working-groups/traits/) | [@nikomatsakis][nikomatsakis] | Improving the trait-system design + implementation | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream] | [Weekly, in Zulip][] (optional)                                      | A-traits          |
 [RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                     | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream] | N/A                                       | N/A          |
+[LLVM](working-groups/llvm/)                 | Preliminarily [@nagisa][nagisa]                                     | Working with LLVM upstream to represent Rust in its development | N/A | Incubating       | N/A | N/A                                       | A-LLVM |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -65,6 +66,7 @@ Name                                               | Leads                      
 [pnkfelix]: https://github.com/pnkfelix
 [davidtwco]: https://github.com/davidtwco
 [spastorino]: https://github.com/spastorino
+[nagisa]: https://github.com/nagisa
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
