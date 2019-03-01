@@ -21,7 +21,7 @@ group if you are interested in being pinged when there are available tasks.
 
 [repo]: https://github.com/rust-lang/rust
 [llvm-downstream]: https://github.com/rust-lang/llvm-project
-[zulip]: #not-yet-available
+[zulip]: https://rust-lang.zulipchat.com/#narrow/stream/187780-t-compiler.2Fwg-llvm
 
 ## Are there any resources so I can get up to speed?
 
