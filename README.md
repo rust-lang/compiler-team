@@ -57,8 +57,9 @@ Name                                               | Leads                      
 [Meta](working-groups/meta/)                       | [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino] | How compiler team organizes itself                               | February 2019 | Active       | [#t-compiler/wg-meta][meta_stream]                 | N/A                             | N/A           |
 [Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]                              | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]                   | [Weekly, in Zulip][] (optional) | A-NLL, NLL-*  |
 [Traits](working-groups/traits/)                   | [@nikomatsakis][nikomatsakis]                                                        | Improving the trait-system design + implementation               | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream]             | [Weekly, in Zulip][] (optional) | A-traits      |
-[Self-Profile](working-groups/self-profile/)       | [@mw][mw] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
+[Self-Profile](working-groups/self-profile/)       | [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
 [RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                                                  | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream]              | N/A                             | N/A           |
+[Profile-Guided Optimization](working-groups/pgo/) | [@michaelwoerister][michaelwoerister]                              | Implementing profile-guided optimization for rustc                | February 2019 | Active       | [#t-compiler/wg-profile-guided-optimization][pgo_stream] | N/A                             | N/A |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -66,8 +67,8 @@ Name                                               | Leads                      
 [pnkfelix]: https://github.com/pnkfelix
 [davidtwco]: https://github.com/davidtwco
 [spastorino]: https://github.com/spastorino
-[mw]: https://github.com/michaelwoerister
 [wesleywiser]: https://github.com/wesleywiser
+[michaelwoerister]: https://github.com/michaelwoerister
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
@@ -76,6 +77,8 @@ Name                                               | Leads                      
 [traits_stream]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
 [async-await_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
 [self-profile_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187831-t-compiler.2Fwg-self-profile
+[pgo_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187830-t-compiler.2Fwg-profile-guided-optimization
+
 
 ## Procedures
 
