@@ -60,6 +60,7 @@ Name                                               | Leads                      
 [Traits](working-groups/traits/)                   | [@nikomatsakis][nikomatsakis]                                                        | Improving the trait-system design + implementation               | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream]             | [Weekly, in Zulip][] (optional) | A-traits      |
 [Self-Profile](working-groups/self-profile/)       | [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
 [RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                                                  | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream]              | N/A                             | N/A           |
+[Parallel-rustc](working-groups/parallel-rustc/)   | [@Zoxc][Zoxc] and [@michaelwoerister][michaelwoerister]                              | Making parallel compilation the default for rustc                | February 2019 | Active       | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream] | N/A                             | A-parallel-queries |
 [Profile-Guided Optimization](working-groups/pgo/) | [@michaelwoerister][michaelwoerister]                              | Implementing profile-guided optimization for rustc                | February 2019 | Active       | [#t-compiler/wg-profile-guided-optimization][pgo_stream] | N/A                             | N/A |
 
 [nikomatsakis]: https://github.com/nikomatsakis
@@ -71,6 +72,7 @@ Name                                               | Leads                      
 [wesleywiser]: https://github.com/wesleywiser
 [michaelwoerister]: https://github.com/michaelwoerister
 [nagisa]: https://github.com/nagisa
+[Zoxc]: https://github.com/Zoxc
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
@@ -80,6 +82,7 @@ Name                                               | Leads                      
 [async-await_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
 [self-profile_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187831-t-compiler.2Fwg-self-profile
 [pgo_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187830-t-compiler.2Fwg-profile-guided-optimization
+[parallel-rustc_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187679-t-compiler.2Fwg-parallel-rustc
 
 
 ## Procedures
