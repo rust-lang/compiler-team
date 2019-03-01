@@ -26,7 +26,10 @@ team-wide meetings are as follows:
   and open to anyone.
 - **Steering meeting:** We have a steering meeting every three weeks
   to track and plan our larger goals. This meeting is held on Zulip
-  and open to anyone.
+  and open to anyone. [We track potential agenda topics in this 
+  HackMd doc][steering-meeting-agenda].
+
+[steering-meeting-agenda]: https://hackmd.io/wsHwsi9zR3iq0ZF2SgEq9Q#
 
 Our meeting calendar is publicly available from the following links:
 
