@@ -5,32 +5,35 @@ This document contains meeting notes from the Meta working group.
 
 ### Roles of journeypeople and team members (questions raised)
 
-- What do we want to solve from a compiler-team and from a member perspective?
+- What problems do we want to solve from a compiler team member perspective and from a contributor perspective?
   - Help to grow the team by ensuring that we engage people who've started to get active in rustc?
   - Provide a source of people who can help implement things without needing as much mentoring?
 
-- What the journeyperson role means?
+- What does it mean to be a journeyperson?
   - You know something about the compiler?
   - People willing to commit some time to help run things
-  - Should a journeypeople be able to onboard more compiler contributors?
+  - What is the role of a journeyperson in onboarding new compiler contributors?
   - r+ rights?
   - Start to do reviews?
-  - What should a journeypeople do?
+  - What responsibilities should a journeyperson have?
+  - Are journeypeople members of the team or is a journeyperson role considered a stepping stone toward being a member of the team?
+
 
 - What does a compiler team member means?
 
 - What's the difference between journeypeople and team members?
-  - full members know >1 area?
-  - or full members know enough to independently lead a WG in some area?
+  - Full members know >1 area?
+  - Or full members know enough to independently lead a WG in some area?
 
 - What's the way to get into a journeypeople role?
-  - Does compiler team members freely propose them and the team make a final call?
+  - Should compiler team members nominate new journeypeople and then confirm it with the rest of the team?
   - Is there some formal mechanism for that?
-  - Do compiler members that propose journeypersons are the ones that mentor them?
+  - Should compiler team members have a responsibility to mentor their proposed journeypersons through their new responsibilities?
 
-- What's the way to go from journeypeople to full compiler member?
+- What is the process for transitioning from a journeyperson role to full membership?
+ - Same process as already exists for becoming a full member?
 
-- Is there some sort of ettiquette that journeypeople should represent?
+- Is there an ettiquette for journeypeople?
   - What about team members?
 
 ## 2019-02-21: [Meeting][meeting20190221]
