@@ -47,18 +47,18 @@ Our meeting calendar is publicly available from the following links:
 ## Working Groups
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
 Working groups are a great way for new contributors to get involved as they provide a stream of
-tasks all focused around one area and have designed channels for help and advice. All of the active
-working groups are listed below:
+tasks all focused around one area and have designated channels for help and advice. All of the
+active working groups are listed below:
 
 
-Name                                               | Leads                                                   | Short Description                                                | Start Date    | Status       | Zulip Stream                          | Regular meetings                                  | Labels       |
-----                                               | -----                                                   | -----------------                                                | ----------    | ------       | ------------                          | --------                                  | ------       |
-[Async-await](working-groups/async-await/) | [@nikomatsakis][nikomatsakis] and [@cramertj][cramertj] | Implementing async-await                               | February 2019     | Active | [#t-compiler/wg-async-await][async-await_stream]      | N/A | A-async-await |
-[Meta](working-groups/meta/) | [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino] | How compiler team organizes itself                        | February 2019     | Active | [#t-compiler/wg-meta][meta_stream]      | N/A | N/A |
-[Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix] | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]      | [Weekly, in Zulip][] (optional) | A-NLL, NLL-* |
-[Traits](working-groups/traits/) | [@nikomatsakis][nikomatsakis] | Improving the trait-system design + implementation | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream] | [Weekly, in Zulip][] (optional)                                      | A-traits          |
-[Self-Profile](working-groups/self-profile/) | [@mw][mw] and [@wesleywiser][wesleywiser] | Improving the `-Z self-profile` feature | March 2019 | Active | [#t-compiler/wg-self-profile][self-profile_stream] | N/A | N/A
-[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                     | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream] | N/A                                       | N/A          |
+Name                                               | Leads                                                                                | Short Description                                                | Start Date    | Status       | Zulip Stream                                       | Regular meetings                | Labels        |
+----                                               | -----                                                                                | -----------------                                                | ----------    | ------       | ------------                                       | --------                        | ------        |
+[Async-await](working-groups/async-await/)         | [@nikomatsakis][nikomatsakis] and [@cramertj][cramertj]                              | Implementing async-await                                         | February 2019 | Active       | [#t-compiler/wg-async-await][async-await_stream]   | N/A                             | A-async-await |
+[Meta](working-groups/meta/)                       | [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino] | How compiler team organizes itself                               | February 2019 | Active       | [#t-compiler/wg-meta][meta_stream]                 | N/A                             | N/A           |
+[Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]                              | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]                   | [Weekly, in Zulip][] (optional) | A-NLL, NLL-*  |
+[Traits](working-groups/traits/)                   | [@nikomatsakis][nikomatsakis]                                                        | Improving the trait-system design + implementation               | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream]             | [Weekly, in Zulip][] (optional) | A-traits      |
+[Self-Profile](working-groups/self-profile/)       | [@mw][mw] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
+[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                                                  | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream]              | N/A                             | N/A           |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
