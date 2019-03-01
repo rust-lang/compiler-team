@@ -1,4 +1,4 @@
-# Async-await Working Group
+# Async-await Implementation Working Group
 ![working group status: active][status]
 
 This working group is focused around **implementing** the async-await feature used for
