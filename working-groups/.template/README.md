@@ -25,7 +25,7 @@ This working group aims to accomplish the following:
 - Handle the migration from the existing AST-based borrow checker.
 
 # How can I get involved?
-If you are interested in getting involved in this working group, you should try attend a meeting and
+If you are interested in getting involved in this working group, you should try to attend a meeting and
 introduce yourself or send a message in the Zulip stream. You can be added to the GitHub and Zulip
 group for the working group if you are interested in being pinged when there are available tasks.
 
