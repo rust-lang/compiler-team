@@ -47,8 +47,8 @@ Our meeting calendar is publicly available from the following links:
 ## Working Groups
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
 Working groups are a great way for new contributors to get involved as they provide a stream of
-tasks all focused around one area and have designed channels for help and advice. All of the active
-working groups are listed below:
+tasks all focused around one area and have designated channels for help and advice. All of the
+active working groups are listed below:
 
 
 Name                                               | Leads                                                   | Short Description                                                | Start Date    | Status       | Zulip Stream                          | Regular meetings                                  | Labels       |
