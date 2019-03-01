@@ -39,5 +39,8 @@ find a bug, we'd love it if you could file an issue.
 There are some resources available for those interested in contributing to get some background
 and context:
 
-- Zoxc's post in internals: https://internals.rust-lang.org/t/parallelizing-rustc-using-rayon/6606
+- Zoxc's [introductory post][zoxc-internals-post] in the _internals_ forum.
 - More to come...
+
+
+[zoxc-internals-post]: https://internals.rust-lang.org/t/parallelizing-rustc-using-rayon/6606
