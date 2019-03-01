@@ -3,7 +3,7 @@
 
 This working group aims to improve the `-Z self-profile` `rustc` option which can aid in profiling the compiler during compilation.
 
-- **Leads:** [@mw][mw] and [@wesleywiser][wesleywiser]
+- **Leads:** [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]
 - **Meeting Notes:** [All](NOTES.md)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
@@ -30,5 +30,5 @@ group for the working group if you are interested in being pinged when there are
 The Self-Profile WG doesn't currently have recurring, scheduled meetings.
 However, anyone is welcome to attend any WG meetings.
 
-[mw]: https://github.com/michaelwoerister
+[michaelwoerister]: https://github.com/michaelwoerister
 [wesleywiser]: https://github.com/wesleywiser
