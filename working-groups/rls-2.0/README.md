@@ -49,3 +49,12 @@ It has [E-mentor] issues and a [guide].
 
 [E-mentor]: https://github.com/rust-analyzer/rust-analyzer/issues?q=is%3Aissue+is%3Aopen+label%3AE-mentor
 [guide]: https://github.com/rust-analyzer/rust-analyzer/blob/master/guide.md
+
+
+## Getting up to speed
+
+There's some documentation in rust-analyzer repository which should be useful.
+There's a YouTube [playlist] with videos which cover various subsystems of the
+analyzer.
+
+[playlist]: https://www.youtube.com/playlist?list=PL85XCvVPmGQho7MZkdW-wtPtuJcFpzycE
