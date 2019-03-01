@@ -24,12 +24,9 @@ team-wide meetings are as follows:
 - **Triage meeting:** We have a weekly triage meeting to discuss and
   track regressions and urgent changes. This meeting is held on Zulip
   and open to anyone.
-- **Steering meeting:** We have a steering meeting every three weeks
+- [**Steering meeting:**](https://github.com/rust-lang/rust/issues/58850) We have a steering meeting every three weeks
   to track and plan our larger goals. This meeting is held on Zulip
-  and open to anyone. [We track potential agenda topics in this 
-  HackMd doc][steering-meeting-agenda].
-
-[steering-meeting-agenda]: https://hackmd.io/wsHwsi9zR3iq0ZF2SgEq9Q#
+  and open to anyone.
 
 Our meeting calendar is publicly available from the following links:
 
