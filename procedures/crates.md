@@ -104,6 +104,12 @@ In summary, the process for establishing an out-of-tree crate is as follows:
 4. Add a README describing the intended purpose of the crate, which team and working group are
    responsible (link to their page in this repository) and the intended level of maintenance and
    stability.
+
+   > This crate is developed and maintained by the [Rust compiler team](..) for use within
+   > `rustc`, in particular, it is the responsibility of the
+   > [`.template`](../working-groups/.template) working group. This crate [will have regular
+   > breaking changes and provides no stability guarantees|is intended to remain stable and have
+   > limited breaking changes].
 5. Include the [LICENSE-APACHE][apache] and [LICENSE-MIT][mit] files from `rust-lang/rust`.
 6. Include or link the [CODE_OF_CONDUCT][coc] file from `rust-lang/rust`.
 7. Consult with the infrastructure team to set up `@bors` and `@rust-highfive` and a process for
