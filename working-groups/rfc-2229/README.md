@@ -44,6 +44,6 @@ The project roadmap can be found [here][roadmap].
 [repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [RFC-2229]: https://github.com/rust-lang/rfcs/blob/master/text/2229-capture-disjoint-fields.md
-[NOTES]: [All](NOTES.md)
+[NOTES]: NOTES.md
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [roadmap]: https://paper.dropbox.com/doc/RFC-2229-Roadmap--AYuUod8hbXrktRttb95fprjHAg-cJKrePDCZR54T5kVbuoQk
