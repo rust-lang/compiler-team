@@ -2,7 +2,8 @@
 This document contains meeting notes from the Meta working group.
 
 ## 2019-02-28: [Meeting][meeting20190228]
-
+**Written by:** [@spastorino][spastorino]
+[spastorino]: https://github.com/spastorino
 ### Roles of journeypeople and team members (questions raised)
 
 - What problems do we want to solve from a compiler team member perspective and from a contributor perspective?
