@@ -4,7 +4,6 @@ This document contains meeting notes from the Meta working group.
 ## 2019-02-28: [Meeting][meeting20190228]
 **Written by:** [@spastorino][spastorino]
 [spastorino]: https://github.com/spastorino
-### Roles of journeypeople and team members (questions raised)
 
 - What problems do we want to solve from a compiler team member perspective and from a contributor perspective?
   - Help to grow the team by ensuring that we engage people who've started to get active in rustc?
@@ -18,7 +17,6 @@ This document contains meeting notes from the Meta working group.
   - Start to do reviews?
   - What responsibilities should a journeyperson have?
   - Are journeypeople members of the team or is a journeyperson role considered a stepping stone toward being a member of the team?
-
 
 - What are the qualifications and expectations for a member of the compiler team?
 
