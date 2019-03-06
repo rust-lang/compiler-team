@@ -26,7 +26,7 @@ This document contains meeting notes from the Meta working group.
   - Full members know >1 area?
   - Or full members know enough to independently lead a WG in some area?
 
-- What's the way to get into a journeypeople role?
+- What is the process for becoming a journeyperson?
   - Should compiler team members nominate new journeypeople and then confirm it with the rest of the team?
   - Is there some formal mechanism for that?
   - Should compiler team members have a responsibility to mentor their proposed journeypersons through their new responsibilities?
