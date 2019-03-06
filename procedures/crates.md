@@ -58,7 +58,7 @@ is some uniformity across the compiler and out-of-tree crates:
 - Where possible, only active participants in the crate (or related working group) need be on the
   highfive rotation for the crate.
 - Working group members (or regular contributors to the crate) who cannot approve PRs on rustc can
-  be allowed approve PRs to the crate.
+  approve PRs to the crate.
 - Major pull requests should have multiple reviewers.
 
 ### What is required of an out-of-tree crate?
