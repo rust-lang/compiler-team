@@ -19,7 +19,7 @@ This document contains meeting notes from the Meta working group.
   - Are journeypeople members of the team or is a journeyperson role considered a stepping stone toward being a member of the team?
 
 
-- What does a compiler team member means?
+- What are the qualifications and expectations for a member of the compiler team?
 
 - What's the difference between journeypeople and team members?
   - Full members know >1 area?
