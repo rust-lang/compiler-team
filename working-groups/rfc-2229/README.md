@@ -3,7 +3,7 @@
 
 - **Leads:** [@blitzerr][Blitzerr], [@nikomatsakis][Niko]
 - **Meeting Notes:** [NOTES][NOTES]
-- **FAQs:** [All](FAQ.md)
+- **FAQs:** [FAQ](FAQ.md)
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
