@@ -14,7 +14,11 @@ This working group aims to accomplish the following:
 - Improve the `-Z self-profile` option in `rustc` which dumps various events into a file.
 - Implement additional tools to explore, visualize and understand the data contained in the output file.
 
-# How can I get involved?
+## What is the current status?
+The working group is working on creating a "minimum viable product" of the self-profiling feature. 
+Progress is tracked in https://github.com/rust-lang/rust/issues/58967.
+
+## How can I get involved?
 If you are interested in getting involved in this working group, you should try attend a meeting and
 introduce yourself or send a message in the Zulip stream. You can be added to the GitHub and Zulip
 group for the working group if you are interested in being pinged when there are available tasks.
