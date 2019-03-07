@@ -64,8 +64,9 @@ is some uniformity across the compiler and out-of-tree crates:
 ### What is required of an out-of-tree crate?
 It is required that out-of-tree crates must:
 
-- Be dual-licensed with Apache 2.0 and MIT (as the compiler is) unless otherwise
-  appropriate (ports of code from other project, etc).
+- Be dual-licensed with Apache 2.0 and MIT (as the compiler is) or
+  [any other license][licenses] accepted by tidy, unless otherwise appropriate (ports of code
+  from other project, etc).
 - Abide by Rust's code of conduct.
 - Specify that the crate is maintained by the Rust compiler team and any appropriate working groups.
     - In particular, this should detail the expected level of maintenance and stability for any
@@ -74,7 +75,6 @@ It is required that out-of-tree crates must:
 - Be added to the list at the bottom of this page.
 - Follow semantic versioning.
 - Use `@bors` and `@rust-highfive`.
-
 
 ### Is there a requirement for community infrastructure for an out-of-tree crate?
 There is no requirement that community infrastructure (such as Zulip servers/streams) be created for
@@ -89,6 +89,7 @@ request.
 Recommendations for working with out-of-tree crates will be documented in the rustc-guide, see
 [rust-lang/rustc-guide#285][guide_issue] for progress.
 
+[licenses]: https://github.com/rust-lang/rust/blob/master/src/tools/tidy/src/deps.rs#L10-L19
 [guide_issue]: https://github.com/rust-lang/rustc-guide/issues/285
 
 ---
