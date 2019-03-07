@@ -21,7 +21,7 @@ This is very slow.
 
 #### Team updates:
 
-- [@michaelwoerister][michaelwoerister] is drafting a tracking issue for our MVP.
+- [@michaelwoerister][michaelwoerister] is [drafting a tracking issue for our MVP](https://github.com/rust-lang/rust/issues/58967).
 - [@wesleywiser][wesleywiser] is [currently working on replacing some custom LLVM codegen timing data with the profiler](https://github.com/rust-lang/rust/pull/58488).
 
 ### Where to track work?
@@ -43,6 +43,7 @@ There's a number of steps to getting to this point which will be fleshed out in 
 In order to get to the MVP, dumping the raw events to disk during compilation needs to get a lot faster.
 Currently, we're using JSON for this because it's easy to parse without sharing a lot of code between the compiler and out-of-tree crates.
 [We're going to switch this to a compact binary format and create a crate that will form the stable interface that out-of-tree crates can consume.](https://rust-lang.zulipchat.com/#narrow/stream/187831-t-compiler.2Fwg-self-profile/topic/meeting.202019-03-05/near/159999234)
+More detail is available in the [tracking issue](https://github.com/rust-lang/rust/issues/58967).
 
 [meeting20190305]: https://rust-lang.zulipchat.com/#narrow/stream/187831-t-compiler.2Fwg-self-profile/topic/meeting.202019-03-05
 [michaelwoerister]: https://github.com/michaelwoerister
