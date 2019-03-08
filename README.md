@@ -30,12 +30,12 @@ team-wide meetings are as follows:
 
 Our meeting calendar is publicly available from the following links:
 
-  - [CalDav Link][caldav]
-    -- use this if you use Google Calendar
+  - [Web Link][embed]
+    -- use this to view the calendar or to import into Google Calendar
   - [ICS file, for use outside from google calendar][ics]
-    -- you probably want this otherwise
+    -- use this if you want to import into different calendar software
 
-[caldav]: https://calendar.google.com/calendar?cid=NnU1cnJ0Y2U2bHJ0djA3cGZpM2RhbWdqdXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+[embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
 
 ## Content
