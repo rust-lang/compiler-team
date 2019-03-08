@@ -17,7 +17,7 @@ one of the goals of the working group is to extend the scope of the
 crate to define the full borrow check analysis.
 
 - **Leads:** [@nikomatsakis][nikomatsakis]
-- **Meeting Notes:** [All](NOTES.md)
+- **Meeting Notes:** [All](minutes/)
 - **Screencasts**: [YouTube Playlist](https://www.youtube.com/playlist?list=PL85XCvVPmGQitE2CBzf-gERSqeXo59NQG)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
@@ -57,4 +57,3 @@ time. Attendance is not mandatory but recommended as this can be a
 good opportunity to ask any questions and find new issues to work on.
 
 [nikomatsakis]: https://github.com/nikomatsakis
-[pnkfelix]: https://github.com/pnkfelix
