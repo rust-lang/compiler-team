@@ -52,7 +52,7 @@ nikomatsakis's blog posts offer the best written documentation at the moment:
 ## Do I need to attend any meetings?
 
 We have a weekly sync meeting. Check the [compiler team meeting
-calendar](../README.md#meeting-calendar) for the most up to date
+calendar](../../README.md#meeting-calendar) for the most up to date
 time. Attendance is not mandatory but recommended as this can be a
 good opportunity to ask any questions and find new issues to work on.
 
