@@ -17,16 +17,14 @@ and other similar topics -- check out the [rustc-guide].
 ## Meeting Calendar
 
 Unless otherwise noted, all our meetings are open to the public and
-held on Zulip. There are two main team-wide meetings that we hold as a
+held on Zulip. There are two main team-wide meetings that we hold on a
 regular basis. There are also a variety of working group meetings. The
 team-wide meetings are as follows:
 
-- [**Triage meeting:**](https://github.com/rust-lang/rust/issues/54818) We have a weekly triage meeting to discuss and
-  track regressions and urgent changes. This meeting is held on Zulip
-  and open to anyone.
-- [**Steering meeting:**](https://github.com/rust-lang/rust/issues/58850) We have a steering meeting every three weeks
-  to track and plan our larger goals. This meeting is held on Zulip
-  and open to anyone.
+- [**Triage meeting:**][triage] We have a weekly triage meeting to discuss and track regressions and
+  urgent changes. This meeting is held on Zulip and open to anyone.
+- [**Steering meeting:**][steering] We have a steering meeting every three weeks to track and
+  plan our larger goals. This meeting is held on Zulip and open to anyone.
 
 Our meeting calendar is publicly available from the following links:
 
@@ -35,14 +33,10 @@ Our meeting calendar is publicly available from the following links:
   - [ICS file, for use outside from google calendar][ics]
     -- use this if you want to import into different calendar software
 
+[triage]: about/triage-meeting.md
+[steering]: about/steering-meeting.md
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
-
-## Content
-
-- [Minutes from steering meetings](minutes/steering-meeting): The
-  compiler [steering meeting](about/steering-meeting.md) is where we
-  do high-level discussion. These minutes summarize our conversations.
 
 ## Working Groups
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
@@ -55,15 +49,15 @@ Name                                               | Leads                      
 ----                                               | -----                                                                                | -----------------                                                | ----------    | ------       | ------------                                       | --------                        | ------        |
 [Async-await Implementation](working-groups/async-await/)         | [@nikomatsakis][nikomatsakis] and [@cramertj][cramertj]                              | Implementing async-await                                         | February 2019 | Active       | [#t-compiler/wg-async-await][async-await_stream]   | N/A                             | A-async-await |
 [LLVM](working-groups/llvm/)                 | Preliminarily [@nagisa][nagisa]                                     | Working with LLVM upstream to represent Rust in its development | N/A | Incubating       | N/A | N/A                                       | A-LLVM |
-[Meta](working-groups/meta/)                       | [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino] | How compiler team organizes itself                               | February 2019 | Active       | [#t-compiler/wg-meta][meta_stream]                 | N/A                             | N/A           |
 [Non-lexical lifetimes (NLL)](working-groups/nll/) | [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]                              | Implementing non-lexical lifetimes                               | June 2017     | Winding down | [#t-compiler/wg-nll][nll_stream]                   | [Weekly, in Zulip][] (optional) | A-NLL, NLL-*  |
 [Traits](working-groups/traits/)                   | [@nikomatsakis][nikomatsakis]                                                        | Improving the trait-system design + implementation               | February 2019 | Active       | [#t-compiler/wg-traits][traits_stream]             | [Weekly, in Zulip][] (optional) | A-traits      |
-[Self-Profile](working-groups/self-profile/)       | [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
-[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                                                  | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream]              | N/A                             | N/A           |
 [Parallel-rustc](working-groups/parallel-rustc/)   | [@Zoxc][Zoxc] and [@michaelwoerister][michaelwoerister]                              | Making parallel compilation the default for rustc                | February 2019 | Active       | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream] | N/A                             | A-parallel-queries |
 [Profile-Guided Optimization](working-groups/pgo/) | [@michaelwoerister][michaelwoerister]                              | Implementing profile-guided optimization for rustc                | February 2019 | Active       | [#t-compiler/wg-profile-guided-optimization][pgo_stream] | N/A                             | N/A |
-[rfc-2229](working-groups/rfc-2229/) | [@blitzerr][blitzerr] and [@nikomatsakis][nikomatsakis]                             |  Make a closure capture individual fields of the variable rather than the entire composite variable           | March 2019 | Active       | [#t-compiler/wg-rfc-2229][rfc-2229-stream] | N/A                             | N/A |
 [mir-opt](working-groups/mir-opt/)                 | [@oli-obk][oli-obk]                                                                  | Write MIR optimizations and refactor the MIR to be more optimizable | March 2019 | Active       | [#t-compiler/wg-mir-opt][mir-opt-stream] | N/A                             | N/A |
+[RLS 2.0](working-groups/rls-2.0/)                 | [@matklad][matklad]                                                                  | Experimenting with a new compiler architecture tailored for IDEs | February 2019 | Active       | [#t-compiler/wg-rls2.0][rls20_stream]              | N/A                             | N/A           |
+[Meta](working-groups/meta/)                       | [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino] | How compiler team organizes itself                               | February 2019 | Active       | [#t-compiler/wg-meta][meta_stream]                 | N/A                             | N/A           |
+[Self-Profile](working-groups/self-profile/)       | [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]                                            | Improving the `-Z self-profile` feature                          | March 2019    | Active       | [#t-compiler/wg-self-profile][self-profile_stream] | N/A                             | N/A
+[RFC 2229](working-groups/rfc-2229/) | [@blitzerr][blitzerr] and [@nikomatsakis][nikomatsakis]                             |  Make a closure capture individual fields of the variable rather than the entire composite variable           | March 2019 | Active       | [#t-compiler/wg-rfc-2229][rfc-2229-stream] | N/A                             | N/A |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
