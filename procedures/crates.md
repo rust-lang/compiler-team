@@ -57,16 +57,18 @@ is some uniformity across the compiler and out-of-tree crates:
 - Every compiler team member must be able to review and approve PRs.
 - Where possible, only active participants in the crate (or related working group) need be on the
   highfive rotation for the crate.
-- Working group members (or regular contributors to the crate) who cannot approve PRs on rustc can
-  approve PRs to the crate.
+- It is fine to have additional reviewers on the crate who do not otherwise have r+ for Rust as a
+  whole, if those reviewers are actively involved in the working group or crate maintenance.
 - Major pull requests should have multiple reviewers.
 
 ### What is required of an out-of-tree crate?
 It is required that out-of-tree crates must:
 
-- Be dual-licensed with Apache 2.0 and MIT (as the compiler is) or
-  [any other license][licenses] accepted by tidy, unless otherwise appropriate (ports of code
-  from other project, etc).
+- Be dual-licensed with Apache 2.0 and MIT when maintained by the compiler team (as the compiler
+  is) unless there is a compelling reason to do otherwise.
+    - If another license is desired, this must be brought up when proposing the new crate for
+      compiler team members to agree. Prefer [licenses accepted by tidy][licenses], unless otherwise
+      required (ports of code from other projects, etc).
 - Abide by Rust's code of conduct.
 - Specify that the crate is maintained by the Rust compiler team and any appropriate working groups.
     - In particular, this should detail the expected level of maintenance and stability for any
@@ -75,6 +77,9 @@ It is required that out-of-tree crates must:
 - Be added to the list at the bottom of this page.
 - Follow semantic versioning.
 - Use `@bors` and `@rust-highfive`.
+- Use labels that are compatible with the existing triage process. This will allow nominated issues
+  in your out-of-tree crate to be discussed during triage meetings.
+    - eg. `T-compiler`, `I-nominated` (a full list is to be decided)
 
 ### Is there a requirement for community infrastructure for an out-of-tree crate?
 There is no requirement that community infrastructure (such as Zulip servers/streams) be created for
@@ -98,8 +103,8 @@ In summary, the process for establishing an out-of-tree crate is as follows:
 
 1. Where appropriate, discuss and confirm the need within the working group for the out-of-tree
    crate.
-2. Consult with the compiler team to confirm the need for the out-of-tree crate and kick-off the
-   naming bikeshed.
+2. Create a PR modifying this document to include the PR in the list below. Use `@rfcbot fcp` to
+   gain agreement from compiler team members.
 3. Create a new repository in the `rust-lang` organization (permissions should be available for all
    compiler team members).
 4. Add a README describing the intended purpose of the crate, which team and working group are
