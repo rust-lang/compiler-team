@@ -1,6 +1,7 @@
 # LLVM Working Group
 
 ![working group status: incubating][status]
+
 [status]: https://img.shields.io/badge/status-incubating-yellow.svg?style=for-the-badge
 
 This working group encompasses work in LLVM upstream fixing the issues and implementing features
