@@ -1,5 +1,5 @@
 #### *<p align="center">This page is an example template and not the actual NLL working group.</p>*
-#### *<p align="center">Don't forget to add this new working group to the table at the root of this repository!</p>*
+#### *<p align="center">Don't forget to add this new working group to the end of the table at the root of this repository!</p>*
 
 # Non-Lexical Lifetimes (NLL) Working Group
 ![working group status: active][status]
