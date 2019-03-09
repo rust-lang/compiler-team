@@ -12,12 +12,12 @@ The triage meeting takes place on [Zulip](chat-platform.md). Look for a topic li
 ## Working group check-in
 This section contains the scheduled check-ins for working groups:
 
-- **2019-03-14:** [wg-rls-2.0], [wg-meta]
-- **2019-03-21:** [wg-self-profile], [wg-rfc-2229]
-- **2019-03-28:** [wg-self-profile], [wg-rfc-2229]
+- **2019-03-14:** [wg-async-await], [wg-llvm]
+- **2019-03-21:** [wg-nll], [wg-traits]
+- **2019-03-28:** [wg-parallel-rustc], [wg-pgo]
 
 Looking for a meeting that isn't listed above? Make a PR and extend the list to include that
-meeting, just loop around the list of working groups.
+meeting.
 
 ### Previous check-ins
 This section lists check-ins from triage meetings before the check-in schedule was introduced:
