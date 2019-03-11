@@ -33,6 +33,7 @@ and context:
   Contains lots of useful information on PGO in LLVM.
 - @emilio's [initial PR](https://github.com/rust-lang/rust/pull/48346) for adding experimental
   support for PGO.
+- A presentation on [Profile-based Indirect Call Promotion in LLVM](https://llvm.org/devmtg/2015-10/slides/Baev-IndirectCallPromotion.pdf), an optimization enabled by PGO
 
 ## Do I need to attend any meetings?
 No.
