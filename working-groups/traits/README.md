@@ -22,6 +22,10 @@ On [the rust-lang Zulip][z], in [the `#t-compiler/wg-traits` stream][s].
 [z]: https://rust-lang.zulipchat.com/
 [s]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
 
+**Dedicated repository:** The [wg-traits
+repository](https://github.com/rust-lang/wg-traits) contains draft
+RFCs and other documents.
+
 ## Weekly triage meeting
 
 There is a weekly triage meeting which you will find on the [compiler
