@@ -54,7 +54,7 @@ Generally, the working groups and team members that are primarily free to mainta
 whatever practices are best suited to their group, however, there are some limitations so that there
 is some uniformity across the compiler and out-of-tree crates:
 
-- Every compiler team member must be able to review and approve PRs.
+- Everyone with r+ on `rust-lang/rust` should be able to review and approve PRs.
 - Where possible, only active participants in the crate (or related working group) need be on the
   highfive rotation for the crate.
 - It is fine to have additional reviewers on the crate who do not otherwise have r+ for Rust as a
