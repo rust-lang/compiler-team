@@ -4,6 +4,7 @@
 This working group is dedicated to fleshing out the details of how the compiler team will organize itself.
 
 - **Leads:** [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino]
+- **[Planning document][planning]**
 - **Meeting Notes:** [All](NOTES.md)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
@@ -95,6 +96,7 @@ group for the working group if you are interested in being pinged when there are
 - **Relevant repositories:** [`rust-lang/compiler-team`][repo]
 - **Zulip stream:** [`#t-compiler/wg-meta`][zulip] on Zulip
 
+[planning]: https://paper.dropbox.com/doc/meta-working-group-planning--AZIyyFu~OaIwneVQkZ_6_T3vAg-09U5endyK7vaoQhaiQ7TI
 [repo]: https://github.com/rust-lang/compiler-team
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/185694-t-compiler.2Fwg-meta
 
