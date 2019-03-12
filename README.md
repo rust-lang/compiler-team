@@ -63,6 +63,7 @@ Name                                               | Leads                      
 [Parallel-rustc](working-groups/parallel-rustc/)   | [@Zoxc][Zoxc] and [@michaelwoerister][michaelwoerister]                              | Making parallel compilation the default for rustc                | February 2019 | Active       | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream] | N/A                             | A-parallel-queries |
 [Profile-Guided Optimization](working-groups/pgo/) | [@michaelwoerister][michaelwoerister]                              | Implementing profile-guided optimization for rustc                | February 2019 | Active       | [#t-compiler/wg-profile-guided-optimization][pgo_stream] | N/A                             | N/A |
 [rfc-2229](working-groups/rfc-2229/) | [@blitzerr][blitzerr] and [@nikomatsakis][nikomatsakis]                             |  Make a closure capture individual fields of the variable rather than the entire composite variable           | March 2019 | Active       | [#t-compiler/wg-rfc-2229][rfc-2229-stream] | N/A                             | N/A |
+[mir-opt](working-groups/mir-opt/)                 | [@oli-obk][oli-obk]                                                                  | Write MIR optimizations and refactor the MIR to be more optimizable | March 2019 | Active       | [#t-compiler/wg-mir-opt][mir-opt-stream] | N/A                             | N/A |
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -75,6 +76,7 @@ Name                                               | Leads                      
 [nagisa]: https://github.com/nagisa
 [Zoxc]: https://github.com/Zoxc
 [blitzerr]: https://github.com/blitzerr
+[oli-obk]: https://github.com/oli-obk
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
@@ -86,7 +88,7 @@ Name                                               | Leads                      
 [pgo_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187830-t-compiler.2Fwg-profile-guided-optimization
 [parallel-rustc_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187679-t-compiler.2Fwg-parallel-rustc
 [rfc-2229-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
-
+[mir-opt-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189540-t-compiler.2Fwg-mir-opt
 
 ## Procedures
 
