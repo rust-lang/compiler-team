@@ -90,6 +90,13 @@ Name                                               | Leads                      
 [rfc-2229-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [mir-opt-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189540-t-compiler.2Fwg-mir-opt
 
+## Expert Map
+
+If you're interested in figuring out who can answer questions about a
+particular part of the compiler, or you'd just like to know who works on what,
+check out our [experts directory](experts). It contains a listing of the
+various parts of the compiler and a list of people who are experts on each one.
+
 ## Procedures
 
 The [procedures directory](procedures) contains descriptions of various
