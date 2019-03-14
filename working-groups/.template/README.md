@@ -88,7 +88,7 @@ priority order:
 
 Other NLL labels also exist:
 
-- [**NLL-fixed-by-NLL**][NLL_fixed-by-NLL] labels bugs that are problems solely with the
+- [**NLL-fixed-by-NLL**][NLL-fixed-by-NLL] labels bugs that are problems solely with the
   AST-borrowck -- they are bugs that we intend to close once everyone migrates over to NLL.
 - [**NLL-polonius**][NLL-polonius] labels bugs related to the Polonius subproject - see the
   Polonius working group for more information on these.
