@@ -22,9 +22,9 @@ meeting.
 ### Previous check-ins
 This section lists check-ins from triage meetings before the check-in schedule was introduced:
 
-- **2019-02-28:** [wg-rls-2.0], [wg-meta]
-- **2019-03-07:** [wg-self-profile], [wg-rfc-2229]
 - **2019-03-14:** [wg-async-await], [wg-llvm]
+- **2019-03-07:** [wg-self-profile], [wg-rfc-2229]
+- **2019-02-28:** [wg-rls-2.0], [wg-meta]
 
 [wg-rls-2.0]: ../working-groups/rls-2.0
 [wg-meta]: ../working-groups/meta
