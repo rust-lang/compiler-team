@@ -18,6 +18,7 @@ crate to define the full borrow check analysis.
 
 - **Leads:** [@nikomatsakis][nikomatsakis]
 - **Meeting Notes:** [All](NOTES.md)
+- **Screencasts**: [YouTube Playlist](https://www.youtube.com/playlist?list=PL85XCvVPmGQitE2CBzf-gERSqeXo59NQG)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
