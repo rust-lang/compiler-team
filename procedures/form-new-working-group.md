@@ -98,7 +98,14 @@ The basic steps to setup a working group are as follows:
     working groups start out with relatively little structure but
     define it early on.
 - **Add an entry to the compiler team calendar:** If you have a regular meeting,
-  ping somebody on `#t-compiler`[cp] to add an entry to the compiler team calendar. 
+  ping somebody on `#t-compiler`[cp] to add an entry to the compiler team calendar.
+- Add a file to the [`rust-lang/team`][team_repo] repository. Only working group leads should be
+  listed and a link to their directory in this repository should also be included. See the
+  traits working group [as an example][team_repo_example]. This will ensure that the working groups
+  are listed on the website.
+
+[team_repo]: https://github.com/rust-lang/team
+[team_repo_example]: https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml
 
 [README]: ../README.md
 [template]: ../working-groups/.template
