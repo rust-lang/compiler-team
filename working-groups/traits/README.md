@@ -17,7 +17,21 @@ to the existing solver where needed.
 
 [Chalk-style]: https://github.com/rust-lang-nursery/chalk
 
+
 # How to participate
+
+## Sprints
+
+The traits working group is organizing its activity as a series of 6-week sprints.
+This is experiment that may change over time.
+
+At the start of each sprint, we identify a set of goals and work towards
+them. During the sprint, we have a [current sprint doc][sprint] that
+lists out the goals. During the weekly triage meeting, we try to update
+the doc with information on our progress. So if you're curious to know
+what we're up to right now, check out the doc for our current sprint.
+
+[sprint]: https://paper.dropbox.com/doc/2019.03.18-2019.04.29--AZqhzp6EUY7mDvJyaR3W9tb_Ag-5gix1dpUSHKirVcEww5iw
 
 ## Chat forum
 
@@ -40,7 +54,7 @@ stream][s].
 
 Documents related to the wg-traits working group are stored on a
 dedicated repository, [rust-lang/wg-traits]. This repository contains
-meeting minutes, regular updates, as well as draft RFCs and other
+meeting minutes, past sprints, as well as draft RFCs and other
 documents.
 
 [rust-lang/wg-traits]: https://github.com/rust-lang/wg-traits
