@@ -8,6 +8,7 @@ writing MIR optimizations.
 - **Meeting Notes:** [All](NOTES.md)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+[oli-obk]: https://github.com/oli-obk
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
