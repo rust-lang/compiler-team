@@ -49,14 +49,14 @@ Name                                                      | Status       | Short
 ----                                                      | ------       | -----------------                                                                                  | ------------
 [Async-await Implementation](working-groups/async-await/) | Active       | Implementing async-await                                                                           | [#t-compiler/wg-async-await][async-await_stream]
 [LLVM](working-groups/llvm/)                              | Incubating   | Working with LLVM upstream to represent Rust in its development                                    | [#t-compiler/wg-llvm][llvm_stream]
+[Self-Profile](working-groups/self-profile/)              | Active       | Improving the `-Z self-profile` feature                                                            | [#t-compiler/wg-self-profile][self-profile_stream]
+[RFC 2229](working-groups/rfc-2229/)                      | Active       | Make a closure capture individual fields of the variable rather than the entire composite variable | [#t-compiler/wg-rfc-2229][rfc-2229-stream]
+[RLS 2.0](working-groups/rls-2.0/)                        | Active       | Experimenting with a new compiler architecture tailored for IDEs                                   | [#t-compiler/wg-rls2.0][rls20_stream]
+[Meta](working-groups/meta/)                              | Active       | How compiler team organizes itself                                                                 | [#t-compiler/wg-meta][meta_stream]
 [Non-Lexical Lifetimes (NLL)](working-groups/nll/)        | Winding down | Implementing non-lexical lifetimes                                                                 | [#t-compiler/wg-nll][nll_stream]
 [Traits](working-groups/traits/)                          | Active       | Improving the trait-system design + implementation                                                 | [#t-compiler/wg-traits][traits_stream]
 [Parallel-rustc](working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
 [Profile-Guided Optimization](working-groups/pgo/)        | Active       | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
-[RLS 2.0](working-groups/rls-2.0/)                        | Active       | Experimenting with a new compiler architecture tailored for IDEs                                   | [#t-compiler/wg-rls2.0][rls20_stream]
-[Meta](working-groups/meta/)                              | Active       | How compiler team organizes itself                                                                 | [#t-compiler/wg-meta][meta_stream]
-[Self-Profile](working-groups/self-profile/)              | Active       | Improving the `-Z self-profile` feature                                                            | [#t-compiler/wg-self-profile][self-profile_stream]
-[RFC 2229](working-groups/rfc-2229/)                      | Active       | Make a closure capture individual fields of the variable rather than the entire composite variable | [#t-compiler/wg-rfc-2229][rfc-2229-stream]
 [MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
