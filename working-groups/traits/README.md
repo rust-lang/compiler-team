@@ -35,10 +35,10 @@ what we're up to right now, check out the doc for our current sprint.
 
 ## Chat forum
 
-On [the rust-lang Zulip][z], in [the `#t-compiler/wg-traits` stream][s].
+On [the rust-lang Zulip][z], in [the `#wg-traits` stream][s].
 
 [z]: https://rust-lang.zulipchat.com/
-[s]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits
+[s]: https://rust-lang.zulipchat.com/#narrow/stream/144729-wg-traits
 
 ## Weekly triage meeting
 
