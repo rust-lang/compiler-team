@@ -45,7 +45,7 @@ On [the rust-lang Zulip][z], in [the `#wg-traits` stream][s].
 There is a weekly triage meeting which you will find on the [compiler
 meeting calendar][c]. The purpose of this meeting is to take stock of
 where we are and figure out what to do next. The meeting takes place
-on [Zulip][z] in a dedicated topic of the [the `#t-compiler/wg-traits`
+on [Zulip][z] in a dedicated topic of the [the `#wg-traits`
 stream][s].
 
 [c]: https://github.com/rust-lang/compiler-team#meeting-calendar
