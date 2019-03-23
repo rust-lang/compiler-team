@@ -38,7 +38,11 @@ On [the rust-lang Zulip][z], in [the `#t-compiler/wg-rls-2.0` stream][s].
 ## Meetings
 
 We don't have a regular meeting schedule yet, check [Zulip][s] to learn about
-the next one.
+the next one. However, we maintain [work list] -- a paper document that shows
+what everyone is working on right now. If you want to (this is not mandatory),
+add yourself to the list!
+
+[work list]: https://paper.dropbox.com/doc/RLS-2.0-work-list--AZ3BgHKKCtqszbsi3gi6sjchAQ-42vbnxzuKq2lKwW0mkn8Y
 
 
 ## rust-analyzer
