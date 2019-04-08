@@ -15,7 +15,7 @@ This section contains the scheduled check-ins for working groups:
 - **2019-03-21:** [wg-nll], [wg-traits]
 - **2019-03-28:** [wg-parallel-rustc], [wg-pgo]
 - **2019-04-04:** [wg-rls-2.0], [wg-meta]
-- **2019-04-11:** [wg-mir-opt], [wg-async-await]
+- **2019-04-11:** [wg-mir-opt], [wg-async-await], [wg-profiling]
 - **2019-04-18:** [wg-llvm], [wg-self-profile]
 - **2019-04-25:** [wg-rfc-2229], [wg-rls-2.0]
 - **2019-05-02:** [wg-meta], [wg-nll]
@@ -41,3 +41,4 @@ This section lists check-ins from triage meetings before the check-in schedule w
 [wg-parallel-rustc]: ../working-groups/parallel-rustc
 [wg-pgo]: ../working-groups/pgo
 [wg-mir-opt]: ../working-groups/mir-opt
+[wg-profiling]: ../working-groups/profiling

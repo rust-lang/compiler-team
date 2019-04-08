@@ -58,6 +58,7 @@ Name                                                      | Status       | Short
 [Parallel-rustc](working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
 [Profile-Guided Optimization](working-groups/pgo/)        | Active       | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
 [MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
+[Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -84,6 +85,7 @@ Name                                                      | Status       | Short
 [parallel-rustc_stream]: https://rust-lang.zulipchat.com/#narrow/stream/187679-t-compiler.2Fwg-parallel-rustc
 [rfc-2229-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [mir-opt-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189540-t-compiler.2Fwg-mir-opt
+[pipelining-stream]: https://rust-lang.zulipchat.com/#narrow/stream/195180-t-compiler.2Fwg-pipelining
 
 ## Expert Map
 
