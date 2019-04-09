@@ -94,8 +94,53 @@ target compilation timeline for our example above looks like:
 but we're still saving time! Typically a dependency graph in Rust is far deeper
 than three crates, so the compile time wins are expected to be much larger.
 
+#### Step 1: What architecture is used to pipeline rustc?
 
-#### Step 1: work with only metadata as input
+The first thing we then talked about was how rustc was going to be invoked in a
+pipelined fashion. There were two primary candidates we figured could be
+implemented:
+
+##### (a) Run rustc twice
+
+One option is to literally run `rustc --emit metadata foo.rs` and then
+subsequently execute `rustc --emit link foo.rs`. The second command is in theory
+accelerated by incremental compilation artifacts produced by the first command.
+
+**Pros**:
+
+* Feels "pure" from a build system perspective as it keeps rustc in line with
+  basically all other build tools, you run it to completion and don't care about
+  what happens in the middle.
+
+**Cons**:
+
+* We're unlikely to reap full benefits from this strategy. The second `rustc`
+  command has to redo quite a bit of work to get back to the point the first
+  command was at, and it's not an instantatenous piece of work even with
+  incremental. As a result this may run a risk of slowing down compiles because
+  the second command takes so long to start up.
+
+##### (b) Signal Cargo when metadata is ready
+
+The second option is for rustc to continue in-process after it produces metadata
+and go on to produce the final rlib. The compiler would, however, send a signal
+to Cargo (somehow) that metadata is ready to go.
+
+**Pros**:
+
+* This should get us the full speed of pipelined compilation. There's no
+  "startup time" for the work involved in producing the rlib since it's already
+  all in-process in rustc.
+
+**Cons**:
+
+* This is going to be significantly more difficult for other build systems to
+  get integrated (those that aren't Cargo).
+
+Overall we decided that this option was the route to pursue due to the speed
+wins likely to be gained.
+
+#### Step 2: work with only metadata as input
 
 @alexcrichton claimed that rustc cannot produce an rlib today with only
 `*.rmeta` files as input. After some testing, it was found that this was a false
@@ -112,7 +157,7 @@ So that means this step is already done! The compiler is already capable of
 implementing the pipelining showed above where it can be invoked in parallel by
 Cargo.
 
-#### Step 2: telling Cargo when metadata is ready
+#### Step 3: telling Cargo when metadata is ready
 
 The next (and final) piece of implementation needed in rustc is that the
 compiler has to somehow tell Cargo when metadata is available on the filesystem.
