@@ -213,3 +213,6 @@ the compiler doesn't emit other information via JSON right now.
 * A JSON message format for rustc would need to be designed. There's no
   precedent to draw from in rustc yet to emit arbitrary JSON messages about
   progress so far. There's likely some desire to do so though!
+
+We decided this is the route to go as it seems the most viable for
+stabilization.
