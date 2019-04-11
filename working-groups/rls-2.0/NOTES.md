@@ -57,3 +57,19 @@ While it is unrealistic to extract the full type-inference engine from the compi
 ## Summary
 
 In short, we decided to primarily work towards an end-to-end effort, which aims to _correctly_ support a _subset_ of the language features in the short term. However, as time goes, we plan on achieving feature parity with the compiler in the long run and merge the resulting code upstream.
+
+# 2019-04-11
+
+## Notes from "Macro By Example" meeting
+
+[Zulip stream](https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0/topic/MBE.20discussion)
+
+We've discussed current state and next steps for macro handling in rust-analyzer. One conclusion was that we are not going to shoot directly at librarifying macro expansion code and sharing it with rustc: we already have chalk and name resolution in-flight. Instead, the focus is explicitly on supporting the most common cases, so that we can check hypothesis that incremental IDE-style macro expansion is feasible.
+
+We also try to produce a "clean" interface for macro expansion, even if it means not handling all complexities of existing macro system. Specifically, both mbe and proc macros will use `TokenTree` abstract data type, modeled after `proc_macro2::TokenTree` for both input and output. In `TokenTree`, tokens have identities (u32 ids) and additional information about spans and hygiene is stored in side-tables keyed by these identities.
+
+We've also formulated three short-term action items:
+
+* making parser work with iterator of tokens (currently it requires a slice), which should help with parsing token-trees without flattening them first
+* making existing IDE features work correctly in the presence of macros, specifically, making sure that goto definition uses correct span in the original file
+* extending the existent macro-expander prototype to handle more cases
