@@ -144,7 +144,7 @@ of the team or some part of the compiler (or multiple parts).
 It is worth emphasizing that becoming a contributor or member of the
 compiler team does not necessarily imply writing PRs. There are a wide
 variety of tasks that need to be done to support the compiler and
-which should make one eligible for membership. Suchs tasks would
+which should make one eligible for membership. Such tasks would
 include organizing meetings, participating in meetings, bisecting and
 triaging issues, writing documentation, working on the
 rustc-guide. The most important criteria for elevation to contributor,
