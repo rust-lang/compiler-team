@@ -12,7 +12,7 @@ Rust compiler.
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
 
-- Implement and stabilize profile-guided optimization in `rustc`.
+- Implement and stabilize profile-guided optimization in `rustc` (https://github.com/rust-lang/rust/issues/59913)
 
 # How can I get involved?
 If you are interested in getting involved in this working group, send a message in the Zulip
@@ -29,6 +29,7 @@ stream.
 There are some resources available for those interested in contributing to get some background
 and context:
 
+- Tracking issue: https://github.com/rust-lang/rust/issues/59913
 - Clang's [documentation on PGO](https://clang.llvm.org/docs/UsersManual.html#profile-guided-optimization).
   Contains lots of useful information on PGO in LLVM.
 - @emilio's [initial PR](https://github.com/rust-lang/rust/pull/48346) for adding experimental
