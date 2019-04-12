@@ -38,7 +38,7 @@ been rebased, which is a common need. (Typically this is done by
 writing `@bors r=username`, where `username` is the name of the
 original reviewer.)
 
-Apart from these adminstrative re-reviews, the expectation is that
+Apart from these administrative re-reviews, the expectation is that
 people with r+ privileges will begin by reviewing only simple PRs from
 parts of the compiler that they understand well. As their knowledge
 grows, they can approve more and more complex PRs. 
