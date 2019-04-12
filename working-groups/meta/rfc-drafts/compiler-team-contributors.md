@@ -33,7 +33,7 @@ or you don't), we have historically asked people to use their
 permissions in specific ways (self-policed).
 
 One reason that it is convenient to have r+ privileges is a purely
-adminstrative one: they allow you to re-approve PRs after they have
+administrative one: they allow you to re-approve PRs after they have
 been rebased, which is a common need. (Typically this is done by
 writing `@bors r=username`, where `username` is the name of the
 original reviewer.)
