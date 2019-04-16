@@ -67,7 +67,7 @@ in turn are granted privileges to repositories in the organization.
 Most notably:
 
 - you cannot be assigned to issues unless you have at least *read* access to a repository;
-- you cannot modify labels without *write* access (I think);
+- you cannot modify labels without *write* access;
 - you cannot be a member of a *team*, which means you cannot be addressed via some
   alias like `@rust-lang/compiler-team`;
 - you do not get the little "member" badge appearing next to your name when you comment.
