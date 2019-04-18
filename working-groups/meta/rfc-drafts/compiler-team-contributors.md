@@ -232,14 +232,26 @@ They will also not have r+ privileges. **Alumni members will however
 still remain members of the GitHub org overall.**
 
 People in alumni status can ask to return to "active" status at any
-time.
+time. This request would ordinarily be granted automatically barring
+extraordinary circumstances.
 
 People in alumni status are still members of the team at the level
 they previously attained and they may publicly indicate that, though
 they should indicate the time period for which they were active as
 well.
 
-## Automatic alumni status after 6 months of inactivity
+### Changing back to contributor
+
+If desired, a team member may also ask to move back to contributor
+status. This would indicate a continued desire to be involved in
+rustc, but that they do not wish to be involved in some of the
+weightier decisions, such as who to add to the team. Like full alumni,
+people who were once full team members but who went back to
+contributor status may ask to return to full team member status. This
+request would ordinarily be granted automatically barring
+extraordinary circumstances.
+
+### Automatic alumni status after 6 months of inactivity
 
 If a contributor or a member has been inactive in the compiler for 6
 months, then we will ask them if they would like to go to alumni
