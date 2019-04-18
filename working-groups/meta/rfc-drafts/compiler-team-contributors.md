@@ -173,10 +173,8 @@ of the team or some part of the compiler (or multiple parts).
   as a lead (though groups may have other leads who are not yet full
   members).
   
-<a name="how-decisions-are-made"> </a>
-[hdam]: #how-decisions-are-made
-  
 ### How promotion decisions are made
+[hdam]: #how-promotion-decisions-are-made
 
 Promotion decisions (from participant to contributor, and from
 contributor to member) are made by having an active team member send
