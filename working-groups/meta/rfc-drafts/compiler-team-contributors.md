@@ -195,13 +195,19 @@ public announcement.
 To make the final decision:
 
 - All objections must be resolved.
-- There should be several explicit e-mails in favor of adding the
-  person, including the team lead.
+- There should be a "sufficient number" (see below) of explicit
+  e-mails in favor of addition (including the team lead).
 - The nominator (or some member of the team) should reach out to the person
   in question and check that they wish to join.
   
-If they do, then the announcement can be posted to internals, and the
-person added to the team repository.
+We do not require all team members to send e-mail, as historically
+these decisions are not particularly controversial. For promotion to a
+contributor, the only requirement is that the compiler team lead
+agrees. For promotion to a full member, more explicit mails in favor
+are recommended.
+
+Once we have decided to promote, then the announcement can be posted
+to internals, and the person added to the team repository.
 
 ### Not just code
 
