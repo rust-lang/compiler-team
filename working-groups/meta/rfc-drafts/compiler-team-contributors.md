@@ -300,5 +300,14 @@ presently says 6 months, but that number was pulled out of a
 [future-possibilities]: #future-possibilities
 
 In the future, it would be good to add an "active mentorship" plan for
-helping people move from contributor to full member.
+helping people move from contributor to full member. This idea is
+presently filed as [rust-lang/compiler-team#56][].
 
+[rust-lang/compiler-team#56]: https://github.com/rust-lang/compiler-team/issues/56
+
+To make more explicit room for non-coding contributors, we should
+consider allowing contributors and members to set a "subtitle"
+describing their role in the project. This idea is presently filed as
+[rust-lang/compiler-team#64][].
+
+[rust-lang/compiler-team#64]: https://github.com/rust-lang/compiler-team/issues/64
