@@ -23,10 +23,12 @@ In addition to recognition, the levels in this document control access
 to other bits of our infrastructure. It is worth spending some time
 reviewing those bits of infrastructure.
 
-### bors r+ privileges
+### bot privileges (including bors r+)
 
 The bors bot has a central list of folks that have "r+" privileges.
 These are people who can leave comments instructing bors to land a PR.
+Similarly, we have other bots (e.g., perf-timer and so forth) that
+require authorization to use.
 
 While the bors permissions are very crude (you either have privileges
 or you don't), we have historically asked people to use their
@@ -144,7 +146,8 @@ Being promoted to contributor implies a number of privileges:
 
 - Contributors have r+ privileges and can do reviews (they are
   expected to use those powers appropriately, as discussed
-  previously).
+  previously). They also have access to control perf/rustc-timer and
+  other similar bots.
 - Contributors are members of the organization so they can modify
   labels and be assigned to issues.
 - Contributors will be listed on the [compiler expert map](https://github.com/rust-lang/compiler-team/blob/9d8c387ddbd01ced14eaab480cddb00c2d723f36/experts/MAP.md),
