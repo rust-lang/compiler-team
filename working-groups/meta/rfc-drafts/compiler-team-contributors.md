@@ -112,23 +112,54 @@ is basically somebody who has come to work on something for the first
 time. They don't know much about the compiler yet and have no
 particular privileges. They are assigned to issues using the triagebot
 and (typically) work with a mentor or mentoring instructions.
+
+### Compiler team contributors
   
 Once a working group participant has been contributing regularly for
 some time, they can be promoted to the level of a **compiler team
-contributor**. This indicates that they are someone who contributes
+contributor** (see the section on [how decisions are made][hdam]
+below). This title indicates that they are someone who contributes
 regularly.
+
+It is hard to define the precise conditions when such a promotion is
+appropriate. Being promoted to contributor is not just a function of
+checking various boxes. But the general sense is that someone is ready
+when they have demonstrated three things:
+
+- "Staying power" -- the person should be contributing on a regular
+  basis in some way. This might for example mean that they have
+  completed a few projects.
+- "Independence and familiarity" -- they should be acting somewhat
+  independently when taking on tasks, at least within the scope of the
+  working group. They should plausibly be able to mentor others on simple
+  PRs.
+- "Cordiality" -- contributors will be members of the organization and
+  are held to a higher standard with respect to the [Code of
+  Conduct][CoC]. They should not only obey the letter of the CoC but
+  also its spirit.
+  
+[CoC]: https://www.rust-lang.org/policies/code-of-conduct  
+
+Being promoted to contributor implies a number of privileges:
 
 - Contributors have r+ privileges and can do reviews (they are
   expected to use those powers appropriately, as discussed
   previously).
 - Contributors are members of the organization so they can modify
   labels and be assigned to issues.
-- Contributors will be asked if they wish to be added to highfive rotation.
 - Contributors will be listed on the [compiler expert map](https://github.com/rust-lang/compiler-team/blob/9d8c387ddbd01ced14eaab480cddb00c2d723f36/experts/MAP.md),
   which lists folks who are familiar with each area of the compiler.
 - Contributors are listed on the rust-lang.org web page and invited to
   the Rust All Hands.
+  
+It also implies some obligations (in some cases, optional obligations):
 
+- Contributors will be asked if they wish to be added to highfive rotation.
+- Contributors are held to a higher standard than ordinary folk when
+  it comes to the [Code of Conduct][CoC].
+
+### Compiler team members
+  
 As a contributor gains in experience, they may be asked to become a
 **compiler team member**. This implies that they are not only a
 regular contributor, but are actively helping to shape the direction
@@ -138,6 +169,35 @@ of the team or some part of the compiler (or multiple parts).
   promoted to compiler team contributor or to the level of member.
 - Compiler team members are consulted on FCP decisions (which, in the
   compiler team, are relatively rare).
+  
+<a name="how-decisions-are-made"> </a>
+[hdam]: #how-decisions-are-made
+  
+### How promotion decisions are made
+
+Promotion decisions (from participant to contributor, and from
+contributor to member) are made by having an active team member send
+an e-mail to the alias `compiler-private@github.com`. This e-mail
+should include:
+
+- the name of the person to be promoted
+- a draft of the public announcement that will be made
+
+Compiler-team members should send e-mail giving their explicit assent,
+or with objections. Objections should always be resolved before the
+decision is made final. E-mails can also include edits or additions for the
+public announcement.
+
+To make the final decision:
+
+- All objections must be resolved.
+- There should be several explicit e-mails in favor of adding the
+  person, including the team lead.
+- The nominator (or some member of the team) should reach out to the person
+  in question and check that they wish to join.
+  
+If they do, then the announcement can be posted to internals, and the
+person added to the team repository.
 
 ### Not just code
 
