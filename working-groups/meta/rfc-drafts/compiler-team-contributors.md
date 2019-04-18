@@ -169,6 +169,9 @@ of the team or some part of the compiler (or multiple parts).
   promoted to compiler team contributor or to the level of member.
 - Compiler team members are consulted on FCP decisions (which, in the
   compiler team, are relatively rare).
+- Working groups must always include at least one compiler team member
+  as a lead (though groups may have other leads who are not yet full
+  members).
   
 <a name="how-decisions-are-made"> </a>
 [hdam]: #how-decisions-are-made
