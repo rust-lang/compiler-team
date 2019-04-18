@@ -312,3 +312,8 @@ describing their role in the project. This idea is presently filed as
 [rust-lang/compiler-team#64][].
 
 [rust-lang/compiler-team#64]: https://github.com/rust-lang/compiler-team/issues/64
+
+We may want to refine the notion of alumni. In particular, members may
+wish to drop back to contributor level without becoming full alumni,
+and this RFC doesn't account for that (but it also doesn't preclude
+it).
