@@ -300,8 +300,30 @@ the full set of members.
 # Prior art
 [prior-art]: #prior-art
 
-It would be good to include some survey of how other open source
-organizations manage themselves here.
+The compiler team has always drawn a distinction between r+
+privileges, which were granted relatively easily, and full team
+membership. However, the rules and expectations were not formally
+written out as they are here. Many other projects seem to operate in a
+similarly informal fashion (e.g., @goldfirere indicates that GHC tends
+to give privileges ["when someone starts contributing a
+lot"](https://github.com/rust-lang/compiler-team/pull/52#discussion_r274750230)).
+
+Here is a brief survey (by no means complete) of the process used in a few other
+open source communities:
+
+- Mozilla: [gaining commit access requires a small number of "module
+  owners or peers" to vouch for
+  you](https://www.mozilla.org/en-US/about/governance/policies/commit/access-policy/)
+  (the precise amount depends on the code). However, gaining the ability to
+  review code (known as becoming a "peer" for the module) is [done at the
+  discretion of the module owner](https://www.mozilla.org/en-US/about/governance/policies/module-ownership/).
+- Python: Becoming a core developer tyipically starts when a core
+  developer offers you the chain to gain commit privilege and spends
+  some time monitoring your commits to make sure you understand the
+  development process. If other core developers agree that you should
+  gain commit privileges, then you are extended an official offer
+  (paraphrased from [this section of the Python Developer's
+  guide](https://devguide.python.org/coredev/#how-to-become-a-core-developer)).
 
 # Unresolved questions
 [unresolved-questions]: #unresolved-questions
