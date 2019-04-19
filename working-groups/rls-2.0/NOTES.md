@@ -73,3 +73,21 @@ We've also formulated three short-term action items:
 * making parser work with iterator of tokens (currently it requires a slice), which should help with parsing token-trees without flattening them first
 * making existing IDE features work correctly in the presence of macros, specifically, making sure that goto definition uses correct span in the original file
 * extending the existent macro-expander prototype to handle more cases
+
+# 2019-04-18
+
+## Notes from "Name Resoluton" librarification
+
+[Zulip stream](https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0/topic/Name.20resolution.20librarification.202019-04-18)
+
+The meeting focused on scoping and goals discussion. The reasonable scope seems to be:
+
+A name resolution library, which gives correct results for correct programs and detects erroneous programs, but *without* good diagnostics.
+
+Cutting diagnostics for initial implementation should help quite a bit, because, in the current name resolution, diagnostics are the bulk of code.
+
+To check correctness of the library we will use `rustc`'s save-analysis infra: it should be much easier than integrating with rustc from the start.
+
+We've also touched a bit on how to make name resolution lazy. One idea was to split it into two separate phases: "item" phase (for items inside modules and bodies) and "expression" phase (for lexical scoping). Unfortunately this does not work: erasing expressions from item bodies can change the meaning of nested items in corner cases. For example, using `let` binding in `use` is an error ([Playground link](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=faf6ea2a0543aa5eac9b503ca0a8b757)). Another, more reasonable idea is to postpone name resolution of item bodies until it is needed in type-checking. Yet another approach is to take "shortcuts" and give potentially wrong results really fast by, for example, not expanding macros. This should be a last-resort approach only: experience with salsa so-far hints that fast, lazy, and correct is possible.
+
+The concrete action item here is to extract existing name resolution from rust-analyzer and implementing save-analysis based test harness. While extracting the library, we should carefully think through interface (possibly phrasing it in terms of IR a-la chalk), lest we produce code, tightly coupled to rust-analyzer.
