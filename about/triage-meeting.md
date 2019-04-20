@@ -10,36 +10,31 @@ The triage meeting takes place on [Zulip](chat-platform.md). Look for a topic li
 "#54818 weekly meeting YYYY-MM-DD" or "weekly meeting YYYY-MM-DD" (with the proper date, of course).
 
 ## Working group check-in
-This section contains the scheduled check-ins for working groups:
+Each week, two working groups check-in with the compiler team at the weekly triage meeting. To
+determine which groups need to check-in without maintaining a schedule that will need regularly
+updated or completely changed when new working groups are added, there exists a simple-ish formula
+to work out which groups should check-in:
 
-- **2019-03-21:** [wg-nll], [wg-traits]
-- **2019-03-28:** [wg-parallel-rustc], [wg-pgo]
-- **2019-04-04:** [wg-rls-2.0], [wg-meta]
-- **2019-04-11:** [wg-mir-opt], [wg-pipelining]
-- **2019-04-18:** [wg-llvm], [wg-async-await],
-- **2019-04-25:** [wg-rfc-2229], [wg-self-profile]
-- **2019-05-02:** [wg-meta], [wg-rls-2.0]
-- **2019-05-09:** [wg-nll]
+```
+index = (week * 2) % EVEN(num_working_groups)
+```
 
-Looking for a meeting that isn't listed above? Make a PR and extend the list to include that
-meeting.
+..where `week` is the week number (0-indexed) and `EVEN(..)` rounds to the next even number.
+`index` can then be used to look up `index` and `index + 1` in the table at the
+[root of this repository](https://github.com/rust-lang/compiler-team). An example of this,
+implemented in Rust, [can be found on the playground][playground].
 
-### Previous check-ins
-This section lists check-ins from triage meetings before the check-in schedule was introduced:
+[playground]: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=65523dd3337153c1c5ce798bbf78e37f
 
-- **2019-03-14:** [wg-async-await], [wg-llvm]
-- **2019-03-07:** [wg-self-profile], [wg-rfc-2229]
-- **2019-02-28:** [wg-rls-2.0], [wg-meta]
+Alternatively, paste the following Javascript into the console (opened with `F12` in Firefox and
+Chrome) while at the [root of this repository](https://github.com/rust-lang/compiler-team), this
+will print the names of the working groups that are due to check-in:
 
-[wg-rls-2.0]: ../working-groups/rls-2.0
-[wg-meta]: ../working-groups/meta
-[wg-self-profile]: ../working-groups/self-profile
-[wg-rfc-2229]: ../working-groups/rfc-2229
-[wg-async-await]: ../working-groups/async-await
-[wg-llvm]: ../working-groups/llvm
-[wg-nll]: ../working-groups/nll
-[wg-traits]: ../working-groups/traits
-[wg-parallel-rustc]: ../working-groups/parallel-rustc
-[wg-pgo]: ../working-groups/pgo
-[wg-mir-opt]: ../working-groups/mir-opt
-[wg-pipelining]: ../working-groups/pipelining
+```javascript
+var today = new Date();
+var year = new Date(today.getFullYear(), 0, 1);
+var week = Math.floor(((today - year) / 86400000) / 7);
+var wgs = Array.prototype.filter.call(document.querySelectorAll("article.markdown-body table td a"), el => el.pathname.includes("master/working-groups")).map(el => el.text);
+var count = wgs.length % 2 === 0 ? wgs.length : wgs.length + 1;
+[(week * 2) % count, (week * 2) % count + 1].map(i => wgs[i])
+```
