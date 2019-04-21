@@ -107,8 +107,8 @@ In summary, the process for establishing an out-of-tree crate is as follows:
    [`@rfcbot merge`](https://github.com/anp/rfcbot-rs#usage) to gain agreement from compiler
    team members.
 1. Create a new repository in the `rust-lang` organization.
-  1. Navigate to `Settings > Collaborators & Teams` and add the `Core` and `Compiler` teams with
-     admin privileges and `Assignees` with `read`.
+  1. Navigate to `Settings > Collaborators & Teams` and add the `Compiler` team with admin
+     privileges and `Assignees` with `read`.
   1. Add a README describing the intended purpose of the crate, which team and working group are
      responsible (link to their page in this repository) and the intended level of maintenance and
      stability.
@@ -124,7 +124,6 @@ In summary, the process for establishing an out-of-tree crate is as follows:
   1. Create `P-high`, `P-med`, `P-low`, `I-nominated` and `T-compiler` labels.
 1. Consult with the infrastructure team to set up `@bors` and `@rust-highfive` and a process for
    publishing under the "The Rust Project Developers" crates.io account.
-   1. Create a `triagebot.toml` that mirrors [rust-lang/rust's `triagebot.yaml`][triagebot].
    1. Add a basic `.travis.yml`:
 
    ```yaml
