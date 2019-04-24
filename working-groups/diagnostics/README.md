@@ -1,8 +1,8 @@
 # Diagnostics Working Group
 ![working group status: active][status]
 
-This working group aims to make rustc better at telling the user why the compiler isn't smart enough
-yet to understand their code.
+This working group aims to make rustc better at telling the user
+why the compiler isn’t smart enough to understand their code yet.
 
 - **Leads:** [@oli-obk][oli-obk] [@estebank][estebank]
 - **Meeting Notes:** [All](NOTES.md)
