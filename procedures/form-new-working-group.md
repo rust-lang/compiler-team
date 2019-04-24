@@ -103,9 +103,11 @@ The basic steps to setup a working group are as follows:
   listed and a link to their directory in this repository should also be included. See the
   traits working group [as an example][team_repo_example]. This will ensure that the working groups
   are listed on the website.
+- Add a check-in for your working group to the [compiler-team meeting check-in list](check_in)
 
 [team_repo]: https://github.com/rust-lang/team
 [team_repo_example]: https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml
 
+[check_in]: ../about/triage-meeting.md
 [README]: ../README.md
 [template]: ../working-groups/.template
