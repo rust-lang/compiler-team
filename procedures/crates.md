@@ -107,7 +107,7 @@ In summary, the process for establishing an out-of-tree crate is as follows:
    [`@rfcbot merge`](https://github.com/anp/rfcbot-rs#usage) to gain agreement from compiler
    team members.
 1. Create a new repository in the `rust-lang` organization.
-  1. Navigate to `Settings > Collaborators & Teams` and add the `Compiler` team with admin
+  1. Navigate to `Settings > Collaborators & Teams` and add the `Compiler` team with write
      privileges and `Assignees` with `read`.
   1. Add a README describing the intended purpose of the crate, which team and working group are
      responsible (link to their page in this repository) and the intended level of maintenance and
