@@ -40,7 +40,10 @@ who = ["nikomatsakis", "eddyb"]
 
 [[experts]]
 area = "miri"
-directories = []
+directories = [
+    "src/librustc/mir/interpret",
+    "src/librustc_mir/interpret",
+]
 who = ["oli-obk", "RalfJung", "eddyb"]
 
 [[experts]]
@@ -60,12 +63,17 @@ who = ["qmx", "centril", "eddyb"]
 
 [[experts]]
 area = "MIR structure/construction"
-directories = []
+directories = [
+    "src/librustc/mir",
+    "src/librustc_mir/build",
+]
 who = ["nikomatsakis", "eddyb", "oli-obk"]
 
 [[experts]]
 area = "MIR optimizations"
-directories = []
+directories = [
+    "src/librustc_mir/transform",
+]
 who = ["eddyb", "oli-obk", "nagisa"]
 
 [[experts]]
@@ -90,7 +98,9 @@ who = []
 
 [[experts]]
 area = "AST -> HIR lowering"
-directories = []
+directories = [
+    "src/librustc/hir/lowering.rs",
+]
 who = ["oli-obk"]
 
 [[experts]]
