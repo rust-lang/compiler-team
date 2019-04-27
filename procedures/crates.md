@@ -94,6 +94,13 @@ request.
 Recommendations for working with out-of-tree crates will be documented in the rustc-guide, see
 [rust-lang/rustc-guide#285][guide_issue] for progress.
 
+### How should stabilization/semantic changes be handled in out-of-tree crates?
+It is important to involve the language team in any changes in out-of-tree crates that would result
+in stabilization or semantic changes to the language. Submodule changes in PRs to `rust-lang/rust`
+should be labelled appropriately (eg. `relnotes`, `T-compiler`, `T-lang`) just as if the change
+were implemented in `rust-lang/rust` directly, include a description of the changes when it is not
+obvious to those unfamiliar with the compiler or the out-of-tree crate.
+
 [licenses]: https://github.com/rust-lang/rust/blob/master/src/tools/tidy/src/deps.rs#L10-L19
 [guide_issue]: https://github.com/rust-lang/rustc-guide/issues/285
 
@@ -107,30 +114,33 @@ In summary, the process for establishing an out-of-tree crate is as follows:
    [`@rfcbot merge`](https://github.com/anp/rfcbot-rs#usage) to gain agreement from compiler
    team members.
 1. Create a new repository in the `rust-lang` organization.
-  1. Navigate to `Settings > Collaborators & Teams` and add the `Compiler` team with write
-     privileges and `Assignees` with `read`.
-  1. Add a README describing the intended purpose of the crate, which team and working group are
-     responsible (link to their page in this repository) and the intended level of maintenance and
-     stability.
+    1. Navigate to `Settings > Collaborators & Teams` and add the `Compiler` team with write
+       privileges and `Assignees` with `read`.
+        - Individuals that are not part of the team can be added where appropriate.
+    1. Add a README describing the intended purpose of the crate, which team and working group are
+       responsible (link to their page in this repository) and the intended level of maintenance and
+       stability.
 
-     > This crate is developed and maintained by the [Rust compiler team](..) for use within
-     > `rustc`, in particular, it is the responsibility of the
-     > [`.template`](../working-groups/.template) working group. This crate [will have regular
-     > breaking changes and provides no stability guarantees|is intended to remain stable and have
-     > limited breaking changes].
-  1. Include the [LICENSE-APACHE][apache] and [LICENSE-MIT][mit] files from `rust-lang/rust`.
-  1. Include or link the [CODE_OF_CONDUCT][coc] file from `rust-lang/rust`.
-  1. Create a relevant `.gitignore` ([here's a sane default][gitignore]).
-  1. Create `P-high`, `P-med`, `P-low`, `I-nominated` and `T-compiler` labels.
-1. Consult with the infrastructure team to set up `@bors` and `@rust-highfive` and a process for
+       > This crate is developed and maintained by the [Rust compiler team](..) for use within
+       > `rustc`, in particular, it is the responsibility of the
+       > [`.template`](../working-groups/.template) working group. This crate [will have regular
+       > breaking changes and provides no stability guarantees|is intended to remain stable and have
+       > limited breaking changes].
+    1. Include the [LICENSE-APACHE][apache] and [LICENSE-MIT][mit] files from `rust-lang/rust`.
+    1. Include or link the [CODE_OF_CONDUCT][coc] file from `rust-lang/rust`.
+    1. Create a relevant `.gitignore` ([here's a sane default][gitignore]).
+    1. Create `P-high`, `P-med`, `P-low`, `I-nominated` and `T-compiler` labels.
+1. Consult with the infrastructure team to set up `@rust-highfive` and a process for
    publishing under the "The Rust Project Developers" crates.io account.
-   1. Add a basic `.travis.yml`:
+     1. Add a basic `.travis.yml`:
 
-   ```yaml
-   language: rust
-   rust:
-   - stable
-   ```
+     ```yaml
+     language: rust
+     rust:
+     - stable
+     ```
+     - `@bors` is not normally used for out-of-tree crates, GitHub's built-in merge facilities can
+       be used instead.
 1. Perform any initial development required before integration with rustc.
 1. Publish initial version, following semantic versioning.
 1. Add the crate as a dependency to the appropriate in-tree crate and start using.
