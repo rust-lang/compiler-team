@@ -61,6 +61,7 @@ Name                                                      | Status       | Short
 [Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
 [Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
+[Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -74,6 +75,7 @@ Name                                                      | Status       | Short
 [Zoxc]: https://github.com/Zoxc
 [blitzerr]: https://github.com/blitzerr
 [oli-obk]: https://github.com/oli-obk
+[estebank]: https://github.com/estebank
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
@@ -91,6 +93,7 @@ Name                                                      | Status       | Short
 [polonius_stream]: https://rust-lang.zulipchat.com/#narrow/stream/186049-t-compiler.2Fwg-polonius
 [learning_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
 [Polonius]: https://github.com/rust-lang/polonius
+[diagnostics-stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
 
 ## Expert Map
 
