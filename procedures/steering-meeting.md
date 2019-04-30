@@ -25,7 +25,7 @@ the overall health and functioning of the team.
 ## Announcing the schedule
 
 After each planning meeting, the topics for the next three weeks will
-be posted on the README.md of the main repository and also sent a
+be posted on the README.md of the main repository and also sent to a
 dedicated internals thread.
 
 ## Examples of good candidates for discussing at the steering meeting
@@ -56,10 +56,21 @@ time to talk out the plans in more detail.
 When deciding the topics for upcoming meetings, we must balance a number of things:
 
 - We don't want to spend time on design work unless there are known
-  people who will implement it and support it.
+  people who will implement it and support it; this includes not only
+  the "main coder" but also a suitable reviewer.
 - We don't want to take on "too many" tasks at once, even if there *are* people to
   implement them.
-- We also don't want to have active projects that will be "stepping on each others' toes", changing the same set of code in deep ways.  
+- We also don't want to have active projects that will be "stepping on
+  each others' toes", changing the same set of code in deep ways.
+
+## Meetings are not mandatory
+
+It is perfectly acceptable to choose *not* to schedule a particular
+slot. This could happen if (e.g.) there are no proposals available or
+if nothing seems important enough to discuss at this moment.  Note
+that, to keep the "time expectations" under control, we should
+generally stick to the same 4-week cycle and simply opt to skip
+meetings, rather than (e.g.) planning things at the last minute.
 
 ## Adding a proposal
 
@@ -95,3 +106,11 @@ detailed proposals as the work proceeds.
 **The requirements for non-technical proposals are somewhat looser.**  A
 few sentences or paragraphs may well suffice, if it is sufficient to
 understand the aims of the discussion.
+
+## Frequently asked questions
+
+**What happens if there are not enough proposals?** As noted above,
+meetings are not mandatory. If there aren't enough proposals in some
+particular iteration, then we can just opt to not discuss anything.
+
+
