@@ -47,8 +47,7 @@ are scheduled at a planning meeting that occurs every four weeks.
 [steering]: about/steering-meeting.md
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
-[propose]: https://github.com/rust-lang/compiler-team/issues/new
-
+[propose]: https://github.com/rust-lang/compiler-team/issues/new/choose
 ## Working Groups
 
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
