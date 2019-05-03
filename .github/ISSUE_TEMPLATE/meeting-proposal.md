@@ -16,6 +16,9 @@ parentheiszed text below as appropriate. We'll discuss your proposal
 in the next planning meeting! (And please do feel free to attend!)
 Thanks <3.
 
+Oh, and delete this section before you open the issue, if you don't
+mind. :)
+
 # Meeting proposal info
 
 - **Title:** (insert title here)
