@@ -38,15 +38,16 @@ We also have a [regular steering meeting][steering] where we discuss
 proposed designs, changes to our process, and other topics. The topics
 are scheduled at a planning meeting that occurs every four weeks.
 
-- Next planning meeting: (not yet decided)
-- Have an idea? Click here to propose a topic to be scheduled by [filing an issue with the correct template][propose].
-- (Nothing scheduled at this time) 
+- **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue] with the correct template.
+- **Next planning meeting:** (not yet decided)
+- **Scheduled meetings:**
+  - (Nothing scheduled at this time) 
 
 [triage]: about/triage-meeting.md
 [steering]: about/steering-meeting.md
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
-[propose]: https://github.com/rust-lang/compiler-team/issues/new?template=meeting-proposal
+[propose]: https://github.com/rust-lang/compiler-team/issues/new
 
 ## Working Groups
 
