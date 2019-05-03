@@ -38,7 +38,7 @@ We also have a [regular steering meeting][steering] where we discuss
 proposed designs, changes to our process, and other topics. The topics
 are scheduled at a planning meeting that occurs every four weeks.
 
-- **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue] with the correct template.
+- **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue][propose] with the correct template.
 - **Next planning meeting:** (not yet decided)
 - **Scheduled meetings:**
   - (Nothing scheduled at this time) 
