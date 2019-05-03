@@ -1,8 +1,10 @@
 ---
 name: Steering meeting proposal
-about: Propose a topic for the steering meeting. 
-title: (My meeting proposal)
+about: Propose a topic for the steering meeting.
+title: "(My meeting proposal)"
 labels: meeting-proposal
+assignees: ''
+
 ---
 
 # Directions
