@@ -16,16 +16,6 @@ and other similar topics -- check out the [rustc-guide].
 
 ## Meeting Calendar
 
-Unless otherwise noted, all our meetings are open to the public and
-held on Zulip. There are two main team-wide meetings that we hold on a
-regular basis. There are also a variety of working group meetings. The
-team-wide meetings are as follows:
-
-- [**Triage meeting:**][triage] We have a weekly triage meeting to discuss and track regressions and
-  urgent changes. This meeting is held on Zulip and open to anyone.
-- [**Steering meeting:**][steering] We have a steering meeting every three weeks to track and
-  plan our larger goals. This meeting is held on Zulip and open to anyone.
-
 Our meeting calendar is publicly available from the following links:
 
   - [Web Link][embed]
@@ -33,12 +23,33 @@ Our meeting calendar is publicly available from the following links:
   - [ICS file, for use outside from google calendar][ics]
     -- use this if you want to import into different calendar software
 
+Unless otherwise noted, all our meetings are open to the public and
+held on Zulip. There are two main team-wide meetings that we hold on a
+regular basis. There are also a variety of working group meetings.
+
+### Triage meeting
+
+We have a [weekly triage meeting][triage] to discuss and track regressions and
+urgent changes. This meeting is held on Zulip and open to anyone.
+
+### Steering meeting
+
+We also have a [regular steering meeting][steering] where we discuss
+proposed designs, changes to our process, and other topics. The topics
+are scheduled at a planning meeting that occurs every four weeks.
+
+- Next planning meeting: (not yet decided)
+- Have an idea? Click here to propose a topic to be scheduled by [filing an issue with the correct template][propose].
+- (Nothing scheduled at this time) 
+
 [triage]: about/triage-meeting.md
 [steering]: about/steering-meeting.md
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
+[propose]: https://github.com/rust-lang/compiler-team/issues/new?template=meeting-proposal
 
 ## Working Groups
+
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
 Working groups are a great way for new contributors to get involved as they provide a stream of
 tasks all focused around one area and have designated channels for help and advice. All of the
