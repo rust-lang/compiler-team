@@ -77,7 +77,7 @@ meetings, rather than (e.g.) planning things at the last minute.
 Proposals can be added by opening an issue on the [compiler-team
 repository][ct]. There is an issue template for meeting proposals that
 gives directions. The basic idea is that you prepare your proposal in
-a gist/hackmd/document based on [this template][template] and then
+a hackmd/gist/hackmd/document based on [this template][template] and then
 link to that in the issue, along with a few other details. **This
 format is meant to be lightweight:** Proposals are generally not
 expected to be a lot of work to produce. Accepted proposals will be

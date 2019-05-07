@@ -10,9 +10,9 @@ assignees: ''
 # Directions
 
 If you'd like to propose a topic for a future meeting, you've come to
-the right place! To do so, please write-up your proposal in a hackmd,
-gist, pastebin, etc following [this template]. Then open this issue and
-replace the parenthesized text below as appropriate. We'll discuss
+the right place! To do so, please write-up your proposal in a
+[hackmd], [gist], etc following [this template]. Then open this issue
+and replace the parenthesized text below as appropriate. We'll discuss
 your proposal in the next planning meeting! (And please do feel free
 to attend!)  Thanks <3.
 
@@ -48,3 +48,5 @@ on [Zulip] (or elsewhere).
 [steering meeting]: https://github.com/rust-lang/compiler-team/blob/master/about/steering-meeting.md
 [proc]: https://github.com/rust-lang/compiler-team/blob/master/procedures/steering-meeting.md
 [this template]: https://github.com/rust-lang/compiler-team/blob/master/proposals/_template.md
+[hackmd]: https://hackmd.io/
+[gist]: https://gist.github.com/
