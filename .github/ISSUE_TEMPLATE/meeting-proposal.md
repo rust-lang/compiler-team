@@ -11,7 +11,7 @@ assignees: ''
 
 If you'd like to propose a topic for a future meeting, you've come to
 the right place! To do so, please write-up your proposal in a hackmd,
-gist, patsebin etc following [this template]. Then open this issue and
+gist, pastebin, etc following [this template]. Then open this issue and
 replace the parenthesized text below as appropriate. We'll discuss
 your proposal in the next planning meeting! (And please do feel free
 to attend!)  Thanks <3.
