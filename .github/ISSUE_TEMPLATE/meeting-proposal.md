@@ -10,11 +10,11 @@ assignees: ''
 # Directions
 
 If you'd like to propose a topic for a future meeting, you've come to
-the right place! To do so, please write-up your proposal in a gist,
-hackmd, or other such format. Then open this issue and replace the
-parentheiszed text below as appropriate. We'll discuss your proposal
-in the next planning meeting! (And please do feel free to attend!)
-Thanks <3.
+the right place! To do so, please write-up your proposal in a hackmd,
+gist, patsebin etc following [this template]. Then open this issue and
+replace the parenthesized text below as appropriate. We'll discuss
+your proposal in the next planning meeting! (And please do feel free
+to attend!)  Thanks <3.
 
 Oh, and delete this section before you open the issue, if you don't
 mind. :)
@@ -47,3 +47,4 @@ on [Zulip] (or elsewhere).
 [Zulip]: https://github.com/rust-lang/compiler-team/blob/master/about/chat-platform.md
 [steering meeting]: https://github.com/rust-lang/compiler-team/blob/master/about/steering-meeting.md
 [proc]: https://github.com/rust-lang/compiler-team/blob/master/procedures/steering-meeting.md
+[this template]: https://github.com/rust-lang/compiler-team/blob/master/proposals/_template.md
