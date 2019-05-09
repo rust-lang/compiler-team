@@ -82,8 +82,9 @@ The basic steps to setup a working group are as follows:
   can be added to for easy notifications.
 - **A team in the github org:** Some groups create a team in the github org.
   You can then add working group participants into this GH team and give the team
-  permissions on the rust repository or other repositories. Read permissions
-  suffice to allow us to assign issues to people in the team, which is very useful.
+  permissions on the rust repository or other repositories. Note that only `rust-lang`
+  organization members can be added to the group and being part of a working group is
+  not enough reason to add ppl to the organization right now.
 - **Updating this repository:** This repository serves as the central home
   for working groups, so it needs to be updated. Make the following changes and
   then open a PR against the repository (make sure to leave a note in `#t-compiler`,
