@@ -7,6 +7,8 @@ why the compiler isn’t smart enough to understand their code yet.
 - **Leads:** [@oli-obk][oli-obk] [@estebank][estebank]
 - **Meeting Notes:** [All](NOTES.md)
 
+[oli-okb]: https://github.com/oli-obk
+[estebank]: https://github.com/estebank
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
 ## What is the goal of this working group?
