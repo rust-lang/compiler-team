@@ -39,9 +39,10 @@ proposed designs, changes to our process, and other topics. The topics
 are scheduled at a planning meeting that occurs every four weeks.
 
 - **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue][propose] with the correct template.
-- **Next planning meeting:** (not yet decided)
+- **Next planning meeting:** June 7
 - **Scheduled meetings:**
-  - (Nothing scheduled at this time) 
+  - May 17: [Shipping parallel rustc](https://github.com/rust-lang/compiler-team/issues/82)
+  - May 31: [Maintenance and triage](https://github.com/rust-lang/compiler-team/issues/90)
 
 [triage]: about/triage-meeting.md
 [steering]: about/steering-meeting.md
