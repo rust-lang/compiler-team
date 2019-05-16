@@ -58,7 +58,7 @@ who = ["petrochenkov", "estebank"]
 
 [[experts]]
 area = "Grammar"
-directories = []
+directories = ["src/grammar"]
 who = ["qmx", "centril", "eddyb"]
 
 [[experts]]
