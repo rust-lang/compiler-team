@@ -52,7 +52,7 @@ It has [E-mentor] issues and a [guide].
 
 
 [E-mentor]: https://github.com/rust-analyzer/rust-analyzer/issues?q=is%3Aissue+is%3Aopen+label%3AE-mentor
-[guide]: https://github.com/rust-analyzer/rust-analyzer/blob/master/guide.md
+[guide]: https://github.com/rust-analyzer/rust-analyzer/blob/master/docs/dev/guide.md
 
 
 ## Getting up to speed
