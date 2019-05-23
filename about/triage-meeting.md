@@ -20,6 +20,8 @@ This section contains the scheduled check-ins for working groups:
 - **2019-04-25:** [wg-rfc-2229], [wg-self-profile]
 - **2019-05-02:** [wg-meta], [wg-rls-2.0]
 - **2019-05-09:** [wg-nll], [wg-diagnostics]
+- **2019-05-16:** (no checkin; [wg-pgo] was JIT-scheduled and then we ran out of time)
+- **2019-05-23:** [wg-pgo], [wg-traits]
 
 Looking for a meeting that isn't listed above? Make a PR and extend the list to include that
 meeting.
