@@ -6,6 +6,7 @@ why the compiler isn’t smart enough to understand their code yet.
 
 - **Leads:** [@oli-obk][oli-obk] [@estebank][estebank]
 - **Meeting Notes:** [All](NOTES.md)
+- **Meeting Driver Plan:** [On Hackmd](https://hackmd.io/T9yQwLQ0SIOguR1auo3SHQ)
 
 [oli-obk]: https://github.com/oli-obk
 [estebank]: https://github.com/estebank
