@@ -42,7 +42,7 @@ are scheduled at a planning meeting that occurs every four weeks.
 - **Next planning meeting:** June 7
 - **Scheduled meetings:**
   - May 17: [Shipping parallel rustc](https://github.com/rust-lang/compiler-team/issues/82)
-  - May 31: [Maintenance and triage](https://github.com/rust-lang/compiler-team/issues/90)
+  - ~~May 31: [Maintenance and triage](https://github.com/rust-lang/compiler-team/issues/90)~~ -- postponed
 
 [triage]: about/triage-meeting.md
 [steering]: about/steering-meeting.md
