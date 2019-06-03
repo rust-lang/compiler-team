@@ -4,13 +4,11 @@
 This working group aims to make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete".
 
 - **Leads:** [@nikomatsakis][nikomatsakis] and [@spastorino][spastorino]
-- **[Ideas][ideas]**
-- **Meeting Notes:** [All](NOTES.md)
+- **Meeting Notes:** [All](./minutes)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [nikomatsakis]: https://github.com/nikomatsakis
 [spastorino]: https://github.com/spastorino
-[ideas]: https://paper.dropbox.com/doc/Learning-Working-Group-Ideas--Ab18Mvvg7fYl8b~WL_klryqnAg-2R49k1GWZFojHIQ5x1fuB
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
