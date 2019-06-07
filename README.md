@@ -42,7 +42,7 @@ are scheduled at a planning meeting that occurs every four weeks.
 - **Next planning meeting:** June 7
 - **Scheduled meetings:**
   - June 14: [Discuss the gcx, tcx transition](https://calendar.google.com/event?action=TEMPLATE&tmeid=MnA4ZGk5cTVlODBpbm9jNGk3MTk1ZmZucGcgNnU1cnJ0Y2U2bHJ0djA3cGZpM2RhbWdqdXNAZw&tmsrc=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com), [compiler-team#104](https://github.com/rust-lang/compiler-team/issues/104)
-  - June 28: [Maintenance and triage](https://calendar.google.com/event?action=TEMPLATE&tmeid=MnJhcnEzb3N2MWhzOTB0aDYxNWxoMDk1aTggNnU1cnJ0Y2U2bHJ0djA3cGZpM2RhbWdqdXNAZw&tmsrc=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com), [compiler-team#90](https://github.com/rust-lang/compiler-team/issues/90]
+  - June 28: [Maintenance and triage](https://calendar.google.com/event?action=TEMPLATE&tmeid=MnJhcnEzb3N2MWhzOTB0aDYxNWxoMDk1aTggNnU1cnJ0Y2U2bHJ0djA3cGZpM2RhbWdqdXNAZw&tmsrc=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com), [compiler-team#90](https://github.com/rust-lang/compiler-team/issues/90)
 
 [triage]: about/triage-meeting.md
 [steering]: about/steering-meeting.md
