@@ -22,6 +22,7 @@ This section contains the scheduled check-ins for working groups:
 - **2019-05-09:** [wg-nll], [wg-diagnostics]
 - **2019-05-16:** (no checkin; [wg-pgo] was JIT-scheduled and then we ran out of time)
 - **2019-05-23:** [wg-pgo], [wg-traits]
+- **2019-05-30:** (no triage meeting)
 - **2019-06-06:** [wg-mir-opt]. ([wg-parallel-rustc] was pinged but had nothing interesting to report)
 
 Looking for a meeting that isn't listed above? Make a PR and extend the list to include that
