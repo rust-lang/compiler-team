@@ -75,7 +75,7 @@ meetings, rather than (e.g.) planning things at the last minute.
 ## Adding a proposal
 
 Proposals can be added by opening an issue on the [compiler-team
-repository][ct]. There is an issue template for meeting proposals that
+repository][ct issues]. There is an issue template for meeting proposals that
 gives directions. The basic idea is that you prepare your proposal in
 a hackmd/gist/hackmd/document based on [this template][template] and then
 link to that in the issue, along with a few other details. **This
@@ -85,6 +85,7 @@ added to the [proposals] directory (and linked to from the actual
 minutes).
 
 [ct]: https://github.com/rust-lang/compiler-team
+[ct issues]: https://github.com/rust-lang/compiler-team/issues
 [proposals]: /proposals/
 [template]: /proposals/_template.md
 
