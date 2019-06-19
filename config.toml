@@ -1,6 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Rust Lang - Compiler Team"
+theme = "book"
 
 [params]
 BookMenuBundle = '/menu'
