@@ -1,6 +1,7 @@
-baseURL = "https://unbalancedparentheses.github.io/compiler-team/"
+baseURL = ""
 languageCode = "en-us"
 title = "Rust Lang - Compiler Team"
 
 [params]
 BookMenuBundle = '/menu'
+enableGitInfo = true

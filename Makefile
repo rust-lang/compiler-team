@@ -3,11 +3,10 @@ PHONY: default deps dev
 default: dev
 
 deps:
-	git submodule init
-	git submodule update
+	git submodule update --init
 
 dev:
 	hugo server --minify --theme book
 
 compile:
-	 hugo -d docs --minify --theme book
+	 hugo -d dist --minify --theme book
