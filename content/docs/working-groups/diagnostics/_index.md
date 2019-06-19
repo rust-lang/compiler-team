@@ -7,6 +7,8 @@ why the compiler isn’t smart enough to understand their code yet.
 - **Leads:** [@oli-obk][oli-obk] [@estebank][estebank]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/diagnostics/NOTES" >}})
 - **Meeting Driver Plan:** [On Hackmd](https://hackmd.io/T9yQwLQ0SIOguR1auo3SHQ)
+- **FAQ:** [All]({{< relref "/docs/working-groups/diagnostics/FAQ" >}})
+
 
 [oli-obk]: https://github.com/oli-obk
 [estebank]: https://github.com/estebank
@@ -45,7 +47,3 @@ Not yet.
 ## Do I need to attend any meetings?
 We don't have any meetings yet.
 
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/diagnostics/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/diagnostics/FAQ" >}})

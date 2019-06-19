@@ -19,6 +19,7 @@ crate to define the full borrow check analysis.
 - **Leads:** [@nikomatsakis][nikomatsakis]
 - **Meeting Notes:** [All](minutes/)
 - **Screencasts**: [YouTube Playlist](https://www.youtube.com/playlist?list=PL85XCvVPmGQitE2CBzf-gERSqeXo59NQG)
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/polonius/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -58,8 +59,3 @@ good opportunity to ask any questions and find new issues to work on.
 
 [nikomatsakis]: https://github.com/nikomatsakis
 
-
-# Minutes and FAQs
-
-- [Minutes]({{< relref "/docs/working-groups/polonius/minutes" >}})
-- [FAQ]({{< relref "/docs/working-groups/polonius/FAQ" >}})

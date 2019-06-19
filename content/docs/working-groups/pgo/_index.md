@@ -6,6 +6,7 @@ Rust compiler.
 
 - **Leads:** [@michaelwoerister][michaelwoerister]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/pgo/NOTES" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/pgo/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -41,8 +42,3 @@ No.
 
 [michaelwoerister]: https://github.com/michaelwoerister
 
-
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/pgo/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/pgo/FAQ" >}})

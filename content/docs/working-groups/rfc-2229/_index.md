@@ -3,7 +3,8 @@
 
 - **Leads:** [@blitzerr][Blitzerr], [@nikomatsakis][Niko]
 - **Meeting Notes:** [Meeting Notes]({{< relref "/docs/working-groups/rfc-2229/minutes" >}})
-- **FAQs:** [FAQ]({{< relref "/docs/working-groups/rfc-2229/FAQ" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/rfc-2229/FAQ" >}})
+
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
@@ -51,8 +52,3 @@ The project roadmap can be found [here][roadmap].
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [roadmap]: https://paper.dropbox.com/doc/RFC-2229-Roadmap--AYuUod8hbXrktRttb95fprjHAg-cJKrePDCZR54T5kVbuoQk
 [playlist]: https://www.youtube.com/playlist?list=PL85XCvVPmGQh__bxYIxaVifbIOajnrNcQ&disable_polymer=true
-
-# Minutes and FAQ
-
-- [Minutes]({{< relref "/docs/working-groups/rfc-2229/minutes" >}})
-- [FAQ]({{< relref "/docs/working-groups/rfc-2229/FAQ" >}})

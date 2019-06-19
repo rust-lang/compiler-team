@@ -9,6 +9,8 @@ that matter to Rust:
 
 - **Leads:** Preliminarily [@nagisa][nagisa]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/llvm/NOTES" >}})
+- **FAQ:**[All]({{< relref "/docs/working-groups/llvm/FAQ" >}})
+ 
 
 [nagisa]: https://github.com/nagisa
 
@@ -66,7 +68,3 @@ something to do with how LLVM works. For the time being this is the best place t
 [rustc guide]: https://rust-lang.github.io/rustc-guide/
 
 
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/llvm/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/llvm/FAQ" >}})

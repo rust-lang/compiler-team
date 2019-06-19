@@ -12,6 +12,7 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 
 - **Leads:** [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/nll/NOTES" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/nll/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-winding%20down-orange.svg?style=for-the-badge
 
@@ -106,10 +107,3 @@ Other NLL labels also exist:
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [pnkfelix]: https://github.com/pnkfelix
-
-
-
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/nll/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/nll/FAQ" >}})

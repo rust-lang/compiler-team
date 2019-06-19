@@ -6,6 +6,7 @@ async I/O, as well as supporting technologies.
 
 - **Leads:** [@cramertj][cramertj] and [@nikomatsakis][nikomatsakis].
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/async-await/NOTES" >}})
+- **FAQ:** [All] ({{< relref "/docs/working-groups/async-await/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -33,8 +34,3 @@ are available tasks.
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
 
-
-# Notes and FAQ 
-
-- [Notes]({{< relref "/docs/working-groups/async-await/NOTES" >}})
-- [FAQ] ({{< relref "/docs/working-groups/async-await/FAQ" >}})

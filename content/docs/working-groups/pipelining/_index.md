@@ -2,7 +2,9 @@
 ![working group status: active][status]
 
 - **Leads:** [@alexcrichton][alexcrichton], [@nnethercote][nnethercote]
-- **Meeting Notes:** [All](NOTES.md)
+- **Meeting Notes:** [All]({{< relref "/docs/working-groups/pipelining/NOTES" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/pipelining/FAQ" >}})
+
 
 [nnethercote]: https://github.com/nnethercote
 [alexcrichton]: https://github.com/alexcrichton
@@ -43,8 +45,3 @@ some background and context:
 - [Tracking issue on rustc side of things](https://github.com/rust-lang/rust/issues/58465)
 - [Old cargo tracking issue](https://github.com/rust-lang/cargo/issues/4831)
 
-
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/pipelining/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/pipelining/FAQ" >}})

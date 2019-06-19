@@ -5,6 +5,7 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 
 - **Leads:** [@nikomatsakis][nikomatsakis] and [@spastorino][spastorino]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/learning/minutes" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/learning/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [nikomatsakis]: https://github.com/nikomatsakis
@@ -33,8 +34,3 @@ work towards the goals defined on that plan.
 [rustc-guide-repo]: https://github.com/rust-lang/rustc-guide
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
 
-
-# Minutes and FAQ
-
-- [Minutes]({{< relref "/docs/working-groups/learning/minutes" >}})
-- [FAQ]({{< relref "/docs/working-groups/learning/FAQ" >}})

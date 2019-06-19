@@ -6,6 +6,10 @@ This working group is dedicated to fleshing out the details of how the compiler 
 - **Leads:** [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino]
 - **[Planning document][planning]**
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/meta/NOTES" >}})
+- **FAQ:** [All]({{< relref "/docs/working-groups/meta/FAQ" >}})
+- **RFC - drafts:** [RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})
+
+
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -104,9 +108,3 @@ group for the working group if you are interested in being pinged when there are
 [davidtwco]: https://github.com/davidtwco
 [spastorino]: https://github.com/spastorino
 
-
-# Notes, FAQs and RFC drafts
-
-- [Notes]({{< relref "/docs/working-groups/meta/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/meta/FAQ" >}})
-- [RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})

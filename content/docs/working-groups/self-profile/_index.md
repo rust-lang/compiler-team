@@ -5,6 +5,7 @@ This working group aims to improve the `-Z self-profile` `rustc` option which ca
 
 - **Leads:** [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/self-profile/NOTES" >}})
+- **FAQ:** [FAQ]({{< relref "/docs/working-groups/self-profile/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -37,8 +38,3 @@ However, anyone is welcome to attend any WG meetings.
 [michaelwoerister]: https://github.com/michaelwoerister
 [wesleywiser]: https://github.com/wesleywiser
 
-
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/self-profile/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/self-profile/FAQ" >}})
