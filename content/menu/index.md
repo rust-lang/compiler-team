@@ -8,24 +8,23 @@ headless: true
   - [Triage Meeting] ({{< relref "/docs/about/triage-meeting" >}})
 - **Minutes**
 
-  - Steering Meeting
+  - **Steering Meetings**
+      - [2018-10-26] ({{< relref "/docs/minutes/steering-meeting/2018-10-26" >}})
+      - [2018-11-16] ({{< relref "/docs/minutes/steering-meeting/2018-11-16" >}})
+      - [2018-12-14] ({{< relref "/docs/minutes/steering-meeting/2018-12-14" >}})
+      - [2019-01-04] ({{< relref "/docs/minutes/steering-meeting/2019-01-04" >}})
+      - [2019-01-17] ({{< relref "/docs/minutes/steering-meeting/2019-01-17" >}})
+      - [2019-03-01] ({{< relref "/docs/minutes/steering-meeting/2019-03-01" >}})
+      - [2019-03-22] ({{< relref "/docs/minutes/steering-meeting/2019-03-22" >}})
+      - [2019-04-12] ({{< relref "/docs/minutes/steering-meeting/2019-04-12" >}})
 
-    - [2018-10-26] ({{< relref "/docs/minutes/steering-meeting/2018-10-26" >}})
-    - [2018-11-16] ({{< relref "/docs/minutes/steering-meeting/2018-11-16" >}})
-    - [2018-12-14] ({{< relref "/docs/minutes/steering-meeting/2018-12-14" >}})
-    - [2019-01-04] ({{< relref "/docs/minutes/steering-meeting/2019-01-04" >}})
-    - [2019-01-17] ({{< relref "/docs/minutes/steering-meeting/2019-01-17" >}})
-    - [2019-03-01] ({{< relref "/docs/minutes/steering-meeting/2019-03-01" >}})
-    - [2019-03-22] ({{< relref "/docs/minutes/steering-meeting/2019-03-22" >}})
-    - [2019-04-12] ({{< relref "/docs/minutes/steering-meeting/2019-04-12" >}})
-
-  - Triage Meeting
-    - [2019-04-11] ({{< relref "/docs/minutes/triage-meeting/2019-04-11" >}})
-    - [2019-04-18] ({{< relref "/docs/minutes/triage-meeting/2019-04-18" >}})
-    - [2019-04-25] ({{< relref "/docs/minutes/triage-meeting/2019-04-25" >}})
-    - [2019-05-02] ({{< relref "/docs/minutes/triage-meeting/2019-05-02" >}})
-    - [2019-05-09] ({{< relref "/docs/minutes/triage-meeting/2019-05-09" >}})
-    - [2019-05-23] ({{< relref "/docs/minutes/triage-meeting/2019-05-23" >}})
+  - **Triage Meetings**
+      - [2019-04-11] ({{< relref "/docs/minutes/triage-meeting/2019-04-11" >}})
+      - [2019-04-18] ({{< relref "/docs/minutes/triage-meeting/2019-04-18" >}})
+      - [2019-04-25] ({{< relref "/docs/minutes/triage-meeting/2019-04-25" >}})
+      - [2019-05-02] ({{< relref "/docs/minutes/triage-meeting/2019-05-02" >}})
+      - [2019-05-09] ({{< relref "/docs/minutes/triage-meeting/2019-05-09" >}})
+      - [2019-05-23] ({{< relref "/docs/minutes/triage-meeting/2019-05-23" >}})
 
 - [**Experts**]({{< relref "/docs/experts" >}})
 
