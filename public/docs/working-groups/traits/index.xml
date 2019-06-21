@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust Lang - Compiler Team</title>
+    <link>/docs/working-groups/traits/</link>
+    <description>Recent content on Rust Lang - Compiler Team</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/docs/working-groups/traits/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/working-groups/traits/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/working-groups/traits/faq/</guid>
+      <description>Frequently asked questions XXX</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/working-groups/traits/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/working-groups/traits/notes/</guid>
+      <description>2019.02.19 TL;DR  We are still in the &amp;ldquo;getting organized&amp;rdquo; phase. Some high priority problems related to universes took most of our attention of late. We are discussing focusing first on evaluating whether we can achieve things in current solver before attempting chalk integration. Figuring out how to manage multiple streams of &amp;ldquo;inquiry and work&amp;rdquo; feels like a challenging problem.  Updates (Written by nikomatsakis)
+Universe matching video. We recorded a video on how universe matching works.</description>
+    </item>
+    
+  </channel>
+</rss>

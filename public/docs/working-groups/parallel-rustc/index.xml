@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust Lang - Compiler Team</title>
+    <link>/docs/working-groups/parallel-rustc/</link>
+    <description>Recent content on Rust Lang - Compiler Team</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/docs/working-groups/parallel-rustc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/docs/working-groups/parallel-rustc/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/working-groups/parallel-rustc/faq/</guid>
+      <description>Frequently Asked Questions (FAQ) Looks like no questions have been asked yet! If you have a question, feel free to file an issue or ask in the working group&amp;rsquo;s Zulip stream.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/working-groups/parallel-rustc/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/working-groups/parallel-rustc/notes/</guid>
+      <description>This working group hasn&amp;rsquo;t had any meetings yet.
+ parallel-rustc Meeting Notes This document contains meeting notes from the parallel-rustc working group.</description>
+    </item>
+    
+  </channel>
+</rss>

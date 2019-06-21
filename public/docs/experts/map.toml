@@ -1,0 +1,149 @@
+[[experts]]
+area = "RLS"
+directories = []
+who = ["matklad", "xanewok"]
+
+[[experts]]
+area = "query system"
+directories = []
+who = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+
+[[experts]]
+area = "metadata encoding/decoding"
+directories = []
+who = ["mw", "oli-obk"]
+
+[[experts]]
+area = "incremental compilation"
+directories = []
+who = ["mw", "nikomatsakis"]
+
+[[experts]]
+area = "codegen unit partitioning"
+directories = []
+who = ["mw"]
+
+[[experts]]
+area = "ThinLTO"
+directories = []
+who = ["acrichto", "mw"]
+
+[[experts]]
+area = "linker-plugin LTO (xLTO)"
+directories = []
+who = ["mw"]
+
+[[experts]]
+area = "Typeck"
+directories = ["src/librustc_typeck"]
+who = ["nikomatsakis", "eddyb"]
+
+[[experts]]
+area = "miri"
+directories = [
+    "src/librustc/mir/interpret",
+    "src/librustc_mir/interpret",
+]
+who = ["oli-obk", "RalfJung", "eddyb"]
+
+[[experts]]
+area = "Diagnostics"
+directories = []
+who = ["estebank", "oli-obk", "zackmdavis"]
+
+[[experts]]
+area = "Parser"
+directories = []
+who = ["petrochenkov", "estebank"]
+
+[[experts]]
+area = "Grammar"
+directories = []
+who = ["qmx", "centril", "eddyb"]
+
+[[experts]]
+area = "MIR structure/construction"
+directories = [
+    "src/librustc/mir",
+    "src/librustc_mir/build",
+]
+who = ["nikomatsakis", "eddyb", "oli-obk"]
+
+[[experts]]
+area = "MIR optimizations"
+directories = [
+    "src/librustc_mir/transform",
+]
+who = ["eddyb", "oli-obk", "nagisa"]
+
+[[experts]]
+area = "match/exhaustiveness"
+directories = ["src/librustc_mir/hair/pattern"]
+who = ["arielb1", "varkor", "oli-obk"]
+
+[[experts]]
+area = "Traits"
+directories = ["src/librustc/traits", "src/librustc_traits"]
+who = ["nikomatsakis", "arielb1", "scalexm"]
+
+[[experts]]
+area = "Polonius"
+directories = []
+who = ["nikomatsakis"]
+
+[[experts]]
+area = "Libs"
+directories = []
+who = []
+
+[[experts]]
+area = "AST -> HIR lowering"
+directories = [
+    "src/librustc/hir/lowering.rs",
+]
+who = ["oli-obk"]
+
+[[experts]]
+area = "debuginfo"
+directories = []
+who = ["mw", "eddyb"]
+
+[[experts]]
+area = "drop-check"
+directories = []
+who = ["pnkfelix", "arielb1"]
+
+[[experts]]
+area = "dataflow"
+directories = []
+who = ["pnkfelix", "nikomatsakis"]
+
+[[experts]]
+area = "AST-borrow checker"
+directories = []
+who = ["nikomatsakis"]
+
+[[experts]]
+area = "MIR borrow check"
+directories = []
+who = ["arielb1", "pnkfelix", "matthewjasper"]
+
+[[experts]]
+area = "drop elaboration"
+directories = []
+who = ["arielb1"]
+
+[[experts]]
+area = "Privacy"
+directories = []
+who = ["petrochenkov"]
+
+[[experts]]
+area = "Name resolution, hygiene"
+directories = []
+who = ["petrochenkov"]
+
+[[experts]]
+area = "Macro expansion"
+directories = []
+who = ["petrochenkov"]
