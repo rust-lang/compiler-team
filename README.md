@@ -29,5 +29,3 @@ Run the web locally:
 ```
   hugo server --minify --theme book
 ```
-
-  

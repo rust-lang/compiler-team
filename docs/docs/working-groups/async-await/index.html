@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    
+    Async Await
+  
+ | Rust Lang - Compiler Team</title>
+
+
+
+<link rel="stylesheet" href="/book.min.b7d5ee4f671b06dde5fd61ab409a54048ba7759e99fed39ac32a7be45d4d92cd.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/docs/working-groups/async-await/index.xml" title="Rust Lang - Compiler Team" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="//localhost:1313/">Rust Lang - Compiler Team</a>
+</h2>
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2fworking-groups\2f async-await\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><strong>About</strong>
+
+<ul>
+<li><a href="/docs/about/chat-platform/">Chat Platform</a></li>
+<li><a href="/docs/about/steering-meeting/">Steering Meeting</a></li>
+<li><a href="/docs/about/triage-meeting/">Triage Meeting</a></li>
+</ul></li>
+
+<li><p><strong>Minutes</strong></p>
+
+<ul>
+<li><p><strong>Steering Meetings</strong></p>
+
+<ul>
+<li><a href="/docs/minutes/steering-meeting/2018-10-26/">2018-10-26</a></li>
+<li><a href="/docs/minutes/steering-meeting/2018-11-16/">2018-11-16</a></li>
+<li><a href="/docs/minutes/steering-meeting/2018-12-14/">2018-12-14</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-01-04/">2019-01-04</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-01-17/">2019-01-17</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-03-01/">2019-03-01</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-03-22/">2019-03-22</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-04-12/">2019-04-12</a></li>
+</ul></li>
+
+<li><p><strong>Triage Meetings</strong></p>
+
+<ul>
+<li><a href="/docs/minutes/triage-meeting/2019-04-11/">2019-04-11</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-04-18/">2019-04-18</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-04-25/">2019-04-25</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-02/">2019-05-02</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-09/">2019-05-09</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-23/">2019-05-23</a></li>
+</ul></li>
+</ul></li>
+
+<li><p><a href="/docs/experts/"><strong>Experts</strong></a></p></li>
+
+<li><p><strong>Procedures</strong></p>
+
+<ul>
+<li><a href="/docs/procedures/crates/">Crates</a></li>
+<li><a href="/docs/procedures/steering-meeting/">Steering Meeting</a></li>
+<li><a href="/docs/procedures/call-for-participation/">Call for participation</a></li>
+<li><a href="/docs/procedures/form-new-working-group/">Form new working group</a></li>
+<li><a href="/docs/proposals/">Proposals</a></li>
+</ul></li>
+
+<li><p><a href="/docs/working-groups/"><strong>Working Groups</strong></a></p>
+
+<ul>
+<li><a href="/docs/working-groups/async-await/">Async Await</a></li>
+<li><a href="/docs/working-groups/diagnostics/">Diagnostics</a></li>
+<li><a href="/docs/working-groups/learning/">Learning</a></li>
+<li><a href="/docs/working-groups/llvm/">LLVM</a></li>
+<li><a href="/docs/working-groups/meta/">Meta</a></li>
+<li><a href="/docs/working-groups/mir-opt/">MIR-opt</a></li>
+<li><a href="/docs/working-groups/nll/">NLL</a></li>
+<li><a href="/docs/working-groups/parallel-rustc/">parallel rustc</a></li>
+<li><a href="/docs/working-groups/pgo/">PGO</a></li>
+<li><a href="/docs/working-groups/pipelining/">pipelining</a></li>
+<li><a href="/docs/working-groups/polonius/">polonius</a></li>
+<li><a href="/docs/working-groups/rfc-2229/">rfc-2229</a></li>
+<li><a href="/docs/working-groups/rls-2.0/">rls-2.0</a></li>
+<li><a href="/docs/working-groups/self-profile/">Self Profile</a></li>
+<li><a href="/docs/working-groups/template/">Template</a></li>
+<li><a href="/docs/working-groups/traits/">Traits</a></li>
+</ul></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    
+    Async Await
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="async-foundations-working-group">Async Foundations Working Group</h1>
+
+<p><img src="https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge" alt="working group status: active" /></p>
+
+<p>This working group is focused around implementation/design of the &ldquo;foundations&rdquo; for Async I/O.
+This includes the <code>async-await</code> language feature but also the core <code>Future</code> trait and adapters.</p>
+
+<ul>
+<li><strong>Leads:</strong> <a href="https://github.com/cramertj">@cramertj</a> and <a href="https://github.com/nikomatsakis">@nikomatsakis</a>.</li>
+<li><strong>Meeting Notes:</strong> <a href="/docs/working-groups/async-await/notes/">All</a></li>
+<li><strong>FAQ:</strong> <a href="/docs/working-groups/async-await/faq/">All</a></li>
+</ul>
+
+<h2 id="what-is-the-goal-of-this-working-group">What is the goal of this working group?</h2>
+
+<p>This is the overall roadmap for this group:</p>
+
+<ul>
+<li>✅ Stabilize the <code>Future</code> trait</li>
+<li>⚒️ Deliver an &ldquo;minimal viable product&rdquo; (MVP) introducing <code>async fn</code> inherent functions and async blocks.</li>
+<li>⚒️ Write the <a href="https://github.com/rust-lang/async-book">async book</a>, which introduces how the core language features in support of Async I/O and teaches you how to use them.</li>
+<li>Future extensions (ordering not yet fixed):
+
+<ul>
+<li>Stabilize core parts of the futures trait</li>
+<li>Support async fn in traits</li>
+<li>Support async closures (and possibly an <code>AsyncFn</code> trait)</li>
+<li>Support consuming async streams conveniently (e.g., <code>for await</code> loops or some similar thing)</li>
+<li>Support authoring async streams conveniently via async generators</li>
+<li>Support async drop</li>
+</ul></li>
+</ul>
+
+<h1 id="how-can-i-get-involved">How can I get involved?</h1>
+
+<p>We have a <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjQzdWExaDF2OGlqM3QwN2hncWI5Y2o1dm5fMjAxOTA2MTFUMTcwMDAwWiA2dTVycnRjZTZscnR2MDdwZmkzZGFtZ2p1c0Bn&amp;tmsrc=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com&amp;scp=ALL">short triage meeting every week</a>, which you can find on the <a href="https://github.com/rust-lang/compiler-team#meeting-calendar">compiler calendar</a>. Feel free to drop in on the meeting, or to jump in on the Zulip at any time and introduce yourself. You can be added to the GitHub and Zulip group for the working group if you are interested in being pinged when there are available tasks.</p>
+
+<ul>
+<li><strong>Desired experience level:</strong> Any</li>
+<li><strong>Relevant repositories:</strong> <a href="https://github.com/rust-lang/rust"><code>rust-lang/rust</code></a></li>
+<li><strong>Zulip stream:</strong> <a href="https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await"><code>#wg-async-foundations</code></a> on Zulip</li>
+<li><strong>Videos:</strong> Video meetings and mentoring sessions are recorded and posted to this <a href="https://www.youtube.com/watch?v=xe2_whJWBC0&amp;list=PL85XCvVPmGQgGNOAwhOKIfCL6TuRLJlWy">YouTube playlist</a>.</li>
+<li><strong>Labeling:</strong> See <a href="triage-links.md">triage-links.md</a> for a description of the issue labels we use</li>
+</ul>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-6 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#async-foundations-working-group">Async Foundations Working Group</a>
+<ul>
+<li><a href="#what-is-the-goal-of-this-working-group">What is the goal of this working group?</a></li>
+</ul></li>
+<li><a href="#how-can-i-get-involved">How can I get involved?</a></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+
+</html>

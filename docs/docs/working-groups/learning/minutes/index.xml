@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust Lang - Compiler Team</title>
+    <link>//localhost:1313/docs/working-groups/learning/minutes/</link>
+    <description>Recent content on Rust Lang - Compiler Team</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="//localhost:1313/docs/working-groups/learning/minutes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/working-groups/learning/minutes/2019.05.14-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/working-groups/learning/minutes/2019.05.14-meeting/</guid>
+      <description>Learning WG 2019-05-14 sync meeting Topics discussed:  Define what’s the walkthrough section we want to add Triage missing rustc-guide chapters How do we want to keep track of who is doing what? Does github Projects works nice for this?  Plan for walkthrough/overview chapter  Goal is to have a chapter which will walk through compilation of simple program Links to other chapters for details This overview differs from the existing queries chapter in that the latter is more focused on how to create your own queries.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/working-groups/learning/minutes/2019.05.28-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/working-groups/learning/minutes/2019.05.28-meeting/</guid>
+      <description>Learning WG 2019-05-28 sync meeting Triaging rustc-guide repo  Some discussion about how to assign issues on the rust-lang/rustc-guide repo Problem: can&amp;rsquo;t assign issues to non-members Possible solutions:  Add WG-learning members to repo so they can be assigned use triagebot model: bot is assigned the issue and edits the OP to mention the current owner.   Forge  Discussed purpose of the forge and how it differs from rustc-guide Niko feels that most of the content in the forge doesn&amp;rsquo;t obviously belong in the guide and that the stuff currently in the guide feels like it belongs in the guide Forge is for team procedures, infra stuff  would also be good to add craterbot and rustc-timer links to forge (probably link to READMEs of their repos)  link forge from main page   my rule of thumb [for what to put in the guide] is sort of &amp;ldquo;is this something you would do while fixing a compiler bug or implementing a compiler feature&amp;rdquo; -niko</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/working-groups/learning/minutes/2019.06.11-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/working-groups/learning/minutes/2019.06.11-meeting/</guid>
+      <description>Learning WG 2019-06-11 sync meeting WIP stuff  Write an overview chapter (lokalmatador)
+ Steady progress, about to finish up the part on HIR and moving on to MIR Changed the example to bubblesort in the meantime using some mutable borrows Stick to old trait solver for now, according to Niko Draft/WIP: https://paper.dropbox.com/doc/A-first-glance-at-rustc--AexZRkGI1D_0C_eqE5ZBqmgjAQ-Mk45wFbBKBT9C8e9rPaCd  Transcribe the Compiler Lecture Series into chapters
+ amanjeev: debugging support  Merge what we have and iterate Needs to be reviewed  juanbono: coherence in chalk  Working with igaray  igaray: representing types in rustc  No progress, but have not dropped it   Add rustc guide to toolstate (mark-i-m)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/working-groups/learning/minutes/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/working-groups/learning/minutes/agenda/</guid>
+      <description>WG-Learning future meeting agenda See this doc</description>
+    </item>
+    
+  </channel>
+</rss>

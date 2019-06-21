@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    2019.05.28 Meeting
+  
+ | Rust Lang - Compiler Team</title>
+
+
+
+<link rel="stylesheet" href="/book.min.b7d5ee4f671b06dde5fd61ab409a54048ba7759e99fed39ac32a7be45d4d92cd.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="//localhost:1313/">Rust Lang - Compiler Team</a>
+</h2>
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2fworking-groups\2flearning\2fminutes\2f 2019.05.28-meeting\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><strong>About</strong>
+
+<ul>
+<li><a href="/docs/about/chat-platform/">Chat Platform</a></li>
+<li><a href="/docs/about/steering-meeting/">Steering Meeting</a></li>
+<li><a href="/docs/about/triage-meeting/">Triage Meeting</a></li>
+</ul></li>
+
+<li><p><strong>Minutes</strong></p>
+
+<ul>
+<li><p><strong>Steering Meetings</strong></p>
+
+<ul>
+<li><a href="/docs/minutes/steering-meeting/2018-10-26/">2018-10-26</a></li>
+<li><a href="/docs/minutes/steering-meeting/2018-11-16/">2018-11-16</a></li>
+<li><a href="/docs/minutes/steering-meeting/2018-12-14/">2018-12-14</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-01-04/">2019-01-04</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-01-17/">2019-01-17</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-03-01/">2019-03-01</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-03-22/">2019-03-22</a></li>
+<li><a href="/docs/minutes/steering-meeting/2019-04-12/">2019-04-12</a></li>
+</ul></li>
+
+<li><p><strong>Triage Meetings</strong></p>
+
+<ul>
+<li><a href="/docs/minutes/triage-meeting/2019-04-11/">2019-04-11</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-04-18/">2019-04-18</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-04-25/">2019-04-25</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-02/">2019-05-02</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-09/">2019-05-09</a></li>
+<li><a href="/docs/minutes/triage-meeting/2019-05-23/">2019-05-23</a></li>
+</ul></li>
+</ul></li>
+
+<li><p><a href="/docs/experts/"><strong>Experts</strong></a></p></li>
+
+<li><p><strong>Procedures</strong></p>
+
+<ul>
+<li><a href="/docs/procedures/crates/">Crates</a></li>
+<li><a href="/docs/procedures/steering-meeting/">Steering Meeting</a></li>
+<li><a href="/docs/procedures/call-for-participation/">Call for participation</a></li>
+<li><a href="/docs/procedures/form-new-working-group/">Form new working group</a></li>
+<li><a href="/docs/proposals/">Proposals</a></li>
+</ul></li>
+
+<li><p><a href="/docs/working-groups/"><strong>Working Groups</strong></a></p>
+
+<ul>
+<li><a href="/docs/working-groups/async-await/">Async Await</a></li>
+<li><a href="/docs/working-groups/diagnostics/">Diagnostics</a></li>
+<li><a href="/docs/working-groups/learning/">Learning</a></li>
+<li><a href="/docs/working-groups/llvm/">LLVM</a></li>
+<li><a href="/docs/working-groups/meta/">Meta</a></li>
+<li><a href="/docs/working-groups/mir-opt/">MIR-opt</a></li>
+<li><a href="/docs/working-groups/nll/">NLL</a></li>
+<li><a href="/docs/working-groups/parallel-rustc/">parallel rustc</a></li>
+<li><a href="/docs/working-groups/pgo/">PGO</a></li>
+<li><a href="/docs/working-groups/pipelining/">pipelining</a></li>
+<li><a href="/docs/working-groups/polonius/">polonius</a></li>
+<li><a href="/docs/working-groups/rfc-2229/">rfc-2229</a></li>
+<li><a href="/docs/working-groups/rls-2.0/">rls-2.0</a></li>
+<li><a href="/docs/working-groups/self-profile/">Self Profile</a></li>
+<li><a href="/docs/working-groups/template/">Template</a></li>
+<li><a href="/docs/working-groups/traits/">Traits</a></li>
+</ul></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    2019.05.28 Meeting
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="learning-wg-2019-05-28-sync-meeting">Learning WG 2019-05-28 sync meeting</h1>
+
+<h2 id="triaging-rustc-guide-repo">Triaging rustc-guide repo</h2>
+
+<ul>
+<li>Some discussion about how to assign issues on the rust-lang/rustc-guide repo</li>
+<li>Problem: can&rsquo;t assign issues to non-members</li>
+<li>Possible solutions:
+
+<ul>
+<li>Add WG-learning members to repo so they can be assigned</li>
+<li>use <code>triagebot</code> model: bot is assigned the issue and edits the OP to mention the current owner.</li>
+</ul></li>
+</ul>
+
+<h2 id="forge">Forge</h2>
+
+<ul>
+<li>Discussed purpose of the forge and how it differs from rustc-guide</li>
+<li>Niko feels that most of the content in the forge doesn&rsquo;t obviously belong in the guide and that the stuff currently in the guide feels like it belongs in the guide</li>
+<li>Forge is for team procedures, infra stuff
+
+<ul>
+<li>would also be good to add craterbot and rustc-timer links to forge (probably link to READMEs of their repos)</li>
+</ul></li>
+<li>link forge from main page</li>
+</ul>
+
+<blockquote>
+<p>my rule of thumb [for what to put in the guide] is sort of &ldquo;is this something you would do while fixing a compiler bug or implementing a compiler feature&rdquo; -niko</p>
+</blockquote>
+
+<h2 id="lectures">Lectures</h2>
+
+<ul>
+<li>Do one on MIR and HAIR construction</li>
+</ul>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-6 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#learning-wg-2019-05-28-sync-meeting">Learning WG 2019-05-28 sync meeting</a>
+<ul>
+<li><a href="#triaging-rustc-guide-repo">Triaging rustc-guide repo</a></li>
+<li><a href="#forge">Forge</a></li>
+<li><a href="#lectures">Lectures</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+
+</html>
