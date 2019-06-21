@@ -9,4 +9,4 @@ dev:
 	hugo server --minify --theme book
 
 compile:
-	 hugo -d dist --minify --theme book
+	hugo -d dist --minify --theme book
