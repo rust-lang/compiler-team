@@ -17,7 +17,7 @@ one of the goals of the working group is to extend the scope of the
 crate to define the full borrow check analysis.
 
 - **Leads:** [@nikomatsakis][nikomatsakis]
-- **Meeting Notes:**:
+- **Meeting Notes:**
     
     - [2019.03.07 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.03.07-meeting" >}})
 
@@ -72,18 +72,3 @@ time. Attendance is not mandatory but recommended as this can be a
 good opportunity to ask any questions and find new issues to work on.
 
 [nikomatsakis]: https://github.com/nikomatsakis
-
-# Minutes
-
-
-- [2019.03.07 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.03.07-meeting" >}})
-
-- [2019.04.23 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.04.23-meeting" >}})
-
-- [2019.04.30 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.04.30-meeting" >}})
-
-- [2019.05.07 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.07-meeting" >}})
-
-- [2019.05.14 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.14-meeting" >}})
-
-- [2019.05.28 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.28-meeting" >}})
