@@ -1,3 +1,14 @@
+# Traits Working Group
+
+- **FAQ:** [FAQs]({{< relref "/docs/working-groups/traits/FAQ" >}})
+
+- **Meeting Notes:**
+       - [Notes 2019.02.19]({{< relref "/docs/working-groups/traits/NOTES" >}})
+       - [Triage 2019.02.24]({{< relref "/docs/working-groups/traits/minutes/triage-2019-02-24" >}})
+       - [Triage 2019.03.04]({{< relref "/docs/working-groups/traits/minutes/triage-2019-03-04" >}})
+       - [Triage 2019.03.11]({{< relref "/docs/working-groups/traits/minutes/triage-2019-03-11" >}})
+
+
 # Scope and purpose
 
 The **traits** working group is dedicated to improving the trait
@@ -16,6 +27,7 @@ A big part of this work is transitioning the compiler to use a
 to the existing solver where needed.
 
 [Chalk-style]: https://github.com/rust-lang-nursery/chalk
+
 
 
 # How to participate
@@ -58,11 +70,3 @@ meeting minutes, past sprints, as well as draft RFCs and other
 documents.
 
 [rust-lang/wg-traits]: https://github.com/rust-lang/wg-traits
-
-
-
-# Minutes, Notes and FAQs
-
-- [Minutes]({{< relref "/docs/working-groups/traits/minutes" >}})
-- [Notes]({{< relref "/docs/working-groups/traits/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/traits/FAQ" >}})

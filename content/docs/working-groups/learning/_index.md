@@ -4,7 +4,10 @@
 This working group aims to make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete".
 
 - **Leads:** [@nikomatsakis][nikomatsakis] and [@spastorino][spastorino]
-- **Meeting Notes:** [All]({{< relref "/docs/working-groups/learning/minutes" >}})
+- **Meeting Notes:** 
+    - [2019.05.14 Meeting]({{< relref "/docs/working-groups/learning/minutes/2019.05.14-meeting" >}})
+    - [2019.05.28 Meeting]({{< relref "/docs/working-groups/learning/minutes/2019.05.28-meeting" >}})
+- **Agenda:** [Agenda]({{< relref "/docs/working-groups/learning/minutes/agenda" >}})
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/learning/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
