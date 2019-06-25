@@ -169,3 +169,4 @@ This section contains the list of existing out-of-tree, compiler team-maintained
   - [`rust-lang/polonius`](https://github.com/rust-lang/polonius/)
   - [`rust-lang/measureme`](https://github.com/rust-lang/measureme/)
   - [`rust-lang/cargo-lockfile-sync`](https://github.com/rust-lang/cargo-lockfile-sync/)
+  - bit-primitives
