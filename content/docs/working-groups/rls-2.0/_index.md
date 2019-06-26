@@ -1,3 +1,8 @@
+# rls-2.0 Working Group
+
+- **Notes:** [All]({{< relref "/docs/working-groups/rls-2.0/NOTES" >}})
+- **FAQs:** [FAQ]({{< relref "/docs/working-groups/rls-2.0/FAQ" >}})
+
 # Scope and purpose
 
 Discover ideal architecture for IDE-compiler by starting a "from scratch" implementation. Especially, how to handle the two hardest things:
@@ -62,9 +67,3 @@ There's a YouTube [playlist] with videos which cover various subsystems of the
 analyzer.
 
 [playlist]: https://www.youtube.com/playlist?list=PL85XCvVPmGQho7MZkdW-wtPtuJcFpzycE
-
-
-# Notes and FAQs
-
-- [Notes]({{< relref "/docs/working-groups/rls-2.0/NOTES" >}})
-- [FAQ]({{< relref "/docs/working-groups/rls-2.0/FAQ" >}})
