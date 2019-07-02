@@ -5,7 +5,6 @@
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/pipelining/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/pipelining/FAQ" >}})
 
-
 [nnethercote]: https://github.com/nnethercote
 [alexcrichton]: https://github.com/alexcrichton
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge

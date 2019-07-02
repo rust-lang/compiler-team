@@ -2,12 +2,9 @@
 ![working group status: active][status]
 
 - **Leads:** [@blitzerr][Blitzerr], [@nikomatsakis][Niko]
-- **Meeting Notes:**
-    
+- **Meeting Notes:** 
     - [2019.03.05 Roadmap Plan]({{< relref "/docs/working-groups/rfc-2229/minutes/2019.03.05-roadmap-plan" >}})
-
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/rfc-2229/FAQ" >}})
-
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
@@ -19,7 +16,6 @@ This working group aims to accomplish the following:
 - Produce documentation of how the closures in Rust are implemented in the
   [rustc-guide] along the way. Currently, the rustc guide does not have a
   section on closures. We would like to change it.
-
 
 # How can I get involved?
 If you are interested in getting involved in this working group, you are welcome to

@@ -1,7 +1,3 @@
----
-title: Notes
-type: docs
----
 # Async Foundations Working Group
 ![working group status: active][status]
 
