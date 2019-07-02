@@ -1,8 +1,7 @@
 **Title:** What is the title of your idea?
 
-<!-- **Estimate:** Will this take 1 or 2 meetings?
-
-**Type:** Is this technical or non-technical? -->
+**Estimate:** Will this take 1 or 2 meetings?
+**Type:** Is this technical or non-technical? 
 
 # Summary
 

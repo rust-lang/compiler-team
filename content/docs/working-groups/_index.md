@@ -53,8 +53,3 @@ anyone to easily add themself as a member of a working group they are interested
 in - so they can receive notifications and assigned tasks - this has the effect of limiting the
 extent to which working group membership can be used to recognize regular participants. Therefore,
 formal membership is typically not pursued.
-
-
-
-
-
