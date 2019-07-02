@@ -1,4 +1,8 @@
-# pipelining Meeting Notes
+---
+title: Notes
+type: docs
+---
+# Pipelining Meeting Notes
 
 ## Video 2019-04-05
 

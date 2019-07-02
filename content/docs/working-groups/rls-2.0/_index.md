@@ -39,7 +39,6 @@ On [the rust-lang Zulip][z], in [the `#t-compiler/wg-rls-2.0` stream][s].
 [z]: https://rust-lang.zulipchat.com/
 [s]: https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0
 
-
 ## Meetings
 
 We don't have a regular meeting schedule yet, check [Zulip][s] to learn about
@@ -48,7 +47,6 @@ what everyone is working on right now. If you want to (this is not mandatory),
 add yourself to the list!
 
 [work list]: https://paper.dropbox.com/doc/RLS-2.0-work-list--AZ3BgHKKCtqszbsi3gi6sjchAQ-42vbnxzuKq2lKwW0mkn8Y
-
 
 ## rust-analyzer
 

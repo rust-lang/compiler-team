@@ -118,5 +118,3 @@ understand the aims of the discussion.
 **What happens if there are not enough proposals?** As noted above,
 meetings are not mandatory. If there aren't enough proposals in some
 particular iteration, then we can just opt to not discuss anything.
-
-

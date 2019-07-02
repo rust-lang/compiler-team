@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # Meta Meeting Notes
 This document contains meeting notes from the Meta working group.
 

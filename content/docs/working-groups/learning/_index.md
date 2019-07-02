@@ -7,6 +7,7 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 - **Meeting Notes:** 
     - [2019.05.14 Meeting]({{< relref "/docs/working-groups/learning/minutes/2019.05.14-meeting" >}})
     - [2019.05.28 Meeting]({{< relref "/docs/working-groups/learning/minutes/2019.05.28-meeting" >}})
+    - [2019.06.25 Meeting]({{< relref "/docs/working-groups/learning/minutes/2019.06.25-meeting" >}})
 - **Agenda:** [Agenda]({{< relref "/docs/working-groups/learning/minutes/agenda" >}})
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/learning/FAQ" >}})
 
@@ -36,4 +37,3 @@ work towards the goals defined on that plan.
 [rust-repo]: https://github.com/rust-lang/rust
 [rustc-guide-repo]: https://github.com/rust-lang/rustc-guide
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
-

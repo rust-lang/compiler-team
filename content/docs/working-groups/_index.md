@@ -31,7 +31,7 @@ repository and to check-in.
 The working group itself is not required to hold meetings, however should the group feel it would
 be helpful then they are free to. Any meetings should be added to the compiler team calendar so
 that other interested parties can find out about the meeting. If meetings are not held, then it
-would still be desirable to keep the `NOTES.md` in the working group's directory relatively
+would still be desirable to keep the `NOTES.md` in the working group's directory
 up-to-date.
 
 ### Template

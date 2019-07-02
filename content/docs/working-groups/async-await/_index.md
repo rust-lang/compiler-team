@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # Async Foundations Working Group
 ![working group status: active][status]
 
@@ -6,7 +10,8 @@ This includes the `async-await` language feature but also the core `Future` trai
 
 - **Leads:** [@cramertj][cramertj] and [@nikomatsakis][nikomatsakis].
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/async-await/NOTES" >}})
-- **FAQ:** [All] ({{< relref "/docs/working-groups/async-await/FAQ" >}})
+- **Triage Links:** [All]({{< relref "/docs/working-groups/async-await/triage-links" >}})
+- **FAQ:** [All]({{< relref "/docs/working-groups/async-await/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 

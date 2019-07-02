@@ -3,6 +3,8 @@
 
 - **Leads:** [@Zoxc][Zoxc], [@michaelwoerister][michaelwoerister]
 - **Meeting Notes:** [All]({{< relref "/docs/working-groups/parallel-rustc/NOTES" >}})
+- **Minutes:** 
+    - [2019.05.10]({{< relref "/docs/working-groups/parallel-rustc/minutes/2019.05.10" >}})
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/parallel-rustc/FAQ" >}})
 
 
@@ -46,4 +48,3 @@ and context:
 
 
 [zoxc-internals-post]: https://internals.rust-lang.org/t/parallelizing-rustc-using-rayon/6606
-

@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # Non-Lexical Lifetimes (NLL) Meeting Notes
 This document contains meeting notes from the NLL working group.
 

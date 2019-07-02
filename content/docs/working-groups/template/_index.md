@@ -14,7 +14,7 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 > to pass the borrow check.
 
 - **Leads:** [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]
-- **Meeting Notes:** [All]{{< relref "/docs/working-groups/template/NOTES" >}})
+- **Meeting Notes:** [All]({{< relref "/docs/working-groups/template/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/template/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
@@ -105,5 +105,3 @@ Other NLL labels also exist:
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [pnkfelix]: https://github.com/pnkfelix
-
-

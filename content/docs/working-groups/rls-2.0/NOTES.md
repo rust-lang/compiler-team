@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # 2019-02-20
 
 ## Notes from "Design of syntax trees" meeting

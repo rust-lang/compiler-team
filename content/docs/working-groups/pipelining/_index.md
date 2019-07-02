@@ -44,4 +44,3 @@ some background and context:
 - [Initial Cargo issue](https://github.com/rust-lang/cargo/issues/6660)
 - [Tracking issue on rustc side of things](https://github.com/rust-lang/rust/issues/58465)
 - [Old cargo tracking issue](https://github.com/rust-lang/cargo/issues/4831)
-

@@ -26,4 +26,3 @@ What are the bits that you expect to be particularly hard?
 
 List out the key design questions. What are the places where there are
 choices to be made? Where would you particularly like feedback?
-

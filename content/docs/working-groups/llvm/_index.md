@@ -66,5 +66,3 @@ something to do with how LLVM works. For the time being this is the best place t
 [Intro to LLVM]: http://www.aosabook.org/en/llvm.html
 [codegen section]: https://rust-lang.github.io/rustc-guide/codegen.html
 [rustc guide]: https://rust-lang.github.io/rustc-guide/
-
-

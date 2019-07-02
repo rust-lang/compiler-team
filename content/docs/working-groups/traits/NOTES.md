@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # 2019.02.19
 
 ## TL;DR

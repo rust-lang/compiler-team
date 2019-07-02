@@ -46,4 +46,3 @@ Not yet.
 
 ## Do I need to attend any meetings?
 We don't have any meetings yet.
-

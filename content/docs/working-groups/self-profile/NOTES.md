@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # Self-Profile Meeting Notes
 This document contains meeting notes from the self-profile working group.
 

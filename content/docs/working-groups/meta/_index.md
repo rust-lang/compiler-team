@@ -5,9 +5,9 @@ This working group is dedicated to fleshing out the details of how the compiler 
 
 - **Leads:** [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino]
 - **[Planning document][planning]**
-- **Meeting Notes:** [All]({{< relref "/docs/working-groups/meta/NOTES" >}})
+- **Meeting Notes:**[All]({{< relref "/docs/working-groups/meta/NOTES" >}})
 - **FAQ:** [All]({{< relref "/docs/working-groups/meta/FAQ" >}})
-- **RFC - drafts:** [RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})
+- **RFC - drafts:**[RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})
 
 
 
@@ -107,4 +107,3 @@ group for the working group if you are interested in being pinged when there are
 [nikomatsakis]: https://github.com/nikomatsakis
 [davidtwco]: https://github.com/davidtwco
 [spastorino]: https://github.com/spastorino
-

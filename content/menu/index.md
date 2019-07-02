@@ -8,15 +8,18 @@ headless: true
   - [Triage Meeting] ({{< relref "/docs/about/triage-meeting" >}})
 - **Minutes**
 
+  - **Desing Meetings**
+      - [2019-06-21]({{< relref "/docs/minutes/design-meeting/2019-06-21-the-gcx-tcx-transition.md" >}})
+
   - **Steering Meetings**
-      - [2018-10-26] ({{< relref "/docs/minutes/steering-meeting/2018-10-26" >}})
-      - [2018-11-16] ({{< relref "/docs/minutes/steering-meeting/2018-11-16" >}})
-      - [2018-12-14] ({{< relref "/docs/minutes/steering-meeting/2018-12-14" >}})
-      - [2019-01-04] ({{< relref "/docs/minutes/steering-meeting/2019-01-04" >}})
-      - [2019-01-17] ({{< relref "/docs/minutes/steering-meeting/2019-01-17" >}})
-      - [2019-03-01] ({{< relref "/docs/minutes/steering-meeting/2019-03-01" >}})
-      - [2019-03-22] ({{< relref "/docs/minutes/steering-meeting/2019-03-22" >}})
-      - [2019-04-12] ({{< relref "/docs/minutes/steering-meeting/2019-04-12" >}})
+      - [2018-10-26]({{< relref "/docs/minutes/steering-meeting/2018-10-26" >}})
+      - [2018-11-16]({{< relref "/docs/minutes/steering-meeting/2018-11-16" >}})
+      - [2018-12-14]({{< relref "/docs/minutes/steering-meeting/2018-12-14" >}})
+      - [2019-01-04]({{< relref "/docs/minutes/steering-meeting/2019-01-04" >}})
+      - [2019-01-17]({{< relref "/docs/minutes/steering-meeting/2019-01-17" >}})
+      - [2019-03-01]({{< relref "/docs/minutes/steering-meeting/2019-03-01" >}})
+      - [2019-03-22]({{< relref "/docs/minutes/steering-meeting/2019-03-22" >}})
+      - [2019-04-12]({{< relref "/docs/minutes/steering-meeting/2019-04-12" >}})
 
   - **Triage Meetings**
       - [2019-04-11] ({{< relref "/docs/minutes/triage-meeting/2019-04-11" >}})
@@ -25,18 +28,18 @@ headless: true
       - [2019-05-02] ({{< relref "/docs/minutes/triage-meeting/2019-05-02" >}})
       - [2019-05-09] ({{< relref "/docs/minutes/triage-meeting/2019-05-09" >}})
       - [2019-05-23] ({{< relref "/docs/minutes/triage-meeting/2019-05-23" >}})
+      - [2019-06-13] ({{< relref "/docs/minutes/triage-meeting/2019-06-13" >}})
+      - [2019-06-20] ({{< relref "/docs/minutes/triage-meeting/2019-06-20" >}})
 
 - [**Experts**]({{< relref "/docs/experts" >}})
 
 - **Procedures**
 
   - [Crates]({{< relref "/docs/procedures/crates" >}})
-  - [Steering Meeting] ({{< relref "/docs/procedures/steering-meeting" >}})
-  - [Call for participation] ({{< relref "/docs/procedures/call-for-participation" >}})
-  - [Form new working group] ({{< relref "/docs/procedures/form-new-working-group" >}})
+  - [Steering Meeting]({{< relref "/docs/procedures/steering-meeting" >}})
+  - [Call for participation]({{< relref "/docs/procedures/call-for-participation" >}})
+  - [Form new working group]({{< relref "/docs/procedures/form-new-working-group" >}})
   - [Proposals]({{< relref "/docs/proposals" >}})
-
-
 
 - [**Working Groups**]({{< relref "/docs/working-groups" >}})
   - [Async Await]({{< relref "/docs/working-groups/async-await" >}})
@@ -53,6 +56,4 @@ headless: true
   - [rfc-2229]({{< relref "/docs/working-groups/rfc-2229" >}})
   - [rls-2.0]({{< relref "/docs/working-groups/rls-2.0" >}})
   - [Self Profile]({{< relref "/docs/working-groups/self-profile" >}})
-  - [Template]({{< relref "/docs/working-groups/template" >}})
   - [Traits]({{< relref "/docs/working-groups/traits" >}})
-

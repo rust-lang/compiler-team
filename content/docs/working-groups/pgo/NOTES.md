@@ -1,3 +1,7 @@
+---
+title: Notes
+type: docs
+---
 # Profile-Guided Optimization Meeting Notes
 This document contains meeting notes from the PGO working group.
 

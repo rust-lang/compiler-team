@@ -37,4 +37,3 @@ However, anyone is welcome to attend any WG meetings.
 
 [michaelwoerister]: https://github.com/michaelwoerister
 [wesleywiser]: https://github.com/wesleywiser
-

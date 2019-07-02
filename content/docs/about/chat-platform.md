@@ -11,4 +11,3 @@ The `#rustc` IRC channel on `irc.mozilla.org` is in a
 
 [z]: https://rust-lang.zulipchat.com
 [d]: https://discord.gg/rust-lang
-

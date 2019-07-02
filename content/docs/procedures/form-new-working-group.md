@@ -93,7 +93,7 @@ The basic steps to setup a working group are as follows:
     README][README]. Feel free to put N/A for any column that doesn't
     seem to apply.
   - Add a subdirectory to the [`working-groups`] directory. You do
-    this by copying the [`.template`][template] directory to a
+    this by copying the [`template`]({{< relref "/docs/working-groups/template/_index.md" >}}) directory to a
     directory of your own and modifying its contents as appropriate.
     Feel free to remove sections if they don't seem to apply: many
     working groups start out with relatively little structure but

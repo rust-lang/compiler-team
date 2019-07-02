@@ -1,3 +1,1 @@
 # Frequently asked questions
-
-XXX
