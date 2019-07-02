@@ -1,3 +1,6 @@
+---
+title: Code Of Conduct
+---
 # The Rust Code of Conduct
 
 A version of this document [can be found online](https://www.rust-lang.org/conduct.html).
@@ -16,6 +19,7 @@ A version of this document [can be found online](https://www.rust-lang.org/condu
 * Likewise any spamming, trolling, flaming, baiting or other attention-stealing behavior is not welcome.
 
 ## Moderation
+
 
 These are the policies for upholding our community's standards of conduct. If you feel that a thread needs moderation, please contact the [Rust moderation team][mod_team].
 

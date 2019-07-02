@@ -3,12 +3,13 @@ headless: true
 ---
 
 - **About**
+  - [Code of Conduct]({{< relref "/docs/about/CODE_OF_CONDUCT" >}})
   - [Chat Platform]({{< relref "/docs/about/chat-platform" >}})
   - [Steering Meeting]({{< relref "/docs/about/steering-meeting" >}})
   - [Triage Meeting] ({{< relref "/docs/about/triage-meeting" >}})
 - **Minutes**
 
-  - **Desing Meetings**
+  - **Design Meetings**
       - [2019-06-21]({{< relref "/docs/minutes/design-meeting/2019-06-21-the-gcx-tcx-transition.md" >}})
 
   - **Steering Meetings**
