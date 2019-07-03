@@ -34,13 +34,6 @@ that other interested parties can find out about the meeting. If meetings are no
 would still be desirable to keep the `NOTES.md` in the working group's directory
 up-to-date.
 
-### Template
-New working groups should add a subdirectory and can include the contents of the `.template` folder,
-adding their own details. Each new working group should also added to the list in `README` at the
-root of this repository.
-
-<a href="/docs/working-groups/template"> Go to template </a>
-
 ### Membership
 Typically working groups don't have formal members outside of the specified leads. Those interested
 in participating in a working group can instead subscribe to the working group in order to be added

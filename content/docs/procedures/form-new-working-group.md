@@ -17,11 +17,12 @@ produce those regular updates.
 ## Step 1. Propose the working group
 
 **TBD** -- ironically, we haven't *quite* decided what the procedure
-is for this!  For now, a good idea is to hop on to #t-compiler on [the
+is for this!  For now, a good idea is to hop on to [#t-compiler] on [the
 Zulip][cp] and open up a new topic to discuss your idea. Or,
 alternatively, join a meeting and leave a few comments.
 
-[cp]: ../about/chat-platform.md
+[cp]: ../../about/chat-platform
+
 
 A good goal for this process is to try and identify a small number of
 **achievable deliverables**. It will be easiest to manage a working
@@ -99,7 +100,7 @@ The basic steps to setup a working group are as follows:
     working groups start out with relatively little structure but
     define it early on.
 - **Add an entry to the compiler team calendar:** If you have a regular meeting,
-  ping somebody on `#t-compiler`[cp] to add an entry to the compiler team calendar.
+  ping somebody on [`#t-compiler`][cp] to add an entry to the compiler team calendar.
 - Add a file to the [`rust-lang/team`][team_repo] repository. Only working group leads should be
   listed and a link to their directory in this repository should also be included. See the
   traits working group [as an example][team_repo_example]. This will ensure that the working groups
@@ -109,6 +110,6 @@ The basic steps to setup a working group are as follows:
 [team_repo]: https://github.com/rust-lang/team
 [team_repo_example]: https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml
 
-[check_in]: ../about/triage-meeting.md
-[README]: ../README.md
-[template]: ../working-groups/.template
+[check_in]: ../../about/triage-meeting
+[README]: https://github.com/rust-lang/compiler-team/blob/master/procedures/README.md
+[template]: ../../working-groups/template/_index
