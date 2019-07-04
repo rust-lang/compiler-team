@@ -17,7 +17,7 @@ produce those regular updates.
 ## Step 1. Propose the working group
 
 **TBD** -- ironically, we haven't *quite* decided what the procedure
-is for this!  For now, a good idea is to hop on to [#t-compiler] on [the
+is for this!  For now, a good idea is to hop on to [#t-compiler][cp] on [the
 Zulip][cp] and open up a new topic to discuss your idea. Or,
 alternatively, join a meeting and leave a few comments.
 
@@ -88,12 +88,12 @@ The basic steps to setup a working group are as follows:
   not enough reason to add people to the organization right now.
 - **Updating this repository:** This repository serves as the central home
   for working groups, so it needs to be updated. Make the following changes and
-  then open a PR against the repository (make sure to leave a note in `#t-compiler`,
+  then open a PR against the repository (make sure to leave a note in [`#t-compiler`][cp],
   as these PRs can be easily overlooked):
   - Add the working group to the table in the [main
     README][README]. Feel free to put N/A for any column that doesn't
     seem to apply.
-  - Add a subdirectory to the [`working-groups`] directory. You do
+  - Add a subdirectory to the [`working-groups`][working_groups] directory. You do
     this by copying the [`template`]({{< relref "/docs/working-groups/template/_index.md" >}}) directory to a
     directory of your own and modifying its contents as appropriate.
     Feel free to remove sections if they don't seem to apply: many
@@ -112,3 +112,4 @@ The basic steps to setup a working group are as follows:
 [check_in]:../../about/triage-meeting/
 [README]: https://github.com/rust-lang/compiler-team/blob/master/procedures/README.md
 [template]: ../../working-groups/template/_index
+[working_groups]: https://github.com/rust-lang/compiler-team/tree/master/working-groups
