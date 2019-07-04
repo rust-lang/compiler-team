@@ -110,6 +110,6 @@ The basic steps to setup a working group are as follows:
 [team_repo]: https://github.com/rust-lang/team
 [team_repo_example]: https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml
 [check_in]:../../about/triage-meeting/
-[README]: https://github.com/rust-lang/compiler-team/blob/master/procedures/README.md
+[README]: ../../../
 [template]: ../../working-groups/template/_index
 [working_groups]: https://github.com/rust-lang/compiler-team/tree/master/working-groups
