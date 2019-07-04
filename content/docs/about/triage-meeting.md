@@ -3,10 +3,10 @@ The compiler **triage meeting** is the place for tracking regressions, progress 
 checking-in with the compiler team's working groups. Each meeting, two working groups (rotating)
 check-in with their progress and blockers.
 
-The meeting takes place every week. See the [compiler team calendar](../README.md#meeting-calendar)
+The meeting takes place every week. See the [compiler team calendar](../../../#meeting-calendar)
 for the next scheduled meeting (normally weekly).
 
-The triage meeting takes place on [Zulip](chat-platform.md). Look for a topic like
+The triage meeting takes place on [Zulip](../chat-platform/). Look for a topic like
 "#54818 weekly meeting YYYY-MM-DD" or "weekly meeting YYYY-MM-DD" (with the proper date, of course).
 The regular agenda (and process for pre-triage) is maintained on [Rust Issue 54818][]
 
@@ -38,16 +38,16 @@ This section lists check-ins from triage meetings before the check-in schedule w
 - **2019-03-07:** [wg-self-profile], [wg-rfc-2229]
 - **2019-02-28:** [wg-rls-2.0], [wg-meta]
 
-[wg-rls-2.0]: ../working-groups/rls-2.0
-[wg-meta]: ../working-groups/meta
-[wg-self-profile]: ../working-groups/self-profile
-[wg-rfc-2229]: ../working-groups/rfc-2229
-[wg-async-await]: ../working-groups/async-await
-[wg-llvm]: ../working-groups/llvm
-[wg-nll]: ../working-groups/nll
-[wg-traits]: ../working-groups/traits
-[wg-parallel-rustc]: ../working-groups/parallel-rustc
-[wg-pgo]: ../working-groups/pgo
-[wg-mir-opt]: ../working-groups/mir-opt
-[wg-pipelining]: ../working-groups/pipelining
-[wg-diagnostics]: ../working-groups/diagnostics
+[wg-rls-2.0]: ../../working-groups/rls-2.0
+[wg-meta]: ../../working-groups/meta
+[wg-self-profile]: ../../working-groups/self-profile
+[wg-rfc-2229]: ../../working-groups/rfc-2229
+[wg-async-await]: ../../working-groups/async-await
+[wg-llvm]: ../../working-groups/llvm
+[wg-nll]: ../../working-groups/nll
+[wg-traits]: ../../working-groups/traits
+[wg-parallel-rustc]: ../../working-groups/parallel-rustc
+[wg-pgo]: ../../working-groups/pgo
+[wg-mir-opt]: ../../working-groups/mir-opt
+[wg-pipelining]: ../../working-groups/pipelining
+[wg-diagnostics]: ../../working-groups/diagnostics

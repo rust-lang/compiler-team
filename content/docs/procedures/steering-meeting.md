@@ -86,8 +86,8 @@ minutes).
 
 [ct]: https://github.com/rust-lang/compiler-team
 [ct issues]: https://github.com/rust-lang/compiler-team/issues
-[proposals]: /proposals/
-[template]: /proposals/_template.md
+[proposals]: ../../proposals/
+[template]: ../../proposals/
 
 ### Expectations for a technical proposal
 

@@ -4,7 +4,7 @@ using third-party crates within the compiler. These guidelines were originally d
 Rust All Hands 2019 by the compiler team and others; and then at the
 [01/03/2019 steering meeting][steering_meeting].
 
-[steering_meeting]: https://github.com/rust-lang/compiler-team/blob/master/minutes/steering-meeting/2019.03.01.md
+[steering_meeting]: ../../minutes/steering-meeting/2019-03-01/
 
 ## Out-of-tree crates
 One of the primary goals of this policy is to ensure that there is consistency in how out-of-tree
@@ -121,9 +121,9 @@ In summary, the process for establishing an out-of-tree crate is as follows:
        responsible (link to their page in this repository) and the intended level of maintenance and
        stability.
 
-       > This crate is developed and maintained by the [Rust compiler team](..) for use within
+       > This crate is developed and maintained by the [Rust compiler team](https://github.com/rust-lang/compiler-team/tree/master/procedures) for use within
        > `rustc`, in particular, it is the responsibility of the
-       > [`.template`](../working-groups/.template) working group. This crate [will have regular
+       > [`.template`](../../working-groups/template) working group. This crate [will have regular
        > breaking changes and provides no stability guarantees|is intended to remain stable and have
        > limited breaking changes].
     1. Include the [LICENSE-APACHE][apache] and [LICENSE-MIT][mit] files from `rust-lang/rust`.
@@ -148,7 +148,7 @@ In summary, the process for establishing an out-of-tree crate is as follows:
 [gitignore]: https://gitignore.io/api/vim,rust,emacs,clion,visualstudio,visualstudiocode
 [triagebot]: https://github.com/rust-lang/rust/blob/master/triagebot.toml
 [apache]: https://github.com/rust-lang/rust/blob/master/LICENSE-APACHE
-[coc]: https://github.com/rust-lang/rust/blob/master/CODE_OF_CONDUCT.md
+[coc]: ../../about/code_of_conduct
 [mit]: https://github.com/rust-lang/rust/blob/master/LICENSE-MIT
 
 ## Third-party crates

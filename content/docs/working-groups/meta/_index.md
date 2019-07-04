@@ -7,7 +7,7 @@ This working group is dedicated to fleshing out the details of how the compiler 
 - **[Planning document][planning]**
 - **Meeting Notes:**[All]({{< relref "/docs/working-groups/meta/NOTES" >}})
 - **FAQ:** [All]({{< relref "/docs/working-groups/meta/FAQ" >}})
-- **RFC - drafts:**[RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})
+- **RFC - drafts:** [RFC - drafts] ({{< relref "/docs/working-groups/meta/rfc-drafts" >}})
 
 
 

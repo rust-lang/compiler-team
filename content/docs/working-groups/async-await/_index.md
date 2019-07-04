@@ -30,13 +30,13 @@ This is the overall roadmap for this group:
 
 We have a [short triage meeting every week](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjQzdWExaDF2OGlqM3QwN2hncWI5Y2o1dm5fMjAxOTA2MTFUMTcwMDAwWiA2dTVycnRjZTZscnR2MDdwZmkzZGFtZ2p1c0Bn&tmsrc=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com&scp=ALL), which you can find on the [compiler calendar][cc]. Feel free to drop in on the meeting, or to jump in on the Zulip at any time and introduce yourself. You can be added to the GitHub and Zulip group for the working group if you are interested in being pinged when there are available tasks.
 
-[cc]: https://github.com/rust-lang/compiler-team#meeting-calendar
+[cc]: ../../../#meeting-calendar
 
 - **Desired experience level:** Any
 - **Relevant repositories:** [`rust-lang/rust`][repo]
 - **Zulip stream:** [`#wg-async-foundations`][zulip] on Zulip
 - **Videos:** Video meetings and mentoring sessions are recorded and posted to this [YouTube playlist](https://www.youtube.com/watch?v=xe2_whJWBC0&list=PL85XCvVPmGQgGNOAwhOKIfCL6TuRLJlWy).
-- **Labeling:** See [triage-links.md](triage-links.md) for a description of the issue labels we use
+- **Labeling:** See [triage-links.md](./triage-links) for a description of the issue labels we use
 
 [repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/187312-t-compiler.2Fwg-async-await
