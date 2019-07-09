@@ -14,7 +14,7 @@ This includes the `async-await` language feature but also the core `Future` trai
 This is the overall roadmap for this group:
 
 - ✅ Stabilize the `Future` trait
-- ⚒️ Deliver an "minimal viable product" (MVP) introducing `async fn` inherent functions and async blocks.
+- ⚒️ Deliver a "minimal viable product" (MVP) introducing `async fn` inherent functions and async blocks.
 - ⚒️ Write the [async book](https://github.com/rust-lang/async-book), which introduces how the core language features in support of Async I/O and teaches you how to use them.
 - Future extensions (ordering not yet fixed):
   - Stabilize core parts of the futures trait
