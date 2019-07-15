@@ -1,3 +1,0 @@
-# Frequently asked questions
-
-XXX
