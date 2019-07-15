@@ -1,0 +1,4 @@
+env:
+  RUSTINFRA_DEPLOY_DIR: dist
+import:
+  - rust-lang/simpleinfra/travis-configs/static-websites.yml
