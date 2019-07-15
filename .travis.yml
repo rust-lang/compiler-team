@@ -1,0 +1,11 @@
+language: go
+env:
+  RUSTINFRA_DEPLOY_DIR: public
+import:
+  - rust-lang/simpleinfra/travis-configs/static-websites.yml
+install:
+  - go get github.com/gohugoio/hugo
+before_script:
+  - hugo version
+script:
+  - hugo
