@@ -9,4 +9,4 @@ install:
 before_script:
   - hugo version
 script:
-  - hugo
+  - hugo --minify
