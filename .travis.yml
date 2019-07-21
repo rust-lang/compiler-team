@@ -1,4 +1,5 @@
-language: go
+language: rust
+dist: xenial
 env:
   RUSTINFRA_DEPLOY_DIR: public
 import:
