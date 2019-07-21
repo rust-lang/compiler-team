@@ -1,0 +1,12 @@
+language: go
+env:
+  RUSTINFRA_DEPLOY_DIR: public
+import:
+  - rust-lang/simpleinfra/travis-configs/static-websites.yml
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+before_script:
+  - hugo version
+script:
+  - hugo --minify
