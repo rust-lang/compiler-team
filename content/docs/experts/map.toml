@@ -1,149 +1,177 @@
-[[experts]]
-area = "RLS"
+[[areas]]
+name = "RLS"
 directories = []
-who = ["matklad", "xanewok"]
+experts = ["matklad", "xanewok"]
+familiar = []
 
-[[experts]]
-area = "query system"
+[[areas]]
+name = "query system"
 directories = []
-who = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+experts = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+familiar = []
 
-[[experts]]
-area = "metadata encoding/decoding"
+[[areas]]
+name = "metadata encoding/decoding"
 directories = []
-who = ["mw", "oli-obk"]
+experts = ["mw", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "incremental compilation"
+[[areas]]
+name = "incremental compilation"
 directories = []
-who = ["mw", "nikomatsakis"]
+experts = ["mw", "nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "codegen unit partitioning"
+[[areas]]
+name = "codegen unit partitioning"
 directories = []
-who = ["mw"]
+experts = ["mw"]
+familiar = []
 
-[[experts]]
-area = "ThinLTO"
+[[areas]]
+name = "ThinLTO"
 directories = []
-who = ["acrichto", "mw"]
+experts = ["acrichto", "mw"]
+familiar = []
 
-[[experts]]
-area = "linker-plugin LTO (xLTO)"
+[[areas]]
+name = "linker-plugin LTO (xLTO)"
 directories = []
-who = ["mw"]
+experts = ["mw"]
+familiar = []
 
-[[experts]]
-area = "Typeck"
+[[areas]]
+name = "Typeck"
 directories = ["src/librustc_typeck"]
-who = ["nikomatsakis", "eddyb"]
+experts = ["nikomatsakis", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "miri"
+[[areas]]
+name = "miri"
 directories = [
     "src/librustc/mir/interpret",
     "src/librustc_mir/interpret",
 ]
-who = ["oli-obk", "RalfJung", "eddyb"]
+experts = ["oli-obk", "RalfJung", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "Diagnostics"
+[[areas]]
+name = "Diagnostics"
 directories = []
-who = ["estebank", "oli-obk", "zackmdavis"]
+experts = ["estebank", "oli-obk", "zackmdavis"]
+familiar = []
 
-[[experts]]
-area = "Parser"
+[[areas]]
+name = "Parser"
 directories = []
-who = ["petrochenkov", "estebank"]
+experts = ["petrochenkov", "estebank"]
+familiar = []
 
-[[experts]]
-area = "Grammar"
+[[areas]]
+name = "Grammar"
 directories = ["src/grammar"]
-who = ["qmx", "centril", "eddyb"]
+experts = ["qmx", "centril", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "MIR structure/construction"
+[[areas]]
+name = "MIR structure/construction"
 directories = [
     "src/librustc/mir",
     "src/librustc_mir/build",
 ]
-who = ["nikomatsakis", "eddyb", "oli-obk"]
+experts = ["nikomatsakis", "eddyb", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "MIR optimizations"
+[[areas]]
+name = "MIR optimizations"
 directories = [
     "src/librustc_mir/transform",
 ]
-who = ["eddyb", "oli-obk", "nagisa"]
+experts = ["eddyb", "oli-obk", "nagisa"]
+familiar = []
 
-[[experts]]
-area = "match/exhaustiveness"
+[[areas]]
+name = "match/exhaustiveness"
 directories = ["src/librustc_mir/hair/pattern"]
-who = ["arielb1", "varkor", "oli-obk"]
+experts = ["arielb1", "varkor", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "Traits"
+[[areas]]
+name = "Traits"
 directories = ["src/librustc/traits", "src/librustc_traits"]
-who = ["nikomatsakis", "arielb1", "scalexm"]
+experts = ["nikomatsakis", "arielb1", "scalexm"]
+familiar = []
 
-[[experts]]
-area = "Polonius"
+[[areas]]
+name = "Polonius"
 directories = []
-who = ["nikomatsakis"]
+experts = ["nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "Libs"
+[[areas]]
+name = "Libs"
 directories = []
-who = []
+experts = []
+familiar = []
 
-[[experts]]
-area = "AST -> HIR lowering"
+[[areas]]
+name = "AST -> HIR lowering"
 directories = [
     "src/librustc/hir/lowering.rs",
 ]
-who = ["oli-obk"]
+experts = ["oli-obk"]
+familiar = []
 
-[[experts]]
-area = "debuginfo"
+[[areas]]
+name = "debuginfo"
 directories = []
-who = ["mw", "eddyb"]
+experts = ["mw", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "drop-check"
+[[areas]]
+name = "drop-check"
 directories = []
-who = ["pnkfelix", "arielb1"]
+experts = ["pnkfelix", "arielb1"]
+familiar = []
 
-[[experts]]
-area = "dataflow"
+[[areas]]
+name = "dataflow"
 directories = []
-who = ["pnkfelix", "nikomatsakis"]
+experts = ["pnkfelix", "nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "AST-borrow checker"
+[[areas]]
+name = "AST-borrow checker"
 directories = []
-who = ["nikomatsakis"]
+experts = ["nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "MIR borrow check"
+[[areas]]
+name = "MIR borrow check"
 directories = []
-who = ["arielb1", "pnkfelix", "matthewjasper"]
+experts = ["arielb1", "pnkfelix", "matthewjasper"]
+familiar = []
 
-[[experts]]
-area = "drop elaboration"
+[[areas]]
+name = "drop elaboration"
 directories = []
-who = ["arielb1"]
+experts = ["arielb1"]
+familiar = []
 
-[[experts]]
-area = "Privacy"
+[[areas]]
+name = "Privacy"
 directories = []
-who = ["petrochenkov"]
+experts = ["petrochenkov"]
+familiar = []
 
-[[experts]]
-area = "Name resolution, hygiene"
+[[areas]]
+name = "Name resolution, hygiene"
 directories = []
-who = ["petrochenkov"]
+experts = ["petrochenkov"]
+familiar = []
 
-[[experts]]
-area = "Macro expansion"
+[[areas]]
+name = "Macro expansion"
 directories = []
-who = ["petrochenkov"]
+experts = ["petrochenkov"]
+familiar = []

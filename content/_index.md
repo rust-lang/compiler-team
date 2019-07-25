@@ -116,7 +116,8 @@ Name                                                      | Status       | Short
 If you're interested in figuring out who can answer questions about a
 particular part of the compiler, or you'd just like to know who works on what,
 check out our [experts directory](experts). It contains a listing of the
-various parts of the compiler and a list of people who are experts on each one.
+various parts of the compiler and a list of people who are experts and familiar
+on each one.
 
 ## Procedures
 
