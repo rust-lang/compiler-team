@@ -115,7 +115,7 @@ familiar = []
 name = "Polonius"
 directories = []
 experts = ["nikomatsakis"]
-familiar = []
+familiar = ["lqd"]
 
 [[areas]]
 name = "Libs"
