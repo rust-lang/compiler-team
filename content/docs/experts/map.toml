@@ -68,6 +68,15 @@ experts = ["petrochenkov", "estebank"]
 familiar = []
 
 [[areas]]
+name = "Lexer"
+directories = [
+    "src/rustc_lexer",
+    "src/libsyntax/parse/lexer/",
+]
+experts = ["petrochenkov", "matklad"]
+familiar = []
+
+[[areas]]
 name = "Grammar"
 directories = ["src/grammar"]
 experts = ["qmx", "centril", "eddyb"]
