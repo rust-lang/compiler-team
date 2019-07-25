@@ -24,6 +24,8 @@ crate to define the full borrow check analysis.
     - [2019.05.07 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.07-meeting" >}})
     - [2019.05.14 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.14-meeting" >}})
     - [2019.05.28 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.05.28-meeting" >}})
+    - [2019.06.04 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.06.04-meeting" >}})
+    - [2019.06.11 Meeting]({{< relref "/docs/working-groups/polonius/minutes/2019.06.11-meeting" >}})
 - **Screencasts**: [YouTube Playlist](https://www.youtube.com/playlist?list=PL85XCvVPmGQitE2CBzf-gERSqeXo59NQG)
 - **FAQ:** [FAQ]({{< relref "/docs/working-groups/polonius/FAQ" >}})
 
