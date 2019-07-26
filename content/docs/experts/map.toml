@@ -114,6 +114,7 @@ familiar = []
 [[areas]]
 name = "Polonius"
 directories = []
+crates = ["polonius", "datafrog"]
 experts = ["nikomatsakis"]
 familiar = ["lqd"]
 
