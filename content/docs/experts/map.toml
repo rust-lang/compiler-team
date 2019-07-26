@@ -44,7 +44,7 @@ familiar = []
 name = "Typeck"
 directories = ["src/librustc_typeck"]
 experts = ["nikomatsakis", "eddyb"]
-familiar = []
+familiar = ["Centril"]
 
 [[areas]]
 name = "miri"
@@ -65,7 +65,7 @@ familiar = []
 name = "Parser"
 directories = []
 experts = ["petrochenkov", "estebank"]
-familiar = []
+familiar = ["Centril"]
 
 [[areas]]
 name = "Lexer"
@@ -129,7 +129,7 @@ directories = [
     "src/librustc/hir/lowering.rs",
 ]
 experts = ["oli-obk"]
-familiar = []
+familiar = ["Centril"]
 
 [[areas]]
 name = "debuginfo"
