@@ -73,7 +73,11 @@ familiar = []
 
 [[areas]]
 name = "Parser"
-directories = []
+directories = [
+    "src/libsyntax/ast.rs",
+    "src/libsyntax/parse",
+    "src/libsyntax/util",
+]
 crates = []
 experts = ["petrochenkov", "estebank"]
 familiar = ["Centril"]
