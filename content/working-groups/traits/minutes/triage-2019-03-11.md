@@ -1,0 +1,102 @@
+---
+title: Triage meeting on 2019-03-11
+type: docs
+---
+# Triage meeting on 2019-03-11
+
+## Info
+
+[Zulip thread][]
+
+[Zulip thread]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weeky.20meeting.202019-03-11
+
+## Help wanted!
+
+- nikomatsakis is looking for someone to help with investigating lazy
+  normatlization. The task would be to experimentally modify rustc and
+  is best suited to someone already vaguely familiar with the Rust query
+  system etc. See below.
+
+## Summary
+
+We followed up on the goals from last time.
+
+### Lazy normalization and const generics
+
+[Link](https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weeky.20meeting.202019-03-11/near/160502973)
+
+Last week, nikomatsakis did more investigation, taking notes in [this
+dropbox paper document][lnpaper]. In general, it's still not entirely
+clear if the "cycle" that gives rise to the need for lazy
+normalization is something we can easily circumvent. One thing is that
+the `generics_of` and other queries for "anonymous constants"
+currently use the incorrect parent def-id precisely to avoid a cycle,
+so it's hard to see how the cycle would manifest.
+
+[lnpaper]: https://paper.dropbox.com/doc/Lazy-normalization-Ryv4YfpIcGAl6R3ZtWrWs
+
+**Next step:** re-establish the cycle in those queries so it can be observed.
+
+### GATs
+
+[Link](https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weeky.20meeting.202019-03-11/near/160503327)
+
+centril + aturon drew up a [paper document containing GAT use
+casts][gat] and there are some notes from the conversation in [this
+Zulip thread][gatthread].
+
+**Next step:** unclear, but probably to investigate the use cases and
+make some comments.
+
+[gat]: https://paper.dropbox.com/doc/GAT-use-case-analysis--AY1Ck74Fgk1Ztq1kHrethI8BAg-xFJQMxHXTOUekCyweukU1
+[gatthread]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/GAT.20use-case.20analysis
+
+### Integrating into RLS 2.0
+
+[Link](https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weeky.20meeting.202019-03-11/near/160503711)
+
+We had a chat ([with
+video](https://www.youtube.com/watch?v=Lmp3P9WNL8o)) about how the RLS
+2.0 type checker works. We decided we'd rather try to do the chalk
+integration into RLS 2.0 "correct", meaning that we can share a lot
+more code with chalk.
+
+**Next step:** nikomatsakis to schedule some time to sketch out what chalk integration would look like.
+
+### Other chalk improvements
+
+> Maybe discuss other chalk improvements? (e.g., benchmarking harness) (nikomatsakis)
+
+This didn't happen and we'll probably shelve it for now in favor of the previous point.
+
+### "lifetime capture"
+
+> Maybe discuss the "lifetime capture" problem in impl Trait?
+
+This didn't happen and we'll probably shelve it for now in favor of the next point.
+
+### Draft RFCs
+
+centril plans to (at minimum) upload some draft RFCs to a new wg-traits repository.
+
+### Associated type bounds
+
+alexreg has been working on associated type bounds in [this Zulip
+thread][atb] and will likely continue to do so.
+
+[atb]: https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/associate.20type.20bounds
+
+## Plans for the coming week
+
+- Try to correct the `generics_of` query etc for constants so we can
+  observe what results.
+  - **Help wanted!** nikomatsakis is looking for someone to help
+    with investigating lazy normatlization. The task would be to
+    experimentally modify rustc and is best suited to someone
+    already vaguely familiar with the Rust query system etc.
+- Read-over GAT use cases and try to theorize about what it would take to 
+  support them in rustc etc (nikomatsakis)
+- Schedule a call to talk over what chalk integration into RLS 2.0 might look like (nikomatsakis)
+- Create a wg-traits repository to house draft RFCs and the like. (nikomatsakis)
+- Upload drafts of various traits-related RFCs to wg-traits (centril)
+- Continue work on associated type bounds (alexreg)
