@@ -1,0 +1,53 @@
+---
+title: Triage meeting on 2019-02-24
+type: docs
+---
+# Triage meeting on 2019-02-24
+
+## Info
+
+[Zulip thread.](https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weekly.20meeting.202019-02-25)
+
+## Summary
+
+The goal of the meeting was to try and figure out, in somewhat more
+detail, how we want to organize the traits working group itself. We've
+been doing [work on enumerating and triaging the set of things we hope
+to do][roadmap], but in this meeting we were basically trying to come
+up with some concrete next steps.
+
+[roadmap]: https://paper.dropbox.com/doc/Traits-Roadmap-sketch--AYTQPvAVQ~p4lyElpr24zoAQAg-m6hucUslp7GihsY3SjNN2
+
+Ultimately we identified the following next steps:
+
+- Schedule a meeting to dig into some of the **lifetime problems around
+  async-await**. This is kind of an "intersecting" issue between async await
+  and the traigs WG, but seems high priority. (nikomatsakis)
+- **Explore the use cases for lazy normalization**, trying to create a summary 
+  of exactly which test cases are causing problems and why, and what it might
+  take to fix them (can it be done without a full chalk transition?). (nikomatsakis)
+- **Explore the use cases for GATs**, trying to find a set of specific examples 
+  from async-await and other contexts. It seems likely that we could do an initial
+  impl of GATs in rustc without chalk, but would it be enough? (aturon, centril)
+- Schedule a meeting to **dig into the chalk transition** -- what is
+  current status and what are the possible future routes, what should
+  we be exploring? (nikomatsakis, scalexm)
+- Get tests plus FCP around `type Foo = impl Bar` (centril)
+
+In general, we're trying to get a sense for what the [initial set of
+active 'subprojects' will
+be](https://rust-lang.zulipchat.com/#narrow/stream/144729-t-compiler.2Fwg-traits/topic/weekly.20meeting.202019-02-25/near/159365173)
+(basically, the things that the WG is focusing on).  Ideally, each of
+them will have a distinct "lead" (or, better, leads!) who is driving
+the effort (in collaboration with the rest of us).
+
+A **likely** set of initial subprojects will contain:
+
+- some amount of hacking on rustc (GATs, lazy norm) in an effort to "relieve the pressure"
+- some amount of hacking on chalk itself and on chalk integration
+- some amount of work on defining the semantics of other features like
+  specialization by lowering them to chalk predicates
+  
+but that is not certain. A key drive is both the set of people we have
+involved and also what seems to be highest priority in terms of
+unblocking other things within Rust.

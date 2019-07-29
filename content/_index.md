@@ -48,8 +48,8 @@ are scheduled at a planning meeting that occurs every four weeks.
   - May 17: [Shipping parallel rustc](https://github.com/rust-lang/compiler-team/issues/82)
   - ~~May 31: [Maintenance and triage](https://github.com/rust-lang/compiler-team/issues/90)~~ -- postponed
 
-[triage]: about/triage-meeting.md
-[steering]: about/steering-meeting.md
+[triage]: about/triage-meeting
+[steering]: about/steering-meeting
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
 [propose]: https://github.com/rust-lang/compiler-team/issues/new/choose
@@ -116,8 +116,7 @@ Name                                                      | Status       | Short
 If you're interested in figuring out who can answer questions about a
 particular part of the compiler, or you'd just like to know who works on what,
 check out our [experts directory](experts). It contains a listing of the
-various parts of the compiler and a list of people who are experts and familiar
-on each one.
+various parts of the compiler and a list of people who are experts on each one.
 
 ## Procedures
 
@@ -128,7 +127,7 @@ rustc procedures.
 
 All interactions on this repository (whether on issues, PRs, or
 elsewhere) are governed by the [Rust Code of
-Conduct](CODE_OF_CONDUCT.md).
+Conduct](about/code_of_conduct/).
 
 Further, all content on this repository is subject to the standard
 [Rust](LICENSE-MIT) [licensing](LICENSE-APACHE).
