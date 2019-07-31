@@ -1,149 +1,219 @@
-[[experts]]
-area = "RLS"
+[[areas]]
+name = "RLS"
 directories = []
-who = ["matklad", "xanewok"]
+crates = []
+experts = ["matklad", "xanewok"]
+familiar = []
 
-[[experts]]
-area = "query system"
+[[areas]]
+name = "query system"
 directories = []
-who = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+crates = []
+experts = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+familiar = []
 
-[[experts]]
-area = "metadata encoding/decoding"
+[[areas]]
+name = "metadata encoding/decoding"
 directories = []
-who = ["mw", "oli-obk"]
+crates = []
+experts = ["mw", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "incremental compilation"
+[[areas]]
+name = "incremental compilation"
 directories = []
-who = ["mw", "nikomatsakis"]
+crates = []
+experts = ["mw", "nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "codegen unit partitioning"
+[[areas]]
+name = "codegen unit partitioning"
 directories = []
-who = ["mw"]
+crates = []
+experts = ["mw"]
+familiar = []
 
-[[experts]]
-area = "ThinLTO"
+[[areas]]
+name = "ThinLTO"
 directories = []
-who = ["acrichto", "mw"]
+crates = []
+experts = ["acrichto", "mw"]
+familiar = []
 
-[[experts]]
-area = "linker-plugin LTO (xLTO)"
+[[areas]]
+name = "linker-plugin LTO (xLTO)"
 directories = []
-who = ["mw"]
+crates = []
+experts = ["mw"]
+familiar = []
 
-[[experts]]
-area = "Typeck"
+[[areas]]
+name = "Typeck"
 directories = ["src/librustc_typeck"]
-who = ["nikomatsakis", "eddyb"]
+crates = []
+experts = ["nikomatsakis", "eddyb"]
+familiar = ["Centril"]
 
-[[experts]]
-area = "miri"
+[[areas]]
+name = "miri"
 directories = [
     "src/librustc/mir/interpret",
     "src/librustc_mir/interpret",
 ]
-who = ["oli-obk", "RalfJung", "eddyb"]
+crates = []
+experts = ["oli-obk", "RalfJung", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "Diagnostics"
+[[areas]]
+name = "Diagnostics"
 directories = []
-who = ["estebank", "oli-obk", "zackmdavis"]
+crates = []
+experts = ["estebank", "oli-obk", "zackmdavis"]
+familiar = []
 
-[[experts]]
-area = "Parser"
-directories = []
-who = ["petrochenkov", "estebank"]
+[[areas]]
+name = "Parser"
+directories = [
+    "src/libsyntax/ast.rs",
+    "src/libsyntax/parse",
+    "src/libsyntax/util",
+]
+crates = []
+experts = ["petrochenkov", "estebank"]
+familiar = ["Centril"]
 
-[[experts]]
-area = "Grammar"
-directories = []
-who = ["qmx", "centril", "eddyb"]
+[[areas]]
+name = "Lexer"
+directories = [
+    "src/rustc_lexer",
+    "src/libsyntax/parse/lexer/",
+]
+crates = []
+experts = ["petrochenkov", "matklad"]
+familiar = []
 
-[[experts]]
-area = "MIR structure/construction"
+[[areas]]
+name = "Grammar"
+directories = ["src/grammar"]
+crates = []
+experts = ["qmx", "centril", "eddyb"]
+familiar = []
+
+[[areas]]
+name = "MIR structure/construction"
 directories = [
     "src/librustc/mir",
     "src/librustc_mir/build",
 ]
-who = ["nikomatsakis", "eddyb", "oli-obk"]
+crates = []
+experts = ["nikomatsakis", "eddyb", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "MIR optimizations"
+[[areas]]
+name = "MIR optimizations"
 directories = [
     "src/librustc_mir/transform",
 ]
-who = ["eddyb", "oli-obk", "nagisa"]
+crates = []
+experts = ["eddyb", "oli-obk", "nagisa"]
+familiar = []
 
-[[experts]]
-area = "match/exhaustiveness"
+[[areas]]
+name = "match/exhaustiveness"
 directories = ["src/librustc_mir/hair/pattern"]
-who = ["arielb1", "varkor", "oli-obk"]
+crates = []
+experts = ["arielb1", "varkor", "oli-obk"]
+familiar = []
 
-[[experts]]
-area = "Traits"
+[[areas]]
+name = "Traits"
 directories = ["src/librustc/traits", "src/librustc_traits"]
-who = ["nikomatsakis", "arielb1", "scalexm"]
+crates = []
+experts = ["nikomatsakis", "arielb1", "scalexm"]
+familiar = []
 
-[[experts]]
-area = "Polonius"
+[[areas]]
+name = "Polonius"
 directories = []
-who = ["nikomatsakis"]
+crates = ["polonius", "datafrog"]
+experts = ["nikomatsakis"]
+familiar = ["lqd"]
 
-[[experts]]
-area = "Libs"
+[[areas]]
+name = "Libs"
 directories = []
-who = []
+crates = []
+experts = []
+familiar = []
 
-[[experts]]
-area = "AST -> HIR lowering"
+[[areas]]
+name = "AST -> HIR lowering"
 directories = [
     "src/librustc/hir/lowering.rs",
 ]
-who = ["oli-obk"]
+crates = []
+experts = ["oli-obk"]
+familiar = ["Centril"]
 
-[[experts]]
-area = "debuginfo"
+[[areas]]
+name = "debuginfo"
 directories = []
-who = ["mw", "eddyb"]
+crates = []
+experts = ["mw", "eddyb"]
+familiar = []
 
-[[experts]]
-area = "drop-check"
+[[areas]]
+name = "drop-check"
 directories = []
-who = ["pnkfelix", "arielb1"]
+crates = []
+experts = ["pnkfelix", "arielb1"]
+familiar = []
 
-[[experts]]
-area = "dataflow"
+[[areas]]
+name = "dataflow"
 directories = []
-who = ["pnkfelix", "nikomatsakis"]
+crates = []
+experts = ["pnkfelix", "nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "AST-borrow checker"
+[[areas]]
+name = "AST-borrow checker"
 directories = []
-who = ["nikomatsakis"]
+crates = []
+experts = ["nikomatsakis"]
+familiar = []
 
-[[experts]]
-area = "MIR borrow check"
+[[areas]]
+name = "MIR borrow check"
 directories = []
-who = ["arielb1", "pnkfelix", "matthewjasper"]
+crates = []
+experts = ["arielb1", "pnkfelix", "matthewjasper"]
+familiar = []
 
-[[experts]]
-area = "drop elaboration"
+[[areas]]
+name = "drop elaboration"
 directories = []
-who = ["arielb1"]
+crates = []
+experts = ["arielb1"]
+familiar = []
 
-[[experts]]
-area = "Privacy"
+[[areas]]
+name = "Privacy"
 directories = []
-who = ["petrochenkov"]
+crates = []
+experts = ["petrochenkov"]
+familiar = []
 
-[[experts]]
-area = "Name resolution, hygiene"
+[[areas]]
+name = "Name resolution, hygiene"
 directories = []
-who = ["petrochenkov"]
+crates = []
+experts = ["petrochenkov"]
+familiar = []
 
-[[experts]]
-area = "Macro expansion"
+[[areas]]
+name = "Macro expansion"
 directories = []
-who = ["petrochenkov"]
+crates = []
+experts = ["petrochenkov"]
+familiar = []
