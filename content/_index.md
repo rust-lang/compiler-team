@@ -13,7 +13,7 @@ and other similar topics -- check out the [rustc-guide].
 
 ## Quick facts
 
-- **Where to find us:** We are primarily present on [Zulip](docs/about/chat-platform), though some of us also monitor Discord.
+- **Where to find us:** We are primarily present on [Zulip](about/chat-platform), though some of us also monitor Discord.
 - **Want to attend a meeting or follow along?** See the "meeting calendar" section below.
 - **Looking for technical information about how the compiler works?**
   Check out the [rustc-guide](https://rust-lang-nursery.github.io/rustc-guide/).
@@ -63,21 +63,21 @@ active working groups are listed below:
 
 Name                                                      | Status       | Short Description                                                                                  | Zulip Stream
 ----                                                      | ------       | -----------------                                                                                  | ------------
-[Async-await Implementation](docs/working-groups/async-await/) | Active       | Implementing async-await                                                                           | [#t-compiler/wg-async-await][async-await_stream]
-[LLVM](docs/working-groups/llvm/)                              | Incubating   | Working with LLVM upstream to represent Rust in its development                                    | [#t-compiler/wg-llvm][llvm_stream]
-[Self-Profile](docs/working-groups/self-profile/)              | Active       | Improving the `-Z self-profile` feature                                                            | [#t-compiler/wg-self-profile][self-profile_stream]
-[RFC 2229](docs/working-groups/rfc-2229/)                      | Active       | Make a closure capture individual fields of the variable rather than the entire composite variable | [#t-compiler/wg-rfc-2229][rfc-2229-stream]
-[RLS 2.0](docs/working-groups/rls-2.0/)                        | Active       | Experimenting with a new compiler architecture tailored for IDEs                                   | [#t-compiler/wg-rls2.0][rls20_stream]
-[Meta](docs/working-groups/meta/)                              | Active       | How compiler team organizes itself                                                                 | [#t-compiler/wg-meta][meta_stream]
-[Non-Lexical Lifetimes (NLL)](docs/working-groups/nll/)        | Winding down | Implementing non-lexical lifetimes                                                                 | [#t-compiler/wg-nll][nll_stream]
-[Traits](docs/working-groups/traits/)                          | Active       | Improving the trait-system design + implementation                                                 | [#t-compiler/wg-traits][traits_stream]
-[Parallel-rustc](docs/working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
-[Profile-Guided Optimization](docs/working-groups/pgo/)        | Active       | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
-[MIR Optimizations](docs/working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
-[Rustc pipelining](docs/working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
-[Polonius](docs/working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
-[Learning](docs/working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
-[Diagnostics](docs/working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
+[Async-await Implementation](working-groups/async-await/) | Active       | Implementing async-await                                                                           | [#t-compiler/wg-async-await][async-await_stream]
+[LLVM](working-groups/llvm/)                              | Incubating   | Working with LLVM upstream to represent Rust in its development                                    | [#t-compiler/wg-llvm][llvm_stream]
+[Self-Profile](working-groups/self-profile/)              | Active       | Improving the `-Z self-profile` feature                                                            | [#t-compiler/wg-self-profile][self-profile_stream]
+[RFC 2229](working-groups/rfc-2229/)                      | Active       | Make a closure capture individual fields of the variable rather than the entire composite variable | [#t-compiler/wg-rfc-2229][rfc-2229-stream]
+[RLS 2.0](working-groups/rls-2.0/)                        | Active       | Experimenting with a new compiler architecture tailored for IDEs                                   | [#t-compiler/wg-rls2.0][rls20_stream]
+[Meta](working-groups/meta/)                              | Active       | How compiler team organizes itself                                                                 | [#t-compiler/wg-meta][meta_stream]
+[Non-Lexical Lifetimes (NLL)](working-groups/nll/)        | Winding down | Implementing non-lexical lifetimes                                                                 | [#t-compiler/wg-nll][nll_stream]
+[Traits](working-groups/traits/)                          | Active       | Improving the trait-system design + implementation                                                 | [#t-compiler/wg-traits][traits_stream]
+[Parallel-rustc](working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
+[Profile-Guided Optimization](working-groups/pgo/)        | Active       | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
+[MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
+[Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
+[Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
+[Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
+[Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
