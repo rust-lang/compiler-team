@@ -103,6 +103,8 @@ The basic steps to setup a working group are as follows:
     Feel free to remove sections if they don't seem to apply: many
     working groups start out with relatively little structure but
     define it early on.
+  - Add the working group to the check-in schedule by modifying
+    `layouts/shortcodes/checkin-schedule.html`.
 - **Add an entry to the compiler team calendar:** If you have a regular meeting,
   ping somebody on [`#t-compiler`][cp] to add an entry to the compiler team calendar.
 - Add a file to the [`rust-lang/team`][team_repo] repository. Only working group leads should be

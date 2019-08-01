@@ -19,39 +19,4 @@ The regular agenda (and process for pre-triage) is maintained on [Rust Issue 548
 ## Working group check-in
 This section contains the scheduled check-ins for working groups:
 
-- **2019-03-21:** [wg-nll], [wg-traits]
-- **2019-03-28:** [wg-parallel-rustc], [wg-pgo]
-- **2019-04-04:** [wg-rls-2.0], [wg-meta]
-- **2019-04-11:** [wg-mir-opt], [wg-pipelining]
-- **2019-04-18:** [wg-llvm], [wg-async-await],
-- **2019-04-25:** [wg-rfc-2229], [wg-self-profile]
-- **2019-05-02:** [wg-meta], [wg-rls-2.0]
-- **2019-05-09:** [wg-nll], [wg-diagnostics]
-- **2019-05-16:** (no checkin; [wg-pgo] was JIT-scheduled and then we ran out of time)
-- **2019-05-23:** [wg-pgo], [wg-traits]
-- **2019-05-30:** (no triage meeting)
-- **2019-06-06:** [wg-mir-opt]. ([wg-parallel-rustc] was pinged but had nothing interesting to report)
-
-Looking for a meeting that isn't listed above? Make a PR and extend the list to include that
-meeting.
-
-### Previous check-ins
-This section lists check-ins from triage meetings before the check-in schedule was introduced:
-
-- **2019-03-14:** [wg-async-await], [wg-llvm]
-- **2019-03-07:** [wg-self-profile], [wg-rfc-2229]
-- **2019-02-28:** [wg-rls-2.0], [wg-meta]
-
-[wg-rls-2.0]: ../../working-groups/rls-2.0
-[wg-meta]: ../../working-groups/meta
-[wg-self-profile]: ../../working-groups/self-profile
-[wg-rfc-2229]: ../../working-groups/rfc-2229
-[wg-async-await]: ../../working-groups/async-await
-[wg-llvm]: ../../working-groups/llvm
-[wg-nll]: ../../working-groups/nll
-[wg-traits]: ../../working-groups/traits
-[wg-parallel-rustc]: ../../working-groups/parallel-rustc
-[wg-pgo]: ../../working-groups/pgo
-[wg-mir-opt]: ../../working-groups/mir-opt
-[wg-pipelining]: ../../working-groups/pipelining
-[wg-diagnostics]: ../../working-groups/diagnostics
+{{< checkin-schedule >}}
