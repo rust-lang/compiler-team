@@ -9,42 +9,42 @@ familiar = []
 name = "query system"
 directories = []
 crates = []
-experts = ["nikomatsakis", "eddyb", "Zoxc", "mw"]
+experts = ["nikomatsakis", "eddyb", "Zoxc", "michaelwoerister"]
 familiar = []
 
 [[areas]]
 name = "metadata encoding/decoding"
 directories = []
 crates = []
-experts = ["mw", "oli-obk"]
+experts = ["michaelwoerister", "oli-obk"]
 familiar = []
 
 [[areas]]
 name = "incremental compilation"
 directories = []
 crates = []
-experts = ["mw", "nikomatsakis"]
+experts = ["michaelwoerister", "nikomatsakis"]
 familiar = []
 
 [[areas]]
 name = "codegen unit partitioning"
 directories = []
 crates = []
-experts = ["mw"]
+experts = ["michaelwoerister"]
 familiar = []
 
 [[areas]]
 name = "ThinLTO"
 directories = []
 crates = []
-experts = ["acrichto", "mw"]
+experts = ["alexcrichton", "michaelwoerister"]
 familiar = []
 
 [[areas]]
 name = "linker-plugin LTO (xLTO)"
 directories = []
 crates = []
-experts = ["mw"]
+experts = ["michaelwoerister"]
 familiar = []
 
 [[areas]]
@@ -159,7 +159,7 @@ familiar = ["Centril"]
 name = "debuginfo"
 directories = []
 crates = []
-experts = ["mw", "eddyb"]
+experts = ["michaelwoerister", "eddyb"]
 familiar = []
 
 [[areas]]
@@ -233,6 +233,6 @@ directories = [
 crates = [
     "measureme",
 ]
-experts = ["mw", "wesleywiser"]
+experts = ["michaelwoerister", "wesleywiser"]
 familiar = []
 
