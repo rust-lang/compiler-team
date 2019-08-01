@@ -116,7 +116,7 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "oli-obk", "nagisa"]
-familiar = []
+familiar = ["wesleywiser"]
 
 [[areas]]
 name = "match/exhaustiveness"
@@ -224,3 +224,15 @@ directories = []
 crates = []
 experts = ["tmandry"]
 familiar = []
+
+[[areas]]
+name = "Self profiler"
+directories = [
+    "src/librustc/util/profiling.rs",
+]
+crates = [
+    "measureme",
+]
+experts = ["mw", "wesleywiser"]
+familiar = []
+
