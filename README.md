@@ -1,31 +1,15 @@
-# Static web page for Rust Compiler Team
+# Compiler Team
+This repository contains a static site that details the procedures, policies, working groups,
+planning documents and minutes.
 
-This repository contains a static web page created with Hugo 
-
-Static Web Page for the Rust Compiler Team
-This repository contains a static web page created with [Hugo](https://gohugo.io/) using the [Book Theme](https://themes.gohugo.io/hugo-book/)
-
-## Getting Started 
-
-In order to run this project you need to have already installed:
-
-Hugo v0.55.6
-
-## Run the website with the following commands:
-
-Update the Hugo Theme: 
+## Getting Started
+You'll need to install [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) to build the
+website locally, you can then run the following commands to set the website up:
 
 ```
-  git submodule update --init
+git clone git@github.com:rust-lang/compiler-team.git
+git submodule update --init
+hugo server --minify
 ```
 
-Generate the web site:
-
-```
-  hugo -d dist --minify --theme book
-```
-
-Run the web locally:
-```
-  hugo server --minify --theme book
-```
+To generate a version for distribution, run `hugo --minify` and use the `public` directory.
