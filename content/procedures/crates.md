@@ -160,7 +160,7 @@ It is sometimes desirable to use the functionality of an existing third-party cr
 
 ### When can a third-party crate be added as a compiler dependency?
 It is desirable that a third-party crate being included in the compiler is well-maintained and that,
-where possible, a compiler team member is added as a maintainer. You should consulting with the
+where possible, a compiler team member is added as a maintainer. You should consult with the
 rest of the compiler team before making this decision.
 
 ### What about third-party dependencies to out-of-tree crates?
