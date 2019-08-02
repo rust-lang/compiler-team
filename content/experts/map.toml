@@ -69,7 +69,7 @@ name = "Diagnostics"
 directories = []
 crates = []
 experts = ["estebank", "oli-obk", "zackmdavis"]
-familiar = ["davidtwco"]
+familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
 name = "Parser"
@@ -107,7 +107,7 @@ directories = [
 ]
 crates = []
 experts = ["nikomatsakis", "eddyb", "oli-obk"]
-familiar = ["davidtwco"]
+familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
 name = "MIR optimizations"
@@ -116,7 +116,7 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "oli-obk", "nagisa"]
-familiar = ["wesleywiser"]
+familiar = ["wesleywiser", "spastorino"]
 
 [[areas]]
 name = "match/exhaustiveness"
@@ -137,7 +137,7 @@ name = "Polonius"
 directories = []
 crates = ["polonius", "datafrog"]
 experts = ["nikomatsakis"]
-familiar = ["lqd"]
+familiar = ["lqd", "spastorino"]
 
 [[areas]]
 name = "Libs"
@@ -188,7 +188,7 @@ name = "MIR borrow check"
 directories = []
 crates = []
 experts = ["arielb1", "pnkfelix", "matthewjasper"]
-familiar = ["davidtwco"]
+familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
 name = "drop elaboration"
