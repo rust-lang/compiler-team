@@ -11,7 +11,7 @@ So, you would like to form a working group?
 Working groups are the basic way that the compiler team tracks what is
 going on. **If you are doing some sort of task that the compiler team
 will want to track over time, then it makes sense to form a working
-group**, even if you don't plan to be getting a more people involved.
+group**, even if you don't plan to be getting more people involved.
 
 **The compiler team regularly checks in on the progress for each active
 working group.** So every working group should always have at least one
@@ -38,7 +38,7 @@ new working group.
 
 It's also good to identify an initial set of **group leads** -- the
 leads are the people who are driving the project forward overall. It's
-best if you have 2 or 3 leads who are exciting about the project,
+best if you have 2 or 3 leads who are excited about the project,
 including at least one person from the compiler team, but there aren't
 strict rules here. See below for a few more details.
 
