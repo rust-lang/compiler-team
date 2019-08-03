@@ -116,7 +116,16 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "oli-obk", "nagisa"]
-familiar = ["wesleywiser", "spastorino"]
+familiar = ["wesleywiser", "spastorino", "tmandry"]
+
+[[areas]]
+name = "Type layout"
+directories = [
+    "src/librustc/ty/layout.rs",
+]
+crates = []
+experts = ["eddyb", "oli-obk", "nagisa"]
+familiar = ["tmandry"]
 
 [[areas]]
 name = "match/exhaustiveness"
@@ -174,7 +183,7 @@ name = "dataflow"
 directories = []
 crates = []
 experts = ["pnkfelix", "nikomatsakis"]
-familiar = []
+familiar = ["tmandry"]
 
 [[areas]]
 name = "AST-borrow checker"
