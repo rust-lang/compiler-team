@@ -229,9 +229,15 @@ familiar = []
 
 [[areas]]
 name = "Generators"
-directories = []
+directories = [
+    "src/libcore/ops/generator.rs",
+    "src/librustc_mir/transform/generator.rs",
+    "src/librustc_typeck/check/generator_interior.rs",
+    "src/test/run-pass/generator",
+    "src/test/ui/generator",
+]
 crates = []
-experts = ["tmandry"]
+experts = ["Zoxc", "tmandry"]
 familiar = []
 
 [[areas]]
