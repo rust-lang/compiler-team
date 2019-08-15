@@ -15,7 +15,7 @@
 <script>
     var today = new Date();
     var year = new Date(today.getFullYear(), 0, 1);
-    var week = Math.floor(((today - year) / 86400000) / 7);
+    var week = Math.floor(((today - year) / 86400000) / 7) + 1;
 
     var wgs = [
         "Async/Await", "Diagnostics", "Learning", "LLVM", "Meta", "MIR Optimizations", "NLL",
