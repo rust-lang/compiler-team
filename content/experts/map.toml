@@ -228,6 +228,15 @@ experts = ["petrochenkov"]
 familiar = []
 
 [[areas]]
+name = "`macro_rules` parsing and checking"
+directories = [
+    "src/libsyntax/ext/tt"
+]
+crates = []
+experts = ["mark-i-m"]
+familiar = []
+
+[[areas]]
 name = "Generators"
 directories = [
     "src/libcore/ops/generator.rs",
