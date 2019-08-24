@@ -11,7 +11,12 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 - **Meeting Notes:** 
     - [2019.05.14 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.14-meeting" >}})
     - [2019.05.28 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.28-meeting" >}})
+    - [2019.06.11 Meeting]({{< relref "/working-groups/learning/minutes/2019.06.11-meeting" >}})
     - [2019.06.25 Meeting]({{< relref "/working-groups/learning/minutes/2019.06.25-meeting" >}})
+    - [2019.07.09 Meeting]({{< relref "/working-groups/learning/minutes/2019.07.09-meeting" >}})
+    - [2019.07.23 Meeting]({{< relref "/working-groups/learning/minutes/2019.07.23-meeting" >}})
+    - [2019.08.06 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.06-meeting" >}})
+    - [2019.08.20 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.20-meeting" >}})
 - **Agenda:** [Agenda]({{< relref "/working-groups/learning/minutes/agenda" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/learning/FAQ" >}})
 
