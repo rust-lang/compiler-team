@@ -20,7 +20,7 @@ since then in terms of its implementation details and efficiency, and
 one of the goals of the working group is to extend the scope of the
 crate to define the full borrow check analysis.
 
-- **Leads:** [@nikomatsakis][nikomatsakis]
+- **Leads:** [@nikomatsakis][nikomatsakis], [@lqd][lqd]
 - **Meeting Notes:**
     - [2019.03.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.03.07-meeting" >}})
     - [2019.04.23 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.23-meeting" >}})
@@ -70,3 +70,4 @@ time. Attendance is not mandatory but recommended as this can be a
 good opportunity to ask any questions and find new issues to work on.
 
 [nikomatsakis]: https://github.com/nikomatsakis
+[lqd]: https://github.com/lqd
