@@ -5,14 +5,14 @@ type: docs
 # parallel-rustc Working Group
 ![working group status: active][status]
 
-- **Leads:** [@Zoxc][Zoxc], [@michaelwoerister][michaelwoerister]
+- **Leads:** [@Zoxc][Zoxc], [@aturon][aturon]
 - **Meeting Notes:** [All]({{< relref "/working-groups/parallel-rustc/NOTES" >}})
-- **Minutes:** 
+- **Minutes:**
     - [2019.05.10]({{< relref "/working-groups/parallel-rustc/minutes/2019.05.10" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/parallel-rustc/FAQ" >}})
 
 [Zoxc]: https://github.com/Zoxc
-[michaelwoerister]: https://github.com/michaelwoerister
+[aturon]: https://github.com/aturon
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
 ## What is the goal of this working group?
