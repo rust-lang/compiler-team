@@ -43,16 +43,14 @@ proposed designs, changes to our process, and other topics. The topics
 are scheduled at a planning meeting that occurs every four weeks.
 
 - **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue][propose] with the correct template.
-- **Next planning meeting:** June 7
-- **Scheduled meetings:**
-  - May 17: [Shipping parallel rustc](https://github.com/rust-lang/compiler-team/issues/82)
-  - ~~May 31: [Maintenance and triage](https://github.com/rust-lang/compiler-team/issues/90)~~ -- postponed
+- **To see the current scheduled meetings**, check out the [meeting calendar](#meeting-calendar). 
 
 [triage]: about/triage-meeting
 [steering]: about/steering-meeting
 [embed]: https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com
 [ics]: https://calendar.google.com/calendar/ical/6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com/public/basic.ics
 [propose]: https://github.com/rust-lang/compiler-team/issues/new/choose
+
 ## Working Groups
 
 Much of the ongoing work and initiatives from the compiler team are performed by working groups.
