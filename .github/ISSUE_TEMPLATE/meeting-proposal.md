@@ -44,9 +44,9 @@ reviewing the proposal in meetings or making a scheduling decision.
 In the meantime, if you have questions or ideas, ping the proposers
 on [Zulip] (or elsewhere).
 
-[Zulip]: https://github.com/rust-lang/compiler-team/blob/master/about/chat-platform.md
-[steering meeting]: https://github.com/rust-lang/compiler-team/blob/master/about/steering-meeting.md
-[proc]: https://github.com/rust-lang/compiler-team/blob/master/procedures/steering-meeting.md
-[this template]: https://github.com/rust-lang/compiler-team/blob/master/proposals/_template.md
+[Zulip]: https://github.com/rust-lang/compiler-team/blob/master/content/about/chat-platform.md
+[steering meeting]: https://github.com/rust-lang/compiler-team/blob/master/content/about/steering-meeting.md
+[proc]: https://github.com/rust-lang/compiler-team/blob/master/content/procedures/steering-meeting.md
+[this template]: https://github.com/rust-lang/compiler-team/blob/master/content/proposals/_index.md
 [hackmd]: https://hackmd.io/
 [gist]: https://gist.github.com/
