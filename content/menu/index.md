@@ -8,28 +8,9 @@ headless: true
   - [Triage Meeting] ({{< relref "/about/triage-meeting" >}})
 - **Minutes**
 
-  - **Design Meetings**
-      - [2019-06-21]({{< relref "/minutes/design-meeting/2019-06-21-the-gcx-tcx-transition.md" >}})
-
-  - **Steering Meetings**
-      - [2018-10-26]({{< relref "/minutes/steering-meeting/2018-10-26" >}})
-      - [2018-11-16]({{< relref "/minutes/steering-meeting/2018-11-16" >}})
-      - [2018-12-14]({{< relref "/minutes/steering-meeting/2018-12-14" >}})
-      - [2019-01-04]({{< relref "/minutes/steering-meeting/2019-01-04" >}})
-      - [2019-01-17]({{< relref "/minutes/steering-meeting/2019-01-17" >}})
-      - [2019-03-01]({{< relref "/minutes/steering-meeting/2019-03-01" >}})
-      - [2019-03-22]({{< relref "/minutes/steering-meeting/2019-03-22" >}})
-      - [2019-04-12]({{< relref "/minutes/steering-meeting/2019-04-12" >}})
-
-  - **Triage Meetings**
-      - [2019-04-11]({{< relref "/minutes/triage-meeting/2019-04-11" >}})
-      - [2019-04-18]({{< relref "/minutes/triage-meeting/2019-04-18" >}})
-      - [2019-04-25]({{< relref "/minutes/triage-meeting/2019-04-25" >}})
-      - [2019-05-02]({{< relref "/minutes/triage-meeting/2019-05-02" >}})
-      - [2019-05-09]({{< relref "/minutes/triage-meeting/2019-05-09" >}})
-      - [2019-05-23]({{< relref "/minutes/triage-meeting/2019-05-23" >}})
-      - [2019-06-13]({{< relref "/minutes/triage-meeting/2019-06-13" >}})
-      - [2019-06-20]({{< relref "/minutes/triage-meeting/2019-06-20" >}})
+  - [Design Meetings]({{< relref "/minutes/design-meeting" >}})
+  - [Steering Meetings]({{< relref "/minutes/steering-meeting" >}})
+  - [Triage Meetings]({{< relref "/minutes/triage-meeting" >}})
 
 - [**Experts**]({{< relref "/experts" >}})
 
