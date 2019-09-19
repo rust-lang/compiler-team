@@ -1,5 +1,5 @@
 <ul>
-{{ range (readDir (.Get 0) ) }}
+{{ range sort (readDir (.Get 0)) "Name" "desc" }}
   {{ if ne (substr .Name 0 1) "_" }}
     {{ $file_name := replace .Name (path.Ext .Name) "" }}
     <li><a href="{{ $file_name }}">{{ $file_name }}</a></li>
