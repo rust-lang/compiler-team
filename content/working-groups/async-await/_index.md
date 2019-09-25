@@ -9,7 +9,8 @@ This working group is focused around implementation/design of the "foundations" 
 This includes the `async-await` language feature but also the core `Future` trait and adapters.
 
 - **Leads:** [@cramertj][cramertj] and [@nikomatsakis][nikomatsakis].
-- **Triage Links and Labels:** See [triage-links.md](./triage-links) for a description of the issue labels we use
+- **Labels:** We use the `AsyncAwait-*` labels on Github to track our work.
+  See the [How to get involved](#how-to-get-involved) section for details.
 - **Zulip stream:** [`#wg-async-foundations`][stream] on Zulip
 - **Videos:** Video meetings and mentoring sessions are recorded and posted to this [YouTube playlist](https://www.youtube.com/watch?v=xe2_whJWBC0&list=PL85XCvVPmGQgGNOAwhOKIfCL6TuRLJlWy).
 
@@ -47,16 +48,16 @@ Possible future areas for consideration include:
 However, we've decided to largely defer this sort of work until we've
 finished off more of the polish work on async-await.
 
-# How to get involved
+## How to get involved
 
 We are currently working to systematically polish the `async-await`
 feature. If you'd like to get involved, take a look at the list of
-[focus issues][AsyncAwait-Focus] to see if there is one there is
+[focus issues](#focus-issues) to see if there is one there is
 something unassigned that you would like to work on. Otherwise, drop
-in on the [Zulip stream][stream] and say hi, or come to our triage
-meeting (also held on Zulip).
+in on the [Zulip stream][stream] and say hi, or come to our [triage
+meeting](#triage-meeting) (also held on Zulip).
 
-## Focus issues
+### Focus issues
 
 We are using a "focus" system to try and move systematically through a
 lot of issues. The idea is that we divide issues into three
@@ -75,17 +76,17 @@ categories, each of which is indicated by a GitHub label:
 [AsyncAwait-OnDeck]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-OnDeck+is%3Aopen&type=Issues
 [AsyncAwait-Other]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Other+is%3Aopen&type=Issues
 
-## Triage meeting
+### Triage meeting
 
 We have a [short triage meeting every week][event], which you can find
 on the [compiler calendar][cc]. The meeting is help on [the
 `#wg-async-foundations` Zulip stream][stream] and is open to all. The
 meeting agenda is as follows:
 
-- Review [uncategoried issues], assigning a `AsyncAwait-*` label 
-- Review focus issues to check we are making progress
-- Promote issues from OnDeck to Focus as needed
-- Promote issues from Other to OnDeck as needed
+- Review [uncategorized issues], assigning a `AsyncAwait-*` label 
+- Review [AsyncAwait-Focus] issues to check we are making progress
+- Promote issues from [AsyncAwait-OnDeck] to [AsyncAwait-Focus] as needed
+- Promote issues from [AsyncAwait-Other] to [AsyncAwait-OnDeck] as needed
 
 [uncategorized issues]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AA-async-await+is%3Aopen+-label%3AAsyncAwait-Focus+-label%3AAsyncAwait-Other+-label%3AAsyncAwait-OnDeck&type=Issues
 [A-async-await]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AA-async-await+is%3Aopen&type=Issues
