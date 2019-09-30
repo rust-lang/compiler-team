@@ -10,6 +10,31 @@ type: docs
     - [2019.03.05 Roadmap Plan]({{< relref "/working-groups/rfc-2229/minutes/2019.03.05-roadmap-plan" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/rfc-2229/FAQ" >}})
 
+## Status
+
+This working group is currently **paused until 2020**. This is
+basically because the participants didn't really have time to keep
+pushing things forward. We intend to start up again after having
+finished off a few smaller items.
+
+The final status was as follows:
+
+The
+[blitzerr/upvar-tys-squashed](https://github.com/blitzerr/rust/tree/upvar-tys-squashed)
+branch (mirrored at [nikomatsakis's
+fork](https://github.com/nikomatsakis/rust/tree/upvar-tys-squashed))
+contains the first step to modify how closure's upvars are captured.
+In particular, instead of having individual generic parameters per
+upvar, we instead capture a tuple of generic parameters. The branch is
+quite out of date and these refactored needs to be "rebased" atop
+master. The branch also had (relatively minor) effects on the
+diagnostic output which ought to be resolved.
+
+We were also working on
+[#60205](https://github.com/rust-lang/rust/issues/60205), which had
+the goal of refactoring freevar access in the compiler to go through
+the type checker. This never really got started.
+
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
 
