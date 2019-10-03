@@ -57,6 +57,9 @@ something unassigned that you would like to work on. Otherwise, drop
 in on the [Zulip stream][stream] and say hi, or come to our [triage
 meeting](#triage-meeting) (also held on Zulip).
 
+You can also help just by [**nominating issues**](#nominating-issues) -- i.e., telling us
+which issues you think are more important to fix and why.
+
 ### Focus issues
 
 We are using a "focus" system to try and move systematically through a
@@ -66,15 +69,33 @@ categories, each of which is indicated by a GitHub label:
 - [AsyncAwait-Focus] -- issues that we are currently focused on. We
   try to keep around 3-5 of these at any given time. If these are
   unassigned, we will try to assign them.
-- [AsyncAwait-OnDeck] -- issues that we intend to focus on soon.
-  We try to keep around "one page" of such issues. When a focus issue
-  is closed, or if it seems stalled, we will pick from this list.
+- [AsyncAwait-OnDeck] -- issues that we might focus on next.  You can
+  [nominate issues](#nominating-issues) yourself to add them to this
+  list, if you like! We typically pick from this list when a focus
+  issue is closed or gets stalled.
 - [AsyncAwait-Other] -- issues that we've looked at and decided not to focus
   on (yet). We gradually move issues from this pool to the "on deck" pool.
 
 [AsyncAwait-Focus]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Focus+is%3Aopen&type=Issues
 [AsyncAwait-OnDeck]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-OnDeck+is%3Aopen&type=Issues
 [AsyncAwait-Other]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Other+is%3Aopen&type=Issues
+
+### Nominating issues
+
+If you think an issue would be a good choice to fix sooner rather than
+later, you can **nominate** it for us. To do so, you need to leave a
+comment which adds the `AsyncAwait-OnDeck` label. The comment should
+also explain **why** you think this is important.
+
+Here is an example of such a comment:
+
+```
+@rustbot modify labels to +AsyncAwait-OnDeck
+
+This issue would be great to fix! I hit it pretty regularly
+and every time I am left scratching my head for five minutes
+before I figure out the problem.
+```
 
 ### Triage meeting
 
