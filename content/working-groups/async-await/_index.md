@@ -62,23 +62,27 @@ which issues you think are more important to fix and why.
 
 ### Focus issues
 
-We are using a "focus" system to try and move systematically through a
-lot of issues. The idea is that we divide issues into three
-categories, each of which is indicated by a GitHub label:
+We always have a set of "focus issues", which are the ones that we are either
+actively fixing or looking for someone to fix. In general, we track our issues
+using a set of ethre labels:
 
-- [AsyncAwait-Focus] -- issues that we are currently focused on. We
-  try to keep around 3-5 of these at any given time. If these are
-  unassigned, we will try to assign them.
-- [AsyncAwait-OnDeck] -- issues that we might focus on next.  You can
-  [nominate issues](#nominating-issues) yourself to add them to this
-  list, if you like! We typically pick from this list when a focus
-  issue is closed or gets stalled.
-- [AsyncAwait-Other] -- issues that we've looked at and decided not to focus
-  on (yet). We gradually move issues from this pool to the "on deck" pool.
+- [AsyncAwait-Triaged] -- the base label, which indicates issues that
+  we've looked at in our meetings. Each meeting we look for [untriaged
+  issues], which are those that are labeled `A-async-await` but which
+  lack the `AsyncAwait-Triaged` label, and try to keep track of them.
+  **To ensure new issues are known to all, this label should only be
+  added during WG triage meetings!**
+- [AsyncAwait-OnDeck] -- this label is added to issues that we might
+  focus on next.  You can [nominate issues](#nominating-issues)
+  yourself to add them to this list, if you like! We typically pick
+  from this list when a focus issue is closed or gets stalled.
+- [AsyncAwait-Focus] -- this label indicates a current focus issue.
+  These issues are typically assigned, but if they are not, it means
+  we'd like someone to pick it up.
 
 [AsyncAwait-Focus]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Focus+is%3Aopen&type=Issues
 [AsyncAwait-OnDeck]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-OnDeck+is%3Aopen&type=Issues
-[AsyncAwait-Other]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Other+is%3Aopen&type=Issues
+[AsyncAwait-Triaged]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AAsyncAwait-Triaged+is%3Aopen&type=Issues
 
 ### Nominating issues
 
@@ -109,7 +113,7 @@ meeting agenda is as follows:
 - Promote issues from [AsyncAwait-OnDeck] to [AsyncAwait-Focus] as needed
 - Promote issues from [AsyncAwait-Other] to [AsyncAwait-OnDeck] as needed
 
-[uncategorized issues]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AA-async-await+is%3Aopen+-label%3AAsyncAwait-Focus+-label%3AAsyncAwait-Other+-label%3AAsyncAwait-OnDeck&type=Issues
+[uncategorized issues]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AA-async-await+is%3Aopen+-label%3AAsyncAwait-Triaged&type=Issues
 [A-async-await]: https://github.com/search?q=org%3Arust-lang+is%3Aissue+label%3AA-async-await+is%3Aopen&type=Issues
 
 [event]: https://rust-lang.zulipchat.com/#narrow/stream/187312-wg-async-foundations
