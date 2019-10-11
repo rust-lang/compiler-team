@@ -1,3 +1,8 @@
+---
+title: Dep-graph loading (#62083)
+type: docs
+---
+
 # design meeting 2019-10-11
 
 [Zulip stream](https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler/topic/design.20meeting.202019-10-11)
