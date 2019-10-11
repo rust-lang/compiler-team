@@ -2,6 +2,7 @@ baseURL = "https://rust-lang.github.io/compiler-team"
 languageCode = "en-us"
 title = "Rust Lang - Compiler Team"
 theme = "book"
+disablePathToLower = true
 
 [params]
 BookMenuBundle = '/menu'
