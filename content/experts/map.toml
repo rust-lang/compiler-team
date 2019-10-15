@@ -65,7 +65,7 @@ directories = [
 ]
 crates = []
 experts = ["oli-obk", "RalfJung", "eddyb"]
-familiar = []
+familiar = ["ecstatic-morse"]
 
 [[areas]]
 name = "Diagnostics"
