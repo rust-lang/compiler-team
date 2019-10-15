@@ -55,10 +55,13 @@ experts = ["nikomatsakis", "eddyb"]
 familiar = ["Centril"]
 
 [[areas]]
-name = "miri"
+name = "const-eval"
 directories = [
     "src/librustc/mir/interpret",
     "src/librustc_mir/interpret",
+    "src/librustc_mir/transform/check_consts",
+    "src/librustc_mir/transform/qualify_consts.rs",
+    "src/librustc_mir/transform/promote_consts.rs",
 ]
 crates = []
 experts = ["oli-obk", "RalfJung", "eddyb"]
