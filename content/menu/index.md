@@ -38,3 +38,4 @@ headless: true
   - [rls-2.0]({{< relref "/working-groups/rls-2.0" >}})
   - [Self Profile]({{< relref "/working-groups/self-profile" >}})
   - [Traits]({{< relref "/working-groups/traits" >}})
+  - [const-eval]({{< relref "/working-groups/const-eval" >}})

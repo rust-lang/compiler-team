@@ -76,6 +76,7 @@ Name                                                      | Status       | Short
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
 [Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
 [Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
+[Compile-time Function Evaluation][ctfe]                  | Active       | Reduce the number of restrictions on code in a const context.                                      | [#t-compiler/const-eval][const-eval-stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
@@ -108,6 +109,8 @@ Name                                                      | Status       | Short
 [learning_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
 [Polonius]: https://github.com/rust-lang/polonius
 [diagnostics-stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
+[ctfe]: working-groups/const-eval/
+[const-eval-stream]: https://rust-lang.zulipchat.com/#narrow/stream/146212-t-compiler.2Fconst-eval
 
 ## Expert Map
 
