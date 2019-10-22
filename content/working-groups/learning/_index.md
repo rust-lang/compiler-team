@@ -17,6 +17,8 @@ This working group aims to make the compiler easier to learn by ensuring that ru
     - [2019.07.23 Meeting]({{< relref "/working-groups/learning/minutes/2019.07.23-meeting" >}})
     - [2019.08.06 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.06-meeting" >}})
     - [2019.08.20 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.20-meeting" >}})
+    - [2019.09.17 Meeting]({{< relref "/working-groups/learning/minutes/2019.09.17-meeting" >}})
+    - [2019.10.01 Meeting]({{< relref "/working-groups/learning/minutes/2019.10.01-meeting" >}})
 - **Agenda:** [Agenda]({{< relref "/working-groups/learning/minutes/agenda" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/learning/FAQ" >}})
 
@@ -40,7 +42,7 @@ We follow a "sprint-like" structure where on each "sprint" cycle we start with a
 work towards the goals defined on that plan.
 
 - **Desired experience level:** Any
-- **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [rust-lang/rustc-guide][rustc-guide-repo]
+- **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [`rust-lang/rustc-guide`][rustc-guide-repo]
 - **Zulip stream:** [`#t-compiler/wg-learning`][zulip] on Zulip
 
 [rust-repo]: https://github.com/rust-lang/rust
