@@ -16,11 +16,10 @@ headless: true
 
 - **Procedures**
 
+  - Compiler team procedures are documented on the [Rust forge](https://forge.rust-lang.org/)
   - [Crates]({{< relref "/procedures/crates" >}})
-  - [Steering Meeting]({{< relref "/procedures/steering-meeting" >}})
   - [Call for participation]({{< relref "/procedures/call-for-participation" >}})
   - [Form new working group]({{< relref "/procedures/form-new-working-group" >}})
-  - [Proposals]({{< relref "/proposals" >}})
 
 - [**Working Groups**]({{< relref "/working-groups" >}})
   - [Async Await]({{< relref "/working-groups/async-await" >}})
