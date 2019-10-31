@@ -1,7 +1,3 @@
----
-title: Proposals
-type: docs
----
 **Title:** What is the title of your idea?
 
 **Estimate:** Will this take 1 or 2 meetings?

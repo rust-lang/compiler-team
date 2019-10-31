@@ -23,10 +23,16 @@ keep the others!
 
 - **Title:** (insert title here)
 - **Type:** (technical | non-technical | it's complicated)
-- **Proposed by:** (github user names here)
-- **Link:** (insert link to a gist, hackmd doc, etc)
-- **Scheduled dates for discussion:**
-  - Not yet scheduled, we'll add content here when it gets scheduled
+  
+# Summary
+
+XXX: Write about your idea here -- just a few sentences is enough!
+Better yet, add a link to a gist or hackmd document with more details.
+
+Note that once the meeting is scheduled, we may request that you
+prepare some more details by the time the meeting takes place
+(ideally, by some time before, if you would like folks to review
+them).
 
 # About this issue
 
