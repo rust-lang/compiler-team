@@ -12,7 +12,12 @@ Rust compiler.
 - **Meeting Notes:** [All]({{< relref "/working-groups/pgo/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/pgo/FAQ" >}})
 
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+*THIS WORKING GROUP HAS REACHED ITS GOALS AND IS IN RETIRED STATE.
+[PGO IS AVAILABLE](https://doc.rust-lang.org/rustc/profile-guided-optimization.html)
+IN THE STABLE RUST COMPILER.*
+
+[status]: https://img.shields.io/badge/status-retired-green.svg?style=for-the-badge
+
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
