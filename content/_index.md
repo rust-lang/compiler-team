@@ -43,7 +43,7 @@ proposed designs, changes to our process, and other topics. The topics
 are scheduled at a planning meeting that occurs every four weeks.
 
 - **Have an idea?** Click here to propose a topic to be scheduled by [filing an issue][propose] with the correct template.
-- **To see the current scheduled meetings**, check out the [meeting calendar](#meeting-calendar). 
+- **To see the current scheduled meetings**, check out the [meeting calendar](#meeting-calendar).
 
 [triage]: about/triage-meeting
 [steering]: about/steering-meeting
@@ -70,12 +70,12 @@ Name                                                      | Status       | Short
 [Non-Lexical Lifetimes (NLL)](working-groups/nll/)        | Winding down | Implementing non-lexical lifetimes                                                                 | [#t-compiler/wg-nll][nll_stream]
 [Traits](working-groups/traits/)                          | Active       | Improving the trait-system design + implementation                                                 | [#t-compiler/wg-traits][traits_stream]
 [Parallel-rustc](working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
-[Profile-Guided Optimization](working-groups/pgo/)        | Active       | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
 [MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
 [Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
 [Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
 [Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
+[Profile-Guided Optimization](working-groups/pgo/)        | Retired      | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [cramertj]: https://github.com/cramertj
