@@ -74,22 +74,9 @@ Name                                                      | Status       | Short
 [Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
 [Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
-[Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics-stream]
+[Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics_stream]
+[Polymorphization](working-groups/polymorphization/)      | Active       | Implement an analysis to detect when functions can remain polymorphic during code generation.      | [#t-compiler/wg-polymorphization][polymorphization_stream]
 [Profile-Guided Optimization](working-groups/pgo/)        | Retired      | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
-
-[nikomatsakis]: https://github.com/nikomatsakis
-[cramertj]: https://github.com/cramertj
-[matklad]: https://github.com/matklad
-[pnkfelix]: https://github.com/pnkfelix
-[davidtwco]: https://github.com/davidtwco
-[spastorino]: https://github.com/spastorino
-[wesleywiser]: https://github.com/wesleywiser
-[michaelwoerister]: https://github.com/michaelwoerister
-[nagisa]: https://github.com/nagisa
-[Zoxc]: https://github.com/Zoxc
-[blitzerr]: https://github.com/blitzerr
-[oli-obk]: https://github.com/oli-obk
-[estebank]: https://github.com/estebank
 
 [Weekly, in Zulip]: #meeting-calendar
 [nll_stream]: https://rust-lang.zulipchat.com/#narrow/stream/122657-t-compiler.2Fwg-nll
@@ -105,9 +92,10 @@ Name                                                      | Status       | Short
 [mir-opt-stream]: https://rust-lang.zulipchat.com/#narrow/stream/189540-t-compiler.2Fwg-mir-opt
 [pipelining-stream]: https://rust-lang.zulipchat.com/#narrow/stream/195180-t-compiler.2Fwg-pipelining
 [polonius_stream]: https://rust-lang.zulipchat.com/#narrow/stream/186049-t-compiler.2Fwg-polonius
+[polymorphization_stream]: https://rust-lang.zulipchat.com/#narrow/stream/216091-t-compiler.2Fwg-polymorphization
 [learning_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
 [Polonius]: https://github.com/rust-lang/polonius
-[diagnostics-stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
+[diagnostics_stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
 
 ## Expert Map
 
