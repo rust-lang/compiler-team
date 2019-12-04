@@ -24,7 +24,7 @@ type: docs
   - Answer 2: it will be even less than a submodule (where a CI automatically files follow-up bugs): There
     won't be any automatic filing of follow-up bugs (alexreg has said
     they will handle maintenance manually); this is how miri and
-    clippy had initially started. It could become a swubmodule later.
+    clippy had initially started. It could become a submodule later.
 
 - Question: Does this mean if we (rustc developers) make breaking
   changes to the compiler, we won't necessarily know, right? (Unless
