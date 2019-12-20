@@ -1,3 +1,8 @@
+---
+title: 2019-12-20 major changes process
+type: docs
+---
+
 # Major Change Process
 
 * [Zulip thread](https://zulip-archive.rust-lang.org/131828tcompiler/44719designmeeting20191220.html)
