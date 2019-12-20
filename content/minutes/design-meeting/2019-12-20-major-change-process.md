@@ -189,3 +189,12 @@ We would know the system is working if:
     * And the PR is marked as waiting on author
         * It can be closed per the usual triage process if author does not respond
     * If the issue turns out to be controversial (i.e., nobody steps up as reviewer write away), then we close the PR and just focus on discussing in the issue
+
+## A few more last minute notes
+
+* Centril + nikomatsakis discussed a bit after and noted that we
+  probably don't need to get formal about members vs contributors, the
+  key point is that if somebody is confident that (a) they know this
+  is the right approach and (b) they know others will agree, they
+  should feel free to move a major change forward (and leave notes to
+  that effect on the issue)
