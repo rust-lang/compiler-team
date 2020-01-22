@@ -52,7 +52,7 @@ on [Zulip] (or elsewhere).
 
 [Zulip]: https://github.com/rust-lang/compiler-team/blob/master/content/about/chat-platform.md
 [steering meeting]: https://github.com/rust-lang/compiler-team/blob/master/content/about/steering-meeting.md
-[proc]: https://github.com/rust-lang/compiler-team/blob/master/content/procedures/steering-meeting.md
+[proc]: https://forge.rust-lang.org/compiler/steering-meeting/submit.html
 [this template]: https://github.com/rust-lang/compiler-team/blob/master/content/proposals/_index.md
 [hackmd]: https://hackmd.io/
 [gist]: https://gist.github.com/
