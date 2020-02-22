@@ -7,7 +7,7 @@ type: docs
 
 This working group aims to make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete".
 
-- **Leads:** [@nikomatsakis][nikomatsakis] and [@spastorino][spastorino]
+- **Leads:**  [@spastorino][spastorino] and [@mark-i-m][markim]
 - **Meeting Notes:** 
     - [2019.05.14 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.14-meeting" >}})
     - [2019.05.28 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.28-meeting" >}})
@@ -23,8 +23,8 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 - **FAQ:** [FAQ]({{< relref "/working-groups/learning/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
-[nikomatsakis]: https://github.com/nikomatsakis
 [spastorino]: https://github.com/spastorino
+[markim]: https://github.com/mark-i-m
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
