@@ -39,7 +39,7 @@ pinged when there are available tasks.
 
 ## Process
 We are trying to follow a "sprint-like" structure where on each "sprint" cycle we start with a planning and then
-work towards the goals defined on that plan. Currently, our goal is to spend about 2 monthes working on a couple of goals, with a few meetings to sync up during that period. We are working towards filling out missing parts of the rustc-guide and building some chapters that help gain an overall understanding of what the compiler does to code to produce its output.
+work towards the goals defined on that plan. Currently, our goal is to spend about 2 months working on a couple of goals, with a few meetings to sync up during that period. We are working towards filling out missing parts of the rustc-guide and building some chapters that help gain an overall understanding of what the compiler does to code to produce its output.
 
 - **Desired experience level:** Any
 - **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [`rust-lang/rustc-guide`][rustc-guide-repo]
