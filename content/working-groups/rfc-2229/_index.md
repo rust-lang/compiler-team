@@ -43,7 +43,7 @@ This working group aims to accomplish the following:
   entire individual variables, instead capture the actual path to fields of the
   variable, that is used. This helps to eliminate borrow check errors.
 - Produce documentation of how the closures in Rust are implemented in the
-  [rustc-guide] along the way. Currently, the rustc guide does not have a
+  [rustc-dev-guide] along the way. Currently, the rustc guide does not have a
   section on closures. We would like to change it.
 
 # How can I get involved?
@@ -62,17 +62,17 @@ can be found [here][playlist].
 
 ## Can I contribute in ways other than code ?
 Definitely, you can. If you would like to have a deep understanding of closures
-but don't intend to write any code, help us add a section to the [rustc-guide].
+but don't intend to write any code, help us add a section to the [rustc-dev-guide].
 One way to do that will be to watch these [videos][playlist] and to summarize
 the closure implementation details discussed there in a new closure section of
-the rustc-guide.
+the rustc-dev-guide.
 
 # Roadmap
 The project roadmap can be found [here][roadmap].
 
 [Niko]: https://github.com/nikomatsakis
 [Blitzerr]: https://github.com/blitzerr
-[rustc-guide]: https://rust-lang.github.io/rustc-guide/
+[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
 [repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [RFC-2229]: https://github.com/rust-lang/rfcs/blob/master/text/2229-capture-disjoint-fields.md

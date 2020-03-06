@@ -5,7 +5,7 @@ type: docs
 # Learning Working Group
 ![working group status: active][status]
 
-This working group aims to make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete".
+This working group aims to make the compiler easier to learn by ensuring that rustc-dev-guide and api docs are "complete".
 
 - **Leads:**  [@spastorino][spastorino] and [@mark-i-m][markim]
 - **Meeting Notes:** 
@@ -29,7 +29,7 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
 
-- Ensure that major components of rustc are covered in rustc-guide
+- Ensure that major components of rustc are covered in rustc-dev-guide
 - Ensure that API doc coverage is at least 90%
 
 # How can I get involved?
@@ -39,12 +39,12 @@ pinged when there are available tasks.
 
 ## Process
 We are trying to follow a "sprint-like" structure where on each "sprint" cycle we start with a planning and then
-work towards the goals defined on that plan. Our current plan is to work for 2 months on a couple of goals, with a few meetings to sync up during that period. We are working towards filling out missing parts of the rustc-guide and building some chapters that help gain an overall understanding of what the compiler does to code to produce its output.
+work towards the goals defined on that plan. Our current plan is to work for 2 months on a couple of goals, with a few meetings to sync up during that period. We are working towards filling out missing parts of the rustc-dev-guide and building some chapters that help gain an overall understanding of what the compiler does to code to produce its output.
 
 - **Desired experience level:** Any
-- **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [`rust-lang/rustc-guide`][rustc-guide-repo]
+- **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [`rust-lang/rustc-dev-guide`][rustc-dev-guide-repo]
 - **Zulip stream:** [`#t-compiler/wg-learning`][zulip] on Zulip
 
 [rust-repo]: https://github.com/rust-lang/rust
-[rustc-guide-repo]: https://github.com/rust-lang/rustc-guide
+[rustc-dev-guide-repo]: https://github.com/rust-lang/rustc-dev-guide
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning

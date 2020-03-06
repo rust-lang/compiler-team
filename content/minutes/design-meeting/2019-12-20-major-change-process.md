@@ -120,8 +120,8 @@ We would know the system is working if:
     * the only "hard block" would be if you don't have a "partner" or "sponsor" from compiler team
     * somewhat analogous to the project group lang team concepts
 * reviewer not expected to be a pair programmer
-* one possible definition for "what is a major change" might be "what would modify the rustc-guide"
-    * or, since rustc-guide is always a WIP, "welp this *should've* in the guide and if it were, it *would've* required a modification"
+* one possible definition for "what is a major change" might be "what would modify the rustc-dev-guide"
+    * or, since rustc-dev-guide is always a WIP, "welp this *should've* in the guide and if it were, it *would've* required a modification"
 * what to do with new PRs that don't follow the process?
     * should we close them?
     * maybe have a canned comment and give them some amount of time
@@ -143,8 +143,8 @@ We would know the system is working if:
         * would like to review performance results
         * we need a `-Z` flag
         * we need docs :)
-* final discussion point was about exactly how to handle requests for rustc-guide edits
-    * since a major change is part of a rustc-guide change, it makes sense that it should come accompanied with a rustc-guide write-up
+* final discussion point was about exactly how to handle requests for rustc-dev-guide edits
+    * since a major change is part of a rustc-dev-guide change, it makes sense that it should come accompanied with a rustc-dev-guide write-up
     * ideally this would come along with the compiler-team issue
         * but maybe it would be more something we wait for until issue is *approved* or, in extreme cases, co-develop with author
     * if we want to see more docs, we are going to have to start holding the line *somewhere*
@@ -152,7 +152,7 @@ We would know the system is working if:
         * details may change through review process
         * person may not know enough context to write the docs, need help with that
     * but the bar should be that the issue can **explain the change** in sufficient detail for it to be understood
-        * the *actual* rustc-guide changes themselves can come later
+        * the *actual* rustc-dev-guide changes themselves can come later
         * it may be that the role of the learning wg can be to help with some of that
 
 ## Final proposed process
@@ -162,8 +162,8 @@ We would know the system is working if:
     * Identify mentors or reviewers, if you are working with one
     * There will be some "prototype" to guide people in this
 * What is a "major change"?
-    * something where it would make sense to update rustc-guide
-    * if rustc-guide doesn't cover this code yet, then you may have to use your imagination about what *ought* to be documented :)
+    * something where it would make sense to update rustc-dev-guide
+    * if rustc-dev-guide doesn't cover this code yet, then you may have to use your imagination about what *ought* to be documented :)
 * These issues will be reviewed by compiler team members
     * Compiler team members and contributors can leave concerns and approvals asynchronously (see below)
         * maybe we can make a dedicated Zulip stream where new things get 

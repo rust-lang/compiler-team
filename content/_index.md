@@ -7,16 +7,16 @@ type: docs
 A home for compiler team planning documents, meeting minutes, and
 other such things. If you're interested in learning about how
 **rustc** works -- as well as advice on building the compiler, preparing a PR,
-and other similar topics -- check out the [rustc-guide].
+and other similar topics -- check out the [rustc-dev-guide].
 
-[rustc-guide]: https://rust-lang.github.io/rustc-guide/
+[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
 
 ## Quick facts
 
 - **Where to find us:** We are primarily present on [Zulip](about/chat-platform), though some of us also monitor Discord.
 - **Want to attend a meeting or follow along?** See the "meeting calendar" section below.
 - **Looking for technical information about how the compiler works?**
-  Check out the [rustc-guide](https://rust-lang-nursery.github.io/rustc-guide/).
+  Check out the [rustc-dev-guide](https://rust-lang-nursery.github.io/rustc-dev-guide/).
 
 ## Meeting Calendar
 
@@ -73,7 +73,7 @@ Name                                                      | Status       | Short
 [MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
 [Rustc pipelining](working-groups/pipelining/)            | Active       | Enable Cargo to invoke rustc in a pipelined fashion, speeding up crate graph compiles.             | [#t-compiler/wg-pipelining][pipelining-stream]
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
-[Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
+[Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-dev-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
 [Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics_stream]
 [Polymorphization](working-groups/polymorphization/)      | Active       | Implement an analysis to detect when functions can remain polymorphic during code generation.      | [#t-compiler/wg-polymorphization][polymorphization_stream]
 [Profile-Guided Optimization](working-groups/pgo/)        | Retired      | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
