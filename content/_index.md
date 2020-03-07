@@ -16,7 +16,7 @@ and other similar topics -- check out the [rustc-dev-guide].
 - **Where to find us:** We are primarily present on [Zulip](about/chat-platform), though some of us also monitor Discord.
 - **Want to attend a meeting or follow along?** See the "meeting calendar" section below.
 - **Looking for technical information about how the compiler works?**
-  Check out the [rustc-dev-guide](https://rust-lang-nursery.github.io/rustc-dev-guide/).
+  Check out the [rustc-dev-guide](https://rust-lang.github.io/rustc-dev-guide/).
 
 ## Meeting Calendar
 
