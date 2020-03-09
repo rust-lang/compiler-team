@@ -43,7 +43,7 @@ This working group aims to accomplish the following:
   entire individual variables, instead capture the actual path to fields of the
   variable, that is used. This helps to eliminate borrow check errors.
 - Produce documentation of how the closures in Rust are implemented in the
-  [rustc-dev-guide] along the way. Currently, the rustc guide does not have a
+  [rustc-dev-guide] along the way. Currently, the rustc-dev-guide does not have a
   section on closures. We would like to change it.
 
 # How can I get involved?
