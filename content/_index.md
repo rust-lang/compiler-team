@@ -9,14 +9,14 @@ other such things. If you're interested in learning about how
 **rustc** works -- as well as advice on building the compiler, preparing a PR,
 and other similar topics -- check out the [rustc-dev-guide].
 
-[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/
 
 ## Quick facts
 
 - **Where to find us:** We are primarily present on [Zulip](about/chat-platform), though some of us also monitor Discord.
 - **Want to attend a meeting or follow along?** See the "meeting calendar" section below.
 - **Looking for technical information about how the compiler works?**
-  Check out the [rustc-dev-guide](https://rust-lang.github.io/rustc-dev-guide/).
+  Check out the [rustc-dev-guide](https://rustc-dev-guide.rust-lang.org/).
 
 ## Meeting Calendar
 

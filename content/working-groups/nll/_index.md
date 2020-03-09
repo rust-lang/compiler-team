@@ -53,9 +53,9 @@ and context:
 
 - MIR is an intermediate representation used within the compiler. NLL is implemented as a new
   borrow checker implemented on the MIR. You can read about the MIR in
-  the [relevant rustc-dev-guide chapter](https://rust-lang.github.io/rustc-dev-guide/mir/index.html).
+  the [relevant rustc-dev-guide chapter](https://rustc-dev-guide.rust-lang.org/mir/index.html).
 - You can read about the major phases and internals of the MIR borrow checker in
-  it's [rustc-dev-guide chapter](https://rust-lang.github.io/rustc-dev-guide/borrow_check.html).
+  it's [rustc-dev-guide chapter](https://rustc-dev-guide.rust-lang.org/borrow_check.html).
 - NLL was originally specified
   in [RFC 2094](https://github.com/rust-lang/rfcs/blob/master/text/2094-nll.md).
 - [@nikomatsakis][nikomatsakis]'s blog posts on NLL are also useful for getting familiar with the

@@ -66,5 +66,5 @@ something to do with how LLVM works. For the time being this is the best place t
 [Code Reviews with Phabricator]: https://llvm.org/docs/Phabricator.html
 [Getting Started with the LLVM System]: https://www.llvm.org/docs/GettingStarted.html
 [Intro to LLVM]: http://www.aosabook.org/en/llvm.html
-[codegen section]: https://rust-lang.github.io/rustc-dev-guide/codegen.html
-[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
+[codegen section]: https://rustc-dev-guide.rust-lang.org/codegen.html
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/

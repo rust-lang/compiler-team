@@ -23,7 +23,7 @@ This working group aims to accomplish the following:
 - Produce solid documentation of how parallel evaluation works, how it is
   implementated, and what things it might affect in the [rustc-dev-guide][rustc-dev-guide].
 
-[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/
 
 # How can I get involved?
 If you are interested in getting involved in this working group, you are welcome to

@@ -72,7 +72,7 @@ The project roadmap can be found [here][roadmap].
 
 [Niko]: https://github.com/nikomatsakis
 [Blitzerr]: https://github.com/blitzerr
-[rustc-dev-guide]: https://rust-lang.github.io/rustc-dev-guide/
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/
 [repo]: https://github.com/rust-lang/rust
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [RFC-2229]: https://github.com/rust-lang/rfcs/blob/master/text/2229-capture-disjoint-fields.md
