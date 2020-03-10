@@ -43,7 +43,7 @@ and context:
 
 - MIR is an intermediate representation used within the compiler. We are looking to transform
   instances of MIR into "better" instances. You can read about the MIR in
-  the [relevant rustc-guide chapter](https://rust-lang.github.io/rustc-guide/mir/index.html).
+  the [relevant rustc-dev-guide chapter](https://rustc-dev-guide.rust-lang.org/mir/index.html).
 
 ## Do I need to attend any meetings?
 We don't have any meetings yet.

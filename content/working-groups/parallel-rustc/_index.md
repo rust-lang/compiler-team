@@ -21,9 +21,9 @@ This working group aims to accomplish the following:
 - Finish, optimize, and test the implementation of parallel compilation to an extent
   that allows making it the default.
 - Produce solid documentation of how parallel evaluation works, how it is
-  implementated, and what things it might affect in the [rustc-guide][rustc-guide].
+  implementated, and what things it might affect in the [rustc-dev-guide][rustc-dev-guide].
 
-[rustc-guide]: https://rust-lang.github.io/rustc-guide/
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/
 
 # How can I get involved?
 If you are interested in getting involved in this working group, you are welcome to

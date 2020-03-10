@@ -95,8 +95,8 @@ Linkifiers for auto-linking to issues and PRs on the primary Rust Zulip server c
 request.
 
 ### Are there any recommendations for working with out-of-tree crates?
-Recommendations for working with out-of-tree crates will be documented in the rustc-guide (see
-[rust-lang/rustc-guide#285][guide_issue] for progress).
+Recommendations for working with out-of-tree crates will be documented in the rustc-dev-guide (see
+[rust-lang/rustc-dev-guide#285][guide_issue] for progress).
 
 ### How should stabilization/semantic changes be handled in out-of-tree crates?
 It is important to involve the language team in any changes in out-of-tree crates that would result
@@ -106,7 +106,7 @@ were implemented in `rust-lang/rust` directly, include a description of the chan
 obvious to those unfamiliar with the compiler or the out-of-tree crate.
 
 [licenses]: https://github.com/rust-lang/rust/blob/master/src/tools/tidy/src/deps.rs#L10-L19
-[guide_issue]: https://github.com/rust-lang/rustc-guide/issues/285
+[guide_issue]: https://github.com/rust-lang/rustc-dev-guide/issues/285
 
 ---
 

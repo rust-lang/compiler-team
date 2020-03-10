@@ -46,7 +46,7 @@ group if you are interested in being pinged when there are available tasks.
 
 ### Rust Specific Documentation:
 
-- You might want to read the [codegen section] of the [rustc guide] for more information on codegen
+- You might want to read the [codegen section] of the [rustc-dev-guide] for more information on codegen
   and debugging LLVM in `rustc`.
 
 ## Do I need to attend any meetings?
@@ -66,5 +66,5 @@ something to do with how LLVM works. For the time being this is the best place t
 [Code Reviews with Phabricator]: https://llvm.org/docs/Phabricator.html
 [Getting Started with the LLVM System]: https://www.llvm.org/docs/GettingStarted.html
 [Intro to LLVM]: http://www.aosabook.org/en/llvm.html
-[codegen section]: https://rust-lang.github.io/rustc-guide/codegen.html
-[rustc guide]: https://rust-lang.github.io/rustc-guide/
+[codegen section]: https://rustc-dev-guide.rust-lang.org/codegen.html
+[rustc-dev-guide]: https://rustc-dev-guide.rust-lang.org/

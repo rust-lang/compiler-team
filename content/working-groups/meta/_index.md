@@ -23,7 +23,7 @@ This working group aims to discuss and answer the following unresolved questions
 - How to organize compiler team calendar?
   - One calendar for everything or one per working group?
 - How to organize videos so people can find them?
-  - e.g. playlists on YouTube, rustc-guide chapter
+  - e.g. playlists on YouTube, rustc-dev-guide chapter
   - How do we make it easy to add them?
     - Some are specific to a working group or limited subset of contributors?
 - How to run open-ended tasks?
@@ -68,7 +68,7 @@ This working group aims to discuss and answer the following unresolved questions
   - How can we encourage up-front design and documentation?
     - How much is too much?
   - e.g. pipelined compilation, parallel rustc
-  - How does this interact with the rustc-guide?
+  - How does this interact with the rustc-dev-guide?
 - API documentation
   - Should there be a working group focusing on this?
 - Async vs sync communication
