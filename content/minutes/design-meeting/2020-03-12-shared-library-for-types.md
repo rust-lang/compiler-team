@@ -19,7 +19,7 @@ You can [also read the complete discussion in our zulip-archive](https://zulip-a
 * but there remains disagreement about the big picture question of how stable API boundaries can/should be between libraries, whether they should live in their own repos, and whether they should use unstable features (but that was not the direct topic of this meeting, so that's ok)
 * [sketch of a plan for how to do the transition](https://zulip-archive.rust-lang.org/131828tcompiler/05771designmeeting20200306.html#189906441):
     1. ty.kind -> ty.kind()
-    2. ty.kind()-> ty.kind(tcx)
+    2. ty.kind() -> ty.kind(tcx)
     3. Add a type alias and make kind work on I: Interner
     4. Start using Ty<I> more (This is a lot of PRs)
 
