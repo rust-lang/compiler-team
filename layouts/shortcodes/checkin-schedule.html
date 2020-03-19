@@ -18,9 +18,19 @@
     var week = Math.floor(((today - year) / 86400000) / 7) + 1;
 
     var wgs = [
-        "Async/Await", "Diagnostics", "Learning", "LLVM", "Meta", "MIR Optimizations",
-        "Parallel Rustc", "Polonius", "RFC 2229", "RLS 2.0", "Self-Profile",
-        "Traits", "Polymorphization",
+        "Async/Await",
+        "LLVM",
+        "Self-Profile",
+        "RFC 2229",
+        "RLS 2.0",
+        "Meta",
+        "Traits",
+        "Parallel Rustc",
+        "MIR Optimizations",
+        "Polonius",
+        "Learning",
+        "Diagnostics",
+        "Polymorphization",
     ];
     var count = wgs.length % 2 === 0 ? wgs.length : wgs.length + 1;
 
