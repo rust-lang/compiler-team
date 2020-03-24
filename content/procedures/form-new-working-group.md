@@ -95,7 +95,7 @@ The basic steps to setup a working group are as follows:
   then open a PR against the repository (make sure to leave a note in [`#t-compiler`][cp],
   as these PRs can be easily overlooked):
   - Add the working group to the table in the [main
-    README][README]. Feel free to put N/A for any column that doesn't
+    page][main_page]. Feel free to put N/A for any column that doesn't
     seem to apply.
   - Add a subdirectory to the [`working-groups`][working_groups] directory. You do
     this by copying the [`template`]({{< relref "/working-groups/template/_index.md" >}}) directory to a
@@ -116,6 +116,6 @@ The basic steps to setup a working group are as follows:
 [team_repo]: https://github.com/rust-lang/team
 [team_repo_example]: https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml
 [check_in]:../../about/triage-meeting/
-[README]: ../../
+[main_page]: ../../
 [template]: ../working-groups/template/_index
 [working_groups]: https://github.com/rust-lang/compiler-team/tree/master/working-groups
