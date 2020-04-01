@@ -63,7 +63,7 @@ Name                                                      | Status       | Short
 ----                                                      | ------       | -----------------                                                                                  | ------------
 [Async-await Implementation](working-groups/async-await/) | Active       | Implementing async-await                                                                           | [#t-compiler/wg-async-await][async-await_stream]
 [Diagnostics](working-groups/diagnostics/)                | Active       | Use crates.io crates for diagnostics rendering and make emitting diagnostics nicer.                | [#t-compiler/wg-diagnostics][diagnostics_stream]
-[Learning](working-groups/learning/)                      | Active       | Make the compiler easier to learn by ensuring that rustc-dev-guide and api docs are "complete"         | [#t-compiler/wg-learning][learning_stream]
+[Rustc Dev Guide](working-groups/rustc-dev-guide/)        | Active       | Make the compiler easier to learn by ensuring that rustc-dev-guide is "complete"                   | [#t-compiler/wg-rustc-dev-guide][rustc-dev-guide_stream]
 [LLVM](working-groups/llvm/)                              | Incubating   | Working with LLVM upstream to represent Rust in its development                                    | [#t-compiler/wg-llvm][llvm_stream]
 [Meta](working-groups/meta/)                              | Active       | How compiler team organizes itself                                                                 | [#t-compiler/wg-meta][meta_stream]
 [MIR Optimizations](working-groups/mir-opt/)              | Active       | Write MIR optimizations and refactor the MIR to be more optimizable.                               | [#t-compiler/wg-mir-opt][mir-opt-stream]
@@ -93,7 +93,7 @@ Name                                                      | Status       | Short
 [pipelining-stream]: https://rust-lang.zulipchat.com/#narrow/stream/195180-t-compiler.2Fwg-pipelining
 [polonius_stream]: https://rust-lang.zulipchat.com/#narrow/stream/186049-t-compiler.2Fwg-polonius
 [polymorphization_stream]: https://rust-lang.zulipchat.com/#narrow/stream/216091-t-compiler.2Fwg-polymorphization
-[learning_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
+[rustc-dev-guide_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-rustc-dev-guide
 [Polonius]: https://github.com/rust-lang/polonius
 [diagnostics_stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
 

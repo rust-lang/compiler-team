@@ -24,7 +24,7 @@ headless: true
 - [**Working Groups**]({{< relref "/working-groups" >}})
   - [Async Await]({{< relref "/working-groups/async-await" >}})
   - [Diagnostics]({{< relref "/working-groups/diagnostics" >}})
-  - [Learning]({{< relref "/working-groups/learning" >}})
+  - [Rustc Dev Guide]({{< relref "/working-groups/rustc-dev-guide" >}})
   - [LLVM]({{< relref "/working-groups/llvm" >}})
   - [Meta]({{< relref "/working-groups/meta" >}})
   - [MIR-opt]({{< relref "/working-groups/mir-opt" >}})
