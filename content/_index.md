@@ -71,6 +71,7 @@ Name                                                      | Status       | Short
 [Parallel-rustc](working-groups/parallel-rustc/)          | Active       | Making parallel compilation the default for rustc                                                  | [#t-compiler/wg-parallel-rustc][parallel-rustc_stream]
 [Polonius](working-groups/polonius/)                      | Active       | Exploring the integration of the "NLL 2.0"-like ["Polonius analysis"][Polonius] into rustc         | [#t-compiler/wg-polonius][polonius_stream]
 [Polymorphization](working-groups/polymorphization/)      | Active       | Implement an analysis to detect when functions can remain polymorphic during code generation.      | [#t-compiler/wg-polymorphization][polymorphization_stream]
+[Prioritization](working-groups/prioritization/)          | Active       | Triaging bugs, mainly deciding if bugs are critical (potential release blockers) or not.           | [#t-compiler/wg-prioritization][prioritization_stream]
 [Profile-Guided Optimization](working-groups/pgo/)        | Retired      | Implementing profile-guided optimization for rustc                                                 | [#t-compiler/wg-profile-guided-optimization][pgo_stream]
 [RFC 2229](working-groups/rfc-2229/)                      | Paused       | Make a closure capture individual fields of the variable rather than the entire composite variable | [#t-compiler/wg-rfc-2229][rfc-2229-stream]
 [RLS 2.0](working-groups/rls-2.0/)                        | Active       | Experimenting with a new compiler architecture tailored for IDEs                                   | [#t-compiler/wg-rls2.0][rls20_stream]
@@ -96,6 +97,7 @@ Name                                                      | Status       | Short
 [rustc-dev-guide_stream]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-rustc-dev-guide
 [Polonius]: https://github.com/rust-lang/polonius
 [diagnostics_stream]: https://rust-lang.zulipchat.com/#narrow/stream/147480-t-compiler.2Fwg-diagnostics
+[prioritization_stream]: https://rust-lang.zulipchat.com/#narrow/stream/227806-t-compiler.2Fwg-prioritization
 
 ## Expert Map
 
