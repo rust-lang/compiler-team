@@ -1,26 +1,26 @@
 ---
-title: Learning Working Group
+title: Rustc Dev Guide Working Group
 type: docs
 ---
-# Learning Working Group
+# Rustc Dev Guide Working Group
 ![working group status: active][status]
 
 This working group aims to make the compiler easier to learn by ensuring that rustc-dev-guide and api docs are "complete".
 
 - **Leads:**  [@spastorino][spastorino] and [@mark-i-m][markim]
 - **Meeting Notes:** 
-    - [2019.05.14 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.14-meeting" >}})
-    - [2019.05.28 Meeting]({{< relref "/working-groups/learning/minutes/2019.05.28-meeting" >}})
-    - [2019.06.11 Meeting]({{< relref "/working-groups/learning/minutes/2019.06.11-meeting" >}})
-    - [2019.06.25 Meeting]({{< relref "/working-groups/learning/minutes/2019.06.25-meeting" >}})
-    - [2019.07.09 Meeting]({{< relref "/working-groups/learning/minutes/2019.07.09-meeting" >}})
-    - [2019.07.23 Meeting]({{< relref "/working-groups/learning/minutes/2019.07.23-meeting" >}})
-    - [2019.08.06 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.06-meeting" >}})
-    - [2019.08.20 Meeting]({{< relref "/working-groups/learning/minutes/2019.08.20-meeting" >}})
-    - [2019.09.17 Meeting]({{< relref "/working-groups/learning/minutes/2019.09.17-meeting" >}})
-    - [2019.10.01 Meeting]({{< relref "/working-groups/learning/minutes/2019.10.01-meeting" >}})
-- **Agenda:** [Agenda]({{< relref "/working-groups/learning/minutes/agenda" >}})
-- **FAQ:** [FAQ]({{< relref "/working-groups/learning/FAQ" >}})
+    - [2019.05.14 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.14-meeting" >}})
+    - [2019.05.28 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.28-meeting" >}})
+    - [2019.06.11 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.11-meeting" >}})
+    - [2019.06.25 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.25-meeting" >}})
+    - [2019.07.09 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.09-meeting" >}})
+    - [2019.07.23 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.23-meeting" >}})
+    - [2019.08.06 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.06-meeting" >}})
+    - [2019.08.20 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.20-meeting" >}})
+    - [2019.09.17 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.09.17-meeting" >}})
+    - [2019.10.01 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.10.01-meeting" >}})
+- **Agenda:** [Agenda]({{< relref "/working-groups/rustc-dev-guide/minutes/agenda" >}})
+- **FAQ:** [FAQ]({{< relref "/working-groups/rustc-dev-guide/FAQ" >}})
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [spastorino]: https://github.com/spastorino
@@ -43,8 +43,8 @@ work towards the goals defined on that plan. Our current plan is to work for 2 m
 
 - **Desired experience level:** Any
 - **Relevant repositories:** [`rust-lang/rust`][rust-repo] and [`rust-lang/rustc-dev-guide`][rustc-dev-guide-repo]
-- **Zulip stream:** [`#t-compiler/wg-learning`][zulip] on Zulip
+- **Zulip stream:** [`#t-compiler/wg-rustc-dev-guide`][zulip] on Zulip
 
 [rust-repo]: https://github.com/rust-lang/rust
 [rustc-dev-guide-repo]: https://github.com/rust-lang/rustc-dev-guide
-[zulip]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-learning
+[zulip]: https://rust-lang.zulipchat.com/#narrow/stream/196385-t-compiler.2Fwg-rustc-dev-guide

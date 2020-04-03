@@ -153,7 +153,7 @@ We would know the system is working if:
         * person may not know enough context to write the docs, need help with that
     * but the bar should be that the issue can **explain the change** in sufficient detail for it to be understood
         * the *actual* rustc-dev-guide changes themselves can come later
-        * it may be that the role of the learning wg can be to help with some of that
+        * it may be that the role of the rustc-dev-guide wg can be to help with some of that
 
 ## Final proposed process
 
