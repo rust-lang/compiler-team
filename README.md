@@ -1,6 +1,7 @@
 # Compiler Team
 This repository contains a static site that details the procedures, policies, working groups,
 planning documents and minutes.
+
 You are probably looking [for the rendered website](https://rust-lang.github.io/compiler-team/) instead.
 
 ### Building the website
