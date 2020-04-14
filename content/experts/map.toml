@@ -57,7 +57,7 @@ familiar = ["Centril"]
 [[areas]]
 name = "miri"
 directories = [
-    "src/librustc/mir/interpret",
+    "src/librustc_middle/mir/interpret",
     "src/librustc_mir/interpret",
 ]
 crates = []
@@ -74,9 +74,9 @@ familiar = ["davidtwco", "spastorino"]
 [[areas]]
 name = "Parser"
 directories = [
-    "src/libsyntax/ast.rs",
-    "src/libsyntax/parse",
-    "src/libsyntax/util",
+    "src/librustc_ast/ast.rs",
+    "src/librustc_ast/util",
+    "src/librustc_parse",
 ]
 crates = []
 experts = ["petrochenkov", "estebank"]
@@ -86,7 +86,7 @@ familiar = ["Centril", "davidtwco"]
 name = "Lexer"
 directories = [
     "src/rustc_lexer",
-    "src/libsyntax/parse/lexer/",
+    "src/librustc_parse/parse/lexer/",
 ]
 crates = []
 experts = ["petrochenkov", "matklad"]
@@ -102,8 +102,8 @@ familiar = []
 [[areas]]
 name = "MIR structure/construction"
 directories = [
-    "src/librustc/mir",
-    "src/librustc_mir/build",
+    "src/librustc_middle/mir",
+    "src/librustc_mir_build/build",
 ]
 crates = []
 experts = ["nikomatsakis", "eddyb", "oli-obk"]
@@ -121,7 +121,7 @@ familiar = ["wesleywiser", "spastorino", "tmandry"]
 [[areas]]
 name = "Type layout"
 directories = [
-    "src/librustc/ty/layout.rs",
+    "src/librustc_middle/ty/layout.rs",
 ]
 crates = []
 experts = ["eddyb", "oli-obk", "nagisa"]
@@ -129,14 +129,14 @@ familiar = ["tmandry"]
 
 [[areas]]
 name = "match/exhaustiveness"
-directories = ["src/librustc_mir/hair/pattern"]
+directories = ["src/librustc_mir_build/hair/pattern"]
 crates = []
 experts = ["arielb1", "varkor", "oli-obk"]
 familiar = []
 
 [[areas]]
 name = "Traits"
-directories = ["src/librustc/traits", "src/librustc_traits"]
+directories = ["src/librustc_middle/traits", "src/librustc_traits"]
 crates = []
 experts = ["nikomatsakis", "arielb1", "scalexm"]
 familiar = []
@@ -158,7 +158,7 @@ familiar = []
 [[areas]]
 name = "AST -> HIR lowering"
 directories = [
-    "src/librustc/hir/lowering.rs",
+    "src/librustc_ast_lowering",
 ]
 crates = []
 experts = ["oli-obk"]
@@ -230,7 +230,7 @@ familiar = []
 [[areas]]
 name = "`macro_rules` parsing and checking"
 directories = [
-    "src/libsyntax/ext/tt"
+    "src/librustc_expand/mbe.rs"
 ]
 crates = []
 experts = ["mark-i-m"]
@@ -242,7 +242,6 @@ directories = [
     "src/libcore/ops/generator.rs",
     "src/librustc_mir/transform/generator.rs",
     "src/librustc_typeck/check/generator_interior.rs",
-    "src/test/run-pass/generator",
     "src/test/ui/generator",
 ]
 crates = []
@@ -252,7 +251,7 @@ familiar = []
 [[areas]]
 name = "Self profiler"
 directories = [
-    "src/librustc/util/profiling.rs",
+    "src/librustc_data_structures/profiling.rs",
 ]
 crates = [
     "measureme",

@@ -30,8 +30,8 @@ group for the working group if you are interested in being pinged when there are
 
 - **Desired experience level:** Any
 - **Relevant repositories:** [`rust-lang/rust`][repo]
-    - https://github.com/rust-lang/rust/blob/master/src/libsyntax/json.rs
     - https://github.com/rust-lang/rust/tree/master/src/librustc_errors
+    - https://github.com/rust-lang/rust/blob/master/src/librustc_errors/json.rs
     - https://github.com/rust-lang/rust/tree/master/src/librustc_lint
     - https://crates.io/crates/annotate-snippets
     - https://crates.io/crates/codemap-diagnostic

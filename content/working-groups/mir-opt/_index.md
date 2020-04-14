@@ -27,7 +27,7 @@ in the Zulip stream. You can be added to the GitHub and Zulip
 group for the working group if you are interested in being pinged when there are available tasks.
 
 - **Desired experience level:** Any
-- **Relevant repositories:** [`rust-lang/rust`][repo] (specifically `src/librustc_mir/transforms`)
+- **Relevant repositories:** [`rust-lang/rust`][repo] (specifically `src/librustc_mir/transform`)
 - **Zulip stream:** [`#t-compiler/mir-opt`][zulip] on Zulip
 
 [repo]: https://github.com/rust-lang/rust
