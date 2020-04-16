@@ -17,8 +17,14 @@
     var year = new Date(today.getFullYear(), 0, 1);
     var week = Math.floor(((today - year) / 86400000) / 7) + 1;
 
-    // This list is alphabetically sorted and matches the sorting we have on
-    // the working groups index page
+    // This is a hack to not mess the checkins order when we change the number
+    // of working groups. Adjust it when changing the number of working groups,
+    // increment by one until the current order of the website matches.
+    var magic_number = 0;
+
+    // Add new working groups on the end of the list.
+    // When adding/removing working groups adjust magic number to match the
+    // current order we see on the page.
     var wgs = [
         "Async/Await",
         "Diagnostics",
@@ -46,7 +52,8 @@
     }
 
     function updateElementForWeek(week, element, name) {
-        var names = [(week * 2) % count, (week * 2) % count + 1].map(i => wgs[i]);
+        var index = (week + magic_number) * 2 % count;
+        var names = [index, index + 1].map(i => wgs[i]);
 
         var message = names[0];
         if ((typeof names[1]) !== "undefined") {
