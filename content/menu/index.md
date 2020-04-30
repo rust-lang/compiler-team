@@ -34,6 +34,7 @@ headless: true
   - [pipelining]({{< relref "/working-groups/pipelining" >}})
   - [polonius]({{< relref "/working-groups/polonius" >}})
   - [polymorphization]({{< relref "/working-groups/polymorphization" >}})
+  - [Prioritization]({{< relref "/working-groups/prioritization" >}})
   - [rfc-2229]({{< relref "/working-groups/rfc-2229" >}})
   - [rls-2.0]({{< relref "/working-groups/rls-2.0" >}})
   - [Self Profile]({{< relref "/working-groups/self-profile" >}})
