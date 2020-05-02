@@ -4,6 +4,11 @@ type: docs
 ---
 # Traits Working Group
 
+- **Leads:** [@nikomatsakis][nikomatsakis] and [@jackh726][jackh726]
+
+[nikomatsakis]: https://github.com/nikomatsakis
+[jackh726]: https://github.com/jackh726
+
 # Scope and purpose
 
 The **traits** working group is dedicated to improving the trait
