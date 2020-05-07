@@ -1,5 +1,5 @@
 ---
-name: Major change announcement
+name: Major change proposal (MCP)
 about: Propose a major change.
 title: "(My major change proposal)"
 labels: major-change, T-compiler
