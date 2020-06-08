@@ -7,39 +7,34 @@ assignees: ''
 
 ---
 
-# What is this issue?
+# Proposal
 
-This is a **major change proposal**, which means a proposal to make a notable change to the compiler -- one that either alters the architecture of some component, affects a lot of people, or makes a small but noticeable public change (e.g., adding a compiler flag). You can read more about the MCP process on https://forge.rust-lang.org/.
+*Insert your proposal here, overwriting this text. Please include the complete proposal, rather than linking to a gist or other external document.*
 
-**This issue is not meant to be used for technical discussion. There is a Zulip stream for that. Use this issue to leave procedural comments, such as volunteering to review, indicating that you second the proposal (or third, etc), or raising a concern that you would like to be addressed.**
-
-# MCP Checklist
-
-* [x] MCP **filed**. Automatically, as a result of filing this issue:
-  * The @rust-lang/wg-prioritization group will add this to the triage meeting agenda so folks see it.
-  * A Zulip topic in the stream `#t-compiler/major changes` will be created for this issue.
-* [ ] MCP **seconded**. The MCP is "seconded" when a compiler team member or contributor issues the `@rustbot second` command. This should only be done by someone knowledgable with the area -- before seconding, it may be a good idea to cc other stakeholders as well and get their opinion.
-* [ ] **Final comment period** (FCP). Once the MCP is approved, the FCP begins and lasts for 10 days. This is a time for other members to review and raise concerns -- **concerns that should block acceptance should be noted as comments on the thread**, ideally with a link to Zulip for further discussion.
-* [ ] MCP **Accepted**. At the end of the FCP, a compiler team lead will review the comments and discussion and decide whether to accept the MCP.
-  * At this point, the `major-change-accepted` label is added and the issue is closed. You can link to it for future reference.
-  
-**A note on stability.** If your change is proposing a new stable feature, such as a `-C flag`, then a full team checkoff will be required before the feature can be landed. Often it is better to start with an unstable flag, like a `-Z` flag, and then move to stabilize as a secondary step.
-
-# TL;DR
-
-*Summarize what you'd like to do in a sentence or two, or a few bullet points.*
-
-# Links and Details
-
-*Add a few paragraphs explaining your design. The level of detail should be
-sufficient for someone familiar with the compiler to understand what you're
-proposing. Where possible, linking to relevant issues, old PRs, or external
-documents like LLVM pages etc is very useful.*
+*Your proposal doesn't have to be long. It should however be in sufficient detail that people familiar with the code can clearly envision what you are planning to do. Be sure to link to any relevant issues, PRs, or other sources.*
 
 # Mentors or Reviewers
 
-*Who will review this work? If you are being mentored by someone, then list
-their name here. If you are a compiler team member/contributor, and you
-intend to mentor someone else, then you can put your own name here. You can
-also leave it blank if you are looking for a reviewer. (Multiple names are ok
-too.)*
+*If you have a reviewer or mentor in mind for this work, mention then
+here. You can put your own name here if you are planning to mentor the
+work.*
+
+# Process
+
+The main points of the [Major Change Process][MCP] is as follows:
+
+* [x] File an issue describing the proposal.
+* [ ] A compiler team member or contributor who is knowledgeable in the area can **second** by writing `@rustbot second`.
+    * Finding a "second" suffices for internal changes. If however you are proposing a new public-facing feature, such as a `-C flag`, then full team check-off is required.
+    * Compiler team members can initiate a check-off via `@rfcbot fcp merge` on either the MCP or the PR.
+* [ ] Once an MCP is seconded, the Final Comment Period begins. If no objections are raised after 10 days, the MCP is considered **approved**.
+
+You can read [more about Major Change Proposals on forge][MCP].
+
+# Comments
+
+**This issue is not meant to be used for technical discussion. There is a Zulip stream for that. Use this issue to leave procedural comments, such as volunteering to review, indicating that you second the proposal (or third, etc), or raising a concern that you would like to be addressed.**
+
+[MCP]: https://forge.rust-lang.org/compiler/mcp.html
+[forge]: https://forge.rust-lang.org/
+
