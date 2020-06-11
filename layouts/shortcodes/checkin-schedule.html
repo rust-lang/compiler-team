@@ -17,10 +17,11 @@
     var year = new Date(today.getFullYear(), 0, 1);
     var week = Math.floor(((today - year) / 86400000) / 7) + 1;
 
-    // This is a hack to not mess the checkins order when we change the number
-    // of working groups. Adjust it when changing the number of working groups,
-    // increment by one until the current order of the website matches.
-    var magic_number = 0;
+    // This is a hack to not mess the checkins order when we change the amount
+    // of working groups.
+    // Increment this number by one when you realize that after adding
+    // working groups the website checkins order messes.
+    var magic_number = 1;
 
     // Add new working groups on the end of the list.
     // When adding/removing working groups adjust magic number to match the
