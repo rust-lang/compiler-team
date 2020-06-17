@@ -266,5 +266,5 @@ directories = [
   "src/tools/rustdoc",
 ]
 crates = []
-experts = ["GuillaumeGomez"]
-familiar = ["jyn514", "Manishearth", "kinnison"]
+experts = ["GuillaumeGomez", "ollie27", "Manishearth"]
+familiar = ["jyn514", "kinnison"]
