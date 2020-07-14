@@ -259,3 +259,12 @@ crates = [
 experts = ["michaelwoerister", "wesleywiser"]
 familiar = []
 
+[[areas]]
+name = "Rustdoc"
+directories = [
+  "src/librustdoc",
+  "src/tools/rustdoc",
+]
+crates = []
+experts = ["GuillaumeGomez", "ollie27", "Manishearth"]
+familiar = ["jyn514", "kinnison"]
