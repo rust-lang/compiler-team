@@ -4,4 +4,4 @@ type: docs
 ---
 # Steering meeting
 
-This content has moved to the [Rust forge](https://forge.rust-lang.org/).
+This content has moved to the [Rust forge](https://forge.rust-lang.org/compiler/steering-meeting.html).
