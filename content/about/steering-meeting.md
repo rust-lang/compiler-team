@@ -10,7 +10,7 @@ the meeting are selected at periodic planning meetings. See the
 [steering meeting procedure][proc] for more details. See [#58850] for
 more information.
 
-[proc]: ../../procedures/steering-meeting
+[proc]: https://forge.rust-lang.org/compiler/steering-meeting.html
 
 See the [compiler team calendar](../../#meeting-calendar) for
 the topics of the next scheduled meetings. There is also a [dedicated
