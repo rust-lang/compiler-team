@@ -8,7 +8,7 @@ type: docs
 This working group aims to implement an analysis to detect when functions could remain polymorphic
 during code generation.
 
-- **Leads:** [@nikomatsakis][nikomatsakis] and [@davidtwco][davidtwco]
+- **Leads/members:** See [rust-lang/team][team]
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -23,11 +23,10 @@ This working group aims to accomplish the following:
   could create a copy for each distinct size of type (rather than each type).
 
 # How can I get involved?
-The scope of this working group is quite limited and the project is part
-of [davidtwco][davidtwco]'s Master's Thesis, so there aren't many opportunities to get involved.
-If you have any questions, feel free to drop them in the Zulip stream.
+There isn't a massive amount of work to be done in parallel relating to polymorphization, but if
+you're interested in getting involved then feel free to pop into the Zulip stream.
 
-- **Desired experience level:** N/A
+- **Desired experience level:** Some familiarity with the MIR and substitutions
 - **Relevant repositories:** [`rust-lang/rust`][repo]
 - **Zulip stream:** [`#t-compiler/wg-polymorphization`][zulip] on Zulip
 
@@ -36,3 +35,4 @@ If you have any questions, feel free to drop them in the Zulip stream.
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [davidtwco]: https://github.com/davidtwco
+[team]: https://github.com/rust-lang/team/blob/master/teams/wg-polymorphization.toml
