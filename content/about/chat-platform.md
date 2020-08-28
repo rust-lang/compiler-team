@@ -9,4 +9,3 @@ The `#t-compiler/help` stream is also a great place to ask questions.
 In addition, each working group has one or more streams where they communicate.
 
 [z]: https://rust-lang.zulipchat.com
-[d]: https://discord.gg/rust-lang
