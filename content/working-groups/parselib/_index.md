@@ -8,7 +8,7 @@ type: docs
 The goal of the working group is to librarify rustc parser and share it between
 rustc and rust-analyzer.
 
-- **Leads/members:** [@matklad]
+- **Leads/members:** See [rust-lang/team][team]
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
@@ -37,6 +37,6 @@ then feel free to pop into the Zulip stream.
 [wg-grammar]: https://github.com/rust-lang/wg-grammar
 [rust-analyzer]: https://github.com/rust-analyzer/rust-analyzer
 [ungrammar]: https://github.com/rust-analyzer/ungrammar
-[zulip]: TODO
+[team]: https://github.com/rust-lang/team/blob/master/teams/wg-parselib.toml
 
-[@matklad]: https://github.com/matklad
+[zulip]: https://rust-lang.zulipchat.com/#narrow/stream/254930-t-compiler.2Fwg-parselib
