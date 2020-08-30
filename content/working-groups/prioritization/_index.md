@@ -30,23 +30,16 @@ This working group aims to accomplish the following:
 
 ## How do people bring things to the working group's attention?
 
-If something seems "obviously criticial", people can tag it as
-`P-critical` (see below). But if unclear, use `I-nominated` as today to
+If the issue priority seems obviously, people can label it accordingly, 
+example an obviously "critical" issue can be labelled as
+`P-critical`. But if unclear, use the `I-nominated` label to
 bring it to the group's attention.
-
-However, as we already have problems where the "intent" of a nomination
-is unclear, we may wish to consider replacing `I-nominated` with more
-specific `N-*` labels that identify the reason the issue was nominated:
-
-* `N-critical` -- nominated as a potential critical issue
-* `N-compiler` -- nominated for discussion by compiler team
-* `N-lang` etc
 
 ## How can I get involved?
 
 If you are interested in getting involved in this working group, come
-and say hi in the Zulip stream but mainly try to attend to our meetings
-on wednesday at 6pm UTC. Check out the [Rust compiler
+and say hi in the Zulip stream but mainly try to attend to our weekly meetings
+on Thursdays at 2pm UTC. Check out the [Rust compiler
 calendar](https://rust-lang.github.io/compiler-team/#meeting-calendar).
 You can also be added to the Zulip group for the working group if you
 are interested in being pinged when there are things that you may want
@@ -54,7 +47,7 @@ to be involved with.
 
 ## Process
 
-We have our pre-triage meetings on wednesday at 6pm UTC. Check out the
+We have our pre-triage meetings on Thursdays at 2pm UTC. Check out the
 [Rust compiler
 calendar](https://rust-lang.github.io/compiler-team/#meeting-calendar).
 
