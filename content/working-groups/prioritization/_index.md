@@ -32,7 +32,7 @@ This working group aims to accomplish the following:
 
 If the issue priority seems obviously, people can label it accordingly, 
 example an obviously "critical" issue can be labelled as
-`P-critical`. But if unclear, use the `I-nominated` label to
+`P-critical`. But if unclear, use the `I-prioritize` label to
 bring it to the group's attention.
 
 ## How can I get involved?
