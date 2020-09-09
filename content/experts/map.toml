@@ -129,7 +129,7 @@ familiar = ["tmandry"]
 
 [[areas]]
 name = "match/exhaustiveness"
-directories = ["src/librustc_mir_build/hair/pattern"]
+directories = ["src/librustc_mir_build/thir/pattern"]
 crates = []
 experts = ["arielb1", "varkor", "oli-obk", "nadrieril"]
 familiar = []
