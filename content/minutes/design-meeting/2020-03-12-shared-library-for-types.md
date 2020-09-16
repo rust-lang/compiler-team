@@ -102,7 +102,7 @@ In other words, we are talking about ultimately replacing [the `Ty<'tcx>` type t
 
 The proposed design is described in some detail [in the chalk book](http://rust-lang.github.io/chalk/book/types.html), so you may wish to read there. However, I do want to emphasize that the *fine details* (e.g., exactly which variants we should have) should not be considered normative.
 
-[`Ty`]: (http://rust-lang.github.io/chalk/chalk_ir/struct.Ty.html)
+[`Ty`]: http://rust-lang.github.io/chalk/chalk_ir/struct.Ty.html
 
 In the proposed design, Rust types will ultimately be represented by a struct that looks like this, based on [`chalk_ir::Ty`][`Ty`]:
 
