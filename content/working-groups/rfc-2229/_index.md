@@ -7,7 +7,7 @@ type: docs
 
 - **Leads:** [@blitzerr][Blitzerr], [@nikomatsakis][Niko]
 - **Meeting Notes:** 
-    - [2019.03.05 Roadmap Plan]({{< relref "/working-groups/rfc-2229/minutes/2019.03.05-roadmap-plan" >}})
+    - [2019.03.05 Roadmap Plan]({{< relref "/working-groups/rfc-2229/minutes/2019.03.05-roadmap-plan.md" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/rfc-2229/FAQ" >}})
 
 ## Status

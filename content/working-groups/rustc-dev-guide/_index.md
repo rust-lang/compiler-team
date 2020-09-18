@@ -9,16 +9,16 @@ This working group aims to make the compiler easier to learn by ensuring that ru
 
 - **Leads:**  [@spastorino][spastorino] and [@mark-i-m][markim]
 - **Meeting Notes:** 
-    - [2019.05.14 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.14-meeting" >}})
-    - [2019.05.28 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.28-meeting" >}})
-    - [2019.06.11 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.11-meeting" >}})
-    - [2019.06.25 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.25-meeting" >}})
-    - [2019.07.09 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.09-meeting" >}})
-    - [2019.07.23 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.23-meeting" >}})
-    - [2019.08.06 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.06-meeting" >}})
-    - [2019.08.20 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.20-meeting" >}})
-    - [2019.09.17 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.09.17-meeting" >}})
-    - [2019.10.01 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.10.01-meeting" >}})
+    - [2019.05.14 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.14-meeting.md" >}})
+    - [2019.05.28 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.28-meeting.md" >}})
+    - [2019.06.11 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.11-meeting.md" >}})
+    - [2019.06.25 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.06.25-meeting.md" >}})
+    - [2019.07.09 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.09-meeting.md" >}})
+    - [2019.07.23 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.07.23-meeting.md" >}})
+    - [2019.08.06 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.06-meeting.md" >}})
+    - [2019.08.20 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.08.20-meeting.md" >}})
+    - [2019.09.17 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.09.17-meeting.md" >}})
+    - [2019.10.01 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.10.01-meeting.md" >}})
 - **Agenda:** [Agenda]({{< relref "/working-groups/rustc-dev-guide/minutes/agenda" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/rustc-dev-guide/FAQ" >}})
 
