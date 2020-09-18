@@ -8,7 +8,7 @@ type: docs
 - **Leads:** [@Zoxc][Zoxc], [@aturon][aturon]
 - **Meeting Notes:** [All]({{< relref "/working-groups/parallel-rustc/NOTES" >}})
 - **Minutes:**
-    - [2019.05.10]({{< relref "/working-groups/parallel-rustc/minutes/2019.05.10" >}})
+    - [2019.05.10]({{< relref "/working-groups/parallel-rustc/minutes/2019.05.10.md" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/parallel-rustc/FAQ" >}})
 
 [Zoxc]: https://github.com/Zoxc

@@ -22,14 +22,14 @@ crate to define the full borrow check analysis.
 
 - **Leads:** [@nikomatsakis][nikomatsakis], [@lqd][lqd]
 - **Meeting Notes:**
-    - [2019.03.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.03.07-meeting" >}})
-    - [2019.04.23 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.23-meeting" >}})
-    - [2019.04.30 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.30-meeting" >}})
-    - [2019.05.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.07-meeting" >}})
-    - [2019.05.14 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.14-meeting" >}})
-    - [2019.05.28 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.28-meeting" >}})
-    - [2019.06.04 Meeting]({{< relref "/working-groups/polonius/minutes/2019.06.04-meeting" >}})
-    - [2019.06.11 Meeting]({{< relref "/working-groups/polonius/minutes/2019.06.11-meeting" >}})
+    - [2019.03.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.03.07-meeting.md" >}})
+    - [2019.04.23 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.23-meeting.md" >}})
+    - [2019.04.30 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.30-meeting.md" >}})
+    - [2019.05.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.07-meeting.md" >}})
+    - [2019.05.14 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.14-meeting.md" >}})
+    - [2019.05.28 Meeting]({{< relref "/working-groups/polonius/minutes/2019.05.28-meeting.md" >}})
+    - [2019.06.04 Meeting]({{< relref "/working-groups/polonius/minutes/2019.06.04-meeting.md" >}})
+    - [2019.06.11 Meeting]({{< relref "/working-groups/polonius/minutes/2019.06.11-meeting.md" >}})
 - **Screencasts**: [YouTube Playlist](https://www.youtube.com/playlist?list=PL85XCvVPmGQitE2CBzf-gERSqeXo59NQG)
 - **FAQ:** [FAQ]({{< relref "/working-groups/polonius/FAQ" >}})
 
