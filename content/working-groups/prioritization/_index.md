@@ -30,23 +30,15 @@ This working group aims to accomplish the following:
 
 ## How do people bring things to the working group's attention?
 
-If something seems "obviously criticial", people can tag it as
-`P-critical` (see below). But if unclear, use `I-nominated` as today to
+If the issue priority seems obvious, people can label it accordingly,
+example an obviously "critical" issue can be labelled as
+`P-critical`. But if unclear, use the `I-prioritize` label to
 bring it to the group's attention.
-
-However, as we already have problems where the "intent" of a nomination
-is unclear, we may wish to consider replacing `I-nominated` with more
-specific `N-*` labels that identify the reason the issue was nominated:
-
-* `N-critical` -- nominated as a potential critical issue
-* `N-compiler` -- nominated for discussion by compiler team
-* `N-lang` etc
 
 ## How can I get involved?
 
 If you are interested in getting involved in this working group, come
-and say hi in the Zulip stream but mainly try to attend to our meetings
-on wednesday at 6pm UTC. Check out the [Rust compiler
+and say hi [in our Zulip stream][zulip]. Also check out the [Rust compiler
 calendar](https://rust-lang.github.io/compiler-team/#meeting-calendar).
 You can also be added to the Zulip group for the working group if you
 are interested in being pinged when there are things that you may want
@@ -54,13 +46,13 @@ to be involved with.
 
 ## Process
 
-We have our pre-triage meetings on wednesday at 6pm UTC. Check out the
-[Rust compiler
-calendar](https://rust-lang.github.io/compiler-team/#meeting-calendar).
+Our workflow is detailed on [Rust Forge](https://forge.rust-lang.org/compiler/prioritization/procedure.html).
 
 - **Desired experience level:** Any
-- **Relevant repositories:** [`rust-lang/rust`][rust-repo]
+- **Relevant repositories:** [`rust-lang/rust`][rust-repo], [rust-lang/compiler-team-prioritization][rust-prio], [rust-lang/triagebot][rust-triagebot]
 - **Zulip stream:** [`#t-compiler/wg-prioritization`][zulip] on Zulip
 
 [rust-repo]: https://github.com/rust-lang/rust
+[rust-prio]: https://github.com/rust-lang/compiler-team-prioritization
+[rust-triagebot]: https://github.com/rust-lang/triagebot
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/227806-t-compiler.2Fwg-prioritization
