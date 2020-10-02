@@ -5,7 +5,7 @@ headless: true
   - [Code of Conduct]({{< relref "/about/CODE_OF_CONDUCT" >}})
   - [Chat Platform]({{< relref "/about/chat-platform" >}})
   - [Steering Meeting]({{< relref "/about/steering-meeting" >}})
-  - [Triage Meeting] ({{< relref "/about/triage-meeting" >}})
+  - [Triage Meeting]({{< relref "/about/triage-meeting" >}})
 - **Minutes**
 
   - [Design Meetings]({{< relref "/minutes/design-meeting" >}})

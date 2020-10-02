@@ -5,8 +5,7 @@ planning documents and minutes.
 You are probably looking [for the rendered website](https://rust-lang.github.io/compiler-team/) instead.
 
 ### Building the website
-You'll need to install [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) to build the
-website locally, you can then run the following commands to set the website up:
+You'll need to install [Hugo](https://github.com/gohugoio/hugo#choose-how-to-install) (ensure to get Hugo extended version for SCSS support) to build the website locally, you can then run the following commands to set the website up:
 
 ```
 git clone git@github.com:rust-lang/compiler-team.git
