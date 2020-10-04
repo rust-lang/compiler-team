@@ -38,3 +38,4 @@ You can read [more about Major Change Proposals on forge][MCP].
 [MCP]: https://forge.rust-lang.org/compiler/mcp.html
 [forge]: https://forge.rust-lang.org/
 
+cc @rust-lang/compiler, @rust-lang/compiler-contributors
