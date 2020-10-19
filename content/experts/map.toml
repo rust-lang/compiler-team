@@ -107,7 +107,7 @@ directories = [
 ]
 crates = []
 experts = ["nikomatsakis", "eddyb", "oli-obk"]
-familiar = ["davidtwco", "spastorino"]
+familiar = ["davidtwco", "spastorino", "jonas-schievink"]
 
 [[areas]]
 name = "MIR optimizations"
@@ -116,7 +116,7 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "oli-obk", "nagisa"]
-familiar = ["wesleywiser", "spastorino", "tmandry"]
+familiar = ["wesleywiser", "spastorino", "tmandry", "jonas-schievink"]
 
 [[areas]]
 name = "Type layout"
@@ -246,7 +246,7 @@ directories = [
 ]
 crates = []
 experts = ["Zoxc", "tmandry"]
-familiar = []
+familiar = ["jonas-schievink"]
 
 [[areas]]
 name = "Self profiler"
