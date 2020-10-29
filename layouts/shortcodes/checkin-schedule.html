@@ -44,15 +44,11 @@
 
     function getDateFromWeek(week, year) {
         var day = (2 + (week - 1) * 7);
-        var d = new Date(Date.UTC(year, 0, day));
-        console.debug("week: ", week, " year: ", year, " day: ", day, ": date: ", d);
-        return d;
+        return new Date(Date.UTC(year, 0, day));
     }
 
     function getDateString(date) {
-        var d = date.toISOString().substring(0, 10);
-        console.debug("getDateString for ", date, " is ", d);
-        return d;
+        return date.toISOString().substring(0, 10);
     }
 
     function updateElementForWeek(week, element, name) {
