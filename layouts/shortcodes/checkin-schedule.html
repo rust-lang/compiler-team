@@ -44,7 +44,7 @@
 
     function getDateFromWeek(week, year) {
         var day = (2 + (week - 1) * 7);
-        var d = new Date(year, 0, day, 5);
+        var d = new Date(Date.UTC(year, 0, day));
         console.debug("week: ", week, " year: ", year, " day: ", day, ": date: ", d);
         return d;
     }
