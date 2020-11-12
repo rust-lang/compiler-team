@@ -8,7 +8,7 @@ type: docs
 This working group aims to implement MIR optimizations and do the groundwork necessary to enable
 writing MIR optimizations.
 
-- **Leads:** [@oli-obk][oli-obk]
+- **Team:** [wg-mir-opt on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-mir-opt.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/mir-opt/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/mir-opt/FAQ" >}})
 

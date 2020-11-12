@@ -8,7 +8,7 @@ type: docs
 The goal of the working group is to librarify rustc parser and share it between
 rustc and rust-analyzer.
 
-- **Leads/members:** See [rust-lang/team][team]
+- **Team:** [wg-parselib on rust-lang/team][team]
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 

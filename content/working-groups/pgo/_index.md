@@ -3,12 +3,12 @@ title: Profile-Guided Optimization (PGO) Working Group
 type: docs
 ---
 # Profile-Guided Optimization (PGO) Working Group
-![working group status: active][status]
+![working group status: retired][status]
 
 This working group aims to implement profile-guided optimization (PGO) in the
 Rust compiler.
 
-- **Leads:** [@michaelwoerister][michaelwoerister]
+- **Team:** [wg-pgo on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-pgo.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/pgo/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/pgo/FAQ" >}})
 

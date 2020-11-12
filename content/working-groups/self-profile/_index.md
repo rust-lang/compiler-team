@@ -7,7 +7,7 @@ type: docs
 
 This working group aims to improve the `-Z self-profile` `rustc` option which can aid in profiling the compiler during compilation.
 
-- **Leads:** [@michaelwoerister][michaelwoerister] and [@wesleywiser][wesleywiser]
+- **Team:** [wg-self-profile on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-self-profile.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/self-profile/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/self-profile/FAQ" >}})
 

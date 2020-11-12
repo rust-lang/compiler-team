@@ -7,7 +7,7 @@ type: docs
 
 This working group aims to make the compiler easier to learn by ensuring that rustc-dev-guide and api docs are "complete".
 
-- **Leads:**  [@spastorino][spastorino] and [@mark-i-m][markim]
+- **Team:** [wg-rustc-dev-guide on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rustc-dev-guide.toml)
 - **Meeting Notes:** 
     - [2019.05.14 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.14-meeting.md" >}})
     - [2019.05.28 Meeting]({{< relref "/working-groups/rustc-dev-guide/minutes/2019.05.28-meeting.md" >}})

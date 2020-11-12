@@ -7,7 +7,7 @@ type: docs
 
 This working group is dedicated to fleshing out the details of how the compiler team will organize itself.
 
-- **Leads:** [@nikomatsakis][nikomatsakis], [@davidtwco][davidtwco] and [@spastorino][spastorino]
+- **Team:** [wg-meta on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-meta.toml)
 - **[Planning document][planning]**
 - **Meeting Notes:**[All]({{< relref "/working-groups/meta/NOTES" >}})
 - **FAQ:** [All]({{< relref "/working-groups/meta/FAQ" >}})

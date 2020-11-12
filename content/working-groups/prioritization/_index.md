@@ -8,7 +8,7 @@ type: docs
 
  Triaging bugs, mainly deciding if bugs are critical (potential release blockers) or not.
 
-- **Leads:**  [@spastorino][spastorino] and [@wesleywiser][wesleywiser]
+- **Team:** [wg-prioritization on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-prioritization.toml)
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 [spastorino]: https://github.com/spastorino

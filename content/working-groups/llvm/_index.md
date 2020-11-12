@@ -11,7 +11,7 @@ type: docs
 This working group encompasses work in LLVM upstream fixing the issues and implementing features
 that matter to Rust:
 
-- **Leads:** Preliminarily [@nagisa][nagisa]
+- **Team:** [wg-llvm on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-llvm.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/llvm/NOTES" >}})
 - **FAQ:**[All]({{< relref "/working-groups/llvm/FAQ" >}})
 

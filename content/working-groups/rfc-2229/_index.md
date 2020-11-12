@@ -5,7 +5,7 @@ type: docs
 # rfc-2229 Working Group
 ![working group status: active][status]
 
-- **Leads/Members:** See [rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rfc-2229.toml)
+- **Team:** [wg-rfc-2229 on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rfc-2229.toml)
 - **Meeting Notes:** 
     - Check [meetings.md](https://github.com/rust-lang/project-rfc-2229/blob/master/meetings.md) for latest meetings notes and video recordings.
     - Old: [2019.03.05 Roadmap Plan]({{< relref "/working-groups/rfc-2229/minutes/2019.03.05-roadmap-plan.md" >}})

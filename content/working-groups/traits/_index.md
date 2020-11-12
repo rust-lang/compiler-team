@@ -4,7 +4,7 @@ type: docs
 ---
 # Traits Working Group
 
-- **Leads:** [@nikomatsakis][nikomatsakis] and [@jackh726][jackh726]
+- **Team:** [wg-traits on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml)
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [jackh726]: https://github.com/jackh726

@@ -4,6 +4,7 @@ type: docs
 ---
 # rls-2.0 Working Group
 
+- **Team:** [wg-rls-2 on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rls-2.toml)
 - **Notes:** [All]({{< relref "/working-groups/rls-2.0/NOTES" >}})
 - **FAQs:** [FAQ]({{< relref "/working-groups/rls-2.0/FAQ" >}})
 

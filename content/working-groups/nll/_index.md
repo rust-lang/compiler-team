@@ -14,7 +14,7 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 > to eliminate many common cases where small, function-local code modifications would be required
 > to pass the borrow check.
 
-- **Leads:** [@nikomatsakis][nikomatsakis] and [@pnkfelix][pnkfelix]
+- **Team:** [wg-nll on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-nll.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/nll/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/nll/FAQ" >}})
 
