@@ -27,7 +27,7 @@
     // When adding/removing working groups adjust magic number to match the
     // current order we see on the page.
     var wgs = [
-        "Async/Await",
+        "Async Foundations",
         "Diagnostics",
         "Rustc Dev Guide",
         "LLVM",
@@ -38,7 +38,24 @@
         "RFC 2229",
         "RLS 2.0",
         "Self-Profile",
-        "Traits",
+        "Traits"
+    ];
+    // For each working group, add a link to its rust-lang/team toml file,
+    // in the same order as the `wgs` array above, so that the people using the schedule
+    // can see the wg members to ping.
+    var links = [
+        "https://github.com/rust-lang/team/blob/master/teams/wg-async-foundations.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-diagnostics.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-rustc-dev-guide.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-llvm.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-meta.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-mir-opt.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-polonius.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-polymorphization.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-rfc-2229.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-rls-2.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-self-profile.toml",
+        "https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml"
     ];
     var count = wgs.length % 2 === 0 ? wgs.length : wgs.length + 1;
 
@@ -54,10 +71,13 @@
     function updateElementForWeek(week, element, name) {
         var index = (week + magic_number) * 2 % count;
         var names = [index, index + 1].map(i => wgs[i]);
+        var tomls = [index, index + 1].map(i => links[i]);
 
-        var message = names[0];
+        var message;
         if ((typeof names[1]) !== "undefined") {
-            message = names[0] + " and " + names[1];
+            message = `<a href="${tomls[0]}" target="_blank">${names[0]}</a> and <a href="${tomls[1]}" target="_blank">${names[1]}</a>`;
+        } else {
+            message = `<a href="${tomls[0]}" target="_blank">${names[0]}</a>`;
         }
 
         document.getElementById(element + "-name").innerHTML = message;
