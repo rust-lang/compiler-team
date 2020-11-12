@@ -20,7 +20,7 @@ since then in terms of its implementation details and efficiency, and
 one of the goals of the working group is to extend the scope of the
 crate to define the full borrow check analysis.
 
-- **Leads:** [@nikomatsakis][nikomatsakis], [@lqd][lqd]
+- **Team:** [wg-polonius on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-polonius.toml)
 - **Meeting Notes:**
     - [2019.03.07 Meeting]({{< relref "/working-groups/polonius/minutes/2019.03.07-meeting.md" >}})
     - [2019.04.23 Meeting]({{< relref "/working-groups/polonius/minutes/2019.04.23-meeting.md" >}})

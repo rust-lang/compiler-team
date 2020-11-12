@@ -8,7 +8,7 @@ type: docs
 This working group aims to make rustc better at telling the user
 why the compiler isn’t smart enough to understand their code yet.
 
-- **Leads:** [@oli-obk][oli-obk] [@estebank][estebank]
+- **Team:** [wg-diagnostics on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-diagnostics.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/diagnostics/NOTES" >}})
 - **Meeting Driver Plan:** [On Hackmd](https://hackmd.io/T9yQwLQ0SIOguR1auo3SHQ)
 - **FAQ:** [All]({{< relref "/working-groups/diagnostics/FAQ" >}})

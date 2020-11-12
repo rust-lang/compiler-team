@@ -5,7 +5,7 @@ type: docs
 # parallel-rustc Working Group
 ![working group status: active][status]
 
-- **Leads:** [@Zoxc][Zoxc], [@aturon][aturon]
+- **Team:** [wg-parallel-rustc on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-parallel-rustc.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/parallel-rustc/NOTES" >}})
 - **Minutes:**
     - [2019.05.10]({{< relref "/working-groups/parallel-rustc/minutes/2019.05.10.md" >}})

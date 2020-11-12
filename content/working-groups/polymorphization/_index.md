@@ -8,7 +8,7 @@ type: docs
 This working group aims to implement an analysis to detect when functions could remain polymorphic
 during code generation.
 
-- **Leads/members:** See [rust-lang/team][team]
+- **Team:** [wg-polymorphization on rust-lang/team][team]
 
 [status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
