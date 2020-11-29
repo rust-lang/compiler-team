@@ -266,5 +266,14 @@ directories = [
   "src/tools/rustdoc",
 ]
 crates = []
-experts = ["GuillaumeGomez", "ollie27", "Manishearth"]
-familiar = ["jyn514", "kinnison"]
+experts = ["GuillaumeGomez", "ollie27", "Manishearth", "jyn514"]
+familiar = ["kinnison"]
+
+[[areas]]
+name = "bootstrap"
+directories = [
+  "src/bootstrap"
+]
+crates = []
+experts = ["Mark-Simulacrum"]
+familiar = ["jyn514", "ehuss"]
