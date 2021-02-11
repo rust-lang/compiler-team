@@ -3,7 +3,7 @@ title: Pipelining Working Group
 type: docs
 ---
 # Pipelining Working Group
-![working group status: active][status]
+![working group status: retired][status]
 
 - **Leads:** [@alexcrichton][alexcrichton], [@nnethercote][nnethercote]
 - **Meeting Notes:** [All]({{< relref "/working-groups/pipelining/NOTES" >}})
@@ -11,7 +11,7 @@ type: docs
 
 [nnethercote]: https://github.com/nnethercote
 [alexcrichton]: https://github.com/alexcrichton
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-red.svg?style=for-the-badge
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:

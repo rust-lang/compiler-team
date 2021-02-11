@@ -3,7 +3,7 @@ title: Parallel-rustc Working Group
 type: docs
 ---
 # parallel-rustc Working Group
-![working group status: active][status]
+![working group status: paused][status]
 
 - **Team:** [wg-parallel-rustc on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-parallel-rustc.toml)
 - **Meeting Notes:** [All]({{< relref "/working-groups/parallel-rustc/NOTES" >}})
@@ -13,7 +13,7 @@ type: docs
 
 [Zoxc]: https://github.com/Zoxc
 [aturon]: https://github.com/aturon
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-paused-yellow.svg?style=for-the-badge
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
