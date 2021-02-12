@@ -18,7 +18,7 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 - **Meeting Notes:** [All]({{< relref "/working-groups/nll/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/nll/FAQ" >}})
 
-[status]: https://img.shields.io/badge/status-retired-red.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 
 ## Status
 NLL has **landed** in the Rust 2018 edition and is currently in **migration** mode. The working

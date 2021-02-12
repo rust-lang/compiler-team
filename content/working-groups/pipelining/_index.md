@@ -11,7 +11,7 @@ type: docs
 
 [nnethercote]: https://github.com/nnethercote
 [alexcrichton]: https://github.com/alexcrichton
-[status]: https://img.shields.io/badge/status-retired-red.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
