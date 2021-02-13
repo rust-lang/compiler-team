@@ -3,7 +3,7 @@ title: Meta Working Group
 type: docs
 ---
 # Meta Working Group
-![working group status: active][status]
+![working group status: paused][status]
 
 This working group is dedicated to fleshing out the details of how the compiler team will organize itself.
 
@@ -15,7 +15,7 @@ This working group is dedicated to fleshing out the details of how the compiler 
 
 
 
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-paused-yellow.svg?style=for-the-badge
 
 ## What is the goal of this working group?
 This working group aims to discuss and answer the following unresolved questions:

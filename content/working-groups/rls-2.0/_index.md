@@ -3,6 +3,9 @@ title: rls-2.0 Working Group
 type: docs
 ---
 # rls-2.0 Working Group
+![working group status: retired][status]
+
+[status]: https://img.shields.io/badge/status-active-green.svg?style=for-the-badge
 
 - **Team:** [wg-rls-2 on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rls-2.toml)
 - **Notes:** [All]({{< relref "/working-groups/rls-2.0/NOTES" >}})

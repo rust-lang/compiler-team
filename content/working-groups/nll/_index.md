@@ -3,7 +3,7 @@ title: Non Lexical Lifetimes (NLL) Working Group
 type: docs
 ---
 # Non-Lexical Lifetimes (NLL) Working Group
-![working group status: winding down][status]
+![working group status: retired][status]
 
 This working group aims to implement non-lexical lifetimes (NLL), as described in RFC 2094:
 
@@ -18,7 +18,7 @@ This working group aims to implement non-lexical lifetimes (NLL), as described i
 - **Meeting Notes:** [All]({{< relref "/working-groups/nll/NOTES" >}})
 - **FAQ:** [FAQ]({{< relref "/working-groups/nll/FAQ" >}})
 
-[status]: https://img.shields.io/badge/status-winding%20down-orange.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 
 ## Status
 NLL has **landed** in the Rust 2018 edition and is currently in **migration** mode. The working

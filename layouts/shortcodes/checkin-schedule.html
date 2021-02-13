@@ -21,7 +21,7 @@
     // of working groups.
     // Increment this number by one when you realize that after adding
     // working groups the website checkins order messes.
-    var magic_number = 3;
+    var magic_number = 2;
 
     // Add new working groups on the end of the list.
     // When adding/removing working groups adjust magic number to match the
@@ -30,6 +30,10 @@
        {
            name: "Async Foundations",
            url: "https://github.com/rust-lang/team/blob/master/teams/wg-async-foundations.toml"
+       },
+       {
+           name: "Traits",
+           url: "https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml"
        },
        {
            name: "Diagnostics",
@@ -46,10 +50,6 @@
        {
            name: "LLVM",
            url: "https://github.com/rust-lang/team/blob/master/teams/wg-llvm.toml"
-       },
-       {
-           name: "Meta",
-           url: "https://github.com/rust-lang/team/blob/master/teams/wg-meta.toml"
        },
        {
            name: "MIR Optimizations",
@@ -74,10 +74,6 @@
        {
            name: "Self-Profile",
            url: "https://github.com/rust-lang/team/blob/master/teams/wg-self-profile.toml"
-       },
-       {
-           name: "Traits",
-           url: "https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml"
        }
     ];
     var count = wgs.length % 2 === 0 ? wgs.length : wgs.length + 1;

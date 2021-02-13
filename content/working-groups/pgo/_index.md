@@ -16,7 +16,7 @@ Rust compiler.
 [PGO IS AVAILABLE](https://doc.rust-lang.org/rustc/profile-guided-optimization.html)
 IN THE STABLE RUST COMPILER.*
 
-[status]: https://img.shields.io/badge/status-retired-green.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 
 
 ## What is the goal of this working group?
