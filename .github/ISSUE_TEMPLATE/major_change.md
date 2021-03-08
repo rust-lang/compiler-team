@@ -9,7 +9,7 @@ assignees: ''
 
 # Proposal
 
-*Insert your proposal here, overwriting this text. Please include the complete proposal, rather than linking to a gist or other external document.*
+*Insert your proposal here, overwriting this text and the text under "Mentors or Reviewers", leaving the rest of the template untouched. Please include the complete proposal, rather than linking to a gist or other external document.*
 
 *Your proposal doesn't have to be long. It should however be in sufficient detail that people familiar with the code can clearly envision what you are planning to do. Be sure to link to any relevant issues, PRs, or other sources.*
 
