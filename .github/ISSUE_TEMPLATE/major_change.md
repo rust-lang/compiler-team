@@ -21,11 +21,11 @@ work.*
 
 # Process
 
-The main points of the [Major Change Process][MCP] is as follows:
+The main points of the [Major Change Process][MCP] are as follows:
 
 * [x] File an issue describing the proposal.
 * [ ] A compiler team member or contributor who is knowledgeable in the area can **second** by writing `@rustbot second`.
-    * Finding a "second" suffices for internal changes. If however you are proposing a new public-facing feature, such as a `-C flag`, then full team check-off is required.
+    * Finding a "second" suffices for internal changes. If however, you are proposing a new public-facing feature, such as a `-C flag`, then full team check-off is required.
     * Compiler team members can initiate a check-off via `@rfcbot fcp merge` on either the MCP or the PR.
 * [ ] Once an MCP is seconded, the Final Comment Period begins. If no objections are raised after 10 days, the MCP is considered **approved**.
 
