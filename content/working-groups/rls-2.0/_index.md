@@ -42,10 +42,10 @@ An initial language-server is implemented in the [rust-analyzer].
 
 ## Chat forum
 
-On [the rust-lang Zulip][z], in [the `#t-compiler/wg-rls-2.0` stream][s].
+On [the rust-lang Zulip][z], in [the `#t-compiler/rust-analyzer` stream][s].
 
 [z]: https://rust-lang.zulipchat.com/
-[s]: https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0
+[s]: https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Frust-analyzer
 
 ## Meetings
 
