@@ -1,0 +1,58 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Forming a new working group
+| Rust Lang - Compiler Team</title><link rel=stylesheet href=/compiler-team/book.min.b7d5ee4f671b06dde5fd61ab409a54048ba7759e99fed39ac32a7be45d4d92cd.css><link rel=icon href=/compiler-team/favicon.png type=image/x-icon></head><body><input type=checkbox style=display:none id=menu-control><main class="flex container"><aside class="book-menu fixed"><nav><h2 class=book-brand><a href=https://rust-lang.github.io/compiler-team>Rust Lang - Compiler Team</a></h2><style>nav ul a[href$=\2f compiler-team\2fprocedures\2f form-new-working-group\2f ]{color:#004ed0}</style><ul><li><strong>About</strong><ul><li><a href=/compiler-team/about/CODE_OF_CONDUCT/>Code of Conduct</a></li><li><a href=/compiler-team/about/chat-platform/>Chat Platform</a></li><li><a href=/compiler-team/about/steering-meeting/>Steering Meeting</a></li><li><a href=/compiler-team/about/triage-meeting/>Triage Meeting</a></li></ul></li><li><p><strong>Minutes</strong></p><ul><li><a href=/compiler-team/minutes/design-meeting/>Design Meetings</a></li><li><a href=/compiler-team/minutes/steering-meeting/>Steering Meetings</a></li><li><a href=/compiler-team/minutes/triage-meeting/>Triage Meetings</a></li></ul></li><li><p><a href=/compiler-team/experts/><strong>Experts</strong></a></p></li><li><p><strong>Procedures</strong></p><ul><li>Compiler team procedures are documented on the <a href=https://forge.rust-lang.org/compiler/index.html>Rust forge</a></li><li><a href=/compiler-team/procedures/crates/>Crates</a></li><li><a href=/compiler-team/procedures/call-for-participation/>Call for participation</a></li><li><a href=/compiler-team/procedures/form-new-working-group/>Form new working group</a></li></ul></li><li><p><a href=/compiler-team/working-groups/><strong>Working Groups</strong></a></p><ul><li><a href=/compiler-team/working-groups/async-await/>Async Await</a></li><li><a href=/compiler-team/working-groups/diagnostics/>Diagnostics</a></li><li><a href=/compiler-team/working-groups/rustc-dev-guide/>Rustc Dev Guide</a></li><li><a href=/compiler-team/working-groups/llvm/>LLVM</a></li><li><a href=/compiler-team/working-groups/meta/>Meta</a></li><li><a href=/compiler-team/working-groups/mir-opt/>MIR-opt</a></li><li><a href=/compiler-team/working-groups/nll/>NLL</a></li><li><a href=/compiler-team/working-groups/parallel-rustc/>parallel rustc</a></li><li><a href=/compiler-team/working-groups/pgo/>PGO</a></li><li><a href=/compiler-team/working-groups/pipelining/>pipelining</a></li><li><a href=/compiler-team/working-groups/polonius/>polonius</a></li><li><a href=/compiler-team/working-groups/polymorphization/>polymorphization</a></li><li><a href=/compiler-team/working-groups/prioritization/>Prioritization</a></li><li><a href=/compiler-team/working-groups/rfc-2229/>rfc-2229</a></li><li><a href=/compiler-team/working-groups/rls-2.0/>rls-2.0</a></li><li><a href=/compiler-team/working-groups/self-profile/>Self Profile</a></li><li><a href=/compiler-team/working-groups/traits/>Traits</a></li></ul></li></ul></nav></aside><div class=book-page><header class="align-center justify-between book-header"><label for=menu-control><img src=/compiler-team/svg/menu.svg alt=Menu></label>
+<strong>Forming a new working group</strong></header><article class=markdown><h1 id=forming-a-new-working-group>Forming a new working group</h1><p>So, you would like to form a working group?</p><h2 id=step-0-what-is-a-working-group>Step 0. What <em>is</em> a working group?</h2><p>Working groups are the basic way that the compiler team tracks what is
+going on. <strong>If you are doing some sort of task that the compiler team
+will want to track over time, then it makes sense to form a working
+group</strong>, even if you don&rsquo;t plan to be getting more people involved.</p><p><strong>The compiler team regularly checks in on the progress for each active
+working group.</strong> So every working group should always have at least one
+person who attends the compiler team triage meetings and is willing to
+produce those regular updates.</p><h2 id=step-1-propose-the-working-group>Step 1. Propose the working group</h2><p><strong>TBD</strong> &ndash; ironically, we haven&rsquo;t <em>quite</em> decided what the procedure
+is for this! For now, a good idea is to hop on to <a href=../../about/chat-platform>#t-compiler</a> on <a href=../../about/chat-platform>the
+Zulip</a> and open up a new topic to discuss your idea. Or,
+alternatively, join a meeting and leave a few comments.</p><p>A good goal for this process is to try and identify a small number of
+<strong>achievable deliverables</strong>. It will be easiest to manage a working
+group if you have relatively clear, finite goals. Don&rsquo;t worry if you
+seem to be tackling an &ldquo;infinite&rdquo; problem space &ndash; set some initial
+goals within that problem space. If, after you achieve those, you wish
+to continue, you can always add fresh goals or (maybe better) form a
+new working group.</p><p>It&rsquo;s also good to identify an initial set of <strong>group leads</strong> &ndash; the
+leads are the people who are driving the project forward overall. It&rsquo;s
+best if you have 2 or 3 leads who are excited about the project,
+including at least one person from the compiler team, but there aren&rsquo;t
+strict rules here. See below for a few more details.</p><h2 id=step-2-figure-out-key-information>Step 2. Figure out key information</h2><p>You need to decide the following:</p><p><strong>Who are the leads?</strong> The leads are the people who are ultimately
+responsible for ensuring that the working group is making progress and
+for reporting on that progress to the compiler team and community as a
+whole. Basically, they are the people who are <strong>driving</strong> the project
+forward. <strong>The set of leads can also change over time.</strong> Often, as
+new people join, they may start to play a leadership role, which is
+great!</p><p>Leads often do the organizational work for the WG:</p><ul><li>scheduling meetings</li><li>summarizing progress from the meetings into reports</li><li>reporting to the compiler team</li></ul><p>but these jobs can (and should, where possible) be delegated amongst
+the team as well.</p><p>When possible, we prefer to have 2 or 3 leads per WG. 1 lead is ok,
+but not recommended, as it can be stressful. While not strictly
+required, typically at least one lead should be a full member of the
+compiler team.</p><p><strong>Will you have a regular meeting?</strong> If so, when? You can always
+change this later, of course. Many working groups opt for a weekly
+meeting held on Zulip.</p><p><strong>Are you willing to do the work?</strong> Serving as a working group lead
+typically means not only writing code, but also helping to do the
+planning and serving as a mentor to participants. It can be a lot of
+work sometimes! But it&rsquo;s very rewarding.</p><h2 id=step-3-setting-things-up>Step 3. Setting things up</h2><p>The basic steps to setup a working group are as follows:</p><ul><li><strong>A stream on Zulip:</strong> contact someone on <a href=../../about/chat-platform>#t-compiler</a>.</li><li><strong>A &lsquo;user-group&rsquo; on Zulip:</strong> For most working groups, we create a
+<a href=../../about/chat-platform>Zulip</a> &ldquo;user group&rdquo;, which is basically an alias that people
+can be added to for easy notifications.</li><li><strong>A team in the github org:</strong> Some groups create a team in the github org.
+You can then add working group participants into this GH team and give the team
+permissions on the rust repository or other repositories. Note that only <code>rust-lang</code>
+organization members can be added to the group and being part of a working group is
+not enough reason to add people to the organization right now.</li><li><strong>Updating this repository:</strong> This repository serves as the central home
+for working groups, so it needs to be updated. Make the following changes and
+then open a PR against the repository (make sure to leave a note in <a href=../../about/chat-platform><code>#t-compiler</code></a>,
+as these PRs can be easily overlooked):<ul><li>Add the working group to the table in the <a href=../../>main
+page</a>. Feel free to put N/A for any column that doesn&rsquo;t
+seem to apply.</li><li>Add a subdirectory to the <a href=https://github.com/rust-lang/compiler-team/tree/master/working-groups><code>working-groups</code></a> directory. You do
+this by copying the <a href=/compiler-team/working-groups/template/><code>template</code></a> directory to a
+directory of your own and modifying its contents as appropriate.
+Feel free to remove sections if they don&rsquo;t seem to apply: many
+working groups start out with relatively little structure but
+define it early on.</li><li>Add the working group to the check-in schedule by modifying
+<code>layouts/shortcodes/checkin-schedule.html</code>.</li></ul></li><li><strong>Add an entry to the compiler team calendar:</strong> If you have a regular meeting,
+ping somebody on <a href=../../about/chat-platform><code>#t-compiler</code></a> to add an entry to the compiler team calendar.</li><li>Add a file to the <a href=https://github.com/rust-lang/team><code>rust-lang/team</code></a> repository. Only working group leads should be
+listed and a link to their directory in this repository should also be included. See the
+traits working group <a href=https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml>as an example</a>. This will ensure that the working groups
+are listed on the website.</li><li>Add a check-in for your working group to the <a href=../../about/triage-meeting/><code>compiler-team meeting check-in list</code></a></li></ul></article></div><aside class="book-toc level-6 fixed"><nav id=TableOfContents><ul><li><a href=#forming-a-new-working-group>Forming a new working group</a><ul><li><a href=#step-0-what-is-a-working-group>Step 0. What <em>is</em> a working group?</a></li><li><a href=#step-1-propose-the-working-group>Step 1. Propose the working group</a></li><li><a href=#step-2-figure-out-key-information>Step 2. Figure out key information</a></li><li><a href=#step-3-setting-things-up>Step 3. Setting things up</a></li></ul></li></ul></nav></aside></main></body></html>

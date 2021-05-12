@@ -1,0 +1,279 @@
+[[areas]]
+name = "RLS"
+directories = []
+crates = []
+experts = ["matklad", "xanewok"]
+familiar = []
+
+[[areas]]
+name = "query system"
+directories = []
+crates = []
+experts = ["nikomatsakis", "eddyb", "Zoxc", "michaelwoerister"]
+familiar = []
+
+[[areas]]
+name = "metadata encoding/decoding"
+directories = []
+crates = []
+experts = ["michaelwoerister", "oli-obk"]
+familiar = []
+
+[[areas]]
+name = "incremental compilation"
+directories = []
+crates = []
+experts = ["michaelwoerister", "nikomatsakis"]
+familiar = []
+
+[[areas]]
+name = "codegen unit partitioning"
+directories = []
+crates = []
+experts = ["michaelwoerister"]
+familiar = []
+
+[[areas]]
+name = "ThinLTO"
+directories = []
+crates = []
+experts = ["alexcrichton", "michaelwoerister"]
+familiar = []
+
+[[areas]]
+name = "linker-plugin LTO (xLTO)"
+directories = []
+crates = []
+experts = ["michaelwoerister"]
+familiar = []
+
+[[areas]]
+name = "Typeck"
+directories = ["src/librustc_typeck"]
+crates = []
+experts = ["nikomatsakis", "eddyb"]
+familiar = ["Centril"]
+
+[[areas]]
+name = "miri"
+directories = [
+    "src/librustc_middle/mir/interpret",
+    "src/librustc_mir/interpret",
+]
+crates = []
+experts = ["oli-obk", "RalfJung", "eddyb"]
+familiar = []
+
+[[areas]]
+name = "Diagnostics"
+directories = []
+crates = []
+experts = ["estebank", "oli-obk", "zackmdavis"]
+familiar = ["davidtwco", "spastorino"]
+
+[[areas]]
+name = "Parser"
+directories = [
+    "src/librustc_ast/ast.rs",
+    "src/librustc_ast/util",
+    "src/librustc_parse",
+]
+crates = []
+experts = ["petrochenkov", "estebank"]
+familiar = ["Centril", "davidtwco"]
+
+[[areas]]
+name = "Lexer"
+directories = [
+    "src/rustc_lexer",
+    "src/librustc_parse/parse/lexer/",
+]
+crates = []
+experts = ["petrochenkov", "matklad"]
+familiar = []
+
+[[areas]]
+name = "Grammar"
+directories = ["src/grammar"]
+crates = []
+experts = ["qmx", "centril", "eddyb"]
+familiar = []
+
+[[areas]]
+name = "MIR structure/construction"
+directories = [
+    "src/librustc_middle/mir",
+    "src/librustc_mir_build/build",
+]
+crates = []
+experts = ["nikomatsakis", "eddyb", "oli-obk"]
+familiar = ["davidtwco", "spastorino", "jonas-schievink"]
+
+[[areas]]
+name = "MIR optimizations"
+directories = [
+    "src/librustc_mir/transform",
+]
+crates = []
+experts = ["eddyb", "oli-obk", "nagisa"]
+familiar = ["wesleywiser", "spastorino", "tmandry", "jonas-schievink"]
+
+[[areas]]
+name = "Type layout"
+directories = [
+    "src/librustc_middle/ty/layout.rs",
+]
+crates = []
+experts = ["eddyb", "oli-obk", "nagisa"]
+familiar = ["tmandry"]
+
+[[areas]]
+name = "match/exhaustiveness"
+directories = ["src/librustc_mir_build/thir/pattern"]
+crates = []
+experts = ["arielb1", "varkor", "oli-obk", "nadrieril"]
+familiar = []
+
+[[areas]]
+name = "Traits"
+directories = ["src/librustc_middle/traits", "src/librustc_traits"]
+crates = []
+experts = ["nikomatsakis", "arielb1", "scalexm"]
+familiar = []
+
+[[areas]]
+name = "Polonius"
+directories = []
+crates = ["polonius", "datafrog"]
+experts = ["nikomatsakis"]
+familiar = ["lqd", "spastorino"]
+
+[[areas]]
+name = "Libs"
+directories = []
+crates = []
+experts = []
+familiar = []
+
+[[areas]]
+name = "AST -> HIR lowering"
+directories = [
+    "src/librustc_ast_lowering",
+]
+crates = []
+experts = ["oli-obk"]
+familiar = ["Centril", "davidtwco"]
+
+[[areas]]
+name = "debuginfo"
+directories = []
+crates = []
+experts = ["michaelwoerister", "eddyb"]
+familiar = []
+
+[[areas]]
+name = "drop-check"
+directories = []
+crates = []
+experts = ["pnkfelix", "arielb1"]
+familiar = []
+
+[[areas]]
+name = "dataflow"
+directories = []
+crates = []
+experts = ["pnkfelix", "nikomatsakis"]
+familiar = ["tmandry"]
+
+[[areas]]
+name = "AST-borrow checker"
+directories = []
+crates = []
+experts = ["nikomatsakis"]
+familiar = []
+
+[[areas]]
+name = "MIR borrow check"
+directories = []
+crates = []
+experts = ["arielb1", "pnkfelix", "matthewjasper"]
+familiar = ["davidtwco", "spastorino"]
+
+[[areas]]
+name = "drop elaboration"
+directories = []
+crates = []
+experts = ["arielb1"]
+familiar = []
+
+[[areas]]
+name = "Privacy"
+directories = []
+crates = []
+experts = ["petrochenkov"]
+familiar = ["davidtwco"]
+
+[[areas]]
+name = "Name resolution, hygiene"
+directories = []
+crates = []
+experts = ["petrochenkov"]
+familiar = []
+
+[[areas]]
+name = "Macro expansion"
+directories = []
+crates = []
+experts = ["petrochenkov"]
+familiar = []
+
+[[areas]]
+name = "`macro_rules` parsing and checking"
+directories = [
+    "src/librustc_expand/mbe.rs"
+]
+crates = []
+experts = ["mark-i-m"]
+familiar = []
+
+[[areas]]
+name = "Generators"
+directories = [
+    "src/libcore/ops/generator.rs",
+    "src/librustc_mir/transform/generator.rs",
+    "src/librustc_typeck/check/generator_interior.rs",
+    "src/test/ui/generator",
+]
+crates = []
+experts = ["Zoxc", "tmandry"]
+familiar = ["jonas-schievink"]
+
+[[areas]]
+name = "Self profiler"
+directories = [
+    "src/librustc_data_structures/profiling.rs",
+]
+crates = [
+    "measureme",
+]
+experts = ["michaelwoerister", "wesleywiser"]
+familiar = []
+
+[[areas]]
+name = "Rustdoc"
+directories = [
+  "src/librustdoc",
+  "src/tools/rustdoc",
+]
+crates = []
+experts = ["GuillaumeGomez", "ollie27", "Manishearth", "jyn514"]
+familiar = ["kinnison"]
+
+[[areas]]
+name = "bootstrap"
+directories = [
+  "src/bootstrap"
+]
+crates = []
+experts = ["Mark-Simulacrum"]
+familiar = ["jyn514", "ehuss"]

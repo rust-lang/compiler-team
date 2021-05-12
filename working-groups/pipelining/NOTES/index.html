@@ -1,0 +1,89 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Notes
+| Rust Lang - Compiler Team</title><link rel=stylesheet href=/compiler-team/book.min.b7d5ee4f671b06dde5fd61ab409a54048ba7759e99fed39ac32a7be45d4d92cd.css><link rel=icon href=/compiler-team/favicon.png type=image/x-icon></head><body><input type=checkbox style=display:none id=menu-control><main class="flex container"><aside class="book-menu fixed"><nav><h2 class=book-brand><a href=https://rust-lang.github.io/compiler-team>Rust Lang - Compiler Team</a></h2><style>nav ul a[href$=\2f compiler-team\2fworking-groups\2fpipelining\2fNOTES\2f ]{color:#004ed0}</style><ul><li><strong>About</strong><ul><li><a href=/compiler-team/about/CODE_OF_CONDUCT/>Code of Conduct</a></li><li><a href=/compiler-team/about/chat-platform/>Chat Platform</a></li><li><a href=/compiler-team/about/steering-meeting/>Steering Meeting</a></li><li><a href=/compiler-team/about/triage-meeting/>Triage Meeting</a></li></ul></li><li><p><strong>Minutes</strong></p><ul><li><a href=/compiler-team/minutes/design-meeting/>Design Meetings</a></li><li><a href=/compiler-team/minutes/steering-meeting/>Steering Meetings</a></li><li><a href=/compiler-team/minutes/triage-meeting/>Triage Meetings</a></li></ul></li><li><p><a href=/compiler-team/experts/><strong>Experts</strong></a></p></li><li><p><strong>Procedures</strong></p><ul><li>Compiler team procedures are documented on the <a href=https://forge.rust-lang.org/compiler/index.html>Rust forge</a></li><li><a href=/compiler-team/procedures/crates/>Crates</a></li><li><a href=/compiler-team/procedures/call-for-participation/>Call for participation</a></li><li><a href=/compiler-team/procedures/form-new-working-group/>Form new working group</a></li></ul></li><li><p><a href=/compiler-team/working-groups/><strong>Working Groups</strong></a></p><ul><li><a href=/compiler-team/working-groups/async-await/>Async Await</a></li><li><a href=/compiler-team/working-groups/diagnostics/>Diagnostics</a></li><li><a href=/compiler-team/working-groups/rustc-dev-guide/>Rustc Dev Guide</a></li><li><a href=/compiler-team/working-groups/llvm/>LLVM</a></li><li><a href=/compiler-team/working-groups/meta/>Meta</a></li><li><a href=/compiler-team/working-groups/mir-opt/>MIR-opt</a></li><li><a href=/compiler-team/working-groups/nll/>NLL</a></li><li><a href=/compiler-team/working-groups/parallel-rustc/>parallel rustc</a></li><li><a href=/compiler-team/working-groups/pgo/>PGO</a></li><li><a href=/compiler-team/working-groups/pipelining/>pipelining</a></li><li><a href=/compiler-team/working-groups/polonius/>polonius</a></li><li><a href=/compiler-team/working-groups/polymorphization/>polymorphization</a></li><li><a href=/compiler-team/working-groups/prioritization/>Prioritization</a></li><li><a href=/compiler-team/working-groups/rfc-2229/>rfc-2229</a></li><li><a href=/compiler-team/working-groups/rls-2.0/>rls-2.0</a></li><li><a href=/compiler-team/working-groups/self-profile/>Self Profile</a></li><li><a href=/compiler-team/working-groups/traits/>Traits</a></li></ul></li></ul></nav></aside><div class=book-page><header class="align-center justify-between book-header"><label for=menu-control><img src=/compiler-team/svg/menu.svg alt=Menu></label>
+<strong>Notes</strong></header><article class=markdown><h1 id=pipelining-meeting-notes>Pipelining Meeting Notes</h1><h2 id=video-2019-04-05>Video 2019-04-05</h2><p><a href=https://github.com/alexcrichton>@alexcrichton</a> and <a href=https://github.com/nnethercote>@nnethercote</a> met on video for ~30m and talked about various
+aspects of implementing pipelining in the compiler.</p><h4 id=what-are-metadata-rlibs>What are metadata/rlibs?</h4><p>First we talked a bit about what are rlibs/metadata files and how is this all
+going to be put together. The recap is:</p><ul><li><p>Rustc can produce metadata files (<code>--emit metadata</code>). These metadata files are
+like header files for Rust crates. They&rsquo;re internally a compiler-specific
+binary format and cannot be inspected.</p></li><li><p>Rustc can also produce rlibs (<code>--emit link --crate-type lib</code>). An rlib is an
+archive (a <code>*.a</code> file) which contains three things:</p><ul><li>Object code (<code>*.o</code>)</li><li>Compressed bytecode (<code>*.bc.z</code>)</li><li>Metadata (<code>metadata.bin</code>)</li></ul></li></ul><p>The metadata included here is the same as <code>--emit metadata</code></p><p>When you type <code>cargo build</code>, Cargo is likely building an <code>rlib</code> for almost all
+library crates in use. When you type <code>cargo check</code> Cargo produces metadata files
+for all crates.</p><h4 id=how-are-we-going-to-pipeline>How are we going to pipeline?</h4><p>The goal of pipelining is similar to CPU instruction pipelining, which is to
+fill up available hardware with as much work as possible. This can increase
+overall throughput without actually speeding up the intermediate operations. For
+example let&rsquo;s say your compile looks like this:</p><pre><code>         meta                meta
+[-libA----|--------][-libB----|--------][-binary-----------]
+0s        5s       10s       15s       20s                30s
+</code></pre><p>Here we&rsquo;re have a <code>binary</code> which depends on <code>libB</code> which depends on <code>libA</code>. The
+whole compile currently takes 30s, but as noted here the metadata files for
+libraries are available before the compilation is finished.</p><p>Fundamentally all rustc needs to produce an rlib is the <code>metadata.bin</code> file from
+upstream crates. In other words, to compile <code>libB</code>, all we need is the metadata
+from <code>libA</code>, not the entire rlib. We can theoretically restructure the
+compilation like so:</p><pre><code>[-libA----|--------]
+          [-libB----|--------]
+                    [-binary-----------]
+0s        5s       10s       15s       20s
+</code></pre><p>By starting subsequent compilations as soon as metadata is available, we shaved
+10 seconds off this compilation. We also did that for free! Furthermore
+we&rsquo;re able to use 2 parallel rustc processes at times instead of having
+everything be serial.</p><h4 id=compromise-linking-is-hard>Compromise: linking is hard</h4><p>Although we can shave 10s off compilation as shown above, it&rsquo;s likely going to
+be very difficult to get the full wins there. There&rsquo;s a caveat when compiling
+<code>binary</code> that we do actually need the <code>*.rlib</code> files to link. We don&rsquo;t need them
+to typecheck and such, but the linking phase needs them.</p><p>Now linking is the final stage of the compiler, so it&rsquo;s only very late that we
+end up needing all of the dependencies. This would require some degree of
+synchronization still, though, where rustc needs to know it cannot proceed until
+Cargo instructs it to.</p><p>As a result, the current thinking is to compromise here and simply ignore
+pipelining for &ldquo;linkable&rdquo; crates. Crates that produce binaries, dylibs,
+proc-macros, etc, will all wait for all their dependencies to finish before
+proceeding, even if they could get some work done ahead of time. As a result the
+target compilation timeline for our example above looks like:</p><pre><code>[-libA----|--------]
+          [-libB----|--------]
+                             [-binary-----------]
+0s        5s       10s       15s                25s
+</code></pre><p>but we&rsquo;re still saving time! Typically a dependency graph in Rust is far deeper
+than three crates, so the compile time wins are expected to be much larger.</p><h4 id=step-1-what-architecture-is-used-to-pipeline-rustc>Step 1: What architecture is used to pipeline rustc?</h4><p>The first thing we then talked about was how rustc was going to be invoked in a
+pipelined fashion. There were two primary candidates we figured could be
+implemented:</p><h5 id=a-run-rustc-twice>(a) Run rustc twice</h5><p>One option is to literally run <code>rustc --emit metadata foo.rs</code> and then
+subsequently execute <code>rustc --emit link foo.rs</code>. The second command is in theory
+accelerated by incremental compilation artifacts produced by the first command.</p><p><strong>Pros</strong>:</p><ul><li>Feels &ldquo;pure&rdquo; from a build system perspective as it keeps rustc in line with
+basically all other build tools, you run it to completion and don&rsquo;t care about
+what happens in the middle.</li></ul><p><strong>Cons</strong>:</p><ul><li>We&rsquo;re unlikely to reap full benefits from this strategy. The second <code>rustc</code>
+command has to redo quite a bit of work to get back to the point the first
+command was at, and it&rsquo;s not an instantatenous piece of work even with
+incremental. As a result this may run a risk of slowing down compiles because
+the second command takes so long to start up.</li></ul><h5 id=b-signal-cargo-when-metadata-is-ready>(b) Signal Cargo when metadata is ready</h5><p>The second option is for rustc to continue in-process after it produces metadata
+and go on to produce the final rlib. The compiler would, however, send a signal
+to Cargo (somehow) that metadata is ready to go.</p><p><strong>Pros</strong>:</p><ul><li>This should get us the full speed of pipelined compilation. There&rsquo;s no
+&ldquo;startup time&rdquo; for the work involved in producing the rlib since it&rsquo;s already
+all in-process in rustc.</li></ul><p><strong>Cons</strong>:</p><ul><li>This is going to be significantly more difficult for other build systems to
+get integrated (those that aren&rsquo;t Cargo).</li></ul><p>Overall we decided that this option was the route to pursue due to the speed
+wins likely to be gained.</p><h4 id=step-2-work-with-only-metadata-as-input>Step 2: work with only metadata as input</h4><p>@alexcrichton claimed that rustc cannot produce an rlib today with only
+<code>*.rmeta</code> files as input. After some testing, it was found that this was a false
+claim. Invocations like so can produce working rlibs:</p><pre><code>$ rustc libA.rs --emit metadata,link --crate-type lib
+$ rm libA.rlib
+$ rustc libB.rs --emit metadata,link --crate-type lib --extern libA=liblibA.rmeta
+</code></pre><p>So that means this step is already done! The compiler is already capable of
+implementing the pipelining showed above where it can be invoked in parallel by
+Cargo.</p><h4 id=step-3-telling-cargo-when-metadata-is-ready>Step 3: telling Cargo when metadata is ready</h4><p>The next (and final) piece of implementation needed in rustc is that the
+compiler has to somehow tell Cargo when metadata is available on the filesystem.
+Cargo needs some mechanism to know when to start spawning more rustc processes
+(if possible), and it currently has none without watching the filesystem.</p><p>There are two primary ways we could implement this:</p><h5 id=a-use-a-tcp-server>(a) Use a TCP server</h5><p>A simple option would be for Cargo to start a small TCP server locally whenever
+it builds. The compiler would then connect to this server whenever a metadata
+file is ready to go and tell Cargo that it can proceed.</p><p><strong>Pros</strong>:</p><ul><li>Relatively simple to implement in Cargo and rustc</li><li>Should work on all platforms</li></ul><p><strong>Cons</strong>:</p><ul><li>The compiler has to somehow tell Cargo which compiler it is (disambiguating
+from other parallel invocations)</li><li>This is a weird interface without really much precedent. It&rsquo;s unclear how
+other build systems would take advantage of it easily. It just &ldquo;feels wrong&rdquo;
+and &ldquo;icky&rdquo;.</li></ul><h5 id=b-print-a-json-message-when-metadata-is-ready>(b) Print a JSON message when metadata is ready</h5><p>An alternative solution proposed by @ehuss is that the compiler could print a
+message on stdout/stderr to Cargo whenever a file has been produced. Cargo
+already does this, for example, when invoked with <code>--message-format=json</code>. The
+compiler already emits errors as JSON blobs with <code>--error-format=json</code>, although
+the compiler doesn&rsquo;t emit other information via JSON right now.</p><p><strong>Pros</strong>:</p><ul><li>Feels like a clean solution. No need for Cargo to figure out what rustc is
+printing what (it knows that from which process printed).</li><li>Pretty easy to implement in rustc, just another JSON message somewhere.</li><li>Should be somewhat usable by other build systems as it&rsquo;s pretty standard to
+listen to stderr/stdout from spawned processes.</li></ul><p><strong>Cons</strong>:</p><ul><li>Cargo would have to always invoke the compiler with <code>--error-format=json</code>.
+Cargo does not currently do this to ensure that compiler error diagnostics are
+rendered to the screen correctly (aka are colorized and formatted correctly).
+A <a href=https://github.com/rust-lang/rust/pull/59128>recent PR to rustc</a> shows
+hope for Cargo to be able to do this, although it may take time to implement
+and stabilize that. This would become a required blocker to enabling pipelined
+compilation.</li><li>A JSON message format for rustc would need to be designed. There&rsquo;s no
+precedent to draw from in rustc yet to emit arbitrary JSON messages about
+progress so far. There&rsquo;s likely some desire to do so though!</li></ul><p>We decided this is the route to go as it seems the most viable for
+stabilization.</p></article></div><aside class="book-toc level-6 fixed"><nav id=TableOfContents><ul><li><a href=#pipelining-meeting-notes>Pipelining Meeting Notes</a><ul><li><a href=#video-2019-04-05>Video 2019-04-05</a><ul><li><ul><li><a href=#what-are-metadata-rlibs>What are metadata/rlibs?</a></li><li><a href=#how-are-we-going-to-pipeline>How are we going to pipeline?</a></li><li><a href=#compromise-linking-is-hard>Compromise: linking is hard</a></li><li><a href=#step-1-what-architecture-is-used-to-pipeline-rustc>Step 1: What architecture is used to pipeline rustc?</a><ul><li><a href=#a-run-rustc-twice>(a) Run rustc twice</a></li><li><a href=#b-signal-cargo-when-metadata-is-ready>(b) Signal Cargo when metadata is ready</a></li></ul></li><li><a href=#step-2-work-with-only-metadata-as-input>Step 2: work with only metadata as input</a></li><li><a href=#step-3-telling-cargo-when-metadata-is-ready>Step 3: telling Cargo when metadata is ready</a><ul><li><a href=#a-use-a-tcp-server>(a) Use a TCP server</a></li><li><a href=#b-print-a-json-message-when-metadata-is-ready>(b) Print a JSON message when metadata is ready</a></li></ul></li></ul></li></ul></li></ul></li></ul></nav></aside></main></body></html>

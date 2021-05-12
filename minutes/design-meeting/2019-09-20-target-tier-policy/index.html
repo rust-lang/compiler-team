@@ -1,0 +1,83 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Target Tier Policy
+| Rust Lang - Compiler Team</title><link rel=stylesheet href=/compiler-team/book.min.b7d5ee4f671b06dde5fd61ab409a54048ba7759e99fed39ac32a7be45d4d92cd.css><link rel=icon href=/compiler-team/favicon.png type=image/x-icon></head><body><input type=checkbox style=display:none id=menu-control><main class="flex container"><aside class="book-menu fixed"><nav><h2 class=book-brand><a href=https://rust-lang.github.io/compiler-team>Rust Lang - Compiler Team</a></h2><style>nav ul a[href$=\2f compiler-team\2fminutes\2f design-meeting\2f 2019-09-20-target-tier-policy\2f ]{color:#004ed0}</style><ul><li><strong>About</strong><ul><li><a href=/compiler-team/about/CODE_OF_CONDUCT/>Code of Conduct</a></li><li><a href=/compiler-team/about/chat-platform/>Chat Platform</a></li><li><a href=/compiler-team/about/steering-meeting/>Steering Meeting</a></li><li><a href=/compiler-team/about/triage-meeting/>Triage Meeting</a></li></ul></li><li><p><strong>Minutes</strong></p><ul><li><a href=/compiler-team/minutes/design-meeting/>Design Meetings</a></li><li><a href=/compiler-team/minutes/steering-meeting/>Steering Meetings</a></li><li><a href=/compiler-team/minutes/triage-meeting/>Triage Meetings</a></li></ul></li><li><p><a href=/compiler-team/experts/><strong>Experts</strong></a></p></li><li><p><strong>Procedures</strong></p><ul><li>Compiler team procedures are documented on the <a href=https://forge.rust-lang.org/compiler/index.html>Rust forge</a></li><li><a href=/compiler-team/procedures/crates/>Crates</a></li><li><a href=/compiler-team/procedures/call-for-participation/>Call for participation</a></li><li><a href=/compiler-team/procedures/form-new-working-group/>Form new working group</a></li></ul></li><li><p><a href=/compiler-team/working-groups/><strong>Working Groups</strong></a></p><ul><li><a href=/compiler-team/working-groups/async-await/>Async Await</a></li><li><a href=/compiler-team/working-groups/diagnostics/>Diagnostics</a></li><li><a href=/compiler-team/working-groups/rustc-dev-guide/>Rustc Dev Guide</a></li><li><a href=/compiler-team/working-groups/llvm/>LLVM</a></li><li><a href=/compiler-team/working-groups/meta/>Meta</a></li><li><a href=/compiler-team/working-groups/mir-opt/>MIR-opt</a></li><li><a href=/compiler-team/working-groups/nll/>NLL</a></li><li><a href=/compiler-team/working-groups/parallel-rustc/>parallel rustc</a></li><li><a href=/compiler-team/working-groups/pgo/>PGO</a></li><li><a href=/compiler-team/working-groups/pipelining/>pipelining</a></li><li><a href=/compiler-team/working-groups/polonius/>polonius</a></li><li><a href=/compiler-team/working-groups/polymorphization/>polymorphization</a></li><li><a href=/compiler-team/working-groups/prioritization/>Prioritization</a></li><li><a href=/compiler-team/working-groups/rfc-2229/>rfc-2229</a></li><li><a href=/compiler-team/working-groups/rls-2.0/>rls-2.0</a></li><li><a href=/compiler-team/working-groups/self-profile/>Self Profile</a></li><li><a href=/compiler-team/working-groups/traits/>Traits</a></li></ul></li></ul></nav></aside><div class=book-page><header class="align-center justify-between book-header"><label for=menu-control><img src=/compiler-team/svg/menu.svg alt=Menu></label>
+<strong>Target Tier Policy</strong></header><article class=markdown><h1 id=target-tier-policy>Target Tier Policy</h1><ul><li><a href=https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler/topic/design.20meeting.202019-09-20>Zulip thread</a></li><li>Proposal issue: <a href=https://github.com/rust-lang/compiler-team/issues/166>rust-lang/rust#166</a></li><li><a href=https://gist.github.com/joshtriplett/40191791541ea2a3d61b7fe1d381a0e7>Original proposal with history</a></li></ul><h1 id=summary>Summary</h1><p>We should have an official, objective policy for adding new (tier 3) targets,
+and for raising targets to tier 2 (with rustup builds) or even tier 1.</p><p>Conclusion: Josh to revise policy based on feedback (done, see below) and
+subsequently submit as an RFC.</p><h1 id=motivation>Motivation</h1><p>Rust developers regularly implement new targets in the Rust compiler, and
+reviewers of pull requests for such new targets would like a clear, consistent
+policy to cite for accepting or rejecting such targets. Currently, reviewers</p><p>Rust developers regularly ask how they can raise an existing target to tier 2
+(and in particular how they can make it available via rustup), and occasionally
+ask what it would take to add a new tier 1 target. The Rust project has no
+clear policy for target tiers. People not only don&rsquo;t know, they don&rsquo;t know who
+to ask or where to start.</p><p>(See <a href=https://forge.rust-lang.org/platform-support.html>https://forge.rust-lang.org/platform-support.html</a> for more information
+about targets and tiers.)</p><h1 id=details>Details</h1><p>Straw proposal for each tier, from simplest to most complex:</p><h2 id=tier-3-target-policy>Tier 3 target policy</h2><p>At this tier, the Rust project provides no official support for a target, so we
+place minimal requirements on the introduction of targets.</p><ul><li>No central decision is required to add a new tier 3 target. Reviewers may
+always use their own best judgment regarding the quality of work, and the
+suitability of a target for the Rust project.</li><li>If a reviewer wishes to consult a broader team for additional guidance, they
+should contact the compiler team.</li><li>If a proposed target or target-specific patch substantially changes code
+shared with other targets (not just target-specific code), the reviewer
+should consult the compiler team.</li><li>If the proposer of a target wishes to appeal the rejection of a target, they
+may contact the compiler team.</li><li>Tier 3 targets must use naming consistent with any existing targets; for
+instance, a target for a similar CPU or OS should not gratuitously use an
+inconsistent name for that CPU or OS. Targets should normally use the same
+names as used elsewhere in the broader ecosystem (such as in other
+toolchains), unless they have a very good reason to diverge.</li><li>Tier 3 targets may have unusual requirements to build or use, but must not
+create legal issues for the Rust project or for developers who work on those
+targets.</li><li>Where possible, tier 3 targets may wish to provide documentation for the Rust
+community for how to build and run tests for the platform, ideally using
+emulation.</li><li>Tier 3 targets must not impose burden on the authors of pull requests, or
+other developers in the community, to maintain the target. In particular,
+do not post comments (automated or manual) on a PR that suggests a block on
+the PR based on the target. (A PR author may choose to help with a tier 3
+target but is not required to.)</li><li>Patches adding or updating tier 3 targets must not break any existing target.</li><li>If a tier 3 target shows no signs of activity and has not built for some
+time, and removing it would improve the quality of the Rust codebase, we may
+post a PR to remove it; any such PR will be CCed to people who have
+previously worked on the platform, to check potential interest.</li></ul><h2 id=tier-2-target-policy>Tier 2 target policy</h2><p>At this tier, the Rust project guarantees that a target builds, and will reject
+patches that fail to build on a target. Thus, we place requirements that ensure
+the target will not block forward progress of the Rust project.</p><ul><li>Any new tier 2 target requires compiler team approval based on these
+requirements.</li><li>In addition, the infrastructure team must approve the integration of the
+target into CI, and the CI-related requirements. This review and approval
+will typically take place in the PR adding the target to CI.</li><li>A tier 2 target must have value to people other than its maintainers.</li><li>Any new tier 2 target must have a designated team of developers on call to
+consult on target-specific build-breaking issues, or if necessary to develop
+target-specific language or library implementation details. (This team should
+in almost all cases have at least 2 developers.)</li><li>The target must not place undue burden on Rust developers not specifically
+concerned with that target. Rust developers may be expected to not
+gratuitously break a tier 2 target, but are not expected to become experts in
+every tier 2 target. and are not expected to provide target-specific
+implementations for every tier 2 target.</li><li>Where possible, tier 2 targets should provide documentation for the Rust
+community for how to build and run tests for the platform, ideally using
+emulation.</li><li>The target development team should not only fix target-specific issues, but
+should use any such issue as an opportunity to educate the Rust community
+about portability to their target, and enhance their documentation of the
+target.</li><li>The target must build reliably in CI.</li><li>Building the target must not take substantially longer than other targets.</li><li>Tier 2 targets must support building on the existing targets used for CI
+infrastructure.</li><li>Tier 2 targets must not impose burden on the authors of pull requests, or
+other developers in the community, to ensure that tests pass for the target.
+In particular, do not post comments (automated or manual) on a PR that
+suggests a block on the PR based on tests failing for the target. (A PR
+author must not break the build of a tier 2 target, but need not ensure the
+tests pass for a tier 2 target, even if notified that they fail.)</li><li>The target development team should regularly run the testsuite for the
+target, and should fix any test failures in a reasonably timely fashion.</li><li>A tier 2 target may be demoted or removed if it no longer meets these
+requirements. Any proposal for demotion or removal will be CCed to people who
+have previously worked on the platform, and will be communicated widely to
+the Rust community before being dropped from a stable release.</li><li>All tier 3 requirements apply.</li></ul><p>Note: some tier 2 platforms additionally have binaries built to run on them as
+a host (such as <code>rustc</code> and <code>cargo</code>). Such a platform must meet all the
+requirements above, and must additionally get the compiler and infrastructure
+team to approve the building of host tools.</p><h2 id=tier-1-target-policy>Tier 1 target policy</h2><p>At this tier, the Rust project guarantees that a target builds and passes all
+tests, and will reject patches that fail to build or pass the testsuite on a
+target. We hold tier 1 targets to our highest standard of requirements.</p><ul><li>Any new tier 1 target requires compiler team approval based on these
+requirements.</li><li>In addition, the infrastructure team must approve the integration of the
+target into CI, and the CI-related requirements. This review and approval
+will typically take place in the PR adding the target to CI.</li><li>In addition, the release team must approve the long-term viability of the
+target, and the additional work of supporting the target.</li><li>Tier 1 targets must have substantial, widespread interest within the
+developer community, and must serve the ongoing needs of multiple production
+users of Rust across multiple organizations or projects. A tier 1 target may
+be demoted or removed if it becomes obsolete or no longer meets this
+requirement.</li><li>The target must build and pass tests reliably in CI.</li><li>Building the target and running the testsuite for the target must not take
+substantially longer than other targets.</li><li>If running the testsuite requires additional infrastructure (such as systems
+running the target), the target development team shall arrange to provide
+such resources to the Rust project, to the satisfaction and approval of the
+Rust infrastructure team.</li><li>Tier 1 targets must provide documentation for the Rust community for how to
+build and run tests for the platform, using emulation if possible, or
+dedicated hardware if necessary.</li><li>A tier 1 target may be demoted or removed if it no longer meets these
+requirements. Any proposal for demotion or removal will be communicated
+widely to the Rust community, both when initially proposed and before being
+dropped from a stable release.</li><li>All tier 2 requirements apply.</li></ul></article></div><aside class="book-toc level-6 fixed"><nav id=TableOfContents><ul><li><a href=#target-tier-policy>Target Tier Policy</a></li><li><a href=#summary>Summary</a></li><li><a href=#motivation>Motivation</a></li><li><a href=#details>Details</a><ul><li><a href=#tier-3-target-policy>Tier 3 target policy</a></li><li><a href=#tier-2-target-policy>Tier 2 target policy</a></li><li><a href=#tier-1-target-policy>Tier 1 target policy</a></li></ul></li></ul></nav></aside></main></body></html>
