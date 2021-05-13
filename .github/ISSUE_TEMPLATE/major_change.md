@@ -31,8 +31,8 @@ The main points of the [Major Change Process][MCP] are as follows:
 
 You can read [more about Major Change Proposals on forge][MCP].
 
+[MCP]: https://forge.rust-lang.org/compiler/mcp.html
+
 # Comments
 
 **This issue is not meant to be used for technical discussion. There is a Zulip stream for that. Use this issue to leave procedural comments, such as volunteering to review, indicating that you second the proposal (or third, etc), or raising a concern that you would like to be addressed.**
-
-[MCP]: https://forge.rust-lang.org/compiler/mcp.html
