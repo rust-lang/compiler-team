@@ -13,6 +13,8 @@ assignees: ''
 
 *Your proposal doesn't have to be long. It should however be in sufficient detail that people familiar with the code can clearly envision what you are planning to do. Be sure to link to any relevant issues, PRs, or other sources.*
 
+*When picking a title (that is, when replacing the "(My major change proposal)" text above), keep in mind that Zulip truncates text that extends beyond a certain length, replacing the truncated suffix with "…" in the topic name it creates. Therefore, consider keeping your title to <= 40 characters, if possible.*
+
 # Mentors or Reviewers
 
 *If you have a reviewer or mentor in mind for this work, mention then
