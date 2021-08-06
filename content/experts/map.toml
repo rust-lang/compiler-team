@@ -7,14 +7,14 @@ familiar = []
 
 [[areas]]
 name = "query system"
-directories = []
+directories = ["compiler/rustc_query_impl", "compiler/rustc_query_system"]
 crates = []
-experts = ["nikomatsakis", "eddyb", "Zoxc", "michaelwoerister"]
+experts = ["eddyb", "michaelwoerister", "nikomatsakis"]
 familiar = []
 
 [[areas]]
 name = "metadata encoding/decoding"
-directories = []
+directories = ["compiler/rustc_metadata"]
 crates = []
 experts = ["michaelwoerister", "oli-obk"]
 familiar = []
@@ -24,13 +24,13 @@ name = "incremental compilation"
 directories = []
 crates = []
 experts = ["michaelwoerister", "nikomatsakis"]
-familiar = []
+familiar = ["wesleywiser"]
 
 [[areas]]
 name = "codegen unit partitioning"
-directories = []
+directories = ["compiler/rustc_mir/src/monomorphize/partitioning"]
 crates = []
-experts = ["michaelwoerister"]
+experts = ["michaelwoerister", "wesleywiser"]
 familiar = []
 
 [[areas]]
@@ -49,19 +49,19 @@ familiar = []
 
 [[areas]]
 name = "Typeck"
-directories = ["src/librustc_typeck"]
+directories = ["compiler/rustc_typeck"]
 crates = []
-experts = ["nikomatsakis", "eddyb"]
-familiar = ["Centril"]
+experts = ["eddyb", "nikomatsakis"]
+familiar = []
 
 [[areas]]
 name = "miri"
 directories = [
-    "src/librustc_middle/mir/interpret",
-    "src/librustc_mir/interpret",
+    "compiler/rustc_middle/mir/interpret",
+    "compiler/rustc_mir/interpret",
 ]
 crates = []
-experts = ["oli-obk", "RalfJung", "eddyb"]
+experts = ["eddyb", "oli-obk", "RalfJung"]
 familiar = []
 
 [[areas]]
@@ -74,71 +74,71 @@ familiar = ["davidtwco", "spastorino"]
 [[areas]]
 name = "Parser"
 directories = [
-    "src/librustc_ast/ast.rs",
-    "src/librustc_ast/util",
-    "src/librustc_parse",
+    "compiler/rustc_ast/ast.rs",
+    "compiler/rustc_ast/util",
+    "compiler/rustc_parse",
 ]
 crates = []
 experts = ["petrochenkov", "estebank"]
-familiar = ["Centril", "davidtwco"]
+familiar = ["davidtwco"]
 
 [[areas]]
 name = "Lexer"
 directories = [
-    "src/rustc_lexer",
-    "src/librustc_parse/parse/lexer/",
+    "compiler/rustc_lexer",
+    "compiler/rustc_parse/parse/lexer/",
 ]
 crates = []
-experts = ["petrochenkov", "matklad"]
+experts = ["matklad", "petrochenkov"]
 familiar = []
 
 [[areas]]
 name = "Grammar"
-directories = ["src/grammar"]
+directories = []
 crates = []
-experts = ["qmx", "centril", "eddyb"]
+experts = ["eddyb", "qmx"]
 familiar = []
 
 [[areas]]
 name = "MIR structure/construction"
 directories = [
-    "src/librustc_middle/mir",
-    "src/librustc_mir_build/build",
+    "compiler/rustc_middle/mir",
+    "compiler/rustc_mir_build/build",
 ]
 crates = []
-experts = ["nikomatsakis", "eddyb", "oli-obk"]
-familiar = ["davidtwco", "spastorino", "jonas-schievink"]
+experts = ["eddyb", "nikomatsakis", "oli-obk"]
+familiar = ["davidtwco", "jonas-schievink", "spastorino"]
 
 [[areas]]
 name = "MIR optimizations"
 directories = [
-    "src/librustc_mir/transform",
+    "compiler/rustc_mir/transform",
 ]
 crates = []
-experts = ["eddyb", "oli-obk", "nagisa"]
-familiar = ["wesleywiser", "spastorino", "tmandry", "jonas-schievink"]
+experts = ["eddyb", "nagisa", "oli-obk"]
+familiar = ["jonas-schievink", "spastorino", "tmandry", "wesleywiser"]
 
 [[areas]]
 name = "Type layout"
 directories = [
-    "src/librustc_middle/ty/layout.rs",
+    "compiler/rustc_middle/ty/layout.rs",
 ]
 crates = []
-experts = ["eddyb", "oli-obk", "nagisa"]
+experts = ["eddyb", "nagisa", "oli-obk"]
 familiar = ["tmandry"]
 
 [[areas]]
 name = "match/exhaustiveness"
-directories = ["src/librustc_mir_build/thir/pattern"]
+directories = ["compiler/rustc_mir_build/thir/pattern"]
 crates = []
-experts = ["arielb1", "varkor", "oli-obk", "nadrieril"]
+experts = ["nadrieril", "oli-obk"]
 familiar = []
 
 [[areas]]
 name = "Traits"
-directories = ["src/librustc_middle/traits", "src/librustc_traits"]
+directories = ["compiler/rustc_middle/traits", "compiler/rustc_traits"]
 crates = []
-experts = ["nikomatsakis", "arielb1", "scalexm"]
+experts = ["nikomatsakis", "scalexm"]
 familiar = []
 
 [[areas]]
@@ -158,31 +158,31 @@ familiar = []
 [[areas]]
 name = "AST -> HIR lowering"
 directories = [
-    "src/librustc_ast_lowering",
+    "compiler/rustc_ast_lowering",
 ]
 crates = []
 experts = ["oli-obk"]
-familiar = ["Centril", "davidtwco"]
+familiar = ["davidtwco"]
 
 [[areas]]
 name = "debuginfo"
 directories = []
 crates = []
-experts = ["michaelwoerister", "eddyb"]
-familiar = []
+experts = ["eddyb", "michaelwoerister"]
+familiar = ["wesleywiser"]
 
 [[areas]]
 name = "drop-check"
 directories = []
 crates = []
-experts = ["pnkfelix", "arielb1"]
+experts = ["pnkfelix"]
 familiar = []
 
 [[areas]]
 name = "dataflow"
 directories = []
 crates = []
-experts = ["pnkfelix", "nikomatsakis"]
+experts = ["nikomatsakis", "pnkfelix"]
 familiar = ["tmandry"]
 
 [[areas]]
@@ -196,14 +196,14 @@ familiar = []
 name = "MIR borrow check"
 directories = []
 crates = []
-experts = ["arielb1", "pnkfelix", "matthewjasper"]
+experts = ["matthewjasper", "pnkfelix"]
 familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
 name = "drop elaboration"
 directories = []
 crates = []
-experts = ["arielb1"]
+experts = []
 familiar = []
 
 [[areas]]
@@ -230,7 +230,7 @@ familiar = []
 [[areas]]
 name = "`macro_rules` parsing and checking"
 directories = [
-    "src/librustc_expand/mbe.rs"
+    "compiler/rustc_expand/mbe.rs"
 ]
 crates = []
 experts = ["mark-i-m"]
@@ -239,19 +239,19 @@ familiar = []
 [[areas]]
 name = "Generators"
 directories = [
-    "src/libcore/ops/generator.rs",
-    "src/librustc_mir/transform/generator.rs",
-    "src/librustc_typeck/check/generator_interior.rs",
+    "library/libcore/ops/generator.rs",
+    "compiler/rustc_mir/transform/generator.rs",
+    "compiler/rustc_typeck/check/generator_interior.rs",
     "src/test/ui/generator",
 ]
 crates = []
-experts = ["Zoxc", "tmandry"]
+experts = ["tmandry"]
 familiar = ["jonas-schievink"]
 
 [[areas]]
 name = "Self profiler"
 directories = [
-    "src/librustc_data_structures/profiling.rs",
+    "compiler/rustc_data_structures/profiling.rs",
 ]
 crates = [
     "measureme",
@@ -266,7 +266,7 @@ directories = [
   "src/tools/rustdoc",
 ]
 crates = []
-experts = ["GuillaumeGomez", "ollie27", "Manishearth", "jyn514"]
+experts = ["GuillaumeGomez", "jyn514", "Manishearth", "ollie27"]
 familiar = ["kinnison"]
 
 [[areas]]
@@ -276,4 +276,4 @@ directories = [
 ]
 crates = []
 experts = ["Mark-Simulacrum"]
-familiar = ["jyn514", "ehuss"]
+familiar = ["ehuss", "jyn514"]
