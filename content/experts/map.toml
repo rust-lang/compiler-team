@@ -239,7 +239,7 @@ familiar = []
 [[areas]]
 name = "Generators"
 directories = [
-    "library/libcore/ops/generator.rs",
+    "library/core/src/ops/generator.rs",
     "compiler/rustc_mir/transform/generator.rs",
     "compiler/rustc_typeck/check/generator_interior.rs",
     "src/test/ui/generator",
