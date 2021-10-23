@@ -10,7 +10,7 @@ files, along with files specific to that working group:
 - `NOTES.md` -- updated regularly with the latest news
 - `FAQ.md` -- a place to document the answer to frequently asked questions
 
-An exhaustive list of working groups can be found [at the root of this repository](../../).
+An exhaustive list of working groups can be found [at the root of this repository](../).
 
 ## Guidelines
 These guidelines exist to serve team members who are about to start a new working group.
