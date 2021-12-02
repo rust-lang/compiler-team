@@ -84,8 +84,6 @@ type: docs
 
 [T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+label%3AS-waiting-on-review+draft%3Afalse+label%3AT-compiler)
 
-#### this week
-
 - "Add codegen option for branch protection and pointer authentication on AArch64" [rust#88354](https://github.com/rust-lang/rust/pull/88354) (last review activity: 2 months ago)
   - @**nagisa** will [try to have a look at this](https://github.com/rust-lang/rust/pull/88354#issuecomment-966435875)
 - "Suggest `i += 1` when we see `i++` or `++i`" [rust#88672](https://github.com/rust-lang/rust/pull/88672) (last review activity: 2 months ago)
