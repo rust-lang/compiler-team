@@ -27,4 +27,4 @@ There are [minutes from previous steering
 meetings][minutes] available in this
 repository. These minutes summarize our conversations.
 
-[minutes]:https://github.com/rust-lang/compiler-team/tree/master/minutes
+[minutes]:https://github.com/rust-lang/compiler-team/tree/master/content/minutes
