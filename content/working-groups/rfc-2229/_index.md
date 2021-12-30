@@ -3,7 +3,7 @@ title: rfc-2229 Working Group
 type: docs
 ---
 # rfc-2229 Working Group
-![working group status: active][status]
+![working group status: retired][status]
 
 - **Team:** [wg-rfc-2229 on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-rfc-2229.toml)
 - **Meeting Notes:** 
@@ -58,6 +58,6 @@ The project roadmap can be found [here][roadmap].
 [zulip]: https://rust-lang.zulipchat.com/#narrow/stream/189812-t-compiler.2Fwg-rfc-2229
 [RFC-2229]: https://github.com/rust-lang/rfcs/blob/master/text/2229-capture-disjoint-fields.md
 [NOTES]: minutes/
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 [roadmap]: https://paper.dropbox.com/doc/RFC-2229-Roadmap--AYuUod8hbXrktRttb95fprjHAg-cJKrePDCZR54T5kVbuoQk
 [playlist]: https://www.youtube.com/playlist?list=PL85XCvVPmGQh__bxYIxaVifbIOajnrNcQ&disable_polymer=true
