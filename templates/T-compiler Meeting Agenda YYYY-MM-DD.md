@@ -1,5 +1,6 @@
 ---
 tags: weekly, rustc
+type: docs
 ---
 
 # T-compiler Meeting Agenda YYYY-MM-DD
@@ -11,7 +12,6 @@ tags: weekly, rustc
 - (TIP) add here non-recurrent scheduled meetings, [check the schedule calendar](https://calendar.google.com/calendar/htmlembed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com)
 - (TIP) mention upcoming Rust stable releases, [check the release calendar](https://calendar.google.com/calendar/htmlembed?src=l1b1gkqvfbgunjs18nemq4c580%40group.calendar.google.com)
 - Reminder: if you see a PR/issue that seems like there might be legal implications due to copyright/IP/etc, please let the Core team know (or at least message @_**pnkfelix** or @_**Wesley Wiser** so we can pass it along).
-- (TIP) remove this section if none are needed
 
 ## MCPs/FCPs
 
@@ -40,7 +40,7 @@ tags: weekly, rustc
 
 ## Backport nominations
 
-[T-compiler beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted+label%3AT-compiler) / [T-compiler beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted+label%3AT-compiler)
+[T-compiler beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted+label%3AT-compiler) / [T-compiler stable](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted+label%3AT-compiler)
 - No backport nominations for `T-compiler` this time.
 
 [T-rustdoc beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted+label%3AT-rustdoc) / [T-rustdoc stable](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted+label%3AT-rustdoc)
@@ -55,7 +55,7 @@ tags: weekly, rustc
 
 ## Oldest PRs waiting for review
 
-[T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+label%3AS-waiting-on-review+draft%3Afalse+label%3AT-compiler)
+[T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+label%3AS-waiting-on-review+draft%3Afalse+label%3AT-compiler+-label%3AT-lang+-label%3AT-infra+-label%3AT-release+-label%3AT-libs+-label%3AT-libs-api)
 - No unreviewed PRs on `T-compiler` at this time.
 
 ## Issues of Note
