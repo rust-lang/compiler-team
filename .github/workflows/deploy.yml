@@ -1,0 +1,22 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+      - uses: actions/checkout@v2
+      - name: Install Hugo
+      - run: |
+          wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.deb
+          sudo dpkg -i /tmp/hugo.deb
+          hugo version
+      - name: Compile website pages
+        with:
+          deploy_dir: $RUSTINFRA_DEPLOY_DIR
+      - run: hugo --minify
+        env:
+          RUSTINFRA_DEPLOY_DIR: public
