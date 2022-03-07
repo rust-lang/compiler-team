@@ -21,7 +21,7 @@
     // of working groups.
     // Increment this number by one when you realize that after adding
     // working groups the website checkins order messes.
-    var magic_number = 3;
+    var magic_number = 4;
 
     // Add new working groups on the end of the list.
     // When adding/removing working groups adjust magic number to match the
@@ -66,6 +66,10 @@
        {
            name: "Self-Profile",
            url: "https://github.com/rust-lang/team/blob/master/teams/wg-self-profile.toml"
+       },
+       {
+           name: "Debugging",
+           url: "https://github.com/rust-lang/team/blob/master/teams/wg-debugging.toml"
        }
     ];
     var count = wgs.length % 2 === 0 ? wgs.length : wgs.length + 1;

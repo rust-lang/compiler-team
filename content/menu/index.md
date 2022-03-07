@@ -23,6 +23,7 @@ headless: true
 
 - [**Working Groups**]({{< relref "/working-groups" >}})
   - [Async Await]({{< relref "/working-groups/async-await" >}})
+  - [Debugging]({{< relref "/working-groups/debugging" >}})
   - [Diagnostics]({{< relref "/working-groups/diagnostics" >}})
   - [Rustc Dev Guide]({{< relref "/working-groups/rustc-dev-guide" >}})
   - [LLVM]({{< relref "/working-groups/llvm" >}})
