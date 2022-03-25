@@ -28,7 +28,8 @@ Our meeting calendar is publicly available from the following links:
     -- use this if you want to import into different calendar software
 
 Unless otherwise noted, all our meetings are open to the public and
-held on Zulip. There are two main team-wide meetings that we hold on a
+held on Zulip, in the [t-compiler/meetings stream](https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings).
+There are two main team-wide meetings that we hold on a
 regular basis. There are also a variety of working group meetings.
 
 ### Triage meeting
