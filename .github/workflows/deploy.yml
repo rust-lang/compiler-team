@@ -37,4 +37,4 @@ jobs:
           git commit -m "Deploy ${GITHUB_SHA} to gh-pages"
           git push -f "https://x-token:${github_token}@github.com/${GITHUB_REPOSITORY}" master:gh-pages
         env:
-         - github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
