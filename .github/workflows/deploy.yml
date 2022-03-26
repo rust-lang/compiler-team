@@ -1,0 +1,24 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v2
+      - name: Install Hugo
+        run: |
+          HUGO_PATH="/tmp/hugo.deb"
+          HUGO_VERSION="0.56.3"
+          HUGO_SHA="4c8129b6f013d6b66c48446c681da8be20dfc504e5119c9f28a0b7115b9cb53e"
+          wget -O ${HUGO_PATH} https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
+          echo "${HUGO_SHA}  ${HUGO_PATH}" | sha256sum --check && \
+          sudo dpkg -i ${HUGO_PATH} && \
+          hugo version
+      - name: Minify HTML
+        run: hugo --minify
+        env:
+          RUSTINFRA_DEPLOY_DIR: public
