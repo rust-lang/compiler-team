@@ -5,8 +5,6 @@ type: docs
 
 # T-compiler Meeting Agenda YYYY-MM-DD
 
-[Tracking Issue](https://github.com/rust-lang/rust/issues/54818)
-
 ## Announcements
 
 - (TIP) add here non-recurrent scheduled meetings, [check the schedule calendar](https://calendar.google.com/calendar/htmlembed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com)
@@ -92,7 +90,7 @@ type: docs
 
 ## Nominated Issues
 
-[T-compiler](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AI-nominated+label%3AT-compiler)
+[T-compiler](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AI-compiler-nominated+label%3AT-compiler)
 - No nominated issues for `T-compiler` this time.
 
 [RFC](https://github.com/rust-lang/rfcs/issues?q=is%3Aopen+label%3AI-compiler-nominated+label%3AT-compiler)
