@@ -11,6 +11,9 @@ type: docs
 - (TIP) mention upcoming Rust stable releases, [check the release calendar](https://calendar.google.com/calendar/htmlembed?src=l1b1gkqvfbgunjs18nemq4c580%40group.calendar.google.com)
 - Reminder: if you see a PR/issue that seems like there might be legal implications due to copyright/IP/etc, please let the Core team know (or at least message @_**pnkfelix** or @_**Wesley Wiser** so we can pass it along).
 
+## Other WG meetings
+- No other WG meetings scheduled for next week
+
 ## MCPs/FCPs
 
 - New MCPs (take a look, see if you like them!)
@@ -48,7 +51,7 @@ type: docs
 
 ## PRs S-waiting-on-team
 
-[T-compiler](https://github.com/rust-lang/rust/pulls?utf8=%E2%9C%93&q=is%3Aopen+label%3AS-waiting-on-team+label%3AT-compiler)
+[T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Aopen+label%3AS-waiting-on-team+label%3AT-compiler)
 - No PRs waiting on `T-compiler` this time.
 
 ## Oldest PRs waiting for review
@@ -60,20 +63,20 @@ type: docs
 
 ### Short Summary
 
-- [{{X}} T-compiler P-critical issues](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AT-compiler+label%3AP-critical+)
-  - [{{X}} of those are unassigned](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AT-compiler+label%3AP-critical+no%3Aassignee)
-- [{{X}} T-compiler P-high issues](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AT-compiler+label%3AP-high+)
-  - [{{X}} of those are unassigned](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AT-compiler+label%3AP-high+no%3Aassignee)
+- [{{X}} T-compiler P-critical issues](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AT-compiler+label%3AP-critical+)
+  - [{{X}} of those are unassigned](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AT-compiler+label%3AP-critical+no%3Aassignee)
+- [{{X}} T-compiler P-high issues](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AT-compiler+label%3AP-high+)
+  - [{{X}} of those are unassigned](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AT-compiler+label%3AP-high+no%3Aassignee)
 - [{{X}} P-critical, {{X}} P-high, {{X}} P-medium, {{X}} P-low regression-from-stable-to-beta](https://github.com/rust-lang/rust/labels/regression-from-stable-to-beta)
 - [{{X}} P-critical, {{X}} P-high, {{X}} P-medium, {{X}} P-low regression-from-stable-to-nightly](https://github.com/rust-lang/rust/labels/regression-from-stable-to-nightly)
 - [{{X}} P-critical, {{X}} P-high, {{X}} P-medium, {{X}} P-low regression-from-stable-to-stable](https://github.com/rust-lang/rust/labels/regression-from-stable-to-stable)
 
 ### P-critical
 
-[T-compiler](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AP-critical+label%3AT-compiler)
+[T-compiler](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AP-critical+label%3AT-compiler)
 - No `P-critical` issues for `T-compiler` this time.
 
-[T-rustdoc](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AP-critical+label%3AT-rustdoc)
+[T-rustdoc](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AP-critical+label%3AT-rustdoc)
 - No `P-critical` issues for `T-rustdoc` this time.
 
 ### P-high regressions
