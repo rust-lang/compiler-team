@@ -119,4 +119,4 @@ elsewhere) are governed by the [Rust Code of
 Conduct](about/code_of_conduct/).
 
 Further, all content on this repository is subject to the standard
-[Rust](LICENSE-MIT) [licensing](LICENSE-APACHE).
+[Rust](https://github.com/rust-lang/compiler-team/blob/master/LICENSE-MIT) [licensing](https://github.com/rust-lang/compiler-team/blob/master/LICENSE-APACHE).
