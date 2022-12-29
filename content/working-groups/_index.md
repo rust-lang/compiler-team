@@ -16,10 +16,12 @@ An exhaustive list of working groups can be found [at the root of this repositor
 These guidelines exist to serve team members who are about to start a new working group.
 
 ### Mentoring Issues
-Mentored issues are a great way for new contributors to get involved without needing to ask for
+[Mentored issues] are a great way for new contributors to get involved without needing to ask for
 a good first issue and wait for a response. When creating mentored issues, open a topic in the
 Zulip stream and link to it from the mentoring instructions for people to leave a message in if
 they are interested.
+
+[Mentored issues]: https://github.com/rust-lang/rust/issues?q=is%3Aopen+is%3Aissue+label%3AE-mentor+no%3Aassignee
 
 ### Compiler Team Check-in
 Each week, a rotating set of working groups will check-in with the compiler team at the end of the
