@@ -11,7 +11,7 @@ type: docs
 - (TIP) mention upcoming Rust stable releases, [check the release calendar](https://calendar.google.com/calendar/htmlembed?src=l1b1gkqvfbgunjs18nemq4c580%40group.calendar.google.com)
 - Reminder: if you see a PR/issue that seems like there might be legal implications due to copyright/IP/etc, please let the Core team know (or at least message @_**pnkfelix** or @_**Wesley Wiser** so we can pass it along).
 
-## Other WG meetings
+### Other WG meetings ([calendar link](https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com))
 - No other WG meetings scheduled for next week
 
 ## MCPs/FCPs
@@ -20,6 +20,8 @@ type: docs
   - No new proposals this time.
 - Old MCPs (not seconded, take a look)
   - No old proposals this time.
+- Stale MCPs (tracked on [HackMD](https://hackmd.io/n53PZVXnSxSrvEcp1zrohA). Candidate for closing, see [MCP procedure](https://forge.rust-lang.org/compiler/mcp.html#when-should-major-change-proposals-be-closed))
+  - None at this time
 - Pending FCP requests (check your boxes!)
   - No pending FCP requests this time.
 - Things in FCP (make sure you're good with it)
@@ -75,6 +77,9 @@ type: docs
 
 [T-compiler](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AP-critical+label%3AT-compiler)
 - No `P-critical` issues for `T-compiler` this time.
+
+[T-types](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AP-critical+label%3AT-types)
+- No `P-critical` issues for `T-types` this time.
 
 [T-rustdoc](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AP-critical+label%3AT-rustdoc)
 - No `P-critical` issues for `T-rustdoc` this time.
