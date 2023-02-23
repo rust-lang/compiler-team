@@ -104,7 +104,10 @@ type: docs
 [RFC](https://github.com/rust-lang/rfcs/issues?q=is%3Aopen+label%3AI-compiler-nominated+label%3AT-compiler)
 - No nominated RFCs for `T-compiler` this time.
 
-## Next week's WG checkins
+## Next week meeting
 
+Checkins:
 - @*WG-X* checkin by @**person1**
 - @*WG-X* checkin by @**person2**
+
+Agenda draft: https://hackmd.io/XXX
