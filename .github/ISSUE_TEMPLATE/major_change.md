@@ -17,7 +17,7 @@ assignees: ''
 
 # Mentors or Reviewers
 
-*If you have a reviewer or mentor in mind for this work, mention then
+*If you have a reviewer or mentor in mind for this work, mention them
 here. You can put your own name here if you are planning to mentor the
 work.*
 
