@@ -42,7 +42,7 @@ group if you are interested in being pinged when there are available tasks.
   - The [LLVM Language Reference] describes the LLVM intermediate representation in great detail,
     but remains quite readable.
   - Before submitting your first patch upstream to LLVM, consider reading [Contributing to LLVM] and
-    [Code Reviews with Phabricator].
+    [LLVM GitHub User Guide].
 
 ### Rust Specific Documentation:
 
@@ -63,7 +63,7 @@ something to do with how LLVM works. For the time being this is the best place t
 [LLVM documentation index]: https://llvm.org/docs/
 [LLVM Language Reference]: https://llvm.org/docs/LangRef.html
 [Contributing to LLVM]: https://www.llvm.org/docs/Contributing.html
-[Code Reviews with Phabricator]: https://llvm.org/docs/Phabricator.html
+[LLVM GitHub User Guide]: https://llvm.org/docs/GitHub.html
 [Getting Started with the LLVM System]: https://www.llvm.org/docs/GettingStarted.html
 [Intro to LLVM]: http://www.aosabook.org/en/llvm.html
 [codegen section]: https://rustc-dev-guide.rust-lang.org/backend/codegen.html
