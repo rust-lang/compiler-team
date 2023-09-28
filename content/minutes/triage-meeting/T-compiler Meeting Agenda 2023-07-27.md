@@ -12,7 +12,7 @@ type: docs
   - for reference, next stable 1.72.0 is planned for <time:2023-08-24T14:00:00+02:00>
 - [Compiler Team Planning meeting](https://www.google.com/calendar/event?eid=MDJyYnJ1cGFtdWR1c2lnNjFmcHJ2b3JlODFfMjAyMzA3MjhUMTQwMDAwWiA2dTVycnRjZTZscnR2MDdwZmkzZGFtZ2p1c0Bn) at <time:2023-07-28T10:00:00-04:00>
 - An interesting [Zulip thread](https://rust-lang.zulipchat.com/#narrow/stream/241545-t-release/topic/Edition.20target.20date) about a possible date for a 2024 edition
-  - Spoiler: could be around Nov, 28th 2024 (Rust ~1.82.0)
+  - Spoiler: could be around Nov, 28th 2024 (Rust ~1.83.0)
 - Reminder: if you see a PR/issue that seems like there might be legal implications due to copyright/IP/etc, please let the Core team know (or at least message @_**pnkfelix** or @_**Wesley Wiser** so we can pass it along).
 
 ### Other WG meetings ([calendar link](https://calendar.google.com/calendar/embed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com))
