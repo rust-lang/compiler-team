@@ -1,11 +1,4 @@
 [[areas]]
-name = "RLS"
-directories = []
-crates = []
-experts = ["matklad", "xanewok"]
-familiar = []
-
-[[areas]]
 name = "query system"
 directories = ["compiler/rustc_query_impl", "compiler/rustc_query_system"]
 crates = []
@@ -68,7 +61,7 @@ familiar = []
 name = "Diagnostics"
 directories = []
 crates = []
-experts = ["estebank", "oli-obk", "zackmdavis"]
+experts = ["estebank", "oli-obk"]
 familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
@@ -89,7 +82,7 @@ directories = [
     "compiler/rustc_parse/parse/lexer/",
 ]
 crates = []
-experts = ["matklad", "petrochenkov"]
+experts = ["petrochenkov"]
 familiar = []
 
 [[areas]]
@@ -107,7 +100,7 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "nikomatsakis", "oli-obk"]
-familiar = ["davidtwco", "jonas-schievink", "spastorino"]
+familiar = ["davidtwco", "spastorino"]
 
 [[areas]]
 name = "MIR optimizations"
@@ -116,7 +109,7 @@ directories = [
 ]
 crates = []
 experts = ["eddyb", "nagisa", "oli-obk"]
-familiar = ["jonas-schievink", "spastorino", "tmandry", "wesleywiser"]
+familiar = ["spastorino", "tmandry", "wesleywiser"]
 
 [[areas]]
 name = "Type layout"
@@ -138,7 +131,7 @@ familiar = []
 name = "Traits"
 directories = ["compiler/rustc_middle/traits", "compiler/rustc_traits"]
 crates = []
-experts = ["nikomatsakis", "scalexm"]
+experts = ["nikomatsakis"]
 familiar = []
 
 [[areas]]
@@ -246,7 +239,7 @@ directories = [
 ]
 crates = []
 experts = ["tmandry"]
-familiar = ["jonas-schievink"]
+familiar = []
 
 [[areas]]
 name = "Self profiler"
@@ -266,7 +259,7 @@ directories = [
   "src/tools/rustdoc",
 ]
 crates = []
-experts = ["GuillaumeGomez", "jyn514", "Manishearth", "ollie27"]
+experts = ["GuillaumeGomez", "Manishearth", "ollie27"]
 familiar = ["kinnison"]
 
 [[areas]]
@@ -276,4 +269,4 @@ directories = [
 ]
 crates = []
 experts = ["Mark-Simulacrum"]
-familiar = ["ehuss", "jyn514"]
+familiar = ["ehuss"]
