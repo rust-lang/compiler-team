@@ -1,6 +1,7 @@
 ---
 tags: weekly, rustc
 type: docs
+note_id: CG_A-TBVTBqsH_mfID3Fvg
 ---
 
 # T-compiler Meeting Agenda 2023-09-21
