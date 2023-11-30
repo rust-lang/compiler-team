@@ -50,7 +50,32 @@ note_id: I7BHh5YMReC2jAyhFwUwSQ
   > Checkin text
 
 - @_*WG-rustc-dev-guide* by @**Santiago Pastorino** and @**Yuki Okushi|217081** ([previous checkin](https://hackmd.io/0I_xYjKMSc6lYT655FpWbg#WG-checkins)):
-  > Checkin text
+  > ### Most notable changes
+  >
+  > - Start a chapter about the evolving const effect system [#1808](https://github.com/rust-lang/rustc-dev-guide/pull/1808)
+  > - Document subtle implied bounds issue in RPITIT inference [#1807](https://github.com/rust-lang/rustc-dev-guide/pull/1807)
+  > - update new trait solver docs [#1802](https://github.com/rust-lang/rustc-dev-guide/pull/1802)
+  > - Clarify all the `{AP,RP}IT{,IT}` impl trait types [#1798](https://github.com/rust-lang/rustc-dev-guide/pull/1798)
+  > - Add deep dive document about early/late bound parameters interacting with turbofish [#1794](https://github.com/rust-lang/rustc-dev-guide/pull/1794)
+  > - explain the MIR const vs TY const situation [#1793](https://github.com/rust-lang/rustc-dev-guide/pull/1793)
+  > - Document the `coverage-map` and `run-coverage` test suites [#1790](https://github.com/rust-lang/rustc-dev-guide/pull/1790)
+  > - Add section about building an optimized version of `rustc` [#1787](https://github.com/rust-lang/rustc-dev-guide/pull/1787)
+  > - Add dropck documentation [#1767](https://github.com/rust-lang/rustc-dev-guide/pull/1767)
+  > - Add RPITIT documentation [#1764](https://github.com/rust-lang/rustc-dev-guide/pull/1764)
+  > - Explain more in depth what early and late bound generic parameters are [#1732](https://github.com/rust-lang/rustc-dev-guide/pull/1732)
+  > - add section for normalization with the new solver [#1731](https://github.com/rust-lang/rustc-dev-guide/pull/1731)
+  > - various fixes/improvements to Contributing chapter [#1723](https://github.com/rust-lang/rustc-dev-guide/pull/1723)
+  > - document `./x test --rustc-args` option [#1719](https://github.com/rust-lang/rustc-dev-guide/pull/1719)
+  >
+  > ### Most notable WIPs
+  >
+  > - Update some outdated descriptions of coverage instrumentation [#1809](https://github.com/rust-lang/rustc-dev-guide/pull/1809)
+  > - update some of the diagnostic translations info [#1711](https://github.com/rust-lang/rustc-dev-guide/pull/1711)
+  > - rewrite bootstrapping stages [#1650](https://github.com/rust-lang/rustc-dev-guide/pull/1650)
+  > - new chapter with examples of diagnostic translation PRs [#1621](https://github.com/rust-lang/rustc-dev-guide/pull/1621)
+  > - Add back the `canonicalization` chapter. [#1532](https://github.com/rust-lang/rustc-dev-guide/pull/1532)
+  > - Improve documentation of MIR queries & passes [#1434](https://github.com/rust-lang/rustc-dev-guide/pull/1434)
+  > - Document inert vs active attributes [#1110](https://github.com/rust-lang/rustc-dev-guide/pull/1110)
 
 ## Backport nominations
 
