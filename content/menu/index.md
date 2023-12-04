@@ -12,8 +12,6 @@ headless: true
   - [Steering Meetings]({{< relref "/minutes/steering-meeting" >}})
   - [Triage Meetings]({{< relref "/minutes/triage-meeting" >}})
 
-- [**Experts**]({{< relref "/experts" >}})
-
 - **Procedures**
 
   - Compiler team procedures are documented on the [Rust forge](https://forge.rust-lang.org/compiler/index.html)
