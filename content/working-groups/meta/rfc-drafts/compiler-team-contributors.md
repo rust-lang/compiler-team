@@ -156,8 +156,6 @@ Being promoted to contributor implies a number of privileges:
   other similar bots.
 - Contributors are members of the organization so they can modify
   labels and be assigned to issues.
-- Contributors will be listed on the [compiler expert map](https://github.com/rust-lang/compiler-team/blob/9d8c387ddbd01ced14eaab480cddb00c2d723f36/experts/MAP.md),
-  which lists folks who are familiar with each area of the compiler.
 - Contributors are listed on the rust-lang.org web page and invited to
   the Rust All Hands.
   
