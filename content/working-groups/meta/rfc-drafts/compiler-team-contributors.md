@@ -64,7 +64,7 @@ that familiar with the compiler. This is because it lets you do
 initial reviews of PRs, thus gaining experience with lots of parts of
 the compiler. If you don't feel like you fully understood the PR, then
 -- after your initial review -- you can then re-assign the PR to
-someone more senior. (The "expert map" is a good way to find such folks.)
+someone more senior.
 
 ### rust-lang org membership
 
