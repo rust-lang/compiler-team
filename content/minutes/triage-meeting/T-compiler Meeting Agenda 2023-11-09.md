@@ -407,7 +407,6 @@ Add all RPITITs when augmenting param-env with GAT bounds in `check_type_bounds`
 
 ## Next week's WG checkins
 
-- @*WG-X* checkin by @**person1**
-- @*WG-X* checkin by @**person2**
+TODO
 
-Next meetings' agenda draft: [hackmd link](#)
+Next meetings' agenda draft: [hackmd link](hackmd.io/0GmbMjmTSDO5dXpIjsXmng)

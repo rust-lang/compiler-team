@@ -255,4 +255,4 @@ Rollup of 6 pull requests [#117769](https://github.com/rust-lang/rust/pull/11776
 - "Try to use approximate placeholder regions when outputting an AscribeUserType error in borrowck" [rust#116097](https://github.com/rust-lang/rust/pull/116097) (last review activity: about 52 days ago)
   - cc: @**wesley wiser**
 
-## Next triage meeting on <time:2023-11-30T16:00:00+01:00> 
+## Next triage meeting on <time:2023-11-30T16:00:00+01:00>
