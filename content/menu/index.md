@@ -14,7 +14,7 @@ headless: true
 
 - **Procedures**
 
-  - Compiler team procedures are documented on the [Rust forge](https://forge.rust-lang.org/compiler/index.html)
+  - [Documentation]({{< relref "/procedures" >}})
   - [Crates]({{< relref "/procedures/crates" >}})
   - [Call for participation]({{< relref "/procedures/call-for-participation" >}})
   - [Form new working group]({{< relref "/procedures/form-new-working-group" >}})
