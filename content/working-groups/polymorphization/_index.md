@@ -3,14 +3,14 @@ title: Polymorphization Working Group
 type: docs
 ---
 # Polymorphization Working Group
-![working group status: active][status]
+![working group status: paused][status]
+
+[status]: https://img.shields.io/badge/status-paused-yellow.svg?style=for-the-badge
 
 This working group aims to implement an analysis to detect when functions could remain polymorphic
 during code generation.
 
 - **Team:** [wg-polymorphization on rust-lang/team][team]
-
-[status]: https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge
 
 ## What is the goal of this working group?
 This working group aims to accomplish the following:
