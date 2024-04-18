@@ -3,9 +3,9 @@ title: Traits Working Group
 type: docs
 ---
 # Traits Working Group
-![working group status: active][status]
+![working group status: paused][status]
 
-[status]: https://img.shields.io/badge/status-active-green.svg?style=for-the-badge
+[status]: https://img.shields.io/badge/status-paused-yellow.svg?style=for-the-badge
 
 - **Team:** [wg-traits on rust-lang/team](https://github.com/rust-lang/team/blob/master/teams/wg-traits.toml)
 

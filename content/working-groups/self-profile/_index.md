@@ -3,7 +3,9 @@ title: Self-Profile Working Group
 type: docs
 ---
 # Self-Profile Working Group
-![working group status: active][status]
+![working group status: retired][status]
+
+[status]: https://img.shields.io/badge/status-retired-cacaca.svg?style=for-the-badge
 
 This working group aims to improve the `-Z self-profile` `rustc` option which can aid in profiling the compiler during compilation.
 
@@ -20,7 +22,7 @@ This working group aims to accomplish the following:
 - Implement additional tools to explore, visualize and understand the data contained in the output file.
 
 ## What is the current status?
-The working group is working on creating a "minimum viable product" of the self-profiling feature. 
+The working group is working on creating a "minimum viable product" of the self-profiling feature.
 Progress is tracked in https://github.com/rust-lang/rust/issues/58967.
 
 ## How can I get involved?
