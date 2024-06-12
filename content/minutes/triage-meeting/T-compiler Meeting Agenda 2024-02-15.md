@@ -60,7 +60,7 @@ note_id: kumG_EirTtOWJiQcgji7_w
 ### WG checkins
 
 - @_*T-rust-analyzer* by @**Lukas Wirth** ([previous checkin](https://hackmd.io/team/rust-compiler-team?nav=overview)):
-  > We now share a bit more code with the compiler thanks to @Nadrieril https://github.com/rust-lang/rust-analyzer/pull/16420, fixing some bugs and panics with our exhaustiveness checking along the way :tada: On a less happy note, rust-analyzer still lacks support for ATPITs which is on the path to [stabilization](https://github.com/rust-lang/rust/pull/120700). rust-analyzer currently reports a type mismatch for the snippet in the PR description, https://github.com/rust-lang/rust-analyzer/issues/15704. 
+  > We now share a bit more code with the compiler thanks to @Nadrieril https://github.com/rust-lang/rust-analyzer/pull/16420, fixing some bugs and panics with our exhaustiveness checking along the way :tada: On a less happy note, rust-analyzer still lacks support for ATPITs which is on the path to [stabilization](https://github.com/rust-lang/rust/pull/120700). rust-analyzer currently reports a type mismatch for the snippet in the PR description, https://github.com/rust-lang/rust-analyzer/issues/15704.
 
 ## Backport nominations
 
