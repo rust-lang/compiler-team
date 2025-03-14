@@ -33,4 +33,4 @@ The main points of the [Major Change Process][MCP] are as follows:
 
 You can read [more about Major Change Proposals on forge][MCP].
 
-[MCP]: https://forge.rust-lang.org/compiler/mcp.html
+[MCP]: https://forge.rust-lang.org/compiler/proposals-and-stabilization.html#how-do-i-submit-an-mcp
