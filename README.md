@@ -1,3 +1,8 @@
+**UPDATE 2025-04-01**
+
+The website has been retired. All content is now available on:
+https://forge.rust-lang.org/compiler/index.html
+
 # Compiler Team
 This repository contains a static site that details the procedures, policies, working groups,
 planning documents and minutes.
