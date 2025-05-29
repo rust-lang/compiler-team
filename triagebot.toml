@@ -7,3 +7,8 @@ zulip_stream = 233931
 zulip_ping = "T-compiler"
 
 [relabel]
+
+# Enables `concern`/`resolve` commands.
+# Documentation at https://forge.rust-lang.org/triagebot/concern.html
+[concern]
+labels = ["has-concerns"]
