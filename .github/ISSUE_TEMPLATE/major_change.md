@@ -24,10 +24,12 @@ assignees: ''
 The main points of the [Major Change Process][MCP] are as follows:
 
 * [x] File an issue describing the proposal.
-* [ ] A compiler team member or contributor who is knowledgeable in the area can **second** by writing `@rustbot second`.
-    * Finding a "second" suffices for internal changes. If however, you are proposing a new public-facing feature, such as a `-C flag`, then full team check-off is required.
-    * Compiler team members can initiate a check-off via `@rfcbot fcp merge` on either the MCP or the PR.
-* [ ] Once an MCP is seconded, the Final Comment Period begins. If no objections are raised after 10 days, the MCP is considered **approved**.
+* [ ] A compiler team member who is knowledgeable in the area can **second** by writing `@rustbot second` or kickoff a team FCP with `@rfcbot fcp $RESOLUTION`.
+    * Refer to [Proposals, Approvals and Stabilization](https://forge.rust-lang.org/compiler/proposals-and-stabilization.html) docs for when a second is sufficient, or when a full team FCP is required.
+* [ ] Once an MCP is seconded, the **Final Comment Period** begins.
+    * Final Comment Period lasts for 10 days after all outstanding concerns are solved.
+    * Outstanding concerns will block the Final Comment Period from finishing. Once all concerns are resolved, the 10 day countdown is restarted.
+    * If no concerns are raised after 10 days since the resolution of the last outstanding concern, the MCP is considered **approved**.
 
 You can read [more about Major Change Proposals on forge][MCP].
 
