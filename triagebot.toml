@@ -9,6 +9,49 @@ zulip_ping = "T-compiler"
 waiting_period = 10 # in days
 auto_closing = true
 
+[major-change.tracking-issue-template]
+repository = "rust"
+title = "Tracking issue for MCP ${mcp_number}: ${mcp_title}"
+body = """
+This is a tracking issue for MCP "${mcp_title}" (rust-lang/compiler-team#${mcp_number}).
+
+> [!NOTE]
+> Tracking issues are used to record the overall progress of implementation.
+> They are also used as hubs connecting to other relevant issues, e.g., bugs or open design questions.
+>
+> A tracking issue is however *not* meant for large scale discussion, questions, or bug reports.
+> Instead, open a dedicated issue for the specific matter, link to this tracking issue and ping the MCP author.
+> Alternatively, post in the Zulip stream linked from the MCP.
+>
+> Discussion comments will get marked as off-topic or deleted.
+> Repeated discussions on the tracking issue may lead to the tracking issue getting locked.
+
+### Steps
+
+- [ ] Implement the MCP
+- [ ] Adjust documentation
+  - [ ] In the [Rust Compiler Development Guide] if applicable (e.g., for refactorings)
+  - [ ] In the [Rust Forge] if applicable (e.g., for policy changes)
+  - [ ] In the [rustc book] if applicable (e.g., for target tier or CLI changes)
+
+[Rust Compiler Development Guide]: https://rustc-dev-guide.rust-lang.org/
+[Rust Forge]: https://forge.rust-lang.org/compiler/index.html
+[rustc book]: https://doc.rust-lang.org/rustc/index.html
+
+### Unresolved questions
+
+*None so far.*
+
+### Implementation history
+
+*Empty so far.*
+
+---
+
+CC author @${mcp_author}.
+"""
+labels = ["C-tracking-issue", "T-compiler", "B-MCP-approved", "S-tracking-unimplemented"]
+
 [relabel]
 
 # Enables `concern`/`resolve` commands.
