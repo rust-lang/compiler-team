@@ -48,7 +48,7 @@ This is a tracking issue for MCP "${mcp_title}" (rust-lang/compiler-team#${mcp_n
 
 ---
 
-CC author @${mcp_author}.
+@${mcp_author}, consider `@rustbot claim`'ing the work.
 """
 labels = ["C-tracking-issue", "T-compiler", "B-MCP-approved", "S-tracking-unimplemented"]
 
