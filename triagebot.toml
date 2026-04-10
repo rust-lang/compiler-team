@@ -29,14 +29,16 @@ This is a tracking issue for MCP "${mcp_title}" (rust-lang/compiler-team#${mcp_n
 ### Steps
 
 - [ ] Implement the MCP
-- [ ] Adjust documentation
+- [ ] Adjust the documentation
   - [ ] In the [Rust Compiler Development Guide] if applicable (e.g., for refactorings)
   - [ ] In the [Rust Forge] if applicable (e.g., for policy changes)
   - [ ] In the [rustc book] if applicable (e.g., for target tier or CLI changes)
+  - [ ] In the [Unstable Book] if applicable (e.g., for unstable CLI changes)
 
 [Rust Compiler Development Guide]: https://rustc-dev-guide.rust-lang.org/
 [Rust Forge]: https://forge.rust-lang.org/compiler/index.html
 [rustc book]: https://doc.rust-lang.org/rustc/index.html
+[Unstable Book]: https://doc.rust-lang.org/unstable-book
 
 ### Unresolved questions
 
