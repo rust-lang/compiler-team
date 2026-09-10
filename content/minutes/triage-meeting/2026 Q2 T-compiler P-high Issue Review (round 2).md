@@ -22,6 +22,7 @@ Author: `olix0r`
 Assignees: `none`
 Working groups:
 Notes: Probably downgrade. Last [triage in 2022](https://github.com/rust-lang/rust/issues/84873#issuecomment-1320995012), seems that part of the perf. regression was recovered. It's all very old and authors didn't get back to us. Worth leaving a comment and ask to retest? Possibly close the issue given its age.
+Triage:
 
 ### "Compile error: static lifetime not satisfied but it is" [rust#86172](https://github.com/rust-lang/rust/issues/86172)
 Creation date: 62 months ago
@@ -31,6 +32,7 @@ Author: `Skepfyr`
 Assignees: `none`
 Working groups:
 Notes: Probably downgrade: last triage [3 years ago](https://github.com/rust-lang/rust/issues/86172#issuecomment-1320194292), this [comment](https://github.com/rust-lang/rust/issues/86172#issuecomment-1553335675) indicates could be a duplicate of #71723
+Triage:
 
 ### "Rustc passes syntactically invalid input to attribute macros" [rust#90256](https://github.com/rust-lang/rust/issues/90256)
 Creation date: 57 months ago
@@ -40,6 +42,7 @@ Author: `dtolnay`
 Assignees: `none`
 Working groups:
 Notes: probably downgrade. Was triaged multiple times but no action followed up
+Triage:
 
 ### "rustc 1.59/1.60 builds musl binaries that segfault, when compiling with musl-gcc wrappers, due to static-pie default" [rust#95926](https://github.com/rust-lang/rust/issues/95926)
 Creation date: TODO
@@ -49,6 +52,7 @@ Author: `joshtriplett`
 Assignees: ``
 Working groups:
 Notes: Probably downgrade. Very old issue, last [triage 3y ago](https://github.com/rust-lang/rust/issues/95926#issuecomment-1508655129) and `musl` targets are all Tier 2. Needs an owner.
+Triage:
 
 ### "libcompiler-builtins contains DWARF5 debuginfo in 1.62.0" [rust#98746](https://github.com/rust-lang/rust/issues/98746)
 Creation date: TODO
@@ -58,6 +62,7 @@ Author: `glandium`
 Assignees: ``
 Working groups:
 Notes: Maybe close as [this comment](https://github.com/rust-lang/rust/issues/98746#issuecomment-3137298203) suggest? Though as the next comment suggest, what's the status of DWARF6 in LLVM?
+Triage:
 
 ### "Source of lifetime coercion is not reported starting in 1.63" [rust#99256](https://github.com/rust-lang/rust/issues/99256)
 Creation date: TODO
@@ -67,6 +72,7 @@ Author: `mqudsi`
 Assignees: ``
 Working groups:
 Notes: maybe downgrade? That diag error is still there, I don't think we're going to fix that anytime soon
+Triage:
 
 ### "Codegen weirdness for `sum` of `count_ones` over an array" [rust#101060](https://github.com/rust-lang/rust/issues/101060)
 Creation date: TODO
@@ -76,6 +82,7 @@ Author: `alion02`
 Assignees: ``
 Working groups:
 Notes: maybe close? The last [comment](https://github.com/rust-lang/rust/issues/101060#issuecomment-1870396121) indicates that the codegen is what was expected before the regression. Tested the godbolt link and it's still the same
+Triage:
 
 ### "extern "C" functions don't generate the same IR definitions as clang on x86, causing problems with cross-language LTO" [rust#102174](https://github.com/rust-lang/rust/issues/102174)
 Creation date: 46 months ago
@@ -85,6 +92,7 @@ Author: `glandium`
 Assignees: `none`
 Working groups:
 Notes: Previously [triaged](https://github.com/rust-lang/rust/issues/102174#issuecomment-1285502667). IIUC Nikic had a plan to solve this and #143818 ([comment](https://github.com/rust-lang/rust/issues/143818#issuecomment-3073987289)) but unclear the progress. I would probably ping him again before deciding to downgrade the issue.
+Triage:
 
 ### "Broken compilation with `&(dyn Trait + '_)`" [rust#103762](https://github.com/rust-lang/rust/issues/103762)
 Creation date: 45 months ago
@@ -94,6 +102,7 @@ Author: `Cerber-Ursi`
 Assignees: `none`
 Working groups:
 Notes: [Bisection](https://github.com/rust-lang/rust/issues/103762#issuecomment-1305053189) at the time pointed at https://github.com/rust-lang/rust/pull/97720, specifically, [this change here](https://github.com/rust-lang/rust/pull/97720/files?diff=unified&w=0#diff-809615be77d084b910459cf54c39f25745f5b9f8ad9e50c2a33e7fc2573686f1L761-R764). Would probably downgrade or even close given it's a deprecated syntax.
+Triage:
 
 ### "Miscompilation: Equal pointers comparing as unequal" [rust#107975](https://github.com/rust-lang/rust/issues/107975)
 Creation date: 42 months ago
@@ -103,6 +112,7 @@ Author: `JakobDegen`
 Assignees: `none`
 Working groups:
 Notes: Some triaging [at the time](https://github.com/rust-lang/rust/issues/107975#issuecomment-1430188404) indicate that it's not a regression and [comment](https://github.com/rust-lang/rust/issues/107975#issuecomment-1430751296) points to https://github.com/llvm/llvm-project/issues/45725. Nikita comments [here](https://github.com/rust-lang/rust/issues/107975#issuecomment-1439817961). The issue is still present and I *think* still deserves a P-high but after skimming the long discussion no actionable was found.
+Triage:
 
 ### "`-Zdylib-lto` with ThinLTO is broken on windows-msvc" [rust#109114](https://github.com/rust-lang/rust/issues/109114)
 Creation date: 41 months ago
@@ -112,6 +122,7 @@ Author: `Noratrieb`
 Assignees: `none`
 Working groups:
 Notes: hopefully this was "fixed" by #122790 but probably needs a test on that platform.
+Triage:
 
 ### "ICE: unexpected initial operand type." [rust#114858](https://github.com/rust-lang/rust/issues/114858)
 Creation date: 36 months ago
@@ -121,6 +132,7 @@ Author: `fakeshadow`
 Assignees: `none`
 Working groups:
 Notes: Still labeled `E-needs-investigation`, still reproduces today. Was [downgraded](https://github.com/rust-lang/rust/issues/114858#issuecomment-1739378909) to P-high.
+Triage:
 
 ### "The ABI of float types can be changed by `-Ctarget-feature`" [rust#116344](https://github.com/rust-lang/rust/issues/116344)
 Creation date: 34 months ago
@@ -130,6 +142,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes: still reproduces, looks complicated, current status in the opening [comment](https://github.com/rust-lang/rust/issues/116344#issue-1921985365). Still feels P-high.
+Triage:
 
 ### "Inlining causes miscompilation of code that mixes target features" [rust#116573](https://github.com/rust-lang/rust/issues/116573)
 Creation date: 34 months ago
@@ -139,6 +152,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes: Recent [comment](https://github.com/rust-lang/rust/issues/116573#issuecomment-4799085817) indicates that it was fixed by LLVM upstream. We could leave it as P-high and close it when that LLVM patch lands by us over an update.
+Triage:
 
 ### "Building 1.74.0 natively on NetBSD/powerpc results in "pattern `Some(_)` not covered" error message" [rust#118099](https://github.com/rust-lang/rust/issues/118099)
 Creation date: 32 months ago
@@ -148,6 +162,7 @@ Author: `he32`
 Assignees: `none`
 Working groups:
 Notes: As per [comment](https://github.com/rust-lang/rust/issues/118099#issuecomment-1830844221): issue was with the LLVM shipped with rust 1.73. LLVM with Rust 1.74 apparently fixed. So in the end they were stuck with a Rust 1.73 that had another problem. Unsure how it evolved since then. Maybe downgrade and/or ask for an update?
+Triage:
 
 ### "x86-64 assembler silently truncates 64-bit address" [rust#118223](https://github.com/rust-lang/rust/issues/118223)
 Creation date: 32 months ago
@@ -157,6 +172,7 @@ Author: `MauriceKayser`
 Assignees: `none`
 Working groups:
 Notes: Issue was fixed in LLVM 22/rust 1.95 ([comment](https://github.com/rust-lang/rust/issues/118223#issuecomment-4262064843)) but there are still problematic instructions. Let's keep it open - maybe see if this is tracked on the LLVM side? Feels still P-high.
+Triage:
 
 ### "rust-1.75.0 fails to compile with ICE on aarch64 and various ppc arches with LTO enabled - error: could not compile memchr" [rust#121124](https://github.com/rust-lang/rust/issues/121124)
 Creation date: 29 months ago
@@ -166,6 +182,7 @@ Author: `bowlofeggs`
 Assignees: `none`
 Working groups:
 Notes: I remember this issue ^^'. Need investigation. Unsure if Gentoo in the meantime moved to newer rust buildchains.
+Triage:
 
 ### "`-C target_cpu=cortex-a72` (and `-target-cpu=native` on Raspberry Pi) wrongly enables crypto features that are optional on Cortex-A72" [rust#125033](https://github.com/rust-lang/rust/issues/125033)
 Creation date: 26 months ago
@@ -175,6 +192,7 @@ Author: `briansmith`
 Assignees: `none`
 Working groups:
 Notes: The issue itself seems fixed by LLVM upstream ([comment](https://github.com/rust-lang/rust/issues/125033#issuecomment-2389581790)) but reporter mentions a more general LLVM issue ([comment](https://github.com/rust-lang/rust/issues/125033#issuecomment-2631507945)) with `cfg(target_feature)`, unsure how it if warrants a separate discussion. It's under "ARM Maintainer", @*davidtwco* do you happen to know more?
+Triage:
 
 ### "Undefined behavior from stack overflow on wasm32 targets" [rust#126747](https://github.com/rust-lang/rust/issues/126747)
 Creation date: 25 months ago
@@ -184,6 +202,7 @@ Author: `adambratschikaye`
 Assignees: `none`
 Working groups:
 Notes: This needs design from someone familiar with the target. Unsure if this means the issue can be downgraded. We probably don't need to triage every time here until that has happened.
+Triage:
 
 ### "Wasm32 miscompilation when using u128 with multivalue and optimizations" [rust#127318](https://github.com/rust-lang/rust/issues/127318)
 Creation date: 25 months ago
@@ -193,6 +212,7 @@ Author: `arriven`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Hang after encountering overflow errors for huge types " [rust#132673](https://github.com/rust-lang/rust/issues/132673)
 Creation date: 21 months ago
@@ -202,6 +222,7 @@ Author: `ym-xie`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "non-`#[macro_export]`'ed `macro_rules!` macros are impossible to disambiguate from built-in attributes in `use` declarations" [rust#133708](https://github.com/rust-lang/rust/issues/133708)
 Creation date: 20 months ago
@@ -211,6 +232,7 @@ Author: `kanashimia`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "aarch64-unknown-none-softfloat: ABI unsoundness when enabling "neon" feature (tracking issue for `aarch64_softfloat_neon`)" [rust#134375](https://github.com/rust-lang/rust/issues/134375)
 Creation date: 19 months ago
@@ -220,6 +242,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Performance regression in nightly with target-cpu=native on znver4" [rust#139370](https://github.com/rust-lang/rust/issues/139370)
 Creation date: 16 months ago
@@ -229,6 +252,7 @@ Author: `nsarlin-zama`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "const-eval can construct uninhabited values or other unconstructable values out-of-thin-air via recursive static initialization" [rust#143047](https://github.com/rust-lang/rust/issues/143047)
 Creation date: 13 months ago
@@ -238,6 +262,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Destructor of packed structs can move dangling references." [rust#143411](https://github.com/rust-lang/rust/issues/143411)
 Creation date: 13 months ago
@@ -247,6 +272,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Potentially-observable store gets elided: asm block does not act as a compiler fence" [rust#144351](https://github.com/rust-lang/rust/issues/144351)
 Creation date: 12 months ago
@@ -256,6 +282,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "1.90 regression: Cycle detected when type checking" [rust#146813](https://github.com/rust-lang/rust/issues/146813)
 Creation date: 10 months ago
@@ -265,6 +292,7 @@ Author: `Totodore`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "SignatureMismatch ICE" [rust#146965](https://github.com/rust-lang/rust/issues/146965)
 Creation date: 10 months ago
@@ -274,6 +302,7 @@ Author: `benruijl`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "catch_unwind doesn't catch non-C++ exceptions on wasm" [rust#148273](https://github.com/rust-lang/rust/issues/148273)
 Creation date: 9 months ago
@@ -283,6 +312,7 @@ Author: `bjorn3`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "`derive(PartialEq)` on enums is unsound with user-defined attribute macros." [rust#148423](https://github.com/rust-lang/rust/issues/148423)
 Creation date: 8 months ago
@@ -292,6 +322,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "rustc does not always update the mtime of all its outputs" [rust#148948](https://github.com/rust-lang/rust/issues/148948)
 Creation date: 8 months ago
@@ -301,6 +332,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "TrivialClone is not derived for generic types (Performance regression)" [rust#149752](https://github.com/rust-lang/rust/issues/149752)
 Creation date: 7 months ago
@@ -310,6 +342,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "ICE in release builds from 1.90.0 onwards" [rust#150263](https://github.com/rust-lang/rust/issues/150263)
 Creation date: 7 months ago
@@ -319,6 +352,7 @@ Author: `zxqfd555`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "compiler-builtins aarch64 outline atomics symbols do not work with BTI" [rust#151486](https://github.com/rust-lang/rust/issues/151486)
 Creation date: 6 months ago
@@ -328,6 +362,7 @@ Author: `zmodem`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "LLVM loop miscompilation" [rust#153222](https://github.com/rust-lang/rust/issues/153222)
 Creation date: 5 months ago
@@ -337,6 +372,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Significant compilation time regression starting in v1.95.0-nightly (bevy)" [rust#153910](https://github.com/rust-lang/rust/issues/153910)
 Creation date: 4 months ago
@@ -346,6 +382,7 @@ Author: `gpoblon`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Unsoundness and ICE due to string literals that are too long for a 32-bit platform" [rust#156846](https://github.com/rust-lang/rust/issues/156846)
 Creation date: 2 months ago
@@ -355,6 +392,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression: unnecessary stack frame generated for arm-none-eabi targets" [rust#157163](https://github.com/rust-lang/rust/issues/157163)
 Creation date: 2 months ago
@@ -364,6 +402,7 @@ Author: `nhpupu`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression: Wasm32 SIMD128 narrow intrinsics stopped working correctly in Rust 1.95+" [rust#157456](https://github.com/rust-lang/rust/issues/157456)
 Creation date: about 55 days ago
@@ -373,6 +412,7 @@ Author: `Cykooz`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression 1.96.1 → 1.97.0: "missing optimized MIR" for pub fn glob-reexported alongside a restricted glob duplicate" [rust#159038](https://github.com/rust-lang/rust/issues/159038)
 Creation date: about 20 days ago
@@ -382,6 +422,7 @@ Author: `calvinrp`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "1.98 beta regression: "queries overflow the depth limit!"" [rust#159427](https://github.com/rust-lang/rust/issues/159427)
 Creation date: about 13 days ago
@@ -391,6 +432,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "1.98 beta regression due to name collision with `unroll`" [rust#159429](https://github.com/rust-lang/rust/issues/159429)
 Creation date: about 13 days ago
@@ -400,6 +442,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "EarlyOtherwiseBranch introduces access to a dead local variable" [rust#159618](https://github.com/rust-lang/rust/issues/159618)
 Creation date: about 9 days ago
@@ -409,6 +452,7 @@ Author: `tmiasko`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "GVN pass introduces UB by reborrowing from disabled reference" [rust#160004](https://github.com/rust-lang/rust/issues/160004)
 Creation date: about 3 days ago
@@ -418,7 +462,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
-
+Triage:
 
 ## P-high T-compiler issues assigned
 ### "Varargs are completely unchecked if passed as generics" [rust#61275](https://github.com/rust-lang/rust/issues/61275)
@@ -429,6 +473,7 @@ Author: `joshuabogue`
 Assignees: `[workingjubilee]`
 Working groups:
 Notes:
+Triage:
 
 ### "Switching to opt-level=z on i686-windows-msvc triggers STATUS_ACCESS_VIOLATION" [rust#67497](https://github.com/rust-lang/rust/issues/67497)
 Creation date: 80 months ago
@@ -438,6 +483,7 @@ Author: `dignifiedquire`
 Assignees: `[wesleywiser]`
 Working groups:
 Notes:
+Triage:
 
 ### "Statics don't support alignments larger than the page size" [rust#70022](https://github.com/rust-lang/rust/issues/70022)
 Creation date: 77 months ago
@@ -447,6 +493,7 @@ Author: `Amanieu`
 Assignees: `none`
 Working groups:
 Notes: maybe downgrade at this point? [triaged again in 2024](https://github.com/rust-lang/rust/issues/70022#issuecomment-2494019524)
+Triage:
 
 ### "Locals aligned to greater than page size can cause unsound behavior" [rust#70143](https://github.com/rust-lang/rust/issues/70143)
 Creation date: 77 months ago
@@ -456,6 +503,7 @@ Author: `retep998`
 Assignees: `[cuviper]`
 Working groups:
 Notes:
+Triage:
 
 ### "Passing `-C panic=abort` still attempts to link in `libunwind` when targeting `i686-pc-windows-gnu` on `v1.44+`" [rust#79609](https://github.com/rust-lang/rust/issues/79609)
 Creation date: 68 months ago
@@ -465,6 +513,7 @@ Author: `staticfloat`
 Assignees: `[wesleywiser]`
 Working groups:
 Notes:
+Triage:
 
 ### "Compile time+memory regression between 1.49.0 and 1.50.0" [rust#84873](https://github.com/rust-lang/rust/issues/84873)
 Creation date: 63 months ago
@@ -474,6 +523,7 @@ Author: `olix0r`
 Assignees: `none`
 Working groups:
 Notes: part of the regression war recovered (see [comment](https://github.com/rust-lang/rust/issues/84873#issuecomment-1320995012))
+Triage:
 
 ### "Compile error: static lifetime not satisfied but it is" [rust#86172](https://github.com/rust-lang/rust/issues/86172)
 Creation date: 62 months ago
@@ -483,6 +533,7 @@ Author: `Skepfyr`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Rustc passes syntactically invalid input to attribute macros" [rust#90256](https://github.com/rust-lang/rust/issues/90256)
 Creation date: 57 months ago
@@ -492,6 +543,7 @@ Author: `dtolnay`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "rustc 1.59/1.60 builds musl binaries that segfault, when compiling with musl-gcc wrappers, due to static-pie default" [rust#95926](https://github.com/rust-lang/rust/issues/95926)
 Creation date: 52 months ago
@@ -501,6 +553,7 @@ Author: `joshtriplett`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "libcompiler-builtins contains DWARF5 debuginfo in 1.62.0" [rust#98746](https://github.com/rust-lang/rust/issues/98746)
 Creation date: 49 months ago
@@ -510,6 +563,7 @@ Author: `glandium`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Source of lifetime coercion is not reported starting in 1.63" [rust#99256](https://github.com/rust-lang/rust/issues/99256)
 Creation date: 49 months ago
@@ -519,6 +573,7 @@ Author: `mqudsi`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "LLVM miscompiles large stack allocations" [rust#100914](https://github.com/rust-lang/rust/issues/100914)
 Creation date: 47 months ago
@@ -528,6 +583,7 @@ Author: `Cl00e9ment`
 Assignees: `[wesleywiser]`
 Working groups:
 Notes:
+Triage:
 
 ### "Codegen weirdness for `sum` of `count_ones` over an array" [rust#101060](https://github.com/rust-lang/rust/issues/101060)
 Creation date: 47 months ago
@@ -537,6 +593,7 @@ Author: `alion02`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "extern "C" functions don't generate the same IR definitions as clang on x86, causing problems with cross-language LTO" [rust#102174](https://github.com/rust-lang/rust/issues/102174)
 Creation date: 46 months ago
@@ -546,6 +603,7 @@ Author: `glandium`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "ld64.lld: error: too many personalities (4) for compact unwind to encode" [rust#102754](https://github.com/rust-lang/rust/issues/102754)
 Creation date: 46 months ago
@@ -555,6 +613,7 @@ Author: `glandium`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Broken compilation with `&(dyn Trait + '_)`" [rust#103762](https://github.com/rust-lang/rust/issues/103762)
 Creation date: 45 months ago
@@ -564,6 +623,7 @@ Author: `Cerber-Ursi`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Miscompilation: Equal pointers comparing as unequal" [rust#107975](https://github.com/rust-lang/rust/issues/107975)
 Creation date: 42 months ago
@@ -573,6 +633,7 @@ Author: `JakobDegen`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "`-Zdylib-lto` with ThinLTO is broken on windows-msvc" [rust#109114](https://github.com/rust-lang/rust/issues/109114)
 Creation date: 41 months ago
@@ -582,6 +643,7 @@ Author: `Noratrieb`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "ICE: unexpected initial operand type." [rust#114858](https://github.com/rust-lang/rust/issues/114858)
 Creation date: 36 months ago
@@ -591,6 +653,7 @@ Author: `fakeshadow`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Inlining causes miscompilation of code that mixes target features" [rust#116573](https://github.com/rust-lang/rust/issues/116573)
 Creation date: 34 months ago
@@ -600,6 +663,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Building 1.74.0 natively on NetBSD/powerpc results in "pattern `Some(_)` not covered" error message" [rust#118099](https://github.com/rust-lang/rust/issues/118099)
 Creation date: 32 months ago
@@ -609,6 +673,7 @@ Author: `he32`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "x86-64 assembler silently truncates 64-bit address" [rust#118223](https://github.com/rust-lang/rust/issues/118223)
 Creation date: 32 months ago
@@ -618,6 +683,7 @@ Author: `MauriceKayser`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "rust-1.75.0 fails to compile with ICE on aarch64 and various ppc arches with LTO enabled - error: could not compile memchr" [rust#121124](https://github.com/rust-lang/rust/issues/121124)
 Creation date: 29 months ago
@@ -627,6 +693,7 @@ Author: `bowlofeggs`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "`-C target_cpu=cortex-a72` (and `-target-cpu=native` on Raspberry Pi) wrongly enables crypto features that are optional on Cortex-A72" [rust#125033](https://github.com/rust-lang/rust/issues/125033)
 Creation date: 26 months ago
@@ -636,6 +703,7 @@ Author: `briansmith`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Undefined behavior from stack overflow on wasm32 targets" [rust#126747](https://github.com/rust-lang/rust/issues/126747)
 Creation date: 25 months ago
@@ -645,6 +713,7 @@ Author: `adambratschikaye`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Wasm32 miscompilation when using u128 with multivalue and optimizations" [rust#127318](https://github.com/rust-lang/rust/issues/127318)
 Creation date: 25 months ago
@@ -654,6 +723,7 @@ Author: `arriven`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Hang after encountering overflow errors for huge types " [rust#132673](https://github.com/rust-lang/rust/issues/132673)
 Creation date: 21 months ago
@@ -663,6 +733,7 @@ Author: `ym-xie`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "aarch64-unknown-none-softfloat: ABI unsoundness when enabling "neon" feature (tracking issue for `aarch64_softfloat_neon`)" [rust#134375](https://github.com/rust-lang/rust/issues/134375)
 Creation date: 19 months ago
@@ -672,6 +743,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Performance regression in nightly with target-cpu=native on znver4" [rust#139370](https://github.com/rust-lang/rust/issues/139370)
 Creation date: 16 months ago
@@ -681,6 +753,7 @@ Author: `nsarlin-zama`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "`lemmy_db_views_modlog_combined` has a weird performance regression" [rust#141006](https://github.com/rust-lang/rust/issues/141006)
 Creation date: 14 months ago
@@ -690,6 +763,7 @@ Author: `lcnr`
 Assignees: `[steffahn]`
 Working groups:
 Notes:
+Triage:
 
 ### "Potentially-observable store gets elided: asm block does not act as a compiler fence" [rust#144351](https://github.com/rust-lang/rust/issues/144351)
 Creation date: 12 months ago
@@ -699,6 +773,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "rustc does not always update the mtime of all its outputs" [rust#148948](https://github.com/rust-lang/rust/issues/148948)
 Creation date: 8 months ago
@@ -708,6 +783,7 @@ Author: `RalfJung`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Performance regression (30%) between Rust 1.90 and 1.91" [rust#153154](https://github.com/rust-lang/rust/issues/153154)
 Creation date: 5 months ago
@@ -717,6 +793,7 @@ Author: `plafer`
 Assignees: `[dianqk]`
 Working groups:
 Notes:
+Triage:
 
 ### "LLVM loop miscompilation" [rust#153222](https://github.com/rust-lang/rust/issues/153222)
 Creation date: 5 months ago
@@ -726,6 +803,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "rustc has stopped emitting unused `repr`/`link`/`panic_handler` attribute lints on macro invocations" [rust#156499](https://github.com/rust-lang/rust/issues/156499)
 Creation date: 2 months ago
@@ -735,6 +813,7 @@ Author: `mejrs`
 Assignees: `[JonathanBrouwer]`
 Working groups:
 Notes:
+Triage:
 
 ### "Unsoundness and ICE due to string literals that are too long for a 32-bit platform" [rust#156846](https://github.com/rust-lang/rust/issues/156846)
 Creation date: 2 months ago
@@ -744,6 +823,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression: unnecessary stack frame generated for arm-none-eabi targets" [rust#157163](https://github.com/rust-lang/rust/issues/157163)
 Creation date: 2 months ago
@@ -753,6 +833,7 @@ Author: `nhpupu`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression: Wasm32 SIMD128 narrow intrinsics stopped working correctly in Rust 1.95+" [rust#157456](https://github.com/rust-lang/rust/issues/157456)
 Creation date: about 55 days ago
@@ -762,6 +843,7 @@ Author: `Cykooz`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "Regression 1.96.1 → 1.97.0: "missing optimized MIR" for pub fn glob-reexported alongside a restricted glob duplicate" [rust#159038](https://github.com/rust-lang/rust/issues/159038)
 Creation date: about 20 days ago
@@ -771,6 +853,7 @@ Author: `calvinrp`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "1.98 beta regression: "queries overflow the depth limit!"" [rust#159427](https://github.com/rust-lang/rust/issues/159427)
 Creation date: about 13 days ago
@@ -780,6 +863,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "1.98 beta regression due to name collision with `splat`" [rust#159428](https://github.com/rust-lang/rust/issues/159428)
 Creation date: about 13 days ago
@@ -789,6 +873,7 @@ Author: `theemathas`
 Assignees: `[teor2345]`
 Working groups:
 Notes:
+Triage:
 
 ### "1.98 beta regression due to name collision with `unroll`" [rust#159429](https://github.com/rust-lang/rust/issues/159429)
 Creation date: about 13 days ago
@@ -798,6 +883,7 @@ Author: `theemathas`
 Assignees: `none`
 Working groups:
 Notes:
+Triage:
 
 ### "EarlyOtherwiseBranch introduces access to a dead local variable" [rust#159618](https://github.com/rust-lang/rust/issues/159618)
 Creation date: about 9 days ago
@@ -807,7 +893,7 @@ Author: `tmiasko`
 Assignees: `none`
 Working groups:
 Notes:
-
+Triage:
 
 ## P-high without a team label
 No issues at this time.
