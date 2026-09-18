@@ -89,7 +89,7 @@ priority order:
 - [**NLL-reference**][NLL-reference] labels any issues relating to documenting NLL's behaviour
   into the language reference.
 - [**NLL-diagnostics**][NLL-diagnostics] labels cases where the diagnostics emitted by NLL
-  specifcally needs improvement. Usually it is/was used for cases where NLL is a regresion
+  specifcally needs improvement. Usually it is/was used for cases where NLL is a regression
   w.r.t diagnostics when compared to AST-borrowck (but at this point its really more of a
   catch-all for any diagnostic issue originating from the NLL code base).
 

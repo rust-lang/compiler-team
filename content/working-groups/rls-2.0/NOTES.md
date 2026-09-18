@@ -80,7 +80,7 @@ We've also formulated three short-term action items:
 
 # 2019-04-18
 
-## Notes from "Name Resoluton" librarification
+## Notes from "Name Resolution" librarification
 
 [Zulip stream](https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0/topic/Name.20resolution.20librarification.202019-04-18)
 
